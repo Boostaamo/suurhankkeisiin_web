@@ -33,7 +33,6 @@ updated: 2026-11-24
 <div class="steps">
 <div class="step"><div class="n">1</div><h3>Ilmoita yrityksesi</h3><p>Kerro kalustosi, tiimisi ja palvelusi. Perusnäkyvyys on maksuton.</p></div>
 <div class="step"><div class="n">2</div><h3>Tule löydetyksi</h3><p>Profiili kootaan hankkeen tilaajien ja pääurakoitsijoiden tarkasteltavaksi.</p></div>
-<div class="step"><div class="n">3</div><h3>Kuule kilpailutuksista</h3><p>Saat tiedon, kun alueen hankkeissa avautuu alihankintapaketteja ja hankintailtoja.</p></div>
 </div>
 </div></section>
 
