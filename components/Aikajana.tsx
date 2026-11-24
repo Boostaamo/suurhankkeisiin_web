@@ -1,6 +1,7 @@
 import { lahdeNimi, pvm } from "@/lib/alueet";
 import { TILA_NIMI, type AikajanaVaihe } from "@/lib/aikajana";
 import type { Tarve } from "@/lib/tarpeet";
+import AvaaKaikki from "@/components/AvaaKaikki";
 
 // Hankkeen eteneminen vaiheittain: tila, tapahtumat lähteineen ja vaiheeseen kytketyt osaamis- ja resurssitarpeet.
 function TarveRivi({ t, yleinen = false }: { t: Tarve; yleinen?: boolean }) {
@@ -22,13 +23,17 @@ export default function Aikajana({ vaiheet, lahteistetty, tyyppi }: { vaiheet: A
         ))}
       </ol>
       {!lahteistetty ? <p className="muted small">Vaihe on päätelty hankkeen tilasta. Tarkempi aikajana lähteineen lisätään datapäivityksissä.</p> : null}
+      <AvaaKaikki kohde=".vaihejana > li > details" />
       <ol className="vaihejana">
         {vaiheet.map((v) => (
           <li key={v.id} id={`vaihe-${v.id}`} className={`vj-${v.tila}`}>
-            <div className="vj-otsikko">
+            <details open={v.tila === "kaynnissa" || v.tila === "keskeytetty"}>
+            <summary className="vj-otsikko">
               <h3>{v.nimi}</h3>
               <span className={`vj-tila vj-tila-${v.tila}`}>{TILA_NIMI[v.tila]}</span>
-            </div>
+              <span className="vj-maara">{[v.tapahtumat.length ? `${v.tapahtumat.length} tapahtumaa` : "", v.tarpeet.length + v.yleiset.length ? `${v.tarpeet.length + v.yleiset.length} tarvetta` : ""].filter(Boolean).join(" · ")}</span>
+              <span className="vj-nuoli" aria-hidden="true" />
+            </summary>
             <p className="muted small">{v.kuvaus}</p>
             {v.tapahtumat.length ? (
               <ul className="vj-tapahtumat">
@@ -51,9 +56,10 @@ export default function Aikajana({ vaiheet, lahteistetty, tyyppi }: { vaiheet: A
                     <ul className="tarpeet">{v.yleiset.map((t) => <TarveRivi key={t.tarve} t={t} yleinen />)}</ul>
                   </details>
                 ) : null}
-                {v.tila !== "tehty" ? <a className="more" href="#ilmoittaudu">Ilmoita yrityksesi tähän vaiheeseen →</a> : null}
+                {v.tila !== "tehty" ? <a className="more" href={`#ilmoittaudu-${v.id}`}>Tarjoa osaamistasi tähän vaiheeseen →</a> : null}
               </div>
             ) : null}
+            </details>
           </li>
         ))}
       </ol>

@@ -76,7 +76,7 @@ export default function Form({ kind, source, alue = {} }: { kind: FormKind; sour
       kunta: alue.kunta ?? "",
       hanke: alue.hanke ?? "",
       answers: kind === "ilmoittautuminen"
-        ? { y_tunnus: g("ytunnus"), kotikunta: g("hometown"), toimiala: g("industry"), kalusto: g("equipment"), kapasiteetti: g("capacity"), pro: pro ? "kyllä" : "ei" }
+        ? { y_tunnus: g("ytunnus"), verkkosivu: g("verkkosivu"), vaihe: window.location.hash.startsWith("#ilmoittaudu-") ? window.location.hash.slice(13) : "", kotikunta: g("hometown"), toimiala: g("industry"), kalusto: g("equipment"), kapasiteetti: g("capacity"), pro: pro ? "kyllä" : "ei" }
         : { kunta_tai_organisaatio: g("org") },
       consent: d.get("consent") === "on",
       website: g("website"), // honeypot
@@ -121,6 +121,8 @@ export default function Form({ kind, source, alue = {} }: { kind: FormKind; sour
             <Field label="Y-tunnus" name="ytunnus" />
             <Field label="Kotipaikka tai kunta" name="hometown" required defaultValue={alue.kunta} />
           </div>
+          <Field label="Yrityksen verkkosivu" name="verkkosivu" autoComplete="url" />
+          <p className="muted small" style={{ margin: "-6px 0 12px" }}>Kokoamme verkkosivultasi palvelusi profiiliin. Voit täydentää niitä alla.</p>
           <Choice label="Pääasiallinen toimiala" name="industry" options={TOIMIALAT} required />
           <Field label="Käytettävissä oleva kalusto ja koneet" name="equipment" textarea />
           <Field label="Työntekijäkapasiteetti hankkeeseen" name="capacity" />
