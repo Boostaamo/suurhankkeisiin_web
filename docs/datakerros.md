@@ -46,3 +46,9 @@ Hankesivulla on osio "Tarvittava osaaminen ja palvelut" (tiedosto `content/tarpe
 
 ## Haku
 Yläpalkin hakukenttä ehdottaa kirjoitettaessa hankkeita, kuntia, maakuntia, osaamistarpeita, uutisia ja sivuja; Enter avaa sivun `/haku?q=`. Indeksi `/hakuindeksi.json` kootaan buildissa kaikesta yllä olevasta (lib/haku.ts), joten uusi sisältö tulee hakuun automaattisesti. Analytiikka (vain suostumuksella): `search` (search_term) ja `select_content` (content_type=haku).
+
+## Hankkeen eteneminen (vaiheaikajana)
+Hankesivun osio "Hankkeen eteneminen ja tarpeet" näyttää vakiovaiheet (Suunnittelu ja kaavoitus, Luvitus ja YVA, Valmistelevat työt, Investointipäätös, Rakentaminen, Käyttö) ja niihin kytketyt tarpeet.
+- Tiedosto `content/aikajanat.json`. Hankekohtaisesti (avain `<kunta>/<hanke>`) jokaiselle vaiheelle `tila` (tehty, kaynnissa, keskeytetty, tuleva) ja `tapahtumat` (pvm, teksti, lahde, tarvittaessa `arvio: true`). Ilman hankekohtaista merkintää vaihe päätellään `vaihe_luokka`-kentästä, ja sivulla kerrotaan, että vaihe on päätelty.
+- Tarpeet kytketään vaiheeseen `content/tarpeet.json`-kentällä `vaihe` (sekä hankekohtaiset että hanketyypin yleiset).
+- Uutisseuranta lisää tapahtuman, kun uutinen muuttaa vaihetta (YVA, lupa, kaava, keskeytys, investointipäätös, rakentamisen alku). Viikkopäivitys täydentää aikajanoja hanke kerrallaan.

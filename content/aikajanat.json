@@ -1,0 +1,246 @@
+{
+  "_ohje": "Hankkeiden etenemisen aikajana (tekoälykerros). vaiheet: vakiovaiheet järjestyksessä. hankkeittain (avain <kunta>/<hanke>): vaiheiden tila (tehty, kaynnissa, keskeytetty, tuleva) ja tapahtumat lähteineen. Ilman hankekohtaista merkintää aikajana johdetaan hankkeen vaihe_luokka-kentästä. Tarpeet kytketään vaiheisiin content/tarpeet.json-kentällä vaihe. Ei tietoa ilman lähdettä. Ks. docs/datakerros.md.",
+  "vaiheet": [
+    {
+      "id": "suunnittelu",
+      "nimi": "Suunnittelu ja kaavoitus",
+      "kuvaus": "Hankkeen kehittäminen, maankäyttö ja kaavat."
+    },
+    {
+      "id": "luvitus",
+      "nimi": "Luvitus ja YVA",
+      "kuvaus": "Ympäristövaikutusten arviointi, ympäristö- ja rakennusluvat."
+    },
+    {
+      "id": "valmistelu",
+      "nimi": "Valmistelevat työt",
+      "kuvaus": "Raivaus, työmaatiet ja maanrakennus ennen varsinaista rakentamista."
+    },
+    {
+      "id": "investointipaatos",
+      "nimi": "Investointipäätös",
+      "kuvaus": "Toteuttajan lopullinen päätös rakentaa."
+    },
+    {
+      "id": "rakentaminen",
+      "nimi": "Rakentaminen",
+      "kuvaus": "Rakennus-, asennus- ja käyttöönottotyöt."
+    },
+    {
+      "id": "kaytto",
+      "nimi": "Käyttö",
+      "kuvaus": "Valmis kohde toiminnassa: ylläpito, huolto ja palvelut."
+    }
+  ],
+  "vaihe_luokasta": {
+    "Suunnittelu": "suunnittelu",
+    "Luvitus": "luvitus",
+    "Investointipäätös": "investointipaatos",
+    "Rakenteilla": "rakentaminen"
+  },
+  "hankkeittain": {
+    "muhos/datakeskus": {
+      "vaiheet": {
+        "suunnittelu": {
+          "tila": "tehty",
+          "tapahtumat": [
+            {
+              "pvm": "2026-09-10",
+              "teksti": "Kaavat hyväksytty; valitukset hallinto-oikeudessa.",
+              "lahde": "https://yle.fi/a/74-20245531"
+            }
+          ]
+        },
+        "luvitus": {
+          "tila": "kaynnissa",
+          "tapahtumat": [
+            {
+              "pvm": "2025",
+              "teksti": "Ympäristövaikutusten arviointi käynnistyi kesällä 2025.",
+              "lahde": "https://www.sttinfo.fi/tiedote/72532971/lupa-ja-valvontavirasto-on-arvioinut-tuike-finland-oyn-datakeskushankkeiden-keskeytyksen-aikaisia-toimenpiteita-ja-muhoksen-hankkeen-vesienhallintaa?lang=fi",
+              "lahde_pvm": "2026-11-24"
+            },
+            {
+              "pvm": "2026-11-24",
+              "teksti": "Arviointiselostus valmisteilla.",
+              "lahde": "https://www.sttinfo.fi/tiedote/72532971/lupa-ja-valvontavirasto-on-arvioinut-tuike-finland-oyn-datakeskushankkeiden-keskeytyksen-aikaisia-toimenpiteita-ja-muhoksen-hankkeen-vesienhallintaa?lang=fi"
+            }
+          ]
+        },
+        "valmistelu": {
+          "tila": "keskeytetty",
+          "tapahtumat": [
+            {
+              "pvm": "2026-09-10",
+              "teksti": "Maanrakennustöitä ja murskeliikennettä käynnissä.",
+              "lahde": "https://yle.fi/a/74-20245531"
+            },
+            {
+              "pvm": "2026-10",
+              "teksti": "Rakennusvalvonta antoi luvan valmistelutoimiin (rakentamislain 109 §). Metsää kaadettu noin 330 ha.",
+              "lahde": "https://yle.fi/a/74-20250334",
+              "lahde_pvm": "2026-10-08"
+            },
+            {
+              "pvm": "2026-10-06",
+              "teksti": "Lupa- ja valvontavirasto kehotti keskeyttämään ympäristöä merkittävästi muuttavat valmistelutyöt, kunnes YVA on tehty.",
+              "lahde": "https://yle.fi/a/74-20250109"
+            },
+            {
+              "pvm": "2026-10-08",
+              "teksti": "Poliisi aloitti esitutkinnan työmaan valmistelutöistä.",
+              "lahde": "https://yle.fi/a/74-20250446"
+            },
+            {
+              "pvm": "2026-11-24",
+              "teksti": "Keskeytyksen aikana sallitaan vain välttämätön vesienhallinta ja ylläpito.",
+              "lahde": "https://www.sttinfo.fi/tiedote/72532971/lupa-ja-valvontavirasto-on-arvioinut-tuike-finland-oyn-datakeskushankkeiden-keskeytyksen-aikaisia-toimenpiteita-ja-muhoksen-hankkeen-vesienhallintaa?lang=fi"
+            }
+          ]
+        },
+        "investointipaatos": {
+          "tila": "tuleva",
+          "tapahtumat": [
+            {
+              "pvm": "2026-10-08",
+              "teksti": "Google ei ole tehnyt virallisia investointipäätöksiä.",
+              "lahde": "https://yle.fi/a/74-20250334"
+            }
+          ]
+        },
+        "rakentaminen": {
+          "tila": "tuleva",
+          "tapahtumat": [
+            {
+              "pvm": "2026-09-10",
+              "teksti": "Arvioitu kesto 15–20 vuotta vaiheittain tai 6–10 vuotta rinnakkain rakennettuna.",
+              "lahde": "https://yle.fi/a/74-20245531",
+              "arvio": true
+            }
+          ]
+        },
+        "kaytto": {
+          "tila": "tuleva",
+          "tapahtumat": [
+            {
+              "pvm": "2026-09-10",
+              "teksti": "Valmis kokonaisuus työllistää arviolta satoja suoraan ja välillisesti.",
+              "lahde": "https://yle.fi/a/74-20245531",
+              "arvio": true
+            }
+          ]
+        }
+      }
+    },
+    "kajaani/google-datakeskus-otanmaki": {
+      "vaiheet": {
+        "suunnittelu": {
+          "tila": "tehty",
+          "tapahtumat": []
+        },
+        "luvitus": {
+          "tila": "kaynnissa",
+          "tapahtumat": [
+            {
+              "pvm": "2026-10-16",
+              "teksti": "YVA-menettely valmistuu vuoden 2027 puolella.",
+              "lahde": "https://yle.fi/a/74-20251704",
+              "arvio": true
+            }
+          ]
+        },
+        "valmistelu": {
+          "tila": "keskeytetty",
+          "tapahtumat": [
+            {
+              "pvm": "2026-09-10",
+              "teksti": "Maanrakennustyöt käynnissä Otanmäessä.",
+              "lahde": "https://yle.fi/a/74-20245531"
+            },
+            {
+              "pvm": "2026-10-06",
+              "teksti": "Lupa- ja valvontavirasto kehotti keskeyttämään ympäristöä merkittävästi muuttavat valmistelutyöt, kunnes YVA on tehty.",
+              "lahde": "https://yle.fi/a/74-20250109"
+            },
+            {
+              "pvm": "2026-11-24",
+              "teksti": "Keskeytyksen aikana sallitaan ylläpito; ojitusilmoituksesta erillinen päätös.",
+              "lahde": "https://www.sttinfo.fi/tiedote/72532971/lupa-ja-valvontavirasto-on-arvioinut-tuike-finland-oyn-datakeskushankkeiden-keskeytyksen-aikaisia-toimenpiteita-ja-muhoksen-hankkeen-vesienhallintaa?lang=fi"
+            }
+          ]
+        },
+        "investointipaatos": {
+          "tila": "tuleva",
+          "tapahtumat": [
+            {
+              "pvm": "2026-10-08",
+              "teksti": "Google ei ole tehnyt virallisia investointipäätöksiä.",
+              "lahde": "https://yle.fi/a/74-20250334"
+            }
+          ]
+        },
+        "rakentaminen": {
+          "tila": "tuleva",
+          "tapahtumat": []
+        },
+        "kaytto": {
+          "tila": "tuleva",
+          "tapahtumat": []
+        }
+      }
+    },
+    "vaala/google-datakeskus": {
+      "vaiheet": {
+        "suunnittelu": {
+          "tila": "kaynnissa",
+          "tapahtumat": [
+            {
+              "pvm": "2026-09-10",
+              "teksti": "Kaavoitus kesken, tavoitteena kevät 2027.",
+              "lahde": "https://yle.fi/a/74-20245531"
+            }
+          ]
+        },
+        "luvitus": {
+          "tila": "kaynnissa",
+          "tapahtumat": [
+            {
+              "pvm": "2026-10-16",
+              "teksti": "YVA-selostuksen on määrä valmistua noin vuoden kuluttua.",
+              "lahde": "https://yle.fi/a/74-20251704",
+              "arvio": true
+            }
+          ]
+        },
+        "valmistelu": {
+          "tila": "tuleva",
+          "tapahtumat": [
+            {
+              "pvm": "2026-10-16",
+              "teksti": "Hakkuut alkavat vasta YVA:n jälkeen.",
+              "lahde": "https://yle.fi/a/74-20251704"
+            }
+          ]
+        },
+        "investointipaatos": {
+          "tila": "tuleva",
+          "tapahtumat": [
+            {
+              "pvm": "2026-10-08",
+              "teksti": "Google ei ole tehnyt virallisia investointipäätöksiä.",
+              "lahde": "https://yle.fi/a/74-20250334"
+            }
+          ]
+        },
+        "rakentaminen": {
+          "tila": "tuleva",
+          "tapahtumat": []
+        },
+        "kaytto": {
+          "tila": "tuleva",
+          "tapahtumat": []
+        }
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
 import raw from "@/content/tarpeet.json";
 import type { Tila } from "@/lib/alueet";
 
-export type Tarve = { tarve: string; toimiala: string | null; tila?: Tila; lahde?: string; pvm?: string };
+export type Tarve = { tarve: string; toimiala: string | null; tila?: Tila; lahde?: string; pvm?: string; vaihe?: string };
 export type TyypinTarpeet = { lahde: string; pvm: string; tarpeet: Tarve[] };
 
 export const hankkeenTarpeet = (kunta: string, hanke: string): Tarve[] =>

@@ -8,8 +8,8 @@ import Tiedot from "@/components/Tiedot";
 import Form from "@/components/Form";
 import { hankkeenUutiset } from "@/lib/uutiset";
 import { yhteenveto } from "@/lib/yhteenveto";
-import { hankkeenTarpeet, tyypinTarpeet } from "@/lib/tarpeet";
-import { lahdeNimi } from "@/lib/alueet";
+import { aikajana as vaiheAikajana } from "@/lib/aikajana";
+import Aikajana from "@/components/Aikajana";
 
 export const dynamicParams = false;
 export const generateStaticParams = () =>
@@ -30,8 +30,7 @@ export default async function HankeSivu({ params }: Props) {
   const { kunta: k, hanke: h } = x;
   const yv = yhteenveto(k.tunniste, h.tunniste);
   const aikajana = hankkeenUutiset(k.tunniste, h.tunniste);
-  const tarpeet = hankkeenTarpeet(k.tunniste, h.tunniste);
-  const yleiset = tyypinTarpeet(h.tyyppi);
+  const jana = vaiheAikajana(k, h);
   return (
     <>
       <Seuranta taso="hanke" maakunta={k.maakunta} kunta={k.kunta} hanke={h.nimi} />
@@ -71,37 +70,11 @@ export default async function HankeSivu({ params }: Props) {
           </>
         ) : null}
       </div></section>
-      {tarpeet.length || yleiset ? (
-        <section className="tarpeet-osio" id="tarpeet"><div className="wrap">
-          <h2>Tarvittava osaaminen ja palvelut</h2>
-          {tarpeet.length ? (
-            <>
-              <h3>Tässä hankkeessa</h3>
-              <ul className="tarpeet">
-                {tarpeet.map((t) => (
-                  <li key={t.tarve}>
-                    <span>{t.tarve}{t.tila === "arvio" ? <span className="tag">arvio</span> : null}</span>
-                    {t.toimiala ? <span className="chip">{t.toimiala}</span> : null}
-                    {t.lahde ? <span className="src">Lähde: <a href={t.lahde} rel="noopener nofollow" target="_blank">{lahdeNimi(t.lahde)}</a>{t.pvm ? `, ${pvm(t.pvm)}` : ""}</span> : null}
-                  </li>
-                ))}
-              </ul>
-            </>
-          ) : null}
-          {yleiset ? (
-            <>
-              <h3>Yleisesti hanketyypissä: {h.tyyppi}</h3>
-              <p className="muted small">Hanketyypin tavalliset tarpeet, eivät tämän hankkeen tilaajan ilmoittamia. Lähde: <a href={yleiset.lahde} rel="noopener nofollow" target="_blank">{lahdeNimi(yleiset.lahde)}</a>, {pvm(yleiset.pvm)}.</p>
-              <ul className="tarpeet">
-                {yleiset.tarpeet.map((t) => (
-                  <li key={t.tarve}><span>{t.tarve}</span>{t.toimiala ? <span className="chip">{t.toimiala}</span> : null}</li>
-                ))}
-              </ul>
-            </>
-          ) : null}
-          <p style={{ marginTop: 20 }}><a className="btn" href="#ilmoittaudu">Ilmoita yrityksesi osaaminen</a></p>
-        </div></section>
-      ) : null}
+      <section className="tarpeet-osio" id="tarpeet"><div className="wrap">
+        <h2 id="eteneminen">Hankkeen eteneminen ja tarpeet</h2>
+        <p className="muted small">Vaiheet ja tapahtumat julkisista lähteistä. Jokaiseen vaiheeseen on kytketty siinä tarvittava osaaminen ja resurssit.</p>
+        <Aikajana vaiheet={jana.vaiheet} lahteistetty={jana.lahteistetty} tyyppi={h.tyyppi} />
+      </div></section>
       <section className="alt" id="ilmoittaudu"><div className="wrap grid2">
         <div>
           <h2>Ilmoita yrityksesi mukaan</h2>
