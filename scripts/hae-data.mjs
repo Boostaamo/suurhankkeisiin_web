@@ -94,6 +94,46 @@ export function kirjoita(kohde, { kunnat, uutiset }) {
   fs.writeFileSync(path.join(kohde, "uutiset.json"), JSON.stringify({ uutiset }, null, 2));
 }
 
+// Siirtymäkausi (Hannu 24.11.2026): tuotanto lukee tietokantaa, mutta vaiheen 1 ajastetut tehtävät päivittävät
+// vielä JSON-tiedostoja. TUONTI_JSONISTA=kylla vie content/-kansion tietokantaan ennen hakua (tuo_datakerros,
+// palvelinavain), jolloin hyväksytyt JSON-PR:t näkyvät sivustolla. Poistetaan, kun automaattinen nouto korvaa tehtävät.
+function lueContent() {
+  const dir = path.join(process.cwd(), "content");
+  const alueet = path.join(dir, "alueet");
+  const kunnat = fs
+    .readdirSync(alueet)
+    .filter((f) => f.endsWith(".json"))
+    .sort()
+    .map((f) => {
+      const { _ohje, ...k } = JSON.parse(fs.readFileSync(path.join(alueet, f), "utf8"));
+      return k;
+    });
+  const uutiset = JSON.parse(fs.readFileSync(path.join(dir, "uutiset.json"), "utf8")).uutiset;
+  return { kunnat, uutiset };
+}
+
+async function tuoJsonista(url) {
+  const avain = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!avain) throw new Error("TUONTI_JSONISTA=kylla tarvitsee muuttujan SUPABASE_SERVICE_ROLE_KEY.");
+  const syote = lueContent();
+  const res = await fetch(`${url}/rest/v1/rpc/tuo_datakerros`, {
+    method: "POST",
+    headers: {
+      apikey: avain,
+      ...(avain.startsWith("eyJ") ? { Authorization: `Bearer ${avain}` } : {}),
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ syote }),
+  });
+  if (!res.ok) throw new Error(`Tuonti JSONista epäonnistui, tila ${res.status}: ${(await res.text()).slice(0, 200)}`);
+  const tulos = await res.json();
+  const hankkeita = syote.kunnat.reduce((n, k) => n + k.hankkeet.length, 0);
+  if (tulos.kunnat !== syote.kunnat.length || tulos.hankkeet !== hankkeita) {
+    throw new Error(`Tuonnin määrät eivät täsmää: ${JSON.stringify(tulos)}`);
+  }
+  console.log(`Tuonti JSONista tietokantaan: ${JSON.stringify(tulos)}`);
+}
+
 async function main() {
   if (process.env.DATALAHDE !== "tietokanta") return;
   const url = (process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL || "").replace(/\/$/, "");
@@ -103,6 +143,7 @@ async function main() {
   if (!url || !julkinenAvain) {
     throw new Error("DATALAHDE=tietokanta tarvitsee muuttujat SUPABASE_URL ja SUPABASE_PUBLISHABLE_KEY (tai anon-avaimen).");
   }
+  if (process.env.TUONTI_JSONISTA === "kylla") await tuoJsonista(url);
   const rivit = Object.fromEntries(await Promise.all(NAKYMAT.map(async (n) => [n, await hae(url, julkinenAvain, n)])));
   const data = koosta(rivit);
   if (!data.kunnat.length || !data.kunnat.some((k) => k.hankkeet.length)) {

@@ -33,7 +33,7 @@ Vaiheen 2 datakerros on Supabasessa (repo `Boostaamo/suurhankkisiin_data`). Ymp�
 
 Tarvittavat muuttujat (Vercel): `DATALAHDE=tietokanta`, `SUPABASE_URL` (on jo) ja `SUPABASE_PUBLISHABLE_KEY` (tai `NEXT_PUBLIC_SUPABASE_ANON_KEY`). Avoimia tietoja ei tule tietokannasta lainkaan, eikä niitä näytetty ennenkään.
 
-Siirtymän aikana JSON-tiedostot ja vaiheen 1 PR-hyväksyntä jatkuvat. Tietokanta päivitetään tuonnilla ennen kytkimen vaihtoa.
+Siirtymän aikana JSON-tiedostot ja vaiheen 1 PR-hyväksyntä jatkuvat. Tuotanto lukee tietokantaa (Hannu 24.11.2026), joten `TUONTI_JSONISTA=kylla` (vain Production) vie jokaisessa buildissa `content/`-kansion tietokantaan ennen hakua palvelinavaimella. JSON-tiedostot ovat siis edelleen päälähde, kunnes automaattinen nouto korvaa ajastetut tehtävät; silloin muuttuja poistetaan.
 
 ## Vaihe 2 (Bistek)
 Automaattinen RSS-nouto ja tekoälypisteytys palvelimella, kilpailutusten hallinta tilaajille, yritysprofiilit ja PRO-maksut.
