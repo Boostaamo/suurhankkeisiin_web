@@ -143,3 +143,39 @@ section.alt{background:var(--tausta-2)}
   .feature,.panel{padding:32px 24px}
   .nav ul{order:3;width:100%;gap:4px 18px}
 }
+
+/* Hankkeiden yleisnäkymä: tunnusluvut, maakuntaruudut, suodatin ja lista */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:12px;margin-top:32px;max-width:760px}
+.stat{background:var(--tumma-2);border-radius:var(--r);padding:16px 18px}
+.stat b{display:block;font-size:32px;font-weight:900;line-height:1.1;color:var(--korostus)}
+.stat span{font-size:14px;color:#CBD5E1}
+.mk{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:14px}
+.mkruutu{display:block;background:var(--pinta);border:1px solid var(--reuna);border-radius:var(--r);padding:20px;color:inherit;text-decoration:none;transition:border-color .15s}
+.mkruutu:hover{border-color:var(--korostus)}
+.mkruutu h3{margin-bottom:4px}
+.mkruutu .n{font-size:14px;color:var(--muted)}
+.palkki{display:flex;height:8px;border-radius:99px;overflow:hidden;background:var(--tausta-2);margin:14px 0 6px}
+.palkki i{display:block;height:100%}
+.selite{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--muted);margin:10px 0 24px}
+.selite i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.c-rakenteilla{background:#047857}.c-investointipaatos{background:#0E7490}.c-luvitus{background:#D97706}.c-suunnittelu{background:#64748B}.c-keskeytetty{background:#B91C1C}.c-ei-tietoa{background:#CBD5E1}
+.suodin{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:14px;margin-bottom:16px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.chip{font:inherit;font-size:14px;font-weight:600;min-height:36px;padding:6px 14px;border-radius:999px;border:1px solid var(--reuna);background:var(--pinta);color:var(--teksti);cursor:pointer}
+.chip span{color:var(--muted);font-weight:500;margin-left:2px}
+.chip.on{background:var(--tumma);border-color:var(--tumma);color:var(--tumma-teksti)}
+.chip.on span{color:#94A3B8}
+.tyhjenna{background:none;border:0;padding:0;font:inherit;color:var(--korostus-linkki);cursor:pointer;text-decoration:underline}
+.hlista{list-style:none;margin:8px 0 0;padding:0;border-top:1px solid var(--reuna)}
+.hlista li{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 20px;padding:16px 4px;border-bottom:1px solid var(--reuna)}
+.hrivi-p{flex:1 1 320px;min-width:0}
+.hnimi{font-weight:800;font-size:18px;color:inherit;text-decoration:none}
+.hnimi:hover{color:var(--korostus-linkki)}
+.hmeta{font-size:14px;color:var(--muted);margin-top:2px}
+.hmeta a{color:inherit}
+.hrivi-s{display:flex;align-items:center;gap:14px;flex:none}
+.hraha{font-weight:700;font-size:15px;white-space:nowrap}
+.vaihe{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:3px 10px;border-radius:999px;background:var(--tausta-2);color:var(--teksti);white-space:nowrap}
+.vaihe:before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:0;background:#CBD5E1}
+.v-rakenteilla:before{background:#047857}.v-investointipaatos:before{background:#0E7490}.v-luvitus:before{background:#D97706}.v-suunnittelu:before{background:#64748B}.v-keskeytetty:before{background:#B91C1C}
+.card .vaihe{margin:0 6px 10px 0}

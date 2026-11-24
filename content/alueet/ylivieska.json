@@ -1,0 +1,33 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "ylivieska",
+  "kunta": "Ylivieska",
+  "kunta_genetiivi": "Ylivieskan",
+  "maakunta": "Pohjois-Pohjanmaa",
+  "maakunta_tunniste": "pohjois-pohjanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Ylivieskan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "junnikankaan-datakeskus-100-200-mw",
+      "nimi": "Junnikankaan datakeskus, 100–200 MW",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "Datakeskushanke. Tonttivaraus, selvitykset ja luvitus; tavoite 2027–2028.",
+      "tiedot": [
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Tonttivaraus, selvitykset ja luvitus; tavoite 2027–2028",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

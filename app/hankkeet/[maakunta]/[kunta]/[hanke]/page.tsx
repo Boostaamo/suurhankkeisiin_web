@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { hanke, kunnat, kuntaPolku, pvm } from "@/lib/alueet";
+import { vaiheSlug } from "@/lib/vaihe";
 import Seuranta from "@/components/Seuranta";
 import Tiedot from "@/components/Tiedot";
 import Form from "@/components/Form";
@@ -30,6 +31,8 @@ export default async function HankeSivu({ params }: Props) {
         <div className="eyebrow">
           <Link href="/hankkeet">Suurhankkeet</Link> / <Link href={`/hankkeet/${k.maakunta_tunniste}`}>{k.maakunta}</Link> / <Link href={kuntaPolku(k)}>{k.kunta}</Link>
         </div>
+        {h.vaihe_luokka ? <span className={`vaihe v-${vaiheSlug(h.vaihe_luokka)}`} style={{ marginRight: 6, marginBottom: 12 }}>{h.vaihe_luokka}</span> : null}
+        {h.tyyppi ? <span className="vaihe" style={{ marginBottom: 12 }}>{h.tyyppi}</span> : null}
         <h1>{h.nimi}</h1>
         <p className="lead">{h.tiivistelma}</p>
         <div className="cta"><a className="btn" href="#ilmoittaudu">Ilmoita yrityksesi hankkeeseen</a></div>

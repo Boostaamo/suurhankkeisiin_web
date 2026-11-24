@@ -1,0 +1,54 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "ranua",
+  "kunta": "Ranua",
+  "kunta_genetiivi": "Ranuan",
+  "maakunta": "Lappi",
+  "maakunta_tunniste": "lappi",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Ranuan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "et-fuelsin-biometanolitehdas",
+      "nimi": "ET Fuelsin biometanolitehdas",
+      "tyyppi": "Vety ja e-polttoaineet",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": 800,
+      "tiivistelma": "Vety ja e-polttoaineethanke. Suunnittelussa, mukana vedyntuotanto ja 50 tuulivoimalaa.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "ET Fuels",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "800 M€",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Suunnittelussa, mukana vedyntuotanto ja 50 tuulivoimalaa",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Työvoima",
+          "arvo": "60 työpaikkaa (käyttö)",
+          "tila": "arvio",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

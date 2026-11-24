@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { kuntaPolku, maakunnat, maakunta } from "@/lib/alueet";
+import { TYYPIT, VAIHEET, hankeRivit, hankkeita, kuntaPolku, maakunnat, maakunta } from "@/lib/alueet";
+import { Palkki, Selite } from "@/components/AlueNakyma";
+import HankeHaku from "@/components/HankeHaku";
 import Seuranta from "@/components/Seuranta";
 
 export const dynamicParams = false;
@@ -26,17 +28,24 @@ export default async function MaakuntaSivu({ params }: Props) {
         <p className="lead">Maakunnan suurhankkeet kunnittain. Ilmoita yrityksesi mukaan, niin tilaajat ja urakoitsijat löytävät sinut.</p>
         <div className="cta"><Link className="btn" href={`/ilmoittaudu`}>Ilmoita yrityksesi</Link></div>
       </div></section>
-      <section><div className="wrap">
-        <div className="cards">
+      <section className="alt"><div className="wrap">
+        <h2>Kunnat</h2>
+        <Selite />
+        <div className="mk">
           {m.kunnat.map((k) => (
-            <Link key={k.tunniste} href={kuntaPolku(k)} className="card link">
+            <Link key={k.tunniste} href={kuntaPolku(k)} className="mkruutu">
               {k.pilotti ? <span className="pill">Pilottialue</span> : null}
               <h3>{k.kunta}</h3>
-              <p>{k.esittely}</p>
-              <p className="muted">{k.hankkeet.length} hanketta</p>
+              <div className="n">{hankkeita(k.hankkeet.length)}</div>
+              <Palkki vaiheet={k.hankkeet.map((h) => h.vaihe_luokka ?? "Ei tietoa")} />
+              <div className="n">{[...new Set(k.hankkeet.map((h) => h.tyyppi).filter(Boolean))].join(", ")}</div>
             </Link>
           ))}
         </div>
+      </div></section>
+      <section><div className="wrap">
+        <h2>Hankkeet: {m.nimi}</h2>
+        <HankeHaku rivit={hankeRivit().filter((x) => x.maakunta_tunniste === m.tunniste)} maakunnat={[]} tyypit={TYYPIT} vaiheet={VAIHEET} alkuMaakunta={m.tunniste} />
       </div></section>
     </>
   );

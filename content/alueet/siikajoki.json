@@ -1,0 +1,65 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "siikajoki",
+  "kunta": "Siikajoki",
+  "kunta_genetiivi": "Siikajoen",
+  "maakunta": "Pohjois-Pohjanmaa",
+  "maakunta_tunniste": "pohjois-pohjanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Siikajoen alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "siikajoen-aurinkovoimahanke-126-mw",
+      "nimi": "Siikajoen aurinkovoimahanke, 126 MW",
+      "tyyppi": "Energia",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Energiahanke. Suunnitteilla 4/2026, noin 175 000 paneelia.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "DRD Projects Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Suunnitteilla 4/2026, noin 175 000 paneelia",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "siikajoen-biokaasulaitos",
+      "nimi": "Siikajoen biokaasulaitos",
+      "tyyppi": "Biojalostus ja metsä",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Biojalostus ja metsähanke. Investorin valinta keväällä 2026.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Investori valitaan",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Investorin valinta keväällä 2026",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

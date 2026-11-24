@@ -1,0 +1,65 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "ii",
+  "kunta": "Ii",
+  "kunta_genetiivi": "Iin",
+  "maakunta": "Pohjois-Pohjanmaa",
+  "maakunta_tunniste": "pohjois-pohjanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Iin alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "metan-valoa-networks-datakeskusalue-475-ha",
+      "nimi": "Metan / Valoa Networks -datakeskusalue, 475 ha",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "Datakeskushanke. Kaavoitus valmistuu alkuvuodesta 2027.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Metan, Valoa Networks Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Kaavoitus valmistuu alkuvuodesta 2027",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "isokankaan-kaavoituskokonaisuus-noin-500-ha",
+      "nimi": "Isokankaan kaavoituskokonaisuus, noin 500 ha",
+      "tyyppi": "Energia",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Energiahanke. Valmistelu 9/2026, neljä hanketta.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "NordVire Project 2 Oy, Ingrid Capacity AB, Helios Nordic Energy Finland Oy, Isokangas Infrastructure Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Valmistelu 9/2026, neljä hanketta",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

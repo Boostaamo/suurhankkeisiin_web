@@ -1,0 +1,72 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "rovaniemi",
+  "kunta": "Rovaniemi",
+  "kunta_genetiivi": "Rovaniemen",
+  "maakunta": "Lappi",
+  "maakunta_tunniste": "lappi",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Rovaniemen alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "hietavaaran-datakeskus",
+      "nimi": "Hietavaaran datakeskus",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Datakeskushanke. Suunnittelussa 9/2026.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "FCDC Corp",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Suunnittelussa 9/2026",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "suhangon-monimetallikaivos",
+      "nimi": "Suhangon monimetallikaivos",
+      "tyyppi": "Kaivos",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": 1000,
+      "tiivistelma": "Kaivoshanke. Ympäristö- ja vesitalouslupa 6/2025, lupa valitettu.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Suhanko Arctic Platinum Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Noin 1 mrd €",
+          "tila": "arvio",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Ympäristö- ja vesitalouslupa 6/2025, lupa valitettu",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

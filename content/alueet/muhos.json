@@ -13,6 +13,8 @@
     {
       "tunniste": "datakeskus",
       "nimi": "Googlen datakeskushanke, Leppiniemi",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Keskeytetty",
       "tiivistelma": "Googlen datakeskushanke Muhoksen Leppiniemessä. Rakentaminen tuo alueelle maanrakennus-, sähkö-, kuljetus-, majoitus- ja palvelutarpeita vuosiksi.",
       "tiedot": [
         {
@@ -106,6 +108,8 @@
     {
       "tunniste": "biopark",
       "nimi": "Muhos Biopark – kestävän kasvun ekosysteemi",
+      "tyyppi": "Teollisuus",
+      "vaihe_luokka": "Suunnittelu",
       "tiivistelma": "Datakeskuksen viereen kaavoitettava bio-, kiertotalous- ja energiateollisuuden alue, joka hyödyntää datakeskuksen hukkalämpöä.",
       "tiedot": [
         {

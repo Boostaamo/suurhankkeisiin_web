@@ -1,0 +1,47 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "kuhmo",
+  "kunta": "Kuhmo",
+  "kunta_genetiivi": "Kuhmon",
+  "maakunta": "Kainuu",
+  "maakunta_tunniste": "kainuu",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Kuhmon alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "kuhmo-oy-n-sahainvestointi",
+      "nimi": "Kuhmo Oy:n sahainvestointi",
+      "tyyppi": "Teollisuus",
+      "vaihe_luokka": "Ei tietoa",
+      "investointi_meur": 43,
+      "tiivistelma": "Teollisuushanke.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Kuhmo Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "43 M€",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "<täydennä>",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

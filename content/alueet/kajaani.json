@@ -1,0 +1,143 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "kajaani",
+  "kunta": "Kajaani",
+  "kunta_genetiivi": "Kajaanin",
+  "maakunta": "Kainuu",
+  "maakunta_tunniste": "kainuu",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Kajaanin alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "xtx-marketsin-datakeskus-250-mw",
+      "nimi": "XTX Marketsin datakeskus, 250 MW",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": 1000,
+      "tiivistelma": "Datakeskushanke. Toinen yksikkö 8/2025, kolmas 6/2026 (YIT).",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "XTX Markets, pääurakoitsija YIT",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Laajennus noin 1 mrd €",
+          "tila": "arvio",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Toinen yksikkö 8/2025, kolmas 6/2026 (YIT)",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "lumi-ai-factory",
+      "nimi": "LUMI-AI-Factory",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": 612,
+      "tiivistelma": "Datakeskushanke. SRV:n projektisopimus 1/2026.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "CSC, projektisopimus SRV (54 M€, 1/2026)",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Kokonaisuus 612 M€",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "SRV:n projektisopimus 1/2026",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "otanmaki-miningin-rauta-ja-vanadiinihanke",
+      "nimi": "Otanmäki Miningin rauta- ja vanadiinihanke",
+      "tyyppi": "Kaivos",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": 200,
+      "tiivistelma": "Kaivoshanke. Suunnittelussa.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Otanmäki Mining Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Rauta- ja vanadiinitehdas 200 M€, Otanmäki–Tuomioja-rata 220–250 M€",
+          "tila": "arvio",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Suunnittelussa",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "google-datakeskus-otanmaki",
+      "nimi": "Googlen datakeskushanke, Otanmäki",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Keskeytetty",
+      "investointi_meur": null,
+      "tiivistelma": "Googlen datakeskushanke Kajaanin Otanmäessä, osa Googlen 13 miljardin euron Suomi-investointia.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Tuike Finland Oy (Googlen tytäryhtiö)",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20250109",
+          "pvm": "2026-10-06"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 350 ha teollisuuskäyttöön, kahdeksan konesalia",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20245531",
+          "pvm": "2026-09-10"
+        },
+        {
+          "otsikko": "Ajankohtaista",
+          "arvo": "Lupa- ja valvontavirasto kehotti keskeyttämään ympäristöä merkittävästi muuttavat valmistelutyöt, kunnes YVA-menettely on tehty",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20250109",
+          "pvm": "2026-10-06"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

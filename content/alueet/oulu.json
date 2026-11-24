@@ -1,0 +1,293 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "oulu",
+  "kunta": "Oulu",
+  "kunta_genetiivi": "Oulun",
+  "maakunta": "Pohjois-Pohjanmaa",
+  "maakunta_tunniste": "pohjois-pohjanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Oulun alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "mt-8155-poikkimaantie",
+      "nimi": "Mt 8155 Poikkimaantie",
+      "tyyppi": "Infra",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": 40,
+      "tiivistelma": "Infrahanke. Rakenteilla, toinen vaihe alkoi 8/2026.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Väylävirasto, 1. urakka Kreate Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Valtion rahoitus 30 M€, Oulun kaupungin osuus noin 10 M€",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Rakenteilla, toinen vaihe alkoi 8/2026",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "oulu-liminka-kaksoisraide",
+      "nimi": "Oulu–Liminka-kaksoisraide",
+      "tyyppi": "Infra",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": 199,
+      "tiivistelma": "Infrahanke. Rakentamis- ja työvaihesuunnitelma työn alla.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Väylävirasto",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Rahoitusvaltuus 199 M€",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Rakentamis- ja työvaihesuunnitelma työn alla",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "oulun-tulevaisuuden-sairaala-c-rakennus",
+      "nimi": "Oulun tulevaisuuden sairaala, C-rakennus",
+      "tyyppi": "Infra",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": 1600,
+      "tiivistelma": "Infrahanke. C-rakennus rakenteilla 2025–2029.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Pohjois-Pohjanmaan hyvinvointialue, allianssi (vaihe 2 päätoteuttaja NCC Suomi Oy)",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Uudistamisohjelma 1,6 mrd €",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "C-rakennus rakenteilla 2025–2029",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "oulun-vesiliikuntakeskus-raksila",
+      "nimi": "Oulun vesiliikuntakeskus, Raksila",
+      "tyyppi": "Infra",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": 80,
+      "tiivistelma": "Infrahanke. Rakennuslupa 2/2026, pääurakoitsija valittu 9/2026, rakentaminen noin 3 vuotta.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Oulun kaupunki, pääurakoitsija Sakela Rakennus Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "80 M€",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Rakennuslupa 2/2026, pääurakoitsija valittu 9/2026, rakentaminen noin 3 vuotta",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "oulun-energian-vetylaitos",
+      "nimi": "Oulun Energian vetylaitos",
+      "tyyppi": "Vety ja e-polttoaineet",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Vety ja e-polttoaineethanke. Suunnittelu, tuotanto aikaisintaan 2028.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Oulun Energia, kumppanina P2X Solutions",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Suunnittelu, tuotanto aikaisintaan 2028",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "hy2gen-200-mw-e-metanolilaitos-vihreasaari",
+      "nimi": "Hy2Gen 200 MW e-metanolilaitos, Vihreäsaari",
+      "tyyppi": "Vety ja e-polttoaineet",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Vety ja e-polttoaineethanke. Aiesopimus Oulun kaupungin kanssa 2/2026.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Hy2Gen Nordic AS",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Aiesopimus Oulun kaupungin kanssa 2/2026",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "verso-energyn-vetytehdas-oulun-satama",
+      "nimi": "Verso Energyn vetytehdas, Oulun satama",
+      "tyyppi": "Vety ja e-polttoaineet",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Vety ja e-polttoaineethanke. Tontti varattu, suunnittelu.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Verso Energy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Tontti varattu, suunnittelu",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "campusoulu-datakeskus-300-mw",
+      "nimi": "CampusOulu-datakeskus, 300 MW",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": null,
+      "tiivistelma": "Datakeskushanke. Rakentuu vaiheittain, käynnistys ilmoitettu 6/2026.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Trevian Asset Management ja Glesys",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Rakentuu vaiheittain, käynnistys ilmoitettu 6/2026",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "nokia-ai-gigafactory-toppila",
+      "nimi": "Nokia AI Gigafactory, Toppila",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Datakeskushanke. Kehittäminen ja maahankinnat käynnissä 9/2026.",
+      "tiedot": [
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Kehittäminen ja maahankinnat käynnissä 9/2026",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "junnikkalan-sahainvestointi",
+      "nimi": "Junnikkalan sahainvestointi",
+      "tyyppi": "Teollisuus",
+      "vaihe_luokka": "Ei tietoa",
+      "investointi_meur": 70,
+      "tiivistelma": "Teollisuushanke.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Junnikkala",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "70 M€",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "<täydennä>",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

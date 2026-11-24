@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { hankePolku, kunnat, kunta, lahdeNimi, pvm } from "@/lib/alueet";
+import { vaiheSlug } from "@/lib/vaihe";
 import Seuranta from "@/components/Seuranta";
 import Form from "@/components/Form";
 import { uutisetHtml } from "@/lib/uutiset";
@@ -38,6 +39,8 @@ export default async function KuntaSivu({ params }: Props) {
         <div className="cards">
           {k.hankkeet.map((h) => (
             <Link key={h.tunniste} href={hankePolku(k, h)} className="card link">
+              {h.vaihe_luokka ? <span className={`vaihe v-${vaiheSlug(h.vaihe_luokka)}`}>{h.vaihe_luokka}</span> : null}
+              {h.tyyppi ? <span className="vaihe">{h.tyyppi}</span> : null}
               <h3>{h.nimi}</h3>
               <p>{h.tiivistelma}</p>
               <span className="more">Hankkeen tiedot →</span>
@@ -64,7 +67,7 @@ export default async function KuntaSivu({ params }: Props) {
           <h2 style={{ marginTop: 40 }}>Kilpailutukset</h2>
           <p className="muted">Avoimia kilpailutuksia ei ole vielä julkaistu. Ilmoittautuneet yritykset kuulevat ensimmäisinä, kun hankintapaketteja avautuu.</p>
         </div>
-        <div>
+        {k.naapurikunnat.length ? <div>
           <h2>Lähialueen hankkeet</h2>
           <ul className="list">
             {k.naapurikunnat.map((n) => (
@@ -73,7 +76,10 @@ export default async function KuntaSivu({ params }: Props) {
               </li>
             ))}
           </ul>
-        </div>
+        </div> : <div>
+          <h2>Muut hankkeet: {k.maakunta}</h2>
+          <p><Link href={`/hankkeet/${k.maakunta_tunniste}`}>Katso maakunnan kaikki hankkeet →</Link></p>
+        </div>}
       </div></section>
 
       <section id="ilmoittaudu"><div className="wrap grid2">

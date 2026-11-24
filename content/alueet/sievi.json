@@ -1,0 +1,40 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "sievi",
+  "kunta": "Sievi",
+  "kunta_genetiivi": "Sievin",
+  "maakunta": "Pohjois-Pohjanmaa",
+  "maakunta_tunniste": "pohjois-pohjanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Sievin alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "malakakankaan-hyperscale-datakeskus-500-mw",
+      "nimi": "Malakakankaan hyperscale-datakeskus, 500 MW",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Datakeskushanke. Suunnittelu 9/2026, lisäksi tuuli- ja aurinkovoima sekä akkuvarasto.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Malakakangas DC Oy (Semecon)",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Suunnittelu 9/2026, lisäksi tuuli- ja aurinkovoima sekä akkuvarasto",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

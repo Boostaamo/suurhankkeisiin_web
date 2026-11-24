@@ -1,0 +1,104 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "paltamo",
+  "kunta": "Paltamo",
+  "kunta_genetiivi": "Paltamon",
+  "maakunta": "Kainuu",
+  "maakunta_tunniste": "kainuu",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Paltamon alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "kaicell-fibersin-biotuotetehdas",
+      "nimi": "Kaicell Fibersin biotuotetehdas",
+      "tyyppi": "Biojalostus ja metsä",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": 950,
+      "tiivistelma": "Biojalostus ja metsähanke. Ympäristölupa lainvoimainen (KHO 3/2024), investointipäätöstä ei ole.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Kaicell Fibers Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "900–1 000 M€",
+          "tila": "arvio",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Ympäristölupa lainvoimainen (KHO 3/2024), investointipäätöstä ei ole",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "sse-n-biometanolilaitos",
+      "nimi": "SSE:n biometanolilaitos",
+      "tyyppi": "Vety ja e-polttoaineet",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": 500,
+      "tiivistelma": "Vety ja e-polttoaineethanke. Suunnittelu aloitettu 2024.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "SSE Suomen Säätöenergia Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "500 M€",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Suunnittelu aloitettu 2024",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "northern-green-fuels-project-hybrid",
+      "nimi": "Northern Green Fuels, Project Hybrid",
+      "tyyppi": "Vety ja e-polttoaineet",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Vety ja e-polttoaineethanke. Puhtaan siirtymän verohyvitys enintään 110 M€ (Business Finland 1/2026).",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Northern Green Fuels Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Puhtaan siirtymän verohyvitys enintään 110 M€ (Business Finland 1/2026)",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

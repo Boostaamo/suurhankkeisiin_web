@@ -1,0 +1,47 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "raahe",
+  "kunta": "Raahe",
+  "kunta_genetiivi": "Raahen",
+  "maakunta": "Pohjois-Pohjanmaa",
+  "maakunta_tunniste": "pohjois-pohjanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Raahen alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "ssab-n-raahen-tehtaan-uudistus-valokaariuunit",
+      "nimi": "SSAB:n Raahen tehtaan uudistus (valokaariuunit)",
+      "tyyppi": "Teollisuus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Teollisuushanke. Investointisuunnitelma päivitetty 11/2025, sähkölinjan YVA käynnistetty, kaavoitus.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "SSAB",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "SSAB:n investoinnit kaikkiin tehtaisiin yhteensä noin 4,5 mrd €",
+          "tila": "arvio",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Investointisuunnitelma päivitetty 11/2025, sähkölinjan YVA käynnistetty, kaavoitus",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

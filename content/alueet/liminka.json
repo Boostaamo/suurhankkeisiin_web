@@ -1,0 +1,40 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "liminka",
+  "kunta": "Liminka",
+  "kunta_genetiivi": "Limingan",
+  "maakunta": "Pohjois-Pohjanmaa",
+  "maakunta_tunniste": "pohjois-pohjanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Limingan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "limingan-aurinkovoimapuisto",
+      "nimi": "Limingan aurinkovoimapuisto",
+      "tyyppi": "Energia",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": null,
+      "tiivistelma": "Energiahanke. Rakentaminen käynnistyi 8/2025, noin 100 000 paneelia; toinen puisto ja datakeskus kehitteillä.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Limingan Energiapuisto Oy ja Endra AS",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Rakentaminen käynnistyi 8/2025, noin 100 000 paneelia; toinen puisto ja datakeskus kehitteillä",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

@@ -1,0 +1,136 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "tornio",
+  "kunta": "Tornio",
+  "kunta_genetiivi": "Tornion",
+  "maakunta": "Lappi",
+  "maakunta_tunniste": "lappi",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Tornion alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "outokummun-kylmavalssaamon-uudistus",
+      "nimi": "Outokummun kylmävalssaamon uudistus",
+      "tyyppi": "Teollisuus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": 200,
+      "tiivistelma": "Teollisuushanke. Uudet hehkutus- ja peittauslinjat suunnitteilla.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Outokumpu",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "200 M€",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Uudet hehkutus- ja peittauslinjat suunnitteilla",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "outokummun-ja-norsk-e-fuelsin-e-polttoainelaitos",
+      "nimi": "Outokummun ja Norsk E-Fuelsin e-polttoainelaitos",
+      "tyyppi": "Vety ja e-polttoaineet",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": 1350,
+      "tiivistelma": "Vety ja e-polttoaineethanke. Aiesopimus 1/2026.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Outokumpu ja Norsk E-Fuels",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "1,2–1,5 mrd €",
+          "tila": "arvio",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Aiesopimus 1/2026",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "outokummun-biokoksin-briketointilaitos",
+      "nimi": "Outokummun biokoksin briketöintilaitos",
+      "tyyppi": "Teollisuus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": 30,
+      "tiivistelma": "Teollisuushanke. Rakenteilla.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Outokumpu",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "30 M€",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Rakenteilla",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "royttan-merituulipuisto",
+      "nimi": "Röyttän merituulipuisto",
+      "tyyppi": "Energia",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Energiahanke. Suunnittelu.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Rajakiiri Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Suunnittelu",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

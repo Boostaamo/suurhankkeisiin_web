@@ -1,0 +1,47 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "savukoski",
+  "kunta": "Savukoski",
+  "kunta_genetiivi": "Savukosken",
+  "maakunta": "Lappi",
+  "maakunta_tunniste": "lappi",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Savukosken alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "soklin-lannoite-ja-maamineraalihanke",
+      "nimi": "Soklin lannoite- ja maamineraalihanke",
+      "tyyppi": "Kaivos",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": 1500,
+      "tiivistelma": "Kaivoshanke. Esiselvitys 2026–2028, uusi luvitus aikaisintaan neljän vuoden kuluttua.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Sokli Oy (Minerals Group)",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "1,5 mrd €",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Esiselvitys 2026–2028, uusi luvitus aikaisintaan neljän vuoden kuluttua",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

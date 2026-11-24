@@ -6,7 +6,13 @@ import path from "node:path";
 export type Tila = "todennettu" | "arvio" | "avoin";
 export type Tieto = { otsikko: string; arvo: string; tila: Tila; lahde?: string | null; pvm?: string | null; huomio?: string };
 export type Kilpailutus = { otsikko: string; tilaaja: string; maarapaiva?: string; kuvaus?: string; lahde?: string };
-export type Hanke = { tunniste: string; nimi: string; tiivistelma: string; tiedot: Tieto[]; kilpailutukset: Kilpailutus[] };
+export type Hanke = {
+  tunniste: string; nimi: string; tiivistelma: string; tiedot: Tieto[]; kilpailutukset: Kilpailutus[];
+  tyyppi?: string; vaihe_luokka?: string; investointi_meur?: number | null;
+};
+// Hankkeiden luokat suodattimiin. Järjestys = näyttöjärjestys.
+export const VAIHEET = ["Rakenteilla", "Investointipäätös", "Luvitus", "Suunnittelu", "Keskeytetty", "Ei tietoa"];
+export const TYYPIT = ["Datakeskus", "Energia", "Vety ja e-polttoaineet", "Teollisuus", "Kaivos", "Biojalostus ja metsä", "Infra"];
 export type Tapahtuma = { nimi: string; pvm: string; paikka: string; jarjestaja?: string };
 export type Naapuri = { kunta: string; maakunta: string; nimi: string; arvo: string; tila: Tila; lahde?: string; pvm?: string };
 export type Kunta = {
@@ -50,15 +56,30 @@ export const hankePolku = (k: Kunta, h: Hanke) => `${kuntaPolku(k)}/${h.tunniste
 export function pvm(iso?: string | null): string {
   if (!iso) return "";
   const [y, mo, d] = iso.split("-").map(Number);
-  return `${d}.${mo}.${y}`;
+  if (!mo) return `${y}`;
+  return d ? `${d}.${mo}.${y}` : `${mo}/${y}`;
 }
 
 export function lahdeNimi(url?: string | null): string {
   if (!url) return "";
   try {
     const h = new URL(url).hostname.replace(/^www\./, "");
-    return ({ "yle.fi": "Yle", "muhos.fi": "Muhoksen kunta", "mtvuutiset.fi": "MTV Uutiset", "kaleva.fi": "Kaleva" } as Record<string, string>)[h] ?? h;
+    return ({ "yle.fi": "Yle", "muhos.fi": "Muhoksen kunta", "mtvuutiset.fi": "MTV Uutiset", "kaleva.fi": "Kaleva", "oulunkauppakamari.fi": "Oulun kauppakamari, Suurhankeviestit" } as Record<string, string>)[h] ?? h;
   } catch {
     return "";
   }
 }
+
+// Kaikki hankkeet yhtenä listana yleisnäkymää ja suodatinta varten.
+import type { HankeRivi } from "./vaihe";
+export type { HankeRivi };
+export function hankeRivit(): HankeRivi[] {
+  return kunnat().flatMap((k) =>
+    k.hankkeet.map((h) => ({
+      nimi: h.nimi, polku: hankePolku(k, h), kunta: k.kunta, kuntaPolku: kuntaPolku(k), maakunta: k.maakunta,
+      maakunta_tunniste: k.maakunta_tunniste, tyyppi: h.tyyppi ?? "Muu", vaihe: h.vaihe_luokka ?? "Ei tietoa",
+      investointi_meur: h.investointi_meur ?? null, tiivistelma: h.tiivistelma,
+    })),
+  );
+}
+export const hankkeita = (n: number) => `${n} ${n === 1 ? "hanke" : "hanketta"}`;

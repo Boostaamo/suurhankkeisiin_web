@@ -1,0 +1,104 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "utajarvi",
+  "kunta": "Utajärvi",
+  "kunta_genetiivi": "Utajärven",
+  "maakunta": "Pohjois-Pohjanmaa",
+  "maakunta_tunniste": "pohjois-pohjanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Utajärven alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "data-tank-nordic-datakeskus-200-mw",
+      "nimi": "Data Tank Nordic -datakeskus, 200 MW",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Investointipäätös",
+      "investointi_meur": 2000,
+      "tiivistelma": "Datakeskushanke. Investointipäätös 200 MW:sta 5/2026, työt alkamassa.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Amp Tank (Data Tank Nordic Oy)",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Lähteessä eri arvoja: 700–900 M€ (8/2025), 2 mrd € (5/2026), 7,5 mrd € (9/2026)",
+          "tila": "arvio",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Investointipäätös 200 MW:sta 5/2026, työt alkamassa",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "vetyalfan-vihrean-vedyn-jalostamo",
+      "nimi": "Vetyalfan vihreän vedyn jalostamo",
+      "tyyppi": "Vety ja e-polttoaineet",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Vety ja e-polttoaineethanke. TEM:n investointituki 1/2026.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Vetyalfa Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "TEM:n investointituki 1/2026",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "oraskon-haadex-sahainvestointi",
+      "nimi": "Oraskon (Haadex) sahainvestointi",
+      "tyyppi": "Teollisuus",
+      "vaihe_luokka": "Ei tietoa",
+      "investointi_meur": 25,
+      "tiivistelma": "Teollisuushanke.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Orasko / Haadex",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "25 M€",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "<täydennä>",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

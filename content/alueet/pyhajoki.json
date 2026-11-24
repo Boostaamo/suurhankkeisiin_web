@@ -1,0 +1,40 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "pyhajoki",
+  "kunta": "Pyhäjoki",
+  "kunta_genetiivi": "Pyhäjoen",
+  "maakunta": "Pohjois-Pohjanmaa",
+  "maakunta_tunniste": "pohjois-pohjanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Pyhäjoen alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "hypercon-datakeskus",
+      "nimi": "Hypercon datakeskus",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": null,
+      "tiivistelma": "Datakeskushanke. YVA 9/2025: 3–5 datakeskusta, 390–650 MW. Maatyöt 6/2026, rakennusluvat 8/2026 kolmelle konesalille, alue 128,5 ha.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Hyperco Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "YVA 9/2025: 3–5 datakeskusta, 390–650 MW. Maatyöt 6/2026, rakennusluvat 8/2026 kolmelle konesalille, alue 128,5 ha",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

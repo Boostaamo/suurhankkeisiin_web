@@ -1,0 +1,86 @@
+{
+  "_ohje": "Datakerros. Lähteet: Oulun kauppakamarin Suurhankeviestit 9/2026 ja Yle. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "vaala",
+  "kunta": "Vaala",
+  "kunta_genetiivi": "Vaalan",
+  "maakunta": "Kainuu",
+  "maakunta_tunniste": "kainuu",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Vaalan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "vetyalfan-vihrean-vedyn-jalostamo",
+      "nimi": "Vetyalfan vihreän vedyn jalostamo",
+      "tyyppi": "Vety ja e-polttoaineet",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": 2000,
+      "tiivistelma": "Vety ja e-polttoaineethanke. Enintään noin 1 000 MW vedyntuotanto ja 200 MWp aurinkovoima, investointipäätös 2027–2028.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Vetyalfa Oy",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "1–3 mrd €",
+          "tila": "arvio",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Enintään noin 1 000 MW vedyntuotanto ja 200 MWp aurinkovoima, investointipäätös 2027–2028",
+          "tila": "todennettu",
+          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
+          "pvm": "2026-09"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "google-datakeskus",
+      "nimi": "Googlen datakeskushanke",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "Googlen datakeskushanke Vaalassa, osa Googlen 13 miljardin euron Suomi-investointia.",
+      "tiedot": [
+        {
+          "otsikko": "Osa ohjelmaa",
+          "arvo": "Googlen 13 miljardin euron Suomi-investointi (Muhos, Vaala, Kajaani)",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20245531",
+          "pvm": "2026-09-10"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 300 ha teollisuuskäyttöön",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20245531",
+          "pvm": "2026-09-10"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Kaavoitus kesken, tavoite kevät 2027; YVA-menettely aloitettu",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20245531",
+          "pvm": "2026-09-10"
+        },
+        {
+          "otsikko": "Työvoima rakentamisen aikana",
+          "arvo": "1 000–1 900 rakentajaa",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20245531",
+          "pvm": "2026-09-10"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
