@@ -5,28 +5,75 @@
   "contactEmail": "hannu@boostaamo.fi",
   "contactPhone": "040 1251 119",
   "nav": [
-    { "label": "Hankkeet", "href": "/hankkeet" },
-    { "label": "Muhos", "href": "/hankkeet/pohjois-pohjanmaa/muhos" },
-    { "label": "Hinnat", "href": "/hinnat" },
-    { "label": "Kunnille", "href": "/kunnille" }
+    {
+      "label": "Hankkeet",
+      "href": "/hankkeet"
+    },
+    {
+      "label": "Yritykset",
+      "href": "/yritykset"
+    },
+    {
+      "label": "Uutiset",
+      "href": "/uutiset"
+    }
   ],
-  "cta": { "label": "Ilmoita yrityksesi", "href": "/ilmoittaudu" },
-  "provider": { "label": "Dimma", "href": "https://www.dimma.fi" },
+  "cta": {
+    "label": "Ilmoita yrityksesi",
+    "href": "/ilmoittaudu"
+  },
+  "provider": {
+    "label": "Dimma",
+    "href": "https://www.dimma.fi"
+  },
   "badge": "A Boostaamo Company",
   "ecosystem": [
-    { "label": "Boostaamo", "href": "<täydennä: Boostaamon domain>" },
-    { "label": "Growth Flame Company", "href": "https://www.gfc.fi" },
-    { "label": "Dimma", "href": "https://www.dimma.fi" },
-    { "label": "Grofi", "href": "https://www.grofi.fi" },
-    { "label": "AI Softarobotit", "href": "https://www.softarobotit.fi" },
-    { "label": "Bistek", "href": "https://www.bistek.fi" }
+    {
+      "label": "Boostaamo",
+      "href": "<täydennä: Boostaamon domain>"
+    },
+    {
+      "label": "Growth Flame Company",
+      "href": "https://www.gfc.fi"
+    },
+    {
+      "label": "Dimma",
+      "href": "https://www.dimma.fi"
+    },
+    {
+      "label": "Grofi",
+      "href": "https://www.grofi.fi"
+    },
+    {
+      "label": "AI Softarobotit",
+      "href": "https://www.softarobotit.fi"
+    },
+    {
+      "label": "Bistek",
+      "href": "https://www.bistek.fi"
+    }
   ],
   "siteLinks": [
-    { "label": "Hankkeet", "href": "/hankkeet" },
-    { "label": "Ilmoita yrityksesi", "href": "/ilmoittaudu" },
-    { "label": "Hinnat", "href": "/hinnat" },
-    { "label": "Kunnille ja tilaajille", "href": "/kunnille" },
-    { "label": "Tietosuoja", "href": "/tietosuoja" }
+    {
+      "label": "Hankkeet",
+      "href": "/hankkeet"
+    },
+    {
+      "label": "Ilmoita yrityksesi",
+      "href": "/ilmoittaudu"
+    },
+    {
+      "label": "Hinnat",
+      "href": "/hinnat"
+    },
+    {
+      "label": "Kunnille ja tilaajille",
+      "href": "/kunnille"
+    },
+    {
+      "label": "Tietosuoja",
+      "href": "/tietosuoja"
+    }
   ],
   "legalEntity": "Kriha Invest Oy (Dimma)"
 }

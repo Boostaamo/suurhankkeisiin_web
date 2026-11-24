@@ -1,3 +1,4 @@
+import { GA_ID } from "@/lib/ga";
 import Link from "next/link";
 import { site } from "@/lib/site";
 import ConsentReopen from "@/components/ConsentReopen";
@@ -15,7 +16,7 @@ export default function Footer() {
             <div className="eyebrow">Sivusto</div>
             <ul>
               {site.siteLinks.map((l) => <li key={l.href}><Link href={l.href}>{l.label}</Link></li>)}
-              {process.env.NEXT_PUBLIC_GA_ID ? <li><ConsentReopen /></li> : null}
+              {GA_ID ? <li><ConsentReopen /></li> : null}
             </ul>
           </div>
           <div>

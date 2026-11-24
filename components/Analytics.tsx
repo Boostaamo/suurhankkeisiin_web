@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Script from "next/script";
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "";
+import { GA_ID } from "@/lib/ga";
 const KEY = "consent-analytics";
 
 type Consent = "granted" | "denied" | null;

@@ -179,3 +179,4 @@ section.alt{background:var(--tausta-2)}
 .vaihe:before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:0;background:#CBD5E1}
 .v-rakenteilla:before{background:#047857}.v-investointipaatos:before{background:#0E7490}.v-luvitus:before{background:#D97706}.v-suunnittelu:before{background:#64748B}.v-keskeytetty:before{background:#B91C1C}
 .card .vaihe{margin:0 6px 10px 0}
+section[id]{scroll-margin-top:72px}

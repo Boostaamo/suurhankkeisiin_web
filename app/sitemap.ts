@@ -10,6 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .map((p) => ({ url: `${site.url}${p.slug.length ? `/${p.slug.join("/")}` : ""}`, lastModified: p.meta.updated }));
   const alueet = [
     { url: `${site.url}/hankkeet` },
+    { url: `${site.url}/uutiset` },
+    { url: `${site.url}/yritykset` },
     ...maakunnat().map((m) => ({ url: `${site.url}/hankkeet/${m.tunniste}` })),
     ...kunnat().flatMap((k) => [
       { url: `${site.url}${kuntaPolku(k)}`, lastModified: k.paivitetty },

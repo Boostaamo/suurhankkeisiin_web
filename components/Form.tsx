@@ -1,5 +1,6 @@
 "use client";
 
+import { TOIMIALAT } from "@/lib/toimialat";
 import { FormEvent, useId, useState } from "react";
 import { track } from "@/lib/analytics";
 
@@ -10,14 +11,6 @@ export type Alue = { maakunta?: string; kunta?: string; hanke?: string };
 
 type Status = "idle" | "sending" | "ok" | "error";
 
-export const TOIMIALAT = [
-  "Maanrakennus ja louhinta",
-  "Sähkö ja automaatio",
-  "Majoitus ja työmaapalvelut",
-  "Erikoiskuljetus ja nostot",
-  "Turvallisuus ja vartiointi",
-  "Muu alihankinta",
-];
 
 const SUBMIT: Record<FormKind, string> = {
   ilmoittautuminen: "Ilmoita yritys mukaan",

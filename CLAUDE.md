@@ -30,6 +30,7 @@ Pohja: gfc_web (Supabase-malli). Lähtöaineisto: Hannun ensimmäinen versio (HT
 
 ### Säännöt
 - Konversiopiste: yrityksen ilmoittautuminen sivustolle (`sign_up`, method=ilmoittautuminen). Toissijainen: kuntien yhteydenotto (`generate_lead`, lahde=aluekumppanuus).
+- GA4-mittaustunnus G-92TFFQSY4Q tiedostossa lib/ga.ts (julkinen tunnus; Vercelin NEXT_PUBLIC_GA_ID ohittaa).
 - Mittaus hanke-, kunta- ja maakuntatasolla: sivut /hankkeet/<maakunta>/<kunta>/<hanke>, tapahtumaparametrit `maakunta`, `kunta`, `hanke` (GA4-mukautetut ulottuvuudet) ja samat sarakkeet Supabasessa.
 - Pilottialue: Muhos (Hannu 24.11.2026).
 - Hinnat julkaistaan (Perusnäkyvyys 0 €, PRO 99 €/kk alv 0 %, Aluekumppanuus pyynnöstä); tarkennetaan tarvittaessa tuotepäällikön kanssa.

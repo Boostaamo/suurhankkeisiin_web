@@ -42,15 +42,7 @@ export default async function HankeSivu({ params }: Props) {
         <p className="muted small">Tiedot on koottu julkisista lähteistä {pvm(k.paivitetty)}. Arviot on merkitty. Jos huomaat virheen, <Link href="/kunnille">ota yhteyttä</Link>.</p>
         <Tiedot tiedot={h.tiedot} />
       </div></section>
-      <section className="alt"><div className="wrap">
-        <h2>Kilpailutukset</h2>
-        {h.kilpailutukset.length ? (
-          <ul className="list">{h.kilpailutukset.map((c) => <li key={c.otsikko}><strong>{c.otsikko}</strong>, {c.tilaaja}{c.maarapaiva ? `, määräpäivä ${pvm(c.maarapaiva)}` : ""}</li>)}</ul>
-        ) : (
-          <p className="muted">Hankkeesta ei ole vielä julkaistu alihankkijoille avoimia kilpailutuksia. Ilmoittautuneet yritykset kuulevat ensimmäisinä, kun niitä avautuu.</p>
-        )}
-      </div></section>
-      <section id="ilmoittaudu"><div className="wrap grid2">
+      <section className="alt" id="ilmoittaudu"><div className="wrap grid2">
         <div>
           <h2>Ilmoita yrityksesi mukaan</h2>
           <p>Kerro kalustosi, tiimisi ja palvelusi. Profiili kootaan hankkeen tilaajien ja pääurakoitsijoiden tarkasteltavaksi.</p>

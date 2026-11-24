@@ -31,7 +31,7 @@ export default function Hankkeet() {
         <p className="muted small" style={{ marginTop: 16 }}>Tiedot julkisista lähteistä, päivitetty {d}.{mo}.{y}. Lähde näkyy jokaisen hankkeen sivulla.</p>
       </div></section>
 
-      <section className="alt"><div className="wrap">
+      <section className="alt" id="maakunnat"><div className="wrap">
         <h2>Maakunnat</h2>
         <Selite />
         <MaakuntaRuudut maakunnat={m} />

@@ -64,8 +64,6 @@ export default async function KuntaSivu({ params }: Props) {
               ))}
             </ul>
           ) : <p className="muted">Tulevista tapahtumista ilmoitetaan täällä.</p>}
-          <h2 style={{ marginTop: 40 }}>Kilpailutukset</h2>
-          <p className="muted">Avoimia kilpailutuksia ei ole vielä julkaistu. Ilmoittautuneet yritykset kuulevat ensimmäisinä, kun hankintapaketteja avautuu.</p>
         </div>
         {k.naapurikunnat.length ? <div>
           <h2>Lähialueen hankkeet</h2>
