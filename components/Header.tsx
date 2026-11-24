@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { site } from "@/lib/site";
+import Haku from "@/components/Haku";
 
 export default function Header() {
   return (
@@ -11,6 +12,7 @@ export default function Header() {
             <li key={item.href}><Link href={item.href}>{item.label}</Link></li>
           ))}
         </ul>
+        <Haku />
         <Link className="btn sm" href={site.cta.href}>{site.cta.label}</Link>
       </nav>
     </header>

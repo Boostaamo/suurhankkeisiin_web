@@ -6,6 +6,10 @@ import { vaiheSlug } from "@/lib/vaihe";
 import Seuranta from "@/components/Seuranta";
 import Tiedot from "@/components/Tiedot";
 import Form from "@/components/Form";
+import { hankkeenUutiset } from "@/lib/uutiset";
+import { yhteenveto } from "@/lib/yhteenveto";
+import { hankkeenTarpeet, tyypinTarpeet } from "@/lib/tarpeet";
+import { lahdeNimi } from "@/lib/alueet";
 
 export const dynamicParams = false;
 export const generateStaticParams = () =>
@@ -24,6 +28,10 @@ export default async function HankeSivu({ params }: Props) {
   const x = hanke(p.maakunta, p.kunta, p.hanke);
   if (!x) notFound();
   const { kunta: k, hanke: h } = x;
+  const yv = yhteenveto(k.tunniste, h.tunniste);
+  const aikajana = hankkeenUutiset(k.tunniste, h.tunniste);
+  const tarpeet = hankkeenTarpeet(k.tunniste, h.tunniste);
+  const yleiset = tyypinTarpeet(h.tyyppi);
   return (
     <>
       <Seuranta taso="hanke" maakunta={k.maakunta} kunta={k.kunta} hanke={h.nimi} />
@@ -40,8 +48,60 @@ export default async function HankeSivu({ params }: Props) {
       <section><div className="wrap">
         <h2>Hankkeen tilannekuva</h2>
         <p className="muted small">Tiedot on koottu julkisista lähteistä {pvm(k.paivitetty)}. Arviot on merkitty. Jos huomaat virheen, <Link href="/kunnille">ota yhteyttä</Link>.</p>
+        {yv ? (
+          <div className="card yhteenveto">
+            <div className="yv-otsikko">Yhteenveto <span className="tag">tekoälyn koostama</span></div>
+            {yv.teksti.map((t, i) => <p key={i}>{t}</p>)}
+            <p className="muted small">Koottu {pvm(yv.pvm)} tämän sivun lähteistä{aikajana.length ? " ja alla listatuista uutisista" : ""}. Tarkistettu ennen julkaisua.</p>
+          </div>
+        ) : null}
         <Tiedot tiedot={h.tiedot} />
+        {aikajana.length ? (
+          <>
+            <h3 style={{ marginTop: 40 }}>Uutiset aikajärjestyksessä</h3>
+            <ol className="aikajana">
+              {aikajana.map((u) => (
+                <li key={u.url}>
+                  <div className="newsmeta">{pvm(u.pvm)} · {u.julkaisija}</div>
+                  <a href={u.url} target="_blank" rel="noopener nofollow" data-track="click_uutinen">{u.otsikko}</a>
+                  <p>{u.ingressi}</p>
+                </li>
+              ))}
+            </ol>
+          </>
+        ) : null}
       </div></section>
+      {tarpeet.length || yleiset ? (
+        <section className="tarpeet-osio" id="tarpeet"><div className="wrap">
+          <h2>Tarvittava osaaminen ja palvelut</h2>
+          {tarpeet.length ? (
+            <>
+              <h3>Tässä hankkeessa</h3>
+              <ul className="tarpeet">
+                {tarpeet.map((t) => (
+                  <li key={t.tarve}>
+                    <span>{t.tarve}{t.tila === "arvio" ? <span className="tag">arvio</span> : null}</span>
+                    {t.toimiala ? <span className="chip">{t.toimiala}</span> : null}
+                    {t.lahde ? <span className="src">Lähde: <a href={t.lahde} rel="noopener nofollow" target="_blank">{lahdeNimi(t.lahde)}</a>{t.pvm ? `, ${pvm(t.pvm)}` : ""}</span> : null}
+                  </li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+          {yleiset ? (
+            <>
+              <h3>Yleisesti hanketyypissä: {h.tyyppi}</h3>
+              <p className="muted small">Hanketyypin tavalliset tarpeet, eivät tämän hankkeen tilaajan ilmoittamia. Lähde: <a href={yleiset.lahde} rel="noopener nofollow" target="_blank">{lahdeNimi(yleiset.lahde)}</a>, {pvm(yleiset.pvm)}.</p>
+              <ul className="tarpeet">
+                {yleiset.tarpeet.map((t) => (
+                  <li key={t.tarve}><span>{t.tarve}</span>{t.toimiala ? <span className="chip">{t.toimiala}</span> : null}</li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+          <p style={{ marginTop: 20 }}><a className="btn" href="#ilmoittaudu">Ilmoita yrityksesi osaaminen</a></p>
+        </div></section>
+      ) : null}
       <section className="alt" id="ilmoittaudu"><div className="wrap grid2">
         <div>
           <h2>Ilmoita yrityksesi mukaan</h2>

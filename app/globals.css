@@ -180,3 +180,42 @@ section.alt{background:var(--tausta-2)}
 .v-rakenteilla:before{background:#047857}.v-investointipaatos:before{background:#0E7490}.v-luvitus:before{background:#D97706}.v-suunnittelu:before{background:#64748B}.v-keskeytetty:before{background:#B91C1C}
 .card .vaihe{margin:0 6px 10px 0}
 section[id]{scroll-margin-top:72px}
+
+/* Hankesivun tilannekuva: yhteenveto ja uutisaikajana */
+.yhteenveto{margin:20px 0 28px;border-left:4px solid var(--korostus)}
+.yhteenveto .yv-otsikko{font-weight:800;margin-bottom:10px}
+.yhteenveto .tag{margin-left:6px}
+.aikajana{list-style:none;margin:16px 0 0;padding:0 0 0 22px;border-left:2px solid var(--reuna)}
+.aikajana li{position:relative;padding:0 0 24px}
+.aikajana li::before{content:"";position:absolute;left:-29px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--korostus);border:2px solid var(--tausta)}
+.aikajana li a{font-weight:700;color:inherit;text-decoration:none}
+.aikajana li a:hover{color:var(--korostus-linkki)}
+.aikajana li p{margin:6px 0 0}
+
+/* Hankesivu: tarvittava osaaminen ja palvelut */
+.tarpeet-osio{border-top:1px solid var(--reuna)}
+.tarpeet{list-style:none;margin:12px 0 24px;padding:0;display:grid;gap:0;border-top:1px solid var(--reuna)}
+.tarpeet li{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px;padding:12px 0;border-bottom:1px solid var(--reuna)}
+.tarpeet li > span:first-child{flex:1 1 320px}
+.tarpeet .src{flex-basis:100%;font-size:13px;color:var(--muted)}
+.tarpeet .chip{cursor:default;min-height:0;padding:2px 10px;font-size:13px}
+
+/* Haku: yläpalkin hakukenttä ehdotuksineen ja hakusivu */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.hakubox{position:relative;flex:1 1 200px;max-width:320px;margin-left:auto}
+.hakubox .fld{min-height:40px;padding:8px 14px;background:var(--tumma-2);border-color:var(--tumma-2);color:var(--tumma-teksti)}
+.hakubox .fld::placeholder{color:#94A3B8}
+.hakuehdotukset{position:absolute;right:0;top:calc(100% + 6px);width:min(440px,calc(100vw - 32px));max-height:70vh;overflow:auto;list-style:none;margin:0;padding:6px;background:var(--pinta);color:var(--teksti);border:1px solid var(--reuna);border-radius:12px;box-shadow:0 12px 32px rgba(15,23,42,.25);z-index:20}
+.hakuehdotukset a,.hakutulokset a{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;padding:10px 12px;border-radius:8px;color:inherit;text-decoration:none}
+.hakuehdotukset a:hover,.hakuehdotukset a.on,.hakutulokset a:hover,.hakutulokset a.on{background:var(--tausta-2)}
+.hakuehdotukset .laji,.hakutulokset .laji{grid-row:span 2;align-self:start;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#92400E;background:#FEF3C7;border-radius:6px;padding:2px 6px;margin-top:2px}
+.hakuehdotukset .ot,.hakutulokset .ot{font-weight:700}
+.hakuehdotukset .kuv,.hakutulokset .kuv{font-size:13px;color:var(--muted)}
+.hakuehdotukset .kaikki a{display:block;font-weight:600;color:var(--korostus-linkki);border-top:1px solid var(--reuna);border-radius:0;margin-top:4px}
+.hakuiso{max-width:760px}
+.hakutulokset{list-style:none;margin:16px 0 0;padding:0;border-top:1px solid var(--reuna)}
+.hakutulokset li{border-bottom:1px solid var(--reuna)}
+@media (max-width:640px){.hakubox{order:4;max-width:none;flex-basis:100%;margin-left:0}}
+.nav .hakuehdotukset{display:block;font-weight:400}
+.nav .hakuehdotukset a{color:var(--teksti)}
+.nav .hakuehdotukset .kaikki a{color:var(--korostus-linkki)}

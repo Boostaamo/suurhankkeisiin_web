@@ -1,0 +1,103 @@
+{
+  "_ohje": "Hankkeissa tarvittava osaaminen ja palvelut (tekoälykerros). hankkeittain: avain <kunnan tunniste>/<hankkeen tunniste>, vain lähteen hankkeesta suoraan sanomat tarpeet. tyypeittain: hanketyypin yleiset tarpeet lähteestä, joka puhuu tyypistä yleisesti; näytetään merkinnällä 'yleisesti'. toimiala = lib/toimialat.ts-luokka, jolla tarve kytketään ilmoittautumiseen. Ei tietoa ilman lähdettä. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
+  "hankkeittain": {
+    "muhos/datakeskus": [
+      {
+        "tarve": "Rakennusaikainen työvoima, arviot jopa yli 2 000 henkeä",
+        "toimiala": "Muu alihankinta",
+        "tila": "arvio",
+        "lahde": "https://yle.fi/a/74-20245531",
+        "pvm": "2026-09-10"
+      },
+      {
+        "tarve": "Maanrakennus ja murskeen kuljetukset (käynnissä ennen keskeytystä)",
+        "toimiala": "Maanrakennus ja louhinta",
+        "tila": "todennettu",
+        "lahde": "https://yle.fi/a/74-20245531",
+        "pvm": "2026-09-10"
+      },
+      {
+        "tarve": "Majoitus: suunnitelmissa jopa hotellien rakentaminen datakeskuskuntiin",
+        "toimiala": "Majoitus ja työmaapalvelut",
+        "tila": "arvio",
+        "lahde": "https://yle.fi/a/74-20245531",
+        "pvm": "2026-09-10"
+      },
+      {
+        "tarve": "Google kerää paikallisten yritysten tietoja kumppanirekisteriin tulevia projekteja varten",
+        "toimiala": null,
+        "tila": "todennettu",
+        "lahde": "https://datacenters.google/intl/fi_ALL/locations/muhos/",
+        "pvm": "2026-09"
+      }
+    ],
+    "vaala/google-datakeskus": [
+      {
+        "tarve": "Rakennusaikainen työvoima, arviolta 1 000–1 900 rakentajaa",
+        "toimiala": "Muu alihankinta",
+        "tila": "arvio",
+        "lahde": "https://yle.fi/a/74-20245531",
+        "pvm": "2026-09-10"
+      },
+      {
+        "tarve": "Majoitus: suunnitelmissa jopa hotellien rakentaminen datakeskuskuntiin",
+        "toimiala": "Majoitus ja työmaapalvelut",
+        "tila": "arvio",
+        "lahde": "https://yle.fi/a/74-20245531",
+        "pvm": "2026-09-10"
+      }
+    ],
+    "kajaani/google-datakeskus-otanmaki": [
+      {
+        "tarve": "Maanrakennus (käynnissä ennen keskeytystä)",
+        "toimiala": "Maanrakennus ja louhinta",
+        "tila": "todennettu",
+        "lahde": "https://yle.fi/a/74-20245531",
+        "pvm": "2026-09-10"
+      },
+      {
+        "tarve": "Majoitus: suunnitelmissa jopa hotellien rakentaminen datakeskuskuntiin",
+        "toimiala": "Majoitus ja työmaapalvelut",
+        "tila": "arvio",
+        "lahde": "https://yle.fi/a/74-20245531",
+        "pvm": "2026-09-10"
+      }
+    ]
+  },
+  "tyypeittain": {
+    "Datakeskus": {
+      "lahde": "https://rakentaja.pro/artikkelit/datakeskusten-rakentaminen-kasvattaa-kysyntaa-erilaiselle-rakennusalan-osaamiselle/",
+      "pvm": "2026-10-07",
+      "tarpeet": [
+        {
+          "tarve": "Maanrakennus: raivaus, työmaatiet, maamassojen siirrot, maaperän vahvistaminen ja kiviaineksen kuljetukset",
+          "toimiala": "Maanrakennus ja louhinta"
+        },
+        {
+          "tarve": "Sähkö ja automaatio: sähköasemat, voimajohdot, varavoima ja tietoliikenne",
+          "toimiala": "Sähkö ja automaatio"
+        },
+        {
+          "tarve": "Talotekniikka: LVI, jäähdytys ja paloturvallisuus",
+          "toimiala": "Muu alihankinta"
+        },
+        {
+          "tarve": "Hukkalämmön talteenotto: lämpöpumppulaitokset, lämpövarastot ja putkistot",
+          "toimiala": "Muu alihankinta"
+        },
+        {
+          "tarve": "Turvallisuus: kulunvalvonta, kameravalvonta ja turvallisuushenkilöstö",
+          "toimiala": "Turvallisuus ja vartiointi"
+        },
+        {
+          "tarve": "Suunnittelu, projektinjohto, luvitus, hankinnat, laadunvarmistus ja käyttöönotto",
+          "toimiala": "Muu alihankinta"
+        },
+        {
+          "tarve": "Ylläpito: sähkö- ja mekaanisten järjestelmien huolto",
+          "toimiala": "Sähkö ja automaatio"
+        }
+      ]
+    }
+  }
+}
