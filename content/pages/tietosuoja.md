@@ -10,7 +10,7 @@ updated: 2026-11-24
 </div></section>
 <section><div class="wrap"><div class="legalp">
 <p>Päivitetty: 24.11.2026</p>
-<h2>Rekisterinpitäjä</h2><p>Kriha Invest Oy (Dimma), Y-tunnus <span class="todo">&lt;täydennä&gt;</span>. Kotipaikka Kempele. Postiosoite: Kaaritie 12 a 4, 42220 Kaipola.</p>
+<h2>Rekisterinpitäjä</h2><p>Kriha Invest Oy (Dimma), Y-tunnus 2644804-9. Kotipaikka Kempele. Postiosoite: Kaaritie 12 a 4, 42220 Kaipola.</p>
 <p>Yhteyshenkilö tietosuoja-asioissa: Hannu Savela, <a href="mailto:hannu@boostaamo.fi">hannu@boostaamo.fi</a>.</p>
 <h2>Mitä tietoja keräämme ja miksi</h2><ul>
 <li><b>Yrityksen ilmoittautuminen:</b> yrityksen nimi, Y-tunnus, kotipaikka, toimiala, kalusto, työntekijäkapasiteetti, kuvaus osaamisesta, yhteyshenkilön nimi, sähköposti ja puhelinnumero, tieto PRO-näkyvyyden toiveesta sekä se, mihin hankkeeseen, kuntaan tai maakuntaan ilmoittautuminen kohdistuu. Käytämme tietoja yrityksen liittämiseen hankkeiden resurssilistalle, tietojen esittämiseen hankkeiden tilaajille ja pääurakoitsijoille sekä yhteydenpitoon hankkeisiin liittyvissä asioissa.</li>
