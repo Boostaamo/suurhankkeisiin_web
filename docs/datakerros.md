@@ -36,3 +36,13 @@ Hankesivun tilannekuvassa on tekoälyn koostama yhteenveto ja hankkeeseen kytket
 - Päivitä yhteenveto aina, kun hankkeeseen kytketään uusi uutinen tai sen tiedot muuttuvat. Muutos kuuluu samaan pull requestiin.
 - Hanke ilman yhteenvetoa näyttää vain tiedot. Jos hankkeen tunniste muuttuu, päivitä avaimet molempiin tiedostoihin.
 - Uutisten määrä: `content/uutiset.json`-tiedostossa pidetään enintään 40 uusinta hankkeisiin kytkemätöntä uutista. Hankkeeseen kytkettyjä uutisia (`hankkeet` ei tyhjä) ei poisteta, jotta hankkeiden aikajanat säilyvät kokonaisina (Hannu 24.11.2026).
+
+## Tarvittava osaaminen ja palvelut
+Hankesivulla on osio "Tarvittava osaaminen ja palvelut" (tiedosto `content/tarpeet.json`).
+- `hankkeittain` (avain `<kunta>/<hanke>`): vain tarpeet, jotka lähde sanoo suoraan tästä hankkeesta (esim. urakat, kilpailutukset, työvoima-arviot, toteuttajan kumppanihaku). Kentät `tarve`, `toimiala`, `tila`, `lahde`, `pvm`.
+- `tyypeittain` (avain hanketyyppi, esim. `Datakeskus`): hanketyypin yleiset tarpeet lähteestä, joka puhuu tyypistä yleisesti. Sivulla merkintä "eivät tämän hankkeen tilaajan ilmoittamia".
+- `toimiala` on jokin `lib/toimialat.ts`-luokista (sama kuin ilmoittautumislomakkeessa) tai `null`.
+- Viikkopäivitys täydentää tarpeita: etsi hankkeen toteuttajan, kunnan ja Hilman tiedoista urakka- ja palvelutarpeita, ja lisää muille hanketyypeille (Energia, Vety ja e-polttoaineet, Kaivos, Teollisuus, Biojalostus ja metsä, Infra) yleiset tarpeet lähteineen.
+
+## Haku
+Yläpalkin hakukenttä ehdottaa kirjoitettaessa hankkeita, kuntia, maakuntia, osaamistarpeita, uutisia ja sivuja; Enter avaa sivun `/haku?q=`. Indeksi `/hakuindeksi.json` kootaan buildissa kaikesta yllä olevasta (lib/haku.ts), joten uusi sisältö tulee hakuun automaattisesti. Analytiikka (vain suostumuksella): `search` (search_term) ja `select_content` (content_type=haku).
