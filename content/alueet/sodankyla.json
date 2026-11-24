@@ -15,28 +15,49 @@
       "tyyppi": "Kaivos",
       "vaihe_luokka": "Luvitus",
       "investointi_meur": 1000,
-      "tiivistelma": "Kaivoshanke. YVA käynnissä, vaihemaakuntakaavan ehdotus 3/2026.",
+      "tiivistelma": "Kupari- ja monimetallikaivoshanke. YVA valmis 2023, vaihemaakuntakaava ja Natura-poikkeus valtioneuvoston käsittelyssä, kaivoslupa haettu.",
       "tiedot": [
         {
           "otsikko": "Toteuttaja",
-          "arvo": "Anglo American",
+          "arvo": "Anglo American (Anglo American Sakatti Mining Oy)",
           "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "lahde": "https://finland.angloamerican.com/en/media/press-releases/lapin-liitto-hyvaksynyt-sakatin-vaihemaakuntakaavaehdotuksen-lahettavaksi-valtioneuvoston-kasittelyyn",
+          "pvm": "2026-05-13"
         },
         {
           "otsikko": "Investointi",
-          "arvo": "Noin 1 mrd €",
-          "tila": "arvio",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "arvo": "Yli 1 mrd €",
+          "tila": "todennettu",
+          "lahde": "https://finland.angloamerican.com/en/media/press-releases/lapin-liitto-hyvaksynyt-sakatin-vaihemaakuntakaavaehdotuksen-lahettavaksi-valtioneuvoston-kasittelyyn",
+          "pvm": "2026-05-13"
         },
         {
-          "otsikko": "Vaihe",
-          "arvo": "YVA käynnissä, vaihemaakuntakaavan ehdotus 3/2026",
+          "otsikko": "YVA",
+          "arvo": "Valmis, perusteltu päätelmä 8/2023",
           "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "lahde": "https://finland.angloamerican.com/en/sustainability/permitting",
+          "pvm": null
+        },
+        {
+          "otsikko": "Kaava",
+          "arvo": "Lapin liiton hallitus hyväksyi vaihemaakuntakaavaehdotuksen 13.5.2026 ja lähetti sen valtioneuvostolle Natura-poikkeusta varten",
+          "tila": "todennettu",
+          "lahde": "https://finland.angloamerican.com/en/media/press-releases/lapin-liitto-hyvaksynyt-sakatin-vaihemaakuntakaavaehdotuksen-lahettavaksi-valtioneuvoston-kasittelyyn",
+          "pvm": "2026-05-13"
+        },
+        {
+          "otsikko": "Luvat",
+          "arvo": "Kaivoslupahakemus jätetty Tukesille 2024, käsittely kesken",
+          "tila": "todennettu",
+          "lahde": "https://finland.angloamerican.com/en/sustainability/permitting",
+          "pvm": null
+        },
+        {
+          "otsikko": "Aikataulu",
+          "arvo": "Esiselvitys (PFS) jatkuu, seuraava vaihe tavoitteena 12/2026; tuotanto 2030-luvun alusta",
+          "tila": "arvio",
+          "lahde": "https://www.miningweekly.com/article/sakatti-copper-and-polymetallic-project-finland-update-2026-08-07",
+          "pvm": "2026-08-07"
         }
       ],
       "kilpailutukset": []

@@ -14,7 +14,7 @@
       "nimi": "ET Fuelsin biometanolitehdas",
       "tyyppi": "Vety ja e-polttoaineet",
       "vaihe_luokka": "Suunnittelu",
-      "investointi_meur": 800,
+      "investointi_meur": null,
       "tiivistelma": "Vety ja e-polttoaineethanke. Suunnittelussa, mukana vedyntuotanto ja 50 tuulivoimalaa.",
       "tiedot": [
         {
@@ -26,8 +26,8 @@
         },
         {
           "otsikko": "Investointi",
-          "arvo": "800 M€",
-          "tila": "todennettu",
+          "arvo": "Lähteissä eri arvoja: 800 M€ (kauppakamari 9/2026) ja noin miljardi euroa (Kaleva 2/2026)",
+          "tila": "avoin",
           "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
           "pvm": "2026-09"
         },
@@ -44,6 +44,20 @@
           "tila": "arvio",
           "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
           "pvm": "2026-09"
+        },
+        {
+          "otsikko": "Tuki",
+          "arvo": "Puhtaan siirtymän verohyvitys enintään 118,6 M€ (Business Finland, myönnetty 12/2025 oikaisun jälkeen)",
+          "tila": "todennettu",
+          "lahde": "https://hydrocarbonprocessing.com/news/2026/02/etfuels-secures-1186-mm-finnish-clean-transition-tax-credit-for-ranua-e-methanol-project/",
+          "pvm": "2026-02-25"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "110 000 t e-metanolia vuodessa",
+          "tila": "todennettu",
+          "lahde": "https://hydrocarbonprocessing.com/news/2026/02/etfuels-secures-1186-mm-finnish-clean-transition-tax-credit-for-ranua-e-methanol-project/",
+          "pvm": "2026-02-25"
         }
       ],
       "kilpailutukset": []

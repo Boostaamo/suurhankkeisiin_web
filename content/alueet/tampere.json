@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet hankkeen toteuttajan tiedotteet. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "tampere",
+  "kunta": "Tampere",
+  "kunta_genetiivi": "Tampereen",
+  "maakunta": "Pirkanmaa",
+  "maakunta_tunniste": "pirkanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-24",
+  "esittely": "Tampereen alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "nordic-ren-gasin-e-metaanilaitos",
+      "nimi": "Nordic Ren-Gasin e-metaanilaitos",
+      "tyyppi": "Vety ja e-polttoaineet",
+      "vaihe_luokka": "Investointipäätös",
+      "investointi_meur": 300,
+      "tiivistelma": "Uusiutuvan e-metaanin tuotantolaitos, joka käyttää jätteenpolton biogeenistä hiilidioksidia. Lopullinen investointipäätös 11/2026, valmistuu 2029.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Nordic Ren-Gas Oy",
+          "tila": "todennettu",
+          "lahde": "https://sttinfo.fi/tiedote/72521283/nordic-ren-gas-on-tehnyt-lopullisen-investointipaatoksen-tampereen-e-metaanilaitoksesta?lang=fi&publisherId=54994630",
+          "pvm": "2026-11-20"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Yli 300 M€",
+          "tila": "todennettu",
+          "lahde": "https://sttinfo.fi/tiedote/72521283/nordic-ren-gas-on-tehnyt-lopullisen-investointipaatoksen-tampereen-e-metaanilaitoksesta?lang=fi&publisherId=54994630",
+          "pvm": "2026-11-20"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Noin 190 GWh e-metaania vuodessa, noin 40 000 t biogeenistä CO2:ta, jopa 200 GWh lämpöä kaukolämpöverkkoon",
+          "tila": "todennettu",
+          "lahde": "https://sttinfo.fi/tiedote/72521283/nordic-ren-gas-on-tehnyt-lopullisen-investointipaatoksen-tampereen-e-metaanilaitoksesta?lang=fi&publisherId=54994630",
+          "pvm": "2026-11-20"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Lopullinen investointipäätös tehty, siirtyy täysimittaiseen rakentamiseen",
+          "tila": "todennettu",
+          "lahde": "https://sttinfo.fi/tiedote/72521283/nordic-ren-gas-on-tehnyt-lopullisen-investointipaatoksen-tampereen-e-metaanilaitoksesta?lang=fi&publisherId=54994630",
+          "pvm": "2026-11-20"
+        },
+        {
+          "otsikko": "Valmistuminen",
+          "arvo": "2029",
+          "tila": "arvio",
+          "lahde": "https://sttinfo.fi/tiedote/72521283/nordic-ren-gas-on-tehnyt-lopullisen-investointipaatoksen-tampereen-e-metaanilaitoksesta?lang=fi&publisherId=54994630",
+          "pvm": "2026-11-20"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

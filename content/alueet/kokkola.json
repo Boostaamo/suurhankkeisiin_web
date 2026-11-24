@@ -13,23 +13,51 @@
       "tunniste": "kokkolan-kruunupyyn-alumiinitehdas",
       "nimi": "Kokkolan–Kruunupyyn alumiinitehdas",
       "tyyppi": "Teollisuus",
-      "vaihe_luokka": "Suunnittelu",
-      "investointi_meur": 4500,
-      "tiivistelma": "Teollisuushanke. Suunnitteilla.",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": 4700,
+      "tiivistelma": "Arctialin vähähiilinen primäärialumiinitehdas Kruunuportin teollisuusalueelle. YVA valmis 10/2026, investointipäätös tavoitteena kesällä 2027.",
       "tiedot": [
         {
-          "otsikko": "Investointi",
-          "arvo": "Noin 4–4,5 mrd € (lähteissä eri arvot)",
-          "tila": "arvio",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "otsikko": "Toteuttaja",
+          "arvo": "Arctial MidstreamCo Oy",
+          "tila": "todennettu",
+          "lahde": "https://www.sttinfo.fi/tiedote/72396361/alumiinitehdashankkeen-yva-selostuksesta-on-annettu-perusteltu-paatelma?lang=fi",
+          "pvm": "2026-10-08"
         },
         {
-          "otsikko": "Vaihe",
-          "arvo": "Suunnitteilla",
+          "otsikko": "Investointi",
+          "arvo": "Noin 4,7 mrd €",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20228628",
+          "pvm": "2026-05-29"
+        },
+        {
+          "otsikko": "Laajuus",
+          "arvo": "Anodien valmistus, alumiinin valmistus ja jatkojalostus, kaksi noin 1 km:n 400 kV ilmajohtoa Hirvisuon sähköasemalta",
           "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "lahde": "https://www.sttinfo.fi/tiedote/72396361/alumiinitehdashankkeen-yva-selostuksesta-on-annettu-perusteltu-paatelma?lang=fi",
+          "pvm": "2026-10-08"
+        },
+        {
+          "otsikko": "YVA",
+          "arvo": "Lupa- ja valvontavirasto antoi perustellun päätelmän YVA-selostuksesta 8.10.2026",
+          "tila": "todennettu",
+          "lahde": "https://www.sttinfo.fi/tiedote/72396361/alumiinitehdashankkeen-yva-selostuksesta-on-annettu-perusteltu-paatelma?lang=fi",
+          "pvm": "2026-10-08"
+        },
+        {
+          "otsikko": "Investointipäätös",
+          "arvo": "Tavoitteena kesällä 2027",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20228628",
+          "pvm": "2026-05-29"
+        },
+        {
+          "otsikko": "Työvoima",
+          "arvo": "Rakennusvaihe lähes 30 000 henkilötyövuotta; käytössä 1 200 suoraa työpaikkaa",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20228628",
+          "pvm": "2026-05-29"
         }
       ],
       "kilpailutukset": []

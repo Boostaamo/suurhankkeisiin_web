@@ -47,28 +47,42 @@
       "tyyppi": "Datakeskus",
       "vaihe_luokka": "Rakenteilla",
       "investointi_meur": 612,
-      "tiivistelma": "Datakeskushanke. SRV:n projektisopimus 1/2026.",
+      "tiivistelma": "CSC:n LUMI-AI-supertietokone ja datakeskus Kajaanissa. Rakentaminen alkoi 1/2026 (SRV), käyttövalmius keväällä 2027.",
       "tiedot": [
         {
           "otsikko": "Toteuttaja",
-          "arvo": "CSC, projektisopimus SRV (54 M€, 1/2026)",
+          "arvo": "CSC, pääurakoitsija SRV",
           "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "lahde": "https://lumi-supercomputer.eu/lumi-ai-dc-construction-blog/",
+          "pvm": "2026-03-12"
         },
         {
           "otsikko": "Investointi",
           "arvo": "Kokonaisuus 612 M€",
-          "tila": "todennettu",
+          "tila": "arvio",
           "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
           "pvm": "2026-09"
         },
         {
-          "otsikko": "Vaihe",
-          "arvo": "SRV:n projektisopimus 1/2026",
+          "otsikko": "Supertietokone",
+          "arvo": "Hankintasopimus Bullin kanssa 8/2026, budjetti 387,8 M€ (EuroHPC 50 %, LUMI AIF -konsortio 50 %)",
           "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "lahde": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en",
+          "pvm": "2026-08-31"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Datakeskuksen rakentaminen käynnissä vanhassa paperikonehallissa, alkoi 1/2026",
+          "tila": "todennettu",
+          "lahde": "https://lumi-supercomputer.eu/lumi-ai-dc-construction-blog/",
+          "pvm": "2026-03-12"
+        },
+        {
+          "otsikko": "Valmistuminen",
+          "arvo": "Käyttövalmius keväällä 2027",
+          "tila": "arvio",
+          "lahde": "https://lumi-supercomputer.eu/lumi-ai-dc-construction-blog/",
+          "pvm": "2026-03-12"
         }
       ],
       "kilpailutukset": []

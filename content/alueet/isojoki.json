@@ -10,33 +10,54 @@
   "esittely": "Isojoen alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
   "hankkeet": [
     {
-      "tunniste": "ox2-n-tuulivoimapuisto",
-      "nimi": "OX2:n tuulivoimapuisto",
+      "tunniste": "ox2-n-rajamaenkylan-tuulipuisto",
+      "nimi": "OX2:n Rajamäenkylän tuulipuisto",
       "tyyppi": "Energia",
       "vaihe_luokka": "Rakenteilla",
       "investointi_meur": null,
-      "tiivistelma": "Energiahanke. Investointipäätös 4/2025, rakentaminen alkaa heti.",
+      "tiivistelma": "Isojoen ja Karijoen tuulipuisto, 54 voimalaa ja noin 367 MW, joista 42 voimalaa Isojoella. Valmistuu arviolta 2028.",
       "tiedot": [
         {
           "otsikko": "Toteuttaja",
           "arvo": "OX2",
           "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "lahde": "https://www.sttinfo.fi/tiedote/71004655/ox2-on-tehnyt-suomen-kaikkien-aikojen-suurimman-uusiutuvan-energian-investointipaatoksen-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+          "pvm": "2025-04-01"
+        },
+        {
+          "otsikko": "Laajuus",
+          "arvo": "54 voimalaa, noin 367 MW; 42 voimalaa Isojoen alueella",
+          "tila": "todennettu",
+          "lahde": "https://www.sttinfo.fi/tiedote/71004655/ox2-on-tehnyt-suomen-kaikkien-aikojen-suurimman-uusiutuvan-energian-investointipaatoksen-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+          "pvm": "2025-04-01"
         },
         {
           "otsikko": "Investointi",
-          "arvo": "Osa OX2:n 700 M€:n investointipäätöstä",
-          "tila": "arvio",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "arvo": "Osa OX2:n noin 700 M€:n investointipäätöstä (Rajamäenkylä ja Honkakangas)",
+          "tila": "todennettu",
+          "lahde": "https://www.sttinfo.fi/tiedote/71004655/ox2-on-tehnyt-suomen-kaikkien-aikojen-suurimman-uusiutuvan-energian-investointipaatoksen-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+          "pvm": "2025-04-01"
         },
         {
           "otsikko": "Vaihe",
-          "arvo": "Investointipäätös 4/2025, rakentaminen alkaa heti",
+          "arvo": "Investointipäätös 4/2025, rakennustyöt käynnistyneet heti",
           "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "lahde": "https://www.sttinfo.fi/tiedote/71004655/ox2-on-tehnyt-suomen-kaikkien-aikojen-suurimman-uusiutuvan-energian-investointipaatoksen-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+          "pvm": "2025-04-01"
+        },
+        {
+          "otsikko": "Urakoitsijat",
+          "arvo": "Sähköasema Destia, 400 kV voimajohto Caverion",
+          "tila": "todennettu",
+          "lahde": "https://www.sttinfo.fi/tiedote/71004655/ox2-on-tehnyt-suomen-kaikkien-aikojen-suurimman-uusiutuvan-energian-investointipaatoksen-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+          "pvm": "2025-04-01"
+        },
+        {
+          "otsikko": "Valmistuminen",
+          "arvo": "2028",
+          "tila": "arvio",
+          "lahde": "https://www.sttinfo.fi/tiedote/71004655/ox2-on-tehnyt-suomen-kaikkien-aikojen-suurimman-uusiutuvan-energian-investointipaatoksen-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+          "pvm": "2025-04-01"
         }
       ],
       "kilpailutukset": []
