@@ -1,5 +1,5 @@
 {
-  "_ohje": "Hankkeissa tarvittava osaaminen ja palvelut (tekoälykerros). hankkeittain: avain <kunnan tunniste>/<hankkeen tunniste>, vain lähteen hankkeesta suoraan sanomat tarpeet. tyypeittain: hanketyypin yleiset tarpeet lähteestä, joka puhuu tyypistä yleisesti; näytetään merkinnällä 'yleisesti'. toimiala = lib/toimialat.ts-luokka, jolla tarve kytketään ilmoittautumiseen. Ei tietoa ilman lähdettä. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
+  "_ohje": "Hankkeissa tarvittava osaaminen ja palvelut (tekoälykerros). hankkeittain: avain <kunnan tunniste>/<hankkeen tunniste>, vain lähteen hankkeesta suoraan sanomat tarpeet. tyypeittain: hanketyypin yleiset tarpeet lähteestä, joka puhuu tyypistä yleisesti; näytetään merkinnällä 'yleisesti'. toimiala = lib/toimialat.ts-luokka, jolla tarve kytketään ilmoittautumiseen. vaihe = content/aikajanat.json-vaiheen id, johon tarve kytketään aikajanalla. Tyypin tarpeilla oma lahde. Ei tietoa ilman lähdettä. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
   "hankkeittain": {
     "muhos/datakeskus": [
       {
@@ -7,28 +7,32 @@
         "toimiala": "Muu alihankinta",
         "tila": "arvio",
         "lahde": "https://yle.fi/a/74-20245531",
-        "pvm": "2026-09-10"
+        "pvm": "2026-09-10",
+        "vaihe": "rakentaminen"
       },
       {
         "tarve": "Maanrakennus ja murskeen kuljetukset (käynnissä ennen keskeytystä)",
         "toimiala": "Maanrakennus ja louhinta",
         "tila": "todennettu",
         "lahde": "https://yle.fi/a/74-20245531",
-        "pvm": "2026-09-10"
+        "pvm": "2026-09-10",
+        "vaihe": "valmistelu"
       },
       {
         "tarve": "Majoitus: suunnitelmissa jopa hotellien rakentaminen datakeskuskuntiin",
         "toimiala": "Majoitus ja työmaapalvelut",
         "tila": "arvio",
         "lahde": "https://yle.fi/a/74-20245531",
-        "pvm": "2026-09-10"
+        "pvm": "2026-09-10",
+        "vaihe": "rakentaminen"
       },
       {
         "tarve": "Google kerää paikallisten yritysten tietoja kumppanirekisteriin tulevia projekteja varten",
         "toimiala": null,
         "tila": "todennettu",
         "lahde": "https://datacenters.google/intl/fi_ALL/locations/muhos/",
-        "pvm": "2026-09"
+        "pvm": "2026-09",
+        "vaihe": "rakentaminen"
       }
     ],
     "vaala/google-datakeskus": [
@@ -37,14 +41,16 @@
         "toimiala": "Muu alihankinta",
         "tila": "arvio",
         "lahde": "https://yle.fi/a/74-20245531",
-        "pvm": "2026-09-10"
+        "pvm": "2026-09-10",
+        "vaihe": "rakentaminen"
       },
       {
         "tarve": "Majoitus: suunnitelmissa jopa hotellien rakentaminen datakeskuskuntiin",
         "toimiala": "Majoitus ja työmaapalvelut",
         "tila": "arvio",
         "lahde": "https://yle.fi/a/74-20245531",
-        "pvm": "2026-09-10"
+        "pvm": "2026-09-10",
+        "vaihe": "rakentaminen"
       }
     ],
     "kajaani/google-datakeskus-otanmaki": [
@@ -53,14 +59,16 @@
         "toimiala": "Maanrakennus ja louhinta",
         "tila": "todennettu",
         "lahde": "https://yle.fi/a/74-20245531",
-        "pvm": "2026-09-10"
+        "pvm": "2026-09-10",
+        "vaihe": "valmistelu"
       },
       {
         "tarve": "Majoitus: suunnitelmissa jopa hotellien rakentaminen datakeskuskuntiin",
         "toimiala": "Majoitus ja työmaapalvelut",
         "tila": "arvio",
         "lahde": "https://yle.fi/a/74-20245531",
-        "pvm": "2026-09-10"
+        "pvm": "2026-09-10",
+        "vaihe": "rakentaminen"
       }
     ]
   },
@@ -70,32 +78,81 @@
       "pvm": "2026-10-07",
       "tarpeet": [
         {
+          "vaihe": "suunnittelu",
+          "tarve": "Suunnittelu, ympäristöselvitykset ja luvitus",
+          "toimiala": "Muu alihankinta",
+          "lahde": "https://rakentaja.pro/artikkelit/datakeskusten-rakentaminen-kasvattaa-kysyntaa-erilaiselle-rakennusalan-osaamiselle/",
+          "pvm": "2026-10-07"
+        },
+        {
+          "vaihe": "valmistelu",
           "tarve": "Maanrakennus: raivaus, työmaatiet, maamassojen siirrot, maaperän vahvistaminen ja kiviaineksen kuljetukset",
-          "toimiala": "Maanrakennus ja louhinta"
+          "toimiala": "Maanrakennus ja louhinta",
+          "lahde": "https://rakentaja.pro/artikkelit/datakeskusten-rakentaminen-kasvattaa-kysyntaa-erilaiselle-rakennusalan-osaamiselle/",
+          "pvm": "2026-10-07"
         },
         {
+          "vaihe": "rakentaminen",
           "tarve": "Sähkö ja automaatio: sähköasemat, voimajohdot, varavoima ja tietoliikenne",
-          "toimiala": "Sähkö ja automaatio"
+          "toimiala": "Sähkö ja automaatio",
+          "lahde": "https://rakentaja.pro/artikkelit/datakeskusten-rakentaminen-kasvattaa-kysyntaa-erilaiselle-rakennusalan-osaamiselle/",
+          "pvm": "2026-10-07"
         },
         {
+          "vaihe": "rakentaminen",
           "tarve": "Talotekniikka: LVI, jäähdytys ja paloturvallisuus",
-          "toimiala": "Muu alihankinta"
+          "toimiala": "Muu alihankinta",
+          "lahde": "https://rakentaja.pro/artikkelit/datakeskusten-rakentaminen-kasvattaa-kysyntaa-erilaiselle-rakennusalan-osaamiselle/",
+          "pvm": "2026-10-07"
         },
         {
-          "tarve": "Hukkalämmön talteenotto: lämpöpumppulaitokset, lämpövarastot ja putkistot",
-          "toimiala": "Muu alihankinta"
+          "vaihe": "rakentaminen",
+          "tarve": "Logistiikka ja työmaapalvelut",
+          "toimiala": "Majoitus ja työmaapalvelut",
+          "lahde": "https://intoseinajoki.fi/news/datakeskus-tarjoaa-mahdollisuuksia-alueen-yrityksille-mutta-kotoa-ei-tulla-hakemaan/",
+          "pvm": "2026-11-24"
         },
         {
-          "tarve": "Turvallisuus: kulunvalvonta, kameravalvonta ja turvallisuushenkilöstö",
-          "toimiala": "Turvallisuus ja vartiointi"
+          "vaihe": "rakentaminen",
+          "tarve": "Majoitus, ruokailu ja liikkuminen työmaan väelle",
+          "toimiala": "Majoitus ja työmaapalvelut",
+          "lahde": "https://intoseinajoki.fi/news/datakeskus-tarjoaa-mahdollisuuksia-alueen-yrityksille-mutta-kotoa-ei-tulla-hakemaan/",
+          "pvm": "2026-11-24"
         },
         {
-          "tarve": "Suunnittelu, projektinjohto, luvitus, hankinnat, laadunvarmistus ja käyttöönotto",
-          "toimiala": "Muu alihankinta"
+          "vaihe": "rakentaminen",
+          "tarve": "Projektinjohto, laadunvarmistus ja työturvallisuus",
+          "toimiala": "Turvallisuus ja vartiointi",
+          "lahde": "https://rakentaja.pro/artikkelit/datakeskusten-rakentaminen-kasvattaa-kysyntaa-erilaiselle-rakennusalan-osaamiselle/",
+          "pvm": "2026-10-07"
         },
         {
-          "tarve": "Ylläpito: sähkö- ja mekaanisten järjestelmien huolto",
-          "toimiala": "Sähkö ja automaatio"
+          "vaihe": "kaytto",
+          "tarve": "Huolto ja kunnossapito: sähkö- ja mekaaniset järjestelmät",
+          "toimiala": "Sähkö ja automaatio",
+          "lahde": "https://rakentaja.pro/artikkelit/datakeskusten-rakentaminen-kasvattaa-kysyntaa-erilaiselle-rakennusalan-osaamiselle/",
+          "pvm": "2026-10-07"
+        },
+        {
+          "vaihe": "kaytto",
+          "tarve": "Turvallisuus ja valvonta: kulunvalvonta ja kameravalvonta",
+          "toimiala": "Turvallisuus ja vartiointi",
+          "lahde": "https://rakentaja.pro/artikkelit/datakeskusten-rakentaminen-kasvattaa-kysyntaa-erilaiselle-rakennusalan-osaamiselle/",
+          "pvm": "2026-10-07"
+        },
+        {
+          "vaihe": "kaytto",
+          "tarve": "IT- ja verkko-osaaminen",
+          "toimiala": "Muu alihankinta",
+          "lahde": "https://intoseinajoki.fi/news/datakeskus-tarjoaa-mahdollisuuksia-alueen-yrityksille-mutta-kotoa-ei-tulla-hakemaan/",
+          "pvm": "2026-11-24"
+        },
+        {
+          "vaihe": "kaytto",
+          "tarve": "Hukkalämmön hyödyntäminen: lämpöpumppulaitokset, lämpövarastot ja putkistot",
+          "toimiala": "Muu alihankinta",
+          "lahde": "https://rakentaja.pro/artikkelit/datakeskusten-rakentaminen-kasvattaa-kysyntaa-erilaiselle-rakennusalan-osaamiselle/",
+          "pvm": "2026-10-07"
         }
       ]
     }
