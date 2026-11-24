@@ -1,0 +1,136 @@
+/* Suurhankkeisiin.fi. Värit ja fontti Hannun ensimmäisestä versiosta (24.11.2026): slate + amber, Inter.
+   Design system -arvot ovat muuttujina tässä; vaihda ne täällä. */
+:root{
+  --tausta:#FFFFFF;--tausta-2:#F1F5F9;--pinta:#FFFFFF;--reuna:#E2E8F0;
+  --teksti:#0F172A;--muted:#64748B;
+  --tumma:#0F172A;--tumma-2:#1E293B;--tumma-teksti:#F8FAFC;
+  --korostus:#F59E0B;--korostus-hover:#D97706;--korostus-teksti:#0F172A;--korostus-linkki:#B45309;
+  --virhe:#B91C1C;--ok:#047857;
+  --font:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --leveys:1160px;--r:14px;
+}
+@media (prefers-color-scheme:dark){
+  :root{--tausta:#020617;--tausta-2:#0F172A;--pinta:#0F172A;--reuna:#1E293B;--teksti:#F1F5F9;--muted:#94A3B8;--korostus-linkki:#FBBF24}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--tausta);color:var(--teksti);font-family:var(--font);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--korostus-linkki)}
+a:focus-visible,button:focus-visible,.fld:focus-visible{outline:3px solid var(--korostus);outline-offset:2px}
+.wrap{max-width:var(--leveys);margin:0 auto;padding:0 24px}
+h1,h2,h3{margin:0;line-height:1.1;letter-spacing:-.02em;text-wrap:balance}
+h1{font-weight:900;font-size:clamp(36px,5.5vw,64px)}
+h2{font-weight:800;font-size:clamp(26px,3.4vw,38px);margin-bottom:18px}
+h3{font-weight:800;font-size:20px;margin-bottom:8px}
+h2 a,h3 a{color:inherit;text-decoration:none}
+p{margin:0 0 14px;max-width:68ch}
+.muted{color:var(--muted)}
+.small{font-size:14px}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.eyebrow a{color:inherit}
+.todo{background:#FEF3C7;color:#92400E;padding:0 4px;border-radius:4px}
+.skip-link{position:absolute;left:-9999px}
+.skip-link:focus{left:16px;top:16px;z-index:50;background:var(--pinta);padding:8px 12px}
+
+/* Ylä- ja alatunniste */
+.top{position:sticky;top:0;z-index:10;background:var(--tumma);color:var(--tumma-teksti);border-bottom:1px solid var(--tumma-2)}
+.nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 28px;padding-top:14px;padding-bottom:14px}
+.nav ul{display:flex;flex-wrap:wrap;gap:4px 24px;list-style:none;margin:0;padding:0;font-weight:500}
+.nav ul a{color:var(--tumma-teksti);text-decoration:none}
+.nav ul a:hover{color:var(--korostus)}
+.wm{font-weight:900;font-size:22px;letter-spacing:-.02em;color:var(--tumma-teksti);text-decoration:none}
+.wm span{color:var(--korostus)}
+.foot{background:var(--tumma);color:#CBD5E1;padding:56px 0 40px;margin-top:0}
+.foot a{color:#E2E8F0;text-decoration:none}
+.foot a:hover{color:var(--korostus)}
+.foot .eyebrow{color:#94A3B8}
+.fcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:28px;margin-top:28px}
+.fcols ul{list-style:none;margin:0;padding:0;line-height:2}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--korostus);margin-right:6px}
+.link-button{background:none;border:0;padding:0;color:#E2E8F0;font:inherit;cursor:pointer}
+.link-button:hover{color:var(--korostus)}
+
+/* Painikkeet */
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;border-radius:10px;border:0;background:var(--korostus);color:var(--korostus-teksti);font:inherit;font-weight:800;text-decoration:none;cursor:pointer}
+.btn:hover{background:var(--korostus-hover)}
+.btn.sm{min-height:40px;padding:8px 16px;font-size:15px}
+.btn.o{background:transparent;color:inherit;box-shadow:inset 0 0 0 2px currentColor}
+.btn.o:hover{background:var(--tausta-2)}
+.btn[disabled]{opacity:.6;cursor:wait}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 8px}
+
+/* Osiot */
+section{padding:72px 0}
+section.alt{background:var(--tausta-2)}
+.hero{background:var(--tumma);color:var(--tumma-teksti);padding:88px 0}
+.hero.sm{padding:56px 0}
+.hero .eyebrow,.hero .muted{color:#94A3B8}
+.hero a:not(.btn){color:#E2E8F0}
+.hero .btn.o:hover{background:var(--tumma-2)}
+.hero p.lead,.lead{font-size:clamp(18px,2vw,22px);line-height:1.5;max-width:52ch;margin:20px 0 8px;color:#CBD5E1}
+.pill{display:inline-block;background:var(--korostus);color:var(--korostus-teksti);font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;margin-bottom:12px}
+.tag{display:inline-block;margin-left:8px;font-size:12px;font-weight:700;color:#92400E;background:#FEF3C7;border-radius:6px;padding:0 6px;vertical-align:middle}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:40px;align-items:start}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px}
+.card{background:var(--pinta);border:1px solid var(--reuna);border-radius:var(--r);padding:28px}
+.card.link{display:block;color:inherit;text-decoration:none;transition:border-color .15s,transform .15s}
+.card.link:hover{border-color:var(--korostus);transform:translateY(-2px)}
+.card p{margin-bottom:8px}
+.more{font-weight:700;color:var(--korostus-linkki);text-decoration:none}
+.block{margin-bottom:48px}
+.feature{background:var(--tumma);color:var(--tumma-teksti);border-radius:20px;padding:48px 40px}
+.feature p{color:#CBD5E1}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:20px}
+.step{background:var(--tausta-2);border-radius:var(--r);padding:28px}
+.step .n{font-weight:900;font-size:40px;line-height:1;color:var(--korostus);margin-bottom:10px}
+.panel{background:var(--tausta-2);border-radius:20px;padding:48px 40px}
+.list{margin:0;padding-left:20px}
+.list li{margin-bottom:10px}
+
+/* Hankkeen tiedot lähteineen */
+.tiedot{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:1px;background:var(--reuna);border:1px solid var(--reuna);border-radius:var(--r);overflow:hidden;margin:20px 0 0}
+.tieto{background:var(--pinta);padding:20px 22px}
+.tieto dt{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.tieto dd{margin:0}
+.src{display:block;margin-top:8px;font-size:13px;color:var(--muted)}
+.src a{color:var(--muted)}
+
+/* Hinnat */
+.prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px;align-items:stretch}
+.price{display:flex;flex-direction:column;background:var(--pinta);border:1px solid var(--reuna);border-radius:20px;padding:32px}
+.price.hi{background:var(--tumma);color:var(--tumma-teksti);border-color:var(--korostus);box-shadow:0 0 0 2px var(--korostus)}
+.price.hi .eyebrow,.price.hi p{color:#CBD5E1}
+.amount{font-size:44px;font-weight:900;margin:8px 0 12px}
+.amount span{font-size:15px;font-weight:500;color:var(--muted)}
+.price.hi .amount span{color:#94A3B8}
+.checks{list-style:none;padding:0;margin:0 0 24px;flex:1}
+.checks li{padding-left:26px;position:relative;margin-bottom:8px}
+.checks li:before{content:"✓";position:absolute;left:0;color:var(--korostus);font-weight:900}
+
+/* Lomakkeet */
+.rform{display:grid;gap:16px}
+.fl{display:grid;gap:6px;font-size:14px;font-weight:600}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:16px}
+.fld{width:100%;font:inherit;font-weight:400;font-size:16px;padding:12px 14px;border:1px solid var(--reuna);border-radius:10px;background:var(--tausta);color:var(--teksti);min-height:48px}
+.chk{display:flex;gap:10px;align-items:flex-start;font-size:14px}
+.chk input{margin-top:4px;width:18px;height:18px;flex:none}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.formok{color:var(--ok);font-weight:700}
+.ferr{color:var(--virhe);font-weight:600;margin:0}
+
+/* Tekstisivut */
+.legalp h2{font-size:22px;margin:32px 0 10px}
+.legalp ul{padding-left:20px}
+
+/* Evästeilmoitus */
+.consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:40;max-width:520px;background:var(--pinta);color:var(--teksti);border:1px solid var(--reuna);border-radius:var(--r);padding:20px;box-shadow:0 10px 30px rgba(15,23,42,.2)}
+.consent-actions{display:flex;flex-wrap:wrap;gap:10px}
+.button{font:inherit;font-weight:700;padding:10px 18px;border-radius:10px;border:0;background:var(--korostus);color:var(--korostus-teksti);cursor:pointer;min-height:44px}
+.button.secondary{background:var(--tausta-2);color:var(--teksti)}
+
+@media (max-width:640px){
+  section{padding:56px 0}
+  .hero{padding:56px 0}
+  .feature,.panel{padding:32px 24px}
+  .nav ul{order:3;width:100%;gap:4px 18px}
+}

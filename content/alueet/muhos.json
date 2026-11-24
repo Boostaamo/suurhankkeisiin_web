@@ -1,0 +1,194 @@
+{
+  "_ohje": "Datakerros (tekoälykerros v1). Claude kokoaa julkiset tiedot lähteineen, ihminen hyväksyy pull requestissa. tila: todennettu = lähde sanoo suoraan, arvio = lähteen arvio tai vaihteluväli, avoin = tieto puuttuu tai vaatii tarkistuksen (ei näytetä sivulla arvona). Älä lisää tietoa ilman lähdettä.",
+  "tunniste": "muhos",
+  "kunta": "Muhos",
+  "maakunta": "Pohjois-Pohjanmaa",
+  "maakunta_tunniste": "pohjois-pohjanmaa",
+  "seutukunta": "Oulun seutukunta",
+  "pilotti": true,
+  "paivitetty": "2026-11-24",
+  "esittely": "Muhos on Suurhankkeisiin.fi:n pilottialue. Kuntaan on tulossa Googlen datakeskus ja sen viereen Muhos Biopark. Ilmoita yrityksesi mukaan, niin hankkeen tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "datakeskus",
+      "nimi": "Googlen datakeskushanke, Leppiniemi",
+      "tiivistelma": "Googlen datakeskushanke Muhoksen Leppiniemessä. Rakentaminen tuo alueelle maanrakennus-, sähkö-, kuljetus-, majoitus- ja palvelutarpeita vuosiksi.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Tuike Finland Oy (Googlen tytäryhtiö)",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20255193",
+          "pvm": "2026-11-05"
+        },
+        {
+          "otsikko": "Osa ohjelmaa",
+          "arvo": "Googlen 13 miljardin euron Suomi-investointi (Muhos, Vaala, Kajaani)",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20245531",
+          "pvm": "2026-09-10"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Muhoksen osuutta ei ole julkaistu; mediassa arvio noin pari miljardia euroa",
+          "tila": "arvio",
+          "lahde": "https://www.mtvuutiset.fi/artikkeli/miljardeja-euroja-ja-tuhansia-tyontekijoita-google-mullistaa-9-000-asukkaan-muhoksen-ihan-kasittamaton-uutinen/9390588",
+          "pvm": null
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Yli 600 ha data- ja muulle teolliselle toiminnalle, rakennusoikeus lähes 2 milj. kerrosneliötä, suunnitteilla yhdeksän konesalia",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20245531",
+          "pvm": "2026-09-10"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Kaavat hyväksytty, valitukset hallinto-oikeudessa. Maanrakennustöitä ja murskeliikennettä käynnissä. Rakennuslupa käsittelyssä.",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20245531",
+          "pvm": "2026-09-10"
+        },
+        {
+          "otsikko": "Ajankohtaista",
+          "arvo": "Viranomainen keskeytti datakeskustyömaat Muhoksella ja Kajaanissa lokakuussa 2026; tilanne tarkistettava",
+          "tila": "avoin",
+          "lahde": "https://yle.fi/a/74-20250109",
+          "pvm": "2026-10-06"
+        },
+        {
+          "otsikko": "Rakentamisen kesto",
+          "arvo": "Vaiheittain 15–20 vuotta, samanaikaisesti rakennettuna 6–10 vuotta",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20245531",
+          "pvm": "2026-09-10"
+        },
+        {
+          "otsikko": "Työvoima rakentamisen aikana",
+          "arvo": "Arviot jopa yli 2 000 rakennustyöntekijää",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20245531",
+          "pvm": "2026-09-10"
+        },
+        {
+          "otsikko": "Työvoima käytön aikana",
+          "arvo": "Satoja suoraan ja välillisesti (koko hanke, ei Muhos-kohtaista lukua)",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20245531",
+          "pvm": "2026-09-10"
+        },
+        {
+          "otsikko": "Pääurakoitsija",
+          "arvo": "<täydennä>",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        },
+        {
+          "otsikko": "Maankäyttösopimus",
+          "arvo": "Muhoksen kunta ja Tuike Finland Oy, 26 milj. euroa",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20209561",
+          "pvm": "2026-02-11",
+          "huomio": "Vain linkkiotsikko luettu, varmistettava"
+        },
+        {
+          "otsikko": "Lahjoitus kunnalle",
+          "arvo": "1,1 milj. euroa energiahankkeisiin (aurinkopaneelit, akut, lämpöpumput kouluihin ja jäähallille)",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20255193",
+          "pvm": "2026-11-05"
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "biopark",
+      "nimi": "Muhos Biopark – kestävän kasvun ekosysteemi",
+      "tiivistelma": "Datakeskuksen viereen kaavoitettava bio-, kiertotalous- ja energiateollisuuden alue, joka hyödyntää datakeskuksen hukkalämpöä.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Muhoksen kunta, Oulun yliopisto, Oulun ammattikorkeakoulu ja OSAO",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20209561",
+          "pvm": "2026-02-11"
+        },
+        {
+          "otsikko": "Kuvaus",
+          "arvo": "Bio- ja kiertotalouden sekä energian teollisuusalue datakeskuksen viereen; tontteja hukkalämpöä hyödyntävälle teollisuudelle (kasvihuoneet, kalankasvatus, biomassan kuivaus)",
+          "tila": "todennettu",
+          "lahde": "https://muhos.fi/tyo-ja-yrittaminen/yrittajyys/biopark/",
+          "pvm": "2026-03-16"
+        },
+        {
+          "otsikko": "Osa-alueet",
+          "arvo": "High Tech Park, Energy Park, Solar Park, Food Park, Logistics Park, Circular Economy Park (yhteensä noin 1 850 ha suunnitelmassa)",
+          "tila": "arvio",
+          "lahde": "https://muhos.fi/tyo-ja-yrittaminen/yrittajyys/biopark/",
+          "pvm": "2026-03-16",
+          "huomio": "Pinta-alat tarkistettava sivulta sanatarkasti"
+        },
+        {
+          "otsikko": "Kehittämishanke",
+          "arvo": "Kehittämishanke 1.1.2026–31.12.2027, budjetti 749 171 €, EU-osuus 599 336 €",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20209561",
+          "pvm": "2026-02-11"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Asemakaava valtuuston käsittelyssä maaliskuussa 2026; noin 10 km teitä kaavan hyväksymisen jälkeen",
+          "tila": "avoin",
+          "lahde": "https://yle.fi/a/74-20209561",
+          "pvm": "2026-02-11",
+          "huomio": "Kaavan nykytila tarkistettava kunnalta"
+        },
+        {
+          "otsikko": "Hukkalämpö",
+          "arvo": "Hukkalämmön hyötykäyttö selvityksessä; kaukolämpöverkko suunnitteilla",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20209561",
+          "pvm": "2026-02-11"
+        },
+        {
+          "otsikko": "Liikenneyhteydet",
+          "arvo": "Raideyhteys Oulun satamaan, valtatie 22, Oulun lentoasema noin 30 min",
+          "tila": "todennettu",
+          "lahde": "https://muhos.fi/tyo-ja-yrittaminen/yrittajyys/biopark/",
+          "pvm": "2026-03-16"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [
+    {
+      "nimi": "Kasvun kahvit: Kasvua Muhokselle – kehittäminen, rahoitus ja Bioparkin mahdollisuudet",
+      "pvm": "2026-11-20",
+      "paikka": "Muhos",
+      "jarjestaja": "Muhoksen elinkeinotoimi"
+    }
+  ],
+  "naapurikunnat": [
+    {
+      "kunta": "Vaala",
+      "maakunta": "Kainuu",
+      "nimi": "Googlen datakeskushanke",
+      "arvo": "Noin 300 ha, kaava valmis keväällä 2027, YVA aloitettu, rakentajia 1 000–1 900",
+      "tila": "arvio",
+      "lahde": "https://yle.fi/a/74-20245531",
+      "pvm": "2026-09-10"
+    },
+    {
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "nimi": "Googlen datakeskushanke, Otanmäki",
+      "arvo": "Noin 350 ha, kahdeksan konesalia, rakennustyöt aikaisintaan 2027 jos kaavavalitukset kumotaan",
+      "tila": "arvio",
+      "lahde": "https://yle.fi/a/74-20245531",
+      "pvm": "2026-09-10"
+    }
+  ],
+  "yhteystieto": "<täydennä: kunnan elinvoimapalveluiden julkinen yhteystieto, kunnan hyväksymä>"
+}

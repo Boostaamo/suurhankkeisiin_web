@@ -1,0 +1,59 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { hanke, kunnat, kuntaPolku, pvm } from "@/lib/alueet";
+import Seuranta from "@/components/Seuranta";
+import Tiedot from "@/components/Tiedot";
+import Form from "@/components/Form";
+
+export const dynamicParams = false;
+export const generateStaticParams = () =>
+  kunnat().flatMap((k) => k.hankkeet.map((h) => ({ maakunta: k.maakunta_tunniste, kunta: k.tunniste, hanke: h.tunniste })));
+
+type Props = { params: Promise<{ maakunta: string; kunta: string; hanke: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const p = await params;
+  const x = hanke(p.maakunta, p.kunta, p.hanke);
+  return x ? { title: `${x.hanke.nimi} (${x.kunta.kunta})`, description: x.hanke.tiivistelma } : {};
+}
+
+export default async function HankeSivu({ params }: Props) {
+  const p = await params;
+  const x = hanke(p.maakunta, p.kunta, p.hanke);
+  if (!x) notFound();
+  const { kunta: k, hanke: h } = x;
+  return (
+    <>
+      <Seuranta taso="hanke" maakunta={k.maakunta} kunta={k.kunta} hanke={h.nimi} />
+      <section className="hero sm"><div className="wrap">
+        <div className="eyebrow">
+          <Link href="/hankkeet">Suurhankkeet</Link> / <Link href={`/hankkeet/${k.maakunta_tunniste}`}>{k.maakunta}</Link> / <Link href={kuntaPolku(k)}>{k.kunta}</Link>
+        </div>
+        <h1>{h.nimi}</h1>
+        <p className="lead">{h.tiivistelma}</p>
+        <div className="cta"><a className="btn" href="#ilmoittaudu">Ilmoita yrityksesi hankkeeseen</a></div>
+      </div></section>
+      <section><div className="wrap">
+        <h2>Hankkeen tilannekuva</h2>
+        <p className="muted small">Tiedot on koottu julkisista lähteistä {pvm(k.paivitetty)}. Arviot on merkitty. Jos huomaat virheen, <Link href="/kunnille">ota yhteyttä</Link>.</p>
+        <Tiedot tiedot={h.tiedot} />
+      </div></section>
+      <section className="alt"><div className="wrap">
+        <h2>Kilpailutukset</h2>
+        {h.kilpailutukset.length ? (
+          <ul className="list">{h.kilpailutukset.map((c) => <li key={c.otsikko}><strong>{c.otsikko}</strong>, {c.tilaaja}{c.maarapaiva ? `, määräpäivä ${pvm(c.maarapaiva)}` : ""}</li>)}</ul>
+        ) : (
+          <p className="muted">Hankkeesta ei ole vielä julkaistu alihankkijoille avoimia kilpailutuksia. Ilmoittautuneet yritykset kuulevat ensimmäisinä, kun niitä avautuu.</p>
+        )}
+      </div></section>
+      <section id="ilmoittaudu"><div className="wrap grid2">
+        <div>
+          <h2>Ilmoita yrityksesi mukaan</h2>
+          <p>Kerro kalustosi, tiimisi ja palvelusi. Profiili kootaan hankkeen tilaajien ja pääurakoitsijoiden tarkasteltavaksi.</p>
+        </div>
+        <div className="card"><Form kind="ilmoittautuminen" source={`hanke/${k.tunniste}/${h.tunniste}`} alue={{ maakunta: k.maakunta, kunta: k.kunta, hanke: h.nimi }} /></div>
+      </div></section>
+    </>
+  );
+}
