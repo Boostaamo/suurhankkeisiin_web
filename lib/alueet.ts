@@ -22,7 +22,10 @@ export type Kunta = {
 };
 export type Maakunta = { tunniste: string; nimi: string; kunnat: Kunta[] };
 
-const DIR = path.join(process.cwd(), "content", "alueet");
+// Datalähde: DATALAHDE=tietokanta lukee kansion .data/ (scripts/hae-data.mjs hakee sen Supabasesta ennen buildia),
+// muuten content/ kuten ennen.
+export const DATAKANSIO = path.join(process.cwd(), process.env.DATALAHDE === "tietokanta" ? ".data" : "content");
+const DIR = path.join(DATAKANSIO, "alueet");
 
 export function kunnat(): Kunta[] {
   return fs
