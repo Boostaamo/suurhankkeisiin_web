@@ -10,7 +10,7 @@ export type Hanke = { tunniste: string; nimi: string; tiivistelma: string; tiedo
 export type Tapahtuma = { nimi: string; pvm: string; paikka: string; jarjestaja?: string };
 export type Naapuri = { kunta: string; maakunta: string; nimi: string; arvo: string; tila: Tila; lahde?: string; pvm?: string };
 export type Kunta = {
-  tunniste: string; kunta: string; maakunta: string; maakunta_tunniste: string; seutukunta?: string;
+  tunniste: string; kunta: string; kunta_genetiivi: string; maakunta: string; maakunta_tunniste: string; seutukunta?: string;
   pilotti?: boolean; paivitetty: string; esittely: string; hankkeet: Hanke[];
   tapahtumat: Tapahtuma[]; naapurikunnat: Naapuri[]; yhteystieto?: string;
 };

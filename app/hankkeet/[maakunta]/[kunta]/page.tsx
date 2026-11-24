@@ -72,7 +72,7 @@ export default async function KuntaSivu({ params }: Props) {
 
       <section id="ilmoittaudu"><div className="wrap grid2">
         <div>
-          <h2>Ilmoita yrityksesi {k.kunta}n hankkeisiin</h2>
+          <h2>Ilmoita yrityksesi {k.kunta_genetiivi} hankkeisiin</h2>
           <p>Kerro kalustosi, tiimisi ja palvelusi. Profiili kootaan hankkeen tilaajien ja pääurakoitsijoiden tarkasteltavaksi.</p>
           <p className="muted">Perusnäkyvyys on paikallisille toimijoille maksuton. <Link href="/hinnat">Katso hinnat</Link>.</p>
         </div>

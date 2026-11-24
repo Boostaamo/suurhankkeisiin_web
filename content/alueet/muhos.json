@@ -2,6 +2,7 @@
   "_ohje": "Datakerros (tekoälykerros v1). Claude kokoaa julkiset tiedot lähteineen, ihminen hyväksyy pull requestissa. tila: todennettu = lähde sanoo suoraan, arvio = lähteen arvio tai vaihteluväli, avoin = tieto puuttuu tai vaatii tarkistuksen (ei näytetä sivulla arvona). Älä lisää tietoa ilman lähdettä.",
   "tunniste": "muhos",
   "kunta": "Muhos",
+  "kunta_genetiivi": "Muhoksen",
   "maakunta": "Pohjois-Pohjanmaa",
   "maakunta_tunniste": "pohjois-pohjanmaa",
   "seutukunta": "Oulun seutukunta",
