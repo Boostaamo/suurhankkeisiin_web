@@ -2,6 +2,33 @@
   "_ohje": "Uutisfeedi etusivulle. Tekoälykerros kokoaa: oma lyhyt ingressi (1–2 virkettä, ei lainauksia), otsikko, julkaisija, päiväys ja linkki alkuperäiseen. Uusin ensin. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
   "uutiset": [
     {
+      "otsikko": "Lupa- ja valvontavirasto linjasi, mitä Googlen datakeskustyömailla saa tehdä keskeytyksen aikana",
+      "ingressi": "Muhoksen työmaalla sallitaan keskeytyksen aikana vain vesistöhaittojen estämiseksi välttämättömät vesienhallintatoimet sekä ylläpito, kuten tiealueiden talvikunnossapito ja turvallisuus. Ympäristövaikutusten arvioinnit ovat yhä kesken Muhoksella ja Kajaanissa.",
+      "julkaisija": "Lupa- ja valvontavirasto (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/72532971/lupa-ja-valvontavirasto-on-arvioinut-tuike-finland-oyn-datakeskushankkeiden-keskeytyksen-aikaisia-toimenpiteita-ja-muhoksen-hankkeen-vesienhallintaa?lang=fi",
+      "pvm": "2026-11-24",
+      "kunta": "Muhos",
+      "maakunta": "Pohjois-Pohjanmaa"
+    },
+    {
+      "otsikko": "Halsuan Honkakankaan tuulipuisto otettiin kaupalliseen käyttöön",
+      "ingressi": "OX2:n 16 voimalan ja noin 105 megawatin tuulipuisto siirtyi kaupalliseen käyttöön marraskuun alussa, selvästi alkuperäistä aikataulua aiemmin. Samaan aikaan OX2 rakentaa Halsualle Kanniston tuuli- ja energiavarastohanketta.",
+      "julkaisija": "OX2 (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/72515583/honkakankaan-tuulipuisto-on-otettu-kaupalliseen-kayttoon?lang=fi",
+      "pvm": "2026-11-19",
+      "kunta": "Halsua",
+      "maakunta": "Keski-Pohjanmaa"
+    },
+    {
+      "otsikko": "Nokia ja neljä kumppania hakevat EU:n tekoälyn gigatehdasta, yksi toimipaikka Oulussa",
+      "ingressi": "Nokian, Nscalen, Skeletonin, Telian ja Verdan konsortio aikoo toteuttaa hajautetun gigatehtaan Ouluun, Viroon, Latviaan ja Ruotsiin. Nokia neuvottelee tontista Oulun Toppilasta, ja EU:n haun seuraava määräaika on 3.12.2026.",
+      "julkaisija": "Finnish AI Region (FAIR EDIH)",
+      "url": "https://www.fairedih.fi/en/2026/11/17/nokia-and-four-partners-form-nordic-baltic-consortium-to-bid-for-an-eu-ai-gigafactory/",
+      "pvm": "2026-11-17",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa"
+    },
+    {
       "otsikko": "Google lahjoittaa miljoonia Muhoksen ja Vaalan datakeskuskunnilleen",
       "ingressi": "Muhos saa Googlelta 1,1 miljoonaa euroa energiahankkeisiin, kuten aurinkopaneeleihin ja lämpöpumppuihin kouluissa ja jäähallilla. Lahjoituksia saavat myös Vaala ja Kajaani.",
       "julkaisija": "Yle",
