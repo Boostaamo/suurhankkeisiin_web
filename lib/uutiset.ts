@@ -7,9 +7,11 @@ export type Uutinen = { otsikko: string; ingressi: string; julkaisija: string; u
 
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
+const kaikki = (): Uutinen[] =>
+  (JSON.parse(fs.readFileSync(path.join(DATAKANSIO, "uutiset.json"), "utf8")) as { uutiset: Uutinen[] }).uutiset;
+
 export function uutiset(kunta?: string, max = 5): Uutinen[] {
-  const raw = JSON.parse(fs.readFileSync(path.join(DATAKANSIO, "uutiset.json"), "utf8")) as { uutiset: Uutinen[] };
-  return raw.uutiset
+  return kaikki()
     .filter((u) => !kunta || u.kunta === kunta)
     .sort((a, b) => b.pvm.localeCompare(a.pvm))
     .slice(0, max);
@@ -31,7 +33,7 @@ export function uutisetHtml(kunta?: string, max = 5): string {
 // Hankkeeseen kytketyt uutiset vanhimmasta uusimpaan (hankesivun aikajana). Avain: <kunnan tunniste>/<hankkeen tunniste>.
 export function hankkeenUutiset(kunta: string, hanke: string): Uutinen[] {
   const avain = `${kunta}/${hanke}`;
-  return (raw.uutiset as Uutinen[])
+  return kaikki()
     .filter((u) => u.hankkeet?.includes(avain))
     .sort((a, b) => a.pvm.localeCompare(b.pvm));
 }
