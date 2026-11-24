@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { hankePolku, kunnat, kunta, lahdeNimi, pvm } from "@/lib/alueet";
 import Seuranta from "@/components/Seuranta";
 import Form from "@/components/Form";
+import { uutisetHtml } from "@/lib/uutiset";
 
 export const dynamicParams = false;
 export const generateStaticParams = () => kunnat().map((k) => ({ maakunta: k.maakunta_tunniste, kunta: k.tunniste }));
@@ -32,7 +33,7 @@ export default async function KuntaSivu({ params }: Props) {
         <p className="muted small">Tiedot päivitetty {pvm(k.paivitetty)}. Lähteet näkyvät hankesivuilla.</p>
       </div></section>
 
-      <section><div className="wrap">
+      <section className="alt"><div className="wrap">
         <h2>Hankkeet</h2>
         <div className="cards">
           {k.hankkeet.map((h) => (
@@ -43,6 +44,11 @@ export default async function KuntaSivu({ params }: Props) {
             </Link>
           ))}
         </div>
+      </div></section>
+
+      <section><div className="wrap">
+        <h2>Uusimmat uutiset</h2>
+        <div dangerouslySetInnerHTML={{ __html: uutisetHtml(k.kunta) }} />
       </div></section>
 
       <section className="alt"><div className="wrap grid2">

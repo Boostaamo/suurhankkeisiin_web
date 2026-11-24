@@ -95,6 +95,15 @@ section.alt{background:var(--tausta-2)}
 .src{display:block;margin-top:8px;font-size:13px;color:var(--muted)}
 .src a{color:var(--muted)}
 
+/* Uutisfeedi */
+.news{display:grid;gap:0;border-top:1px solid var(--reuna);margin-top:16px}
+.newsitem{padding:22px 0;border-bottom:1px solid var(--reuna)}
+.newsitem h3{margin:6px 0 8px}
+.newsitem h3 a{color:inherit;text-decoration:none}
+.newsitem h3 a:hover{color:var(--korostus-linkki)}
+.newsitem p{margin-bottom:8px}
+.newsmeta{font-size:13px;font-weight:600;color:var(--muted)}
+
 /* Hinnat */
 .prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px;align-items:stretch}
 .price{display:flex;flex-direction:column;background:var(--pinta);border:1px solid var(--reuna);border-radius:20px;padding:32px}

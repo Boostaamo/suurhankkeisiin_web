@@ -23,6 +23,12 @@ updated: 2026-11-24
 </div></section>
 
 <section><div class="wrap">
+<h2>Uusimmat uutiset</h2>
+<p class="muted">Poimintoja suurhankkeiden uutisista. Ingressit ovat omiamme, ja linkki vie alkuperäiseen uutiseen.</p>
+<!--uutiset-->
+</div></section>
+
+<section class="alt"><div class="wrap">
 <h2>Näin pääset mukaan</h2>
 <div class="steps">
 <div class="step"><div class="n">1</div><h3>Ilmoita yrityksesi</h3><p>Kerro kalustosi, tiimisi ja palvelusi. Perusnäkyvyys on maksuton.</p></div>
@@ -31,7 +37,7 @@ updated: 2026-11-24
 </div>
 </div></section>
 
-<section class="alt"><div class="wrap">
+<section><div class="wrap">
 <h2>Kenelle</h2>
 <div class="cards">
 <div class="card"><h3>Pk-yritykset ja urakoitsijat</h3><p>Maanrakennus ja louhinta, sähkö ja automaatio, majoitus ja työmaapalvelut, erikoiskuljetukset ja nostot, turvallisuus ja muu alihankinta.</p><a class="more" href="/ilmoittaudu">Ilmoittaudu →</a></div>

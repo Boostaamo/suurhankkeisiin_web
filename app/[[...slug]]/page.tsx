@@ -4,6 +4,7 @@ import { getPage, listSlugs } from "@/lib/content";
 import { site } from "@/lib/site";
 import type { FormKind } from "@/components/Form";
 import FormPortals, { type FormSlot } from "@/components/FormPortals";
+import { uutisetHtml } from "@/lib/uutiset";
 
 export const dynamicParams = false;
 
@@ -31,6 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 // ne korvataan paikkamerkillä ja renderöidään Reactilla (FormPortals).
 function prepare(html: string): { html: string; slots: FormSlot[] } {
   const slots: FormSlot[] = [];
+  html = html.replace(/<!--uutiset(?:\|([^>]*?))?-->/g, (_m, kunta?: string) => uutisetHtml(kunta || undefined));
   const out = html.replace(/<!--form:([a-z]+)(?:\|([^>]*?))?-->/g, (_m, kind: string, arg?: string) => {
     const id = `lomake-${slots.length}`;
     slots.push({ id, kind: kind as FormKind, arg });

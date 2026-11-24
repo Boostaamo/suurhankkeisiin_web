@@ -1,0 +1,50 @@
+{
+  "_ohje": "Uutisfeedi etusivulle. Tekoälykerros kokoaa: oma lyhyt ingressi (1–2 virkettä, ei lainauksia), otsikko, julkaisija, päiväys ja linkki alkuperäiseen. Uusin ensin. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
+  "uutiset": [
+    {
+      "otsikko": "Google lahjoittaa miljoonia Muhoksen ja Vaalan datakeskuskunnilleen",
+      "ingressi": "Muhos saa Googlelta 1,1 miljoonaa euroa energiahankkeisiin, kuten aurinkopaneeleihin ja lämpöpumppuihin kouluissa ja jäähallilla. Lahjoituksia saavat myös Vaala ja Kajaani.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20255193",
+      "pvm": "2026-11-05",
+      "kunta": "Muhos",
+      "maakunta": "Pohjois-Pohjanmaa"
+    },
+    {
+      "otsikko": "Poliisi tutkii Muhoksen datakeskustyömaan valmistelutöitä",
+      "ingressi": "Poliisi aloitti esitutkinnan Muhoksen työmaan toimista yksityishenkilön tutkintapyynnön perusteella. Valmistelutyöt on keskeytetty viranomaisen kehotuksesta.",
+      "julkaisija": "Yle News",
+      "url": "https://yle.fi/a/74-20250446",
+      "pvm": "2026-10-08",
+      "kunta": "Muhos",
+      "maakunta": "Pohjois-Pohjanmaa"
+    },
+    {
+      "otsikko": "Viranomainen keskeytti datakeskustyömaat Muhoksella ja Kajaanissa",
+      "ingressi": "Lupa- ja valvontavirasto kehotti Googlen tytäryhtiötä keskeyttämään ympäristöä merkittävästi muuttavat valmistelutyöt, kunnes ympäristövaikutusten arviointi on tehty. Keskeytys voi kestää useita kuukausia.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20250109",
+      "pvm": "2026-10-06",
+      "kunta": "Muhos",
+      "maakunta": "Pohjois-Pohjanmaa"
+    },
+    {
+      "otsikko": "Muhokselta on varattu jo useita tontteja",
+      "ingressi": "Googlen Muhoksen alueesta noin 600 hehtaaria on kaavoitettu datakeskukselle ja muulle teollisuudelle. Kunnan mukaan tontteja ovat varanneet lähinnä rakennusalan ja kaupan yritykset.",
+      "julkaisija": "Maaseudun Tulevaisuus / STT",
+      "url": "https://www.maaseuduntulevaisuus.fi/uutiset/19e0d53b-c511-46a5-a369-9216a56c5816",
+      "pvm": "2026-09-12",
+      "kunta": "Muhos",
+      "maakunta": "Pohjois-Pohjanmaa"
+    },
+    {
+      "otsikko": "Google rakentaa datakeskukset kolmeen pohjoisen kuntaan",
+      "ingressi": "Google investoi Suomeen 13 miljardia euroa kahden vuoden aikana. Datakeskukset tulevat Muhokselle, Vaalaan ja Kajaaniin, ja Muhoksen rakennusvaiheen työvoima-arviot ovat olleet yli 2 000 henkeä.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20245531",
+      "pvm": "2026-09-10",
+      "kunta": "Muhos",
+      "maakunta": "Pohjois-Pohjanmaa"
+    }
+  ]
+}
