@@ -1,13 +1,15 @@
-// Uutisfeedi: content/uutiset.json. Renderöidään etusivulle merkinnän <!--uutiset--> kohdalle (tai <!--uutiset|Muhos--> kunnittain).
-import raw from "@/content/uutiset.json";
-import { pvm } from "@/lib/alueet";
+// Uutisfeedi: content/uutiset.json (tai .data/uutiset.json, kun DATALAHDE=tietokanta). Renderöidään etusivulle merkinnän <!--uutiset--> kohdalle (tai <!--uutiset|Muhos--> kunnittain).
+import fs from "node:fs";
+import path from "node:path";
+import { DATAKANSIO, pvm } from "@/lib/alueet";
 
 export type Uutinen = { otsikko: string; ingressi: string; julkaisija: string; url: string; pvm: string; kunta?: string; maakunta?: string };
 
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 export function uutiset(kunta?: string, max = 5): Uutinen[] {
-  return (raw.uutiset as Uutinen[])
+  const raw = JSON.parse(fs.readFileSync(path.join(DATAKANSIO, "uutiset.json"), "utf8")) as { uutiset: Uutinen[] };
+  return raw.uutiset
     .filter((u) => !kunta || u.kunta === kunta)
     .sort((a, b) => b.pvm.localeCompare(a.pvm))
     .slice(0, max);

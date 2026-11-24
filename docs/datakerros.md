@@ -26,5 +26,14 @@ Jokaisella hankkeen tiedolla (`tiedot[]`) on `arvo`, `tila`, `lahde` (URL) ja `p
 
 Uusi kunta: kopioi olemassa oleva tiedosto, vaihda tunnisteet ja täytä tiedot lähteineen.
 
+## Datalähde: tiedostot tai tietokanta (Bistek)
+Vaiheen 2 datakerros on Supabasessa (repo `Boostaamo/suurhankkisiin_data`). Ympäristömuuttuja `DATALAHDE` valitsee lähteen:
+- `tiedostot` (oletus): sivusto lukee `content/alueet/` ja `content/uutiset.json` kuten yllä.
+- `tietokanta`: ennen buildia `scripts/hae-data.mjs` hakee julkaistut tiedot Supabasen julkisista näkymistä (`julkiset_*`) julkisella avaimella ja kirjoittaa ne kansioon `.data/` samassa muodossa. Sivupohjat, osoitteet ja GA4 eivät muutu. Jos haku epäonnistuu tai data on tyhjä, build pysähtyy.
+
+Tarvittavat muuttujat (Vercel): `DATALAHDE=tietokanta`, `SUPABASE_URL` (on jo) ja `SUPABASE_PUBLISHABLE_KEY` (tai `NEXT_PUBLIC_SUPABASE_ANON_KEY`). Avoimia tietoja ei tule tietokannasta lainkaan, eikä niitä näytetty ennenkään.
+
+Siirtymän aikana JSON-tiedostot ja vaiheen 1 PR-hyväksyntä jatkuvat. Tietokanta päivitetään tuonnilla ennen kytkimen vaihtoa.
+
 ## Vaihe 2 (Bistek)
 Automaattinen RSS-nouto ja tekoälypisteytys palvelimella, kilpailutusten hallinta tilaajille, yritysprofiilit ja PRO-maksut.
