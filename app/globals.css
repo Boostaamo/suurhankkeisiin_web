@@ -180,3 +180,14 @@ section.alt{background:var(--tausta-2)}
 .v-rakenteilla:before{background:#047857}.v-investointipaatos:before{background:#0E7490}.v-luvitus:before{background:#D97706}.v-suunnittelu:before{background:#64748B}.v-keskeytetty:before{background:#B91C1C}
 .card .vaihe{margin:0 6px 10px 0}
 section[id]{scroll-margin-top:72px}
+
+/* Hankesivun tilannekuva: yhteenveto ja uutisaikajana */
+.yhteenveto{margin:20px 0 28px;border-left:4px solid var(--korostus)}
+.yhteenveto .yv-otsikko{font-weight:800;margin-bottom:10px}
+.yhteenveto .tag{margin-left:6px}
+.aikajana{list-style:none;margin:16px 0 0;padding:0 0 0 22px;border-left:2px solid var(--reuna)}
+.aikajana li{position:relative;padding:0 0 24px}
+.aikajana li::before{content:"";position:absolute;left:-29px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--korostus);border:2px solid var(--tausta)}
+.aikajana li a{font-weight:700;color:inherit;text-decoration:none}
+.aikajana li a:hover{color:var(--korostus-linkki)}
+.aikajana li p{margin:6px 0 0}

@@ -28,3 +28,10 @@ Uusi kunta: kopioi olemassa oleva tiedosto, vaihda tunnisteet ja täytä tiedot 
 
 ## Vaihe 2 (Bistek)
 Automaattinen RSS-nouto ja tekoälypisteytys palvelimella, kilpailutusten hallinta tilaajille, yritysprofiilit ja PRO-maksut.
+
+## Hankkeen yhteenveto ja uutisaikajana
+Hankesivun tilannekuvassa on tekoälyn koostama yhteenveto ja hankkeeseen kytketyt uutiset aikajärjestyksessä (vanhin ensin).
+- Uutinen kytketään hankkeeseen `content/uutiset.json`-kentällä `hankkeet`: lista muodossa `<kunnan tunniste>/<hankkeen tunniste>`, esim. `muhos/datakeskus`. Uutinen voi koskea useaa hanketta. Jos uutinen koskee vain kuntaa yleisesti, jätä lista tyhjäksi.
+- Yhteenveto on tiedostossa `content/yhteenvedot.json` samalla avaimella: `pvm` ja `teksti` (1–3 kappaletta). Kirjoita se vain hankkeen datakerroksen tiedoista ja kytketyistä uutisista. Ei uusia väitteitä, ei lainauksia; arviot sanotaan arvioina.
+- Päivitä yhteenveto aina, kun hankkeeseen kytketään uusi uutinen tai sen tiedot muuttuvat. Muutos kuuluu samaan pull requestiin.
+- Hanke ilman yhteenvetoa näyttää vain tiedot. Jos hankkeen tunniste muuttuu, päivitä avaimet molempiin tiedostoihin.

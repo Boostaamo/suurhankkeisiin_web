@@ -64,7 +64,7 @@ export function lahdeNimi(url?: string | null): string {
   if (!url) return "";
   try {
     const h = new URL(url).hostname.replace(/^www\./, "");
-    return ({ "yle.fi": "Yle", "muhos.fi": "Muhoksen kunta", "mtvuutiset.fi": "MTV Uutiset", "kaleva.fi": "Kaleva", "oulunkauppakamari.fi": "Oulun kauppakamari, Suurhankeviestit" } as Record<string, string>)[h] ?? h;
+    return ({ "yle.fi": "Yle", "muhos.fi": "Muhoksen kunta", "mtvuutiset.fi": "MTV Uutiset", "kaleva.fi": "Kaleva", "oulunkauppakamari.fi": "Oulun kauppakamari, Suurhankeviestit", "sttinfo.fi": "STT Info", "fairedih.fi": "Finnish AI Region" } as Record<string, string>)[h] ?? h;
   } catch {
     return "";
   }

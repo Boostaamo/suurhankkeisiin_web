@@ -2,7 +2,7 @@
 import raw from "@/content/uutiset.json";
 import { pvm } from "@/lib/alueet";
 
-export type Uutinen = { otsikko: string; ingressi: string; julkaisija: string; url: string; pvm: string; kunta?: string; maakunta?: string };
+export type Uutinen = { otsikko: string; ingressi: string; julkaisija: string; url: string; pvm: string; kunta?: string; maakunta?: string; hankkeet?: string[] };
 
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
@@ -24,4 +24,12 @@ export function uutisetHtml(kunta?: string, max = 5): string {
 <a class="more" href="${esc(u.url)}" target="_blank" rel="noopener nofollow" data-track="click_uutinen">Lue uutinen (${esc(u.julkaisija)}) →</a></article>`,
     )
     .join("")}</div>`;
+}
+
+// Hankkeeseen kytketyt uutiset vanhimmasta uusimpaan (hankesivun aikajana). Avain: <kunnan tunniste>/<hankkeen tunniste>.
+export function hankkeenUutiset(kunta: string, hanke: string): Uutinen[] {
+  const avain = `${kunta}/${hanke}`;
+  return (raw.uutiset as Uutinen[])
+    .filter((u) => u.hankkeet?.includes(avain))
+    .sort((a, b) => a.pvm.localeCompare(b.pvm));
 }

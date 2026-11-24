@@ -1,5 +1,5 @@
 {
-  "_ohje": "Uutisfeedi etusivulle. Tekoälykerros kokoaa: oma lyhyt ingressi (1–2 virkettä, ei lainauksia), otsikko, julkaisija, päiväys ja linkki alkuperäiseen. Uusin ensin. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
+  "_ohje": "Uutisfeedi etusivulle, kuntasivuille ja hankesivujen aikajanalle. Tekoälykerros kokoaa: oma lyhyt ingressi (1–2 virkettä, ei lainauksia), otsikko, julkaisija, päiväys, linkki alkuperäiseen ja hankkeet, joita uutinen koskee (muoto <kunnan tunniste>/<hankkeen tunniste>). Uusin ensin. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
   "uutiset": [
     {
       "otsikko": "Lupa- ja valvontavirasto linjasi, mitä Googlen datakeskustyömailla saa tehdä keskeytyksen aikana",
@@ -8,7 +8,11 @@
       "url": "https://www.sttinfo.fi/tiedote/72532971/lupa-ja-valvontavirasto-on-arvioinut-tuike-finland-oyn-datakeskushankkeiden-keskeytyksen-aikaisia-toimenpiteita-ja-muhoksen-hankkeen-vesienhallintaa?lang=fi",
       "pvm": "2026-11-24",
       "kunta": "Muhos",
-      "maakunta": "Pohjois-Pohjanmaa"
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "muhos/datakeskus",
+        "kajaani/google-datakeskus-otanmaki"
+      ]
     },
     {
       "otsikko": "Halsuan Honkakankaan tuulipuisto otettiin kaupalliseen käyttöön",
@@ -17,7 +21,8 @@
       "url": "https://www.sttinfo.fi/tiedote/72515583/honkakankaan-tuulipuisto-on-otettu-kaupalliseen-kayttoon?lang=fi",
       "pvm": "2026-11-19",
       "kunta": "Halsua",
-      "maakunta": "Keski-Pohjanmaa"
+      "maakunta": "Keski-Pohjanmaa",
+      "hankkeet": []
     },
     {
       "otsikko": "Nokia ja neljä kumppania hakevat EU:n tekoälyn gigatehdasta, yksi toimipaikka Oulussa",
@@ -26,7 +31,10 @@
       "url": "https://www.fairedih.fi/en/2026/11/17/nokia-and-four-partners-form-nordic-baltic-consortium-to-bid-for-an-eu-ai-gigafactory/",
       "pvm": "2026-11-17",
       "kunta": "Oulu",
-      "maakunta": "Pohjois-Pohjanmaa"
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/nokia-ai-gigafactory-toppila"
+      ]
     },
     {
       "otsikko": "Google lahjoittaa miljoonia Muhoksen ja Vaalan datakeskuskunnilleen",
@@ -35,7 +43,12 @@
       "url": "https://yle.fi/a/74-20255193",
       "pvm": "2026-11-05",
       "kunta": "Muhos",
-      "maakunta": "Pohjois-Pohjanmaa"
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "muhos/datakeskus",
+        "vaala/google-datakeskus",
+        "kajaani/google-datakeskus-otanmaki"
+      ]
     },
     {
       "otsikko": "Poliisi tutkii Muhoksen datakeskustyömaan valmistelutöitä",
@@ -44,7 +57,10 @@
       "url": "https://yle.fi/a/74-20250446",
       "pvm": "2026-10-08",
       "kunta": "Muhos",
-      "maakunta": "Pohjois-Pohjanmaa"
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "muhos/datakeskus"
+      ]
     },
     {
       "otsikko": "Viranomainen keskeytti datakeskustyömaat Muhoksella ja Kajaanissa",
@@ -53,7 +69,11 @@
       "url": "https://yle.fi/a/74-20250109",
       "pvm": "2026-10-06",
       "kunta": "Muhos",
-      "maakunta": "Pohjois-Pohjanmaa"
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "muhos/datakeskus",
+        "kajaani/google-datakeskus-otanmaki"
+      ]
     },
     {
       "otsikko": "Muhokselta on varattu jo useita tontteja",
@@ -62,7 +82,10 @@
       "url": "https://www.maaseuduntulevaisuus.fi/uutiset/19e0d53b-c511-46a5-a369-9216a56c5816",
       "pvm": "2026-09-12",
       "kunta": "Muhos",
-      "maakunta": "Pohjois-Pohjanmaa"
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "muhos/datakeskus"
+      ]
     },
     {
       "otsikko": "Google rakentaa datakeskukset kolmeen pohjoisen kuntaan",
@@ -71,7 +94,12 @@
       "url": "https://yle.fi/a/74-20245531",
       "pvm": "2026-09-10",
       "kunta": "Muhos",
-      "maakunta": "Pohjois-Pohjanmaa"
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "muhos/datakeskus",
+        "vaala/google-datakeskus",
+        "kajaani/google-datakeskus-otanmaki"
+      ]
     }
   ]
 }

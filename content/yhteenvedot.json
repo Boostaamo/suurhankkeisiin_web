@@ -1,0 +1,33 @@
+{
+  "_ohje": "Hankkeiden tilannekuvan yhteenvedot (tekoälykerros). Avain: <kunnan tunniste>/<hankkeen tunniste>. Claude kirjoittaa yhteenvedon vain hankkeen datakerroksen tiedoista ja hankkeeseen kytketyistä uutisista; ei uusia väitteitä, ei arvioita ilman merkintää. Päivitä, kun hankkeeseen kytketään uusi uutinen tai sen tiedot muuttuvat. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
+  "yhteenvedot": {
+    "muhos/datakeskus": {
+      "pvm": "2026-11-24",
+      "teksti": [
+        "Googlen tytäryhtiö Tuike Finland Oy suunnittelee Muhoksen Leppiniemeen datakeskusaluetta osana Googlen 13 miljardin euron Suomi-investointia. Alueella on yli 600 hehtaaria data- ja muulle teolliselle toiminnalle, ja suunnitelmissa on yhdeksän konesalia. Kaavat on hyväksytty, mutta niistä on valitettu hallinto-oikeuteen.",
+        "Lupa- ja valvontavirasto kehotti lokakuussa 2026 keskeyttämään ympäristöä merkittävästi muuttavat valmistelutyöt, kunnes ympäristövaikutusten arviointi on tehty, ja poliisi tutkii työmaan valmistelutöitä. Marraskuussa virasto rajasi keskeytyksen aikaiset työt välttämättömään vesienhallintaan ja ylläpitoon. Rakentamisen työvoimatarpeeksi on arvioitu jopa yli 2 000 henkeä."
+      ]
+    },
+    "kajaani/google-datakeskus-otanmaki": {
+      "pvm": "2026-11-24",
+      "teksti": [
+        "Googlen tytäryhtiö Tuike Finland Oy suunnittelee Kajaanin Otanmäkeen datakeskusta osana Googlen 13 miljardin euron Suomi-investointia. Teollisuuskäyttöön on arvioitu noin 350 hehtaaria ja kahdeksan konesalia.",
+        "Lupa- ja valvontavirasto kehotti lokakuussa 2026 keskeyttämään ympäristöä merkittävästi muuttavat valmistelutyöt, kunnes ympäristövaikutusten arviointi on tehty. Marraskuussa virasto salli keskeytyksen aikana vain ylläpidon, kuten tiealueiden talvikunnossapidon, turvallisuuden ja tarkkailun. Ojitusilmoituksesta virasto päättää erikseen."
+      ]
+    },
+    "vaala/google-datakeskus": {
+      "pvm": "2026-11-24",
+      "teksti": [
+        "Vaala on yksi Googlen 13 miljardin euron Suomi-investoinnin kolmesta datakeskuskunnasta. Teollisuuskäyttöön on arvioitu noin 300 hehtaaria.",
+        "Kaavoitus on kesken ja tavoitteena kevät 2027, ja ympäristövaikutusten arviointi on aloitettu. Rakentamisen aikaiseksi työvoimaksi on arvioitu 1 000–1 900 rakentajaa."
+      ]
+    },
+    "oulu/nokia-ai-gigafactory-toppila": {
+      "pvm": "2026-11-24",
+      "teksti": [
+        "Nokia suunnittelee tekoälyn gigatehdasta Oulun Toppilaan. Hankkeen kehittäminen ja maahankinnat olivat käynnissä syyskuussa 2026.",
+        "Marraskuussa Nokia, Nscale, Skeleton, Telia ja Verda perustivat konsortion, joka hakee EU:n tekoälyn gigatehdasta hajautettuna Ouluun, Viroon, Latviaan ja Ruotsiin. Nokia neuvottelee tontista Toppilasta, ja EU-haun määräajat ovat 3.12.2026 ja 4.2.2027."
+      ]
+    }
+  }
+}
