@@ -13,16 +13,23 @@
       "tunniste": "data-tank-nordic-datakeskus-200-mw",
       "nimi": "Data Tank Nordic -datakeskus, 200 MW",
       "tyyppi": "Datakeskus",
-      "vaihe_luokka": "Investointipäätös",
+      "vaihe_luokka": "Rakenteilla",
       "investointi_meur": 2000,
-      "tiivistelma": "Datakeskushanke. Investointipäätös 200 MW:sta 5/2026, työt alkamassa.",
+      "tiivistelma": "Tekoälydatakeskus Mustikkakankaalle, 200 MW. Rakentaminen alkoi 10/2026, ensimmäisen vaiheen pääurakoitsija Nyab.",
       "tiedot": [
         {
           "otsikko": "Toteuttaja",
-          "arvo": "Amp Tank (Data Tank Nordic Oy)",
+          "arvo": "DataTank AG / Data Tank Nordic Oy (AmpTank-konserni)",
           "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "lahde": "https://www.prnewswire.com/fi/lehdistotiedotteet/amptank-announces-200-mw-ai-data-center-project-in-utajarvi-finland-302797942.html",
+          "pvm": "2026-06-11"
+        },
+        {
+          "otsikko": "Laajuus",
+          "arvo": "200 MW, neljä konesalia ja sähkövarasto",
+          "tila": "todennettu",
+          "lahde": "https://www.prnewswire.com/fi/lehdistotiedotteet/amptank-announces-200-mw-ai-data-center-project-in-utajarvi-finland-302797942.html",
+          "pvm": "2026-06-11"
         },
         {
           "otsikko": "Investointi",
@@ -32,11 +39,25 @@
           "pvm": "2026-09"
         },
         {
-          "otsikko": "Vaihe",
-          "arvo": "Investointipäätös 200 MW:sta 5/2026, työt alkamassa",
+          "otsikko": "Luvat",
+          "arvo": "Lainvoimaiset rakennusluvat ja sitova verkkoliittymäsopimus",
           "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "lahde": "https://www.prnewswire.com/fi/lehdistotiedotteet/amptank-announces-200-mw-ai-data-center-project-in-utajarvi-finland-302797942.html",
+          "pvm": "2026-06-11"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Rakentaminen alkoi lokakuussa 2026",
+          "tila": "todennettu",
+          "lahde": "https://www.kaleva.fi/utajarven-datakeskuksen-rakentaminen-alkoi-kysyimm/13700960",
+          "pvm": "2026-10-08"
+        },
+        {
+          "otsikko": "Pääurakoitsija",
+          "arvo": "Nyab Finland Oy (ensimmäinen vaihe)",
+          "tila": "todennettu",
+          "lahde": "https://www.kaleva.fi/nyab-valittiin-utajarven-datakeskuksen-paaurakoits/13702725",
+          "pvm": "2026-10-09"
         }
       ],
       "kilpailutukset": []

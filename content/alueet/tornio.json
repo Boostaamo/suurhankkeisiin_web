@@ -74,38 +74,6 @@
       "kilpailutukset": []
     },
     {
-      "tunniste": "outokummun-biokoksin-briketointilaitos",
-      "nimi": "Outokummun biokoksin briketöintilaitos",
-      "tyyppi": "Teollisuus",
-      "vaihe_luokka": "Rakenteilla",
-      "investointi_meur": 30,
-      "tiivistelma": "Teollisuushanke. Rakenteilla.",
-      "tiedot": [
-        {
-          "otsikko": "Toteuttaja",
-          "arvo": "Outokumpu",
-          "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
-        },
-        {
-          "otsikko": "Investointi",
-          "arvo": "30 M€",
-          "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
-        },
-        {
-          "otsikko": "Vaihe",
-          "arvo": "Rakenteilla",
-          "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
-        }
-      ],
-      "kilpailutukset": []
-    },
-    {
       "tunniste": "royttan-merituulipuisto",
       "nimi": "Röyttän merituulipuisto",
       "tyyppi": "Energia",

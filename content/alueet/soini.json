@@ -10,33 +10,54 @@
   "esittely": "Soinin alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
   "hankkeet": [
     {
-      "tunniste": "ox2-n-tuulivoimapuisto",
-      "nimi": "OX2:n tuulivoimapuisto",
+      "tunniste": "ox2-n-korkeamaan-tuulipuisto",
+      "nimi": "OX2:n Korkeamaan tuulipuisto",
       "tyyppi": "Energia",
       "vaihe_luokka": "Rakenteilla",
       "investointi_meur": null,
-      "tiivistelma": "Energiahanke. Investointipäätös 12/2025, rakentaminen alkaa heti.",
+      "tiivistelma": "Tuulipuisto, 17 voimalaa ja 108 MW. Investointipäätös 12/2025, valmistuu arviolta 2027.",
       "tiedot": [
         {
           "otsikko": "Toteuttaja",
           "arvo": "OX2",
           "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "lahde": "https://www.sttinfo.fi/tiedote/71685908/ox2-on-tehnyt-toisen-merkittavan-uusiutuvan-energian-investointipaatoksensa-suomessa-tana-vuonna-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+          "pvm": "2025-12-16"
+        },
+        {
+          "otsikko": "Laajuus",
+          "arvo": "17 voimalaa, 108 MW, noin 326 GWh vuodessa",
+          "tila": "todennettu",
+          "lahde": "https://www.sttinfo.fi/tiedote/71685908/ox2-on-tehnyt-toisen-merkittavan-uusiutuvan-energian-investointipaatoksensa-suomessa-tana-vuonna-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+          "pvm": "2025-12-16"
         },
         {
           "otsikko": "Investointi",
-          "arvo": "Osa OX2:n 400 M€:n investointipäätöstä",
-          "tila": "arvio",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "arvo": "Osa OX2:n noin 400 M€:n investointipäätöstä (Kannisto, Salo-Ylikoski, Korkeamaa)",
+          "tila": "todennettu",
+          "lahde": "https://www.sttinfo.fi/tiedote/71685908/ox2-on-tehnyt-toisen-merkittavan-uusiutuvan-energian-investointipaatoksensa-suomessa-tana-vuonna-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+          "pvm": "2025-12-16"
         },
         {
           "otsikko": "Vaihe",
-          "arvo": "Investointipäätös 12/2025, rakentaminen alkaa heti",
+          "arvo": "Investointipäätös 12/2025",
           "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "lahde": "https://www.sttinfo.fi/tiedote/71685908/ox2-on-tehnyt-toisen-merkittavan-uusiutuvan-energian-investointipaatoksensa-suomessa-tana-vuonna-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+          "pvm": "2025-12-16"
+        },
+        {
+          "otsikko": "Urakoitsijat",
+          "arvo": "Infrastruktuuri Keski-Suomen Betonirakenne, sähköasema Nordic Electro Power, 110 kV johto Omexom",
+          "tila": "todennettu",
+          "lahde": "https://www.sttinfo.fi/tiedote/71685908/ox2-on-tehnyt-toisen-merkittavan-uusiutuvan-energian-investointipaatoksensa-suomessa-tana-vuonna-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+          "pvm": "2025-12-16"
+        },
+        {
+          "otsikko": "Valmistuminen",
+          "arvo": "2027",
+          "tila": "arvio",
+          "lahde": "https://www.sttinfo.fi/tiedote/71685908/ox2-on-tehnyt-toisen-merkittavan-uusiutuvan-energian-investointipaatoksensa-suomessa-tana-vuonna-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+          "pvm": "2025-12-16"
         }
       ],
       "kilpailutukset": []
