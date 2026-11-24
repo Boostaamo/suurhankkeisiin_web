@@ -16,7 +16,6 @@ updated: 2026-11-24
 <ul class="list">
 <li>Tarkistamme tiedot ja otamme tarvittaessa yhteyttä.</li>
 <li>Yrityksesi liitetään alueen hankkeiden resurssilistalle.</li>
-<li>Kuulet, kun alueella avautuu kilpailutuksia ja hankintailtoja.</li>
 </ul>
 <p class="muted">Ilmoitatko yrityksen tiettyyn hankkeeseen? Käytä <a href="/hankkeet">hankesivun</a> lomaketta, niin ilmoitus kohdistuu oikealle alueelle.</p>
 <p><a href="/hinnat">Perusnäkyvyys ja PRO-näkyvyys</a></p>

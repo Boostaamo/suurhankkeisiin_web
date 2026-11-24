@@ -16,7 +16,6 @@ updated: 2026-11-24
 <li>Oma hankesivu kunnan tai hankkeen nimellä</li>
 <li>Hankkeen tilannekuva, uutiset ja tapahtumat ajan tasalla</li>
 <li>Ilmoittautuneet paikalliset yritykset ja niiden kapasiteetti</li>
-<li>Tarjouspyyntöjen ja urakoitsijailtojen viestintä</li>
 <li>Raportti ilmoittautumisista ja kiinnostuksesta hankkeittain, kunnittain ja maakunnittain</li>
 </ul>
 <p class="muted">Hinta pyynnöstä, vuosilisenssi.</p>
