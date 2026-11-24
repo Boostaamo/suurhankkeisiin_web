@@ -35,3 +35,4 @@ Hankesivun tilannekuvassa on tekoälyn koostama yhteenveto ja hankkeeseen kytket
 - Yhteenveto on tiedostossa `content/yhteenvedot.json` samalla avaimella: `pvm` ja `teksti` (1–3 kappaletta). Kirjoita se vain hankkeen datakerroksen tiedoista ja kytketyistä uutisista. Ei uusia väitteitä, ei lainauksia; arviot sanotaan arvioina.
 - Päivitä yhteenveto aina, kun hankkeeseen kytketään uusi uutinen tai sen tiedot muuttuvat. Muutos kuuluu samaan pull requestiin.
 - Hanke ilman yhteenvetoa näyttää vain tiedot. Jos hankkeen tunniste muuttuu, päivitä avaimet molempiin tiedostoihin.
+- Uutisten määrä: `content/uutiset.json`-tiedostossa pidetään enintään 40 uusinta hankkeisiin kytkemätöntä uutista. Hankkeeseen kytkettyjä uutisia (`hankkeet` ei tyhjä) ei poisteta, jotta hankkeiden aikajanat säilyvät kokonaisina (Hannu 24.11.2026).

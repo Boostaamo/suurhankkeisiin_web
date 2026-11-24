@@ -1,5 +1,5 @@
 {
-  "_ohje": "Uutisfeedi etusivulle, kuntasivuille ja hankesivujen aikajanalle. Tekoälykerros kokoaa: oma lyhyt ingressi (1–2 virkettä, ei lainauksia), otsikko, julkaisija, päiväys, linkki alkuperäiseen ja hankkeet, joita uutinen koskee (muoto <kunnan tunniste>/<hankkeen tunniste>). Uusin ensin. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
+  "_ohje": "Uutisfeedi etusivulle, kuntasivuille ja hankesivujen aikajanalle. Tekoälykerros kokoaa: oma lyhyt ingressi (1–2 virkettä, ei lainauksia), otsikko, julkaisija, päiväys, linkki alkuperäiseen ja hankkeet, joita uutinen koskee (muoto <kunnan tunniste>/<hankkeen tunniste>). Uusin ensin. Enintään 40 kytkemätöntä uutista; hankkeisiin kytkettyjä ei poisteta. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
   "uutiset": [
     {
       "otsikko": "Lupa- ja valvontavirasto linjasi, mitä Googlen datakeskustyömailla saa tehdä keskeytyksen aikana",
