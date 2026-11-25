@@ -1,0 +1,54 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "lappeenranta",
+  "kunta": "Lappeenranta",
+  "kunta_genetiivi": "Lappeenrannan",
+  "maakunta": "Etelä-Karjala",
+  "maakunta_tunniste": "etela-karjala",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Lappeenrannan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "nebius-ai-factory",
+      "nimi": "Nebiuksen tekoälydatakeskus",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": null,
+      "tiivistelma": "Nebiuksen enintään 310 megawatin tekoälydatakeskus Lappeenrantaan. Monirakennuksinen kampus, ja ensimmäinen kapasiteetti on tarkoitus ottaa käyttöön vuonna 2027.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Nebius",
+          "tila": "todennettu",
+          "lahde": "https://nebius.com/newsroom/nebius-to-construct-310-mw-ai-factory-in-finland",
+          "pvm": "2026-03-31"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Enintään 310 MW",
+          "tila": "todennettu",
+          "lahde": "https://nebius.com/newsroom/nebius-to-construct-310-mw-ai-factory-in-finland",
+          "pvm": "2026-03-31"
+        },
+        {
+          "otsikko": "Aikataulu",
+          "arvo": "Ensimmäinen kapasiteetti asiakkaiden käyttöön 2027",
+          "tila": "arvio",
+          "lahde": "https://nebius.com/newsroom/nebius-to-construct-310-mw-ai-factory-in-finland",
+          "pvm": "2026-03-31"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Rakentamisessa jopa 700, pysyvästi noin 100",
+          "tila": "arvio",
+          "lahde": "https://nebius.com/newsroom/nebius-to-construct-310-mw-ai-factory-in-finland",
+          "pvm": "2026-03-31"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

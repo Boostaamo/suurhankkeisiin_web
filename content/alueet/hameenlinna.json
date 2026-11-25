@@ -1,0 +1,54 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "hameenlinna",
+  "kunta": "Hämeenlinna",
+  "kunta_genetiivi": "Hämeenlinnan",
+  "maakunta": "Kanta-Häme",
+  "maakunta_tunniste": "kanta-hame",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Hämeenlinnan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "magnora-datakeskus",
+      "nimi": "Magnoran datakeskus",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "Magnora Data Centerin datakeskushanke Hämeenlinnaan. Sähköverkkoliittymä on sovittu, ja hanke on suunniteltu alkuperäistä 120 megawattia suuremmaksi.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Magnora Data Center ASA",
+          "tila": "todennettu",
+          "lahde": "https://kommunikasjon.ntb.no/announcement/19034841?lang=en&publisherId=17850865",
+          "pvm": "2026-08-24"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Alkuperäinen suunnitelma 120 MW; nyt suunnitteilla merkittävästi suurempi hanke",
+          "tila": "todennettu",
+          "lahde": "https://kommunikasjon.ntb.no/announcement/19034841?lang=en&publisherId=17850865",
+          "pvm": "2026-08-24"
+        },
+        {
+          "otsikko": "Sähköliittymä",
+          "arvo": "Liittymä sovittu, käyttöön Q1/2029 (mahdollisesti H2/2028)",
+          "tila": "arvio",
+          "lahde": "https://kommunikasjon.ntb.no/announcement/19034841?lang=en&publisherId=17850865",
+          "pvm": "2026-08-24"
+        },
+        {
+          "otsikko": "Rakennuslupa",
+          "arvo": "Yhtiön mukaan rakennuslupa saatu",
+          "tila": "todennettu",
+          "lahde": "https://kommunikasjon.ntb.no/announcement/19034841?lang=en&publisherId=17850865",
+          "pvm": "2026-08-24"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

@@ -61,6 +61,45 @@
         }
       ],
       "kilpailutukset": []
+    },
+    {
+      "tunniste": "ecogrid-datakeskus-kujala",
+      "nimi": "Ecogridin ja Peabin datakeskus, Kujala",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "ecogrid.energyn ja Peabin datakeskus Lahden Kujalaan entiselle asfalttiasemalle. Rakentaminen alkaisi vuoden 2027 alkupuolella.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "ecogrid.energy oy ja Peab",
+          "tila": "todennettu",
+          "lahde": "https://www.lahti.fi/uutiset/lahteen-korkean-lisaarvon-datakeskus/",
+          "pvm": "2026-08-26"
+        },
+        {
+          "otsikko": "Rakennuslupa",
+          "arvo": "Poikkeamis- ja rakentamislupa myönnetty 16.9.2026, hakija Peab oy; kerrosala runsaat 37 000 m²",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20246617",
+          "pvm": "2026-11-02"
+        },
+        {
+          "otsikko": "Aikataulu",
+          "arvo": "Rakentaminen alkaa vuoden 2027 ensimmäisellä puoliskolla, valmistuu 2028",
+          "tila": "arvio",
+          "lahde": "https://www.lahti.fi/uutiset/lahteen-korkean-lisaarvon-datakeskus/",
+          "pvm": "2026-08-26"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Rakentamisvaiheessa yli 3 000 henkilötyövuotta",
+          "tila": "arvio",
+          "lahde": "https://www.lahti.fi/uutiset/lahteen-korkean-lisaarvon-datakeskus/",
+          "pvm": "2026-08-26"
+        }
+      ],
+      "kilpailutukset": []
     }
   ],
   "tapahtumat": [],

@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "valkeakoski",
+  "kunta": "Valkeakoski",
+  "kunta_genetiivi": "Valkeakosken",
+  "maakunta": "Pirkanmaa",
+  "maakunta_tunniste": "pirkanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Valkeakosken alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "pispantallin-datakeskusalue",
+      "nimi": "Pispantallin datakeskusalue",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "Fortum ja Valkeakosken kaupunki kehittävät noin 60 hehtaarin datakeskusaluetta Pispantalliin. Varsinaisen investoinnin tekee myöhemmin valittava datakeskuksen toteuttaja.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Fortum (alueen kehittäjä); investoinnin tekee datakeskushankkeen toteuttaja",
+          "tila": "todennettu",
+          "lahde": "https://www.fortum.com/fi/media/2026/09/fortum-kehittaa-datakeskusaluetta-valkeakosken-pispantallissa",
+          "pvm": "2026-09-15"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Kahdeksan datakeskusrakennusta, 800 MWe (VE1) tai 400 MWe (VE2)",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/pispantallin-datakeskushanke-valkeakoski",
+          "pvm": "2026-10-26"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 56 ha",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/pispantallin-datakeskushanke-valkeakoski",
+          "pvm": "2026-10-26"
+        },
+        {
+          "otsikko": "YVA",
+          "arvo": "Vireillä; YVA-ohjelma nähtävillä 26.10.–24.11.2026",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/pispantallin-datakeskushanke-valkeakoski",
+          "pvm": "2026-10-26"
+        },
+        {
+          "otsikko": "Kaava",
+          "arvo": "Kaupunki laatii asemakaavaa",
+          "tila": "todennettu",
+          "lahde": "https://www.fortum.com/fi/media/2026/09/fortum-kehittaa-datakeskusaluetta-valkeakosken-pispantallissa",
+          "pvm": "2026-09-15"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

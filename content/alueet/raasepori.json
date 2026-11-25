@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "raasepori",
+  "kunta": "Raasepori",
+  "kunta_genetiivi": "Raaseporin",
+  "maakunta": "Uusimaa",
+  "maakunta_tunniste": "uusimaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Raaseporin alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "fcdc-datakeskus-baljars",
+      "nimi": "FCDC:n datakeskus, Bäljars (Karjaa)",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": null,
+      "tiivistelma": "FCDC Corp Oy:n datakeskus Karjaan Bäljarsin teollisuusalueelle 36 hehtaarin kiinteistölle. Kolme noin 16 500 neliömetrin hallia.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "FCDC Corp Oy",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/7-10085393",
+          "pvm": "2025-10-02"
+        },
+        {
+          "otsikko": "Rakennuslupa",
+          "arvo": "Myönnetty lokakuussa 2025; kolme hallia, yhteensä yli 53 000 m²",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/7-10085393",
+          "pvm": "2025-10-02"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "36 ha, Albackantie, Bäljarsin teollisuusalue",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/7-10085393",
+          "pvm": "2025-10-02"
+        },
+        {
+          "otsikko": "Aikataulu",
+          "arvo": "Rakentaminen alkaa syksyllä 2026",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/7-10101130",
+          "pvm": "2026-06-25"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Rakentamisessa noin 1 000 henkilötyövuotta, valmiina 400–600 henkeä",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/7-10101130",
+          "pvm": "2026-06-25"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

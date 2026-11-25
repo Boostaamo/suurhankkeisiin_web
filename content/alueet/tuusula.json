@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "tuusula",
+  "kunta": "Tuusula",
+  "kunta_genetiivi": "Tuusulan",
+  "maakunta": "Uusimaa",
+  "maakunta_tunniste": "uusimaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Tuusulan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "jokelan-datakeskus",
+      "nimi": "Jokelan datakeskus",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "Datakeskushanke Jokelan läntiselle työpaikka-alueelle Vallunlenkin varteen. Ympäristövaikutusten arviointi valmistui lokakuussa 2026.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Jokelan Vihreä Maa Oy; maa-alue esimyyty Blackstonen hallinnoimille rahastoille",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/jokelan-datakeskushanke-tuusula-nurmijarvi",
+          "pvm": "2026-11-16"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 16,8 ha",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/jokelan-datakeskushanke-tuusula-nurmijarvi",
+          "pvm": "2026-11-16"
+        },
+        {
+          "otsikko": "Sähkönkäyttö",
+          "arvo": "Noin 1 TWh vuodessa",
+          "tila": "arvio",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/jokelan-datakeskushanke-tuusula-nurmijarvi",
+          "pvm": "2026-11-16"
+        },
+        {
+          "otsikko": "Kaava",
+          "arvo": "Valtuusto hyväksyi kaavamuutokset 6.10.2025",
+          "tila": "todennettu",
+          "lahde": "https://tuusula.fi/2025/12/03/datakeskus-suunnitteilla-jokelaan/",
+          "pvm": "2025-12-03"
+        },
+        {
+          "otsikko": "YVA",
+          "arvo": "Perusteltu päätelmä annettu 19.10.2026",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/jokelan-datakeskushanke-tuusula-nurmijarvi",
+          "pvm": "2026-11-16"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
