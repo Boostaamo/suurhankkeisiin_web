@@ -47,6 +47,45 @@
         }
       ],
       "kilpailutukset": []
+    },
+    {
+      "tunniste": "neoen-datakeskus-yllikkala",
+      "nimi": "Neoenin datakeskus, Yllikkälä",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Ranskalaisen Neoenin 80 megawatin datakeskushanke Lappeenrannan Yllikkälään. Kaupunki aloitti kaavoituksen yhtiön pyynnöstä.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Neoen",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20220286",
+          "pvm": "2026-04-13"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "80 MW",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20220286",
+          "pvm": "2026-04-13"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Tarkka paikka noin 106 hehtaarin alueelta, tarkentuu myöhemmin",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20220286",
+          "pvm": "2026-04-13"
+        },
+        {
+          "otsikko": "Kaava",
+          "arvo": "Kaavoitus aloitettu; tavoite hyväksyä loppuvuonna 2026",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20220286",
+          "pvm": "2026-04-13"
+        }
+      ],
+      "kilpailutukset": []
     }
   ],
   "tapahtumat": [],

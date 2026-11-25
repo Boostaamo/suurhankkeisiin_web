@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "kokemaki",
+  "kunta": "Kokemäki",
+  "kunta_genetiivi": "Kokemäen",
+  "maakunta": "Satakunta",
+  "maakunta_tunniste": "satakunta",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Kokemäen alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "bitzero-datakeskus-kirkkokallio",
+      "nimi": "Bitzeron datakeskus, Kirkkokallio",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": null,
+      "tiivistelma": "Bitzeron vaiheittain rakennettava datakeskus Kokemäen Kirkkokallioon valtatie 2:n ja radan lähelle. Ensimmäisen vaiheen rakentaminen alkoi joulukuussa 2025.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Bitzero Holdings Inc.",
+          "tila": "todennettu",
+          "lahde": "https://bitzero.com/bitzero-holdings-inc-breaks-ground-on-phase-i-development-at-giga-scale-finland-site/",
+          "pvm": "2025-12-02"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Suunniteltu kokonaiskapasiteetti 1 GW",
+          "tila": "arvio",
+          "lahde": "https://bitzero.com/bitzero-holdings-inc-breaks-ground-on-phase-i-development-at-giga-scale-finland-site/",
+          "pvm": "2025-12-02"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Lähes 100 ha, josta 15 ha ostettu ja loput optiolla",
+          "tila": "todennettu",
+          "lahde": "https://bitzero.com/bitzero-holdings-inc-breaks-ground-on-phase-i-development-at-giga-scale-finland-site/",
+          "pvm": "2025-12-02"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Ensimmäisen vaiheen rakentaminen alkoi",
+          "tila": "todennettu",
+          "lahde": "https://bitzero.com/bitzero-holdings-inc-breaks-ground-on-phase-i-development-at-giga-scale-finland-site/",
+          "pvm": "2025-12-02"
+        },
+        {
+          "otsikko": "Ensimmäinen vaihe",
+          "arvo": "Noin 10 MW, noin 10 milj. euroa (helmikuu 2025)",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20142716",
+          "pvm": "2025-02-10"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
