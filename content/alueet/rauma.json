@@ -1,0 +1,54 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "rauma",
+  "kunta": "Rauma",
+  "kunta_genetiivi": "Rauman",
+  "maakunta": "Satakunta",
+  "maakunta_tunniste": "satakunta",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Rauman alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "datakeskus-lakari",
+      "nimi": "Lakarin datakeskusalue",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Fortumin noin 330 hehtaarin suunnitteluvaraus datakeskustoimintaa varten Rauman Lakarin teollisuusalueelle. Valtuusto hyväksyi Lakarin eteläisen asemakaavan huhtikuussa 2026.",
+      "tiedot": [
+        {
+          "otsikko": "Alueen kehittäjä",
+          "arvo": "Fortum, suunnitteluvaraussopimus kaupungin kanssa tammikuussa 2024",
+          "tila": "todennettu",
+          "lahde": "https://www.rauma.fi/ajankohtaista/lakarin-asemakaavaluonnos-on-valmistunut-fortumin-suunnitteluvarauksen-laajuus-on-noin-330-hehtaaria/",
+          "pvm": "2025-04-04"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 330 ha suunnitteluvaraus datakeskustoimintaa varten",
+          "tila": "todennettu",
+          "lahde": "https://www.rauma.fi/ajankohtaista/lakarin-asemakaavaluonnos-on-valmistunut-fortumin-suunnitteluvarauksen-laajuus-on-noin-330-hehtaaria/",
+          "pvm": "2025-04-04"
+        },
+        {
+          "otsikko": "Asemakaava",
+          "arvo": "Valtuusto hyväksyi Lakarin eteläisen asemakaavan ja asemakaavamuutoksen 27.4.2026",
+          "tila": "todennettu",
+          "lahde": "https://www.rauma.fi/ajankohtaista/rauma-haluaa-datakeskuksilta-pitkajanteista-hyotya-painopiste-vuoropuhelussa-ja-kokonaisvaikutuksissa/",
+          "pvm": "2026-05-04"
+        },
+        {
+          "otsikko": "Datakeskuksen toteuttaja",
+          "arvo": "Kaupungin mukaan investoinnit tekee datakeskushankkeen toteuttaja, jota ei ole nimetty",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

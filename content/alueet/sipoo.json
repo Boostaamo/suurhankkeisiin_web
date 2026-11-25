@@ -1,0 +1,54 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "sipoo",
+  "kunta": "Sipoo",
+  "kunta_genetiivi": "Sipoon",
+  "maakunta": "Uusimaa",
+  "maakunta_tunniste": "uusimaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Sipoon alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "datakeskus-stormosskarret",
+      "nimi": "Stormosskärretin datakeskusalue",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Fortumin suunnitteluvaraus noin 88 hehtaarin työpaikka-alueelle Sipoon Stormosskärretiin Öljytien varteen datakeskustoimintaa varten. Kaavaluonnos on tarkoitus asettaa nähtäville syksyllä 2026.",
+      "tiedot": [
+        {
+          "otsikko": "Alueen kehittäjä",
+          "arvo": "Fortum Power and Heat Oy; kunnanhallitus antoi suunnitteluvarauksen 10.6.2024",
+          "tila": "todennettu",
+          "lahde": "https://www.sipoo.fi/wp-content/uploads/2026/06/Kaavoituskatsaus-2026.pdf",
+          "pvm": "2026-06-15"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 88 ha Öljytien varrella",
+          "tila": "todennettu",
+          "lahde": "https://www.fortum.com/fi/media/2024/05/sipoon-kunta-ja-fortum-valmistelevat-kaavoituksen-aloittamista-datakeskushankkeelle-stormosskarretin-alueelle",
+          "pvm": "2024-05-31"
+        },
+        {
+          "otsikko": "Kaava",
+          "arvo": "Kaavaluonnos nähtäville syksyllä 2026",
+          "tila": "arvio",
+          "lahde": "https://www.sipoo.fi/wp-content/uploads/2026/06/Kaavoituskatsaus-2026.pdf",
+          "pvm": "2026-06-15"
+        },
+        {
+          "otsikko": "Datakeskuksen toteuttaja",
+          "arvo": "Investoinnit tekisi datakeskushankkeen toteuttaja, jota ei ole nimetty",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

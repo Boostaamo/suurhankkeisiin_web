@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "helsinki",
+  "kunta": "Helsinki",
+  "kunta_genetiivi": "Helsingin",
+  "maakunta": "Uusimaa",
+  "maakunta_tunniste": "uusimaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Helsingin alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "datakeskus-heikinlaakso",
+      "nimi": "Heikinlaakson datakeskus",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Brunswick Real Estaten datakeskushanke Helsingin Heikinlaaksoon Kääpätien ja Lahdenväylän väliin. Hanke edellyttää asemakaavan muutosta, ja kehittämisvarauksella selvitetään toteutusmahdollisuudet.",
+      "tiedot": [
+        {
+          "otsikko": "Hakija",
+          "arvo": "Brunswick Real Estate Finland Oy; perustettava hankeyhtiö koordinoisi toteutusta",
+          "tila": "todennettu",
+          "lahde": "https://www.hel.fi/fi/uutiset/lahdenvaylan-varteen-suunnitellaan-uutta-datakeskusta",
+          "pvm": "2026-04-22"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 7,3 ha; rakennuksen korkeus noin 21–30 m",
+          "tila": "todennettu",
+          "lahde": "https://www.hel.fi/fi/uutiset/lahdenvaylan-varteen-suunnitellaan-uutta-datakeskusta",
+          "pvm": "2026-04-22"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Kehittämisvaraus; hanke edellyttää asemakaavan muutosta",
+          "tila": "todennettu",
+          "lahde": "https://www.hel.fi/fi/uutiset/lahdenvaylan-varteen-suunnitellaan-uutta-datakeskusta",
+          "pvm": "2026-04-22"
+        },
+        {
+          "otsikko": "Ympäristö",
+          "arvo": "Alue sijaitsee tulevan luonnonsuojelualueen vieressä",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20222050",
+          "pvm": "2026-04-22"
+        },
+        {
+          "otsikko": "Kapasiteetti ja investointi",
+          "arvo": "Ei julkaistu ensisijaisissa lähteissä",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

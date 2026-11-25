@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "jyvaskyla",
+  "kunta": "Jyväskylä",
+  "kunta_genetiivi": "Jyväskylän",
+  "maakunta": "Keski-Suomi",
+  "maakunta_tunniste": "keski-suomi",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Jyväskylän alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "datakeskus-itainen-seppalankangas",
+      "nimi": "Itäisen Seppälänkankaan datakeskushanke",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "Fortumin datakeskushanke Jyväskylän Itäiselle Seppälänkankaalle noin 7 kilometriä keskustasta koilliseen. Alueen asemakaava tuli voimaan kesäkuussa 2026, ja hankkeen ympäristövaikutusten arviointi on aloitettu.",
+      "tiedot": [
+        {
+          "otsikko": "Hankkeesta vastaava",
+          "arvo": "Fortum Power and Heat Oy",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/itaisen-seppalankankaan-datakeskushanke-jyvaskyla",
+          "pvm": "2026-09-01"
+        },
+        {
+          "otsikko": "YVA",
+          "arvo": "Lupa- ja valvontaviraston YVA-sivu julkaistu 1.9.2026 (LVV-U/102197/2026)",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/itaisen-seppalankankaan-datakeskushanke-jyvaskyla",
+          "pvm": "2026-09-01"
+        },
+        {
+          "otsikko": "Asemakaava",
+          "arvo": "Hyväksytty 27.4.2026, voimaan 18.6.2026",
+          "tila": "todennettu",
+          "lahde": "https://www.jyvaskyla.fi/kaupunkisuunnittelu/asemakaavoitus/voimassa-olevat-asemakaavat/itainen-seppalankangas",
+          "pvm": "2026-11-19"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Suunnittelualue noin 73 ha, josta korttelialueita noin 40 ha; maa kokonaan kaupungin omistuksessa",
+          "tila": "todennettu",
+          "lahde": "https://www.jyvaskyla.fi/kaupunkisuunnittelu/asemakaavoitus/voimassa-olevat-asemakaavat/itainen-seppalankangas",
+          "pvm": "2026-11-19"
+        },
+        {
+          "otsikko": "Kapasiteetti ja investointi",
+          "arvo": "Ei julkaistu ensisijaisissa lähteissä",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
