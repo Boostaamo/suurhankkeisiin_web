@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { TYYPIT, VAIHEET, hankeRivit, kunnat, maakunnat } from "@/lib/alueet";
+import { TYYPIT, VAIHEET, aktiivinen, hankeRivit, kunnat, maakunnat } from "@/lib/alueet";
 import { MaakuntaRuudut, Selite } from "@/components/AlueNakyma";
 import HankeHaku from "@/components/HankeHaku";
-import { aktiivinen } from "@/lib/vaihe";
 
 export const metadata: Metadata = {
   title: "Suurhankkeet",
@@ -26,12 +25,12 @@ export default function Hankkeet() {
         <h1>Suurhankkeet alueittain</h1>
         <p className="lead">Kaikki seuratut hankkeet yhdessä näkymässä. Suodata maakunnan, hanketyypin ja vaiheen mukaan, ja ilmoita yrityksesi mukaan alueesi hankkeisiin.</p>
         <div className="stats">
-          <div className="stat"><b>{akt.length}</b><span>aktiivista hanketta</span></div>
+          <div className="stat"><b>{r.filter((x) => aktiivinen(x.vaihe)).length}</b><span>aktiivista hanketta</span></div>
           <div className="stat"><b>{rak}</b><span>rakenteilla</span></div>
           <div className="stat"><b>{k.length}</b><span>kuntaa</span></div>
           <div className="stat"><b>{m.length}</b><span>maakuntaa</span></div>
         </div>
-        <p className="muted small" style={{ marginTop: 16 }}>Tiedot julkisista lähteistä, päivitetty {d}.{mo}.{y}. Lähde näkyy jokaisen hankkeen sivulla.{muut ? ` Lisäksi ${muut} toiminnassa olevaa tai perutuksi merkittyä kohdetta, jotka näkyvät vaihesuodattimella.` : ""}</p>
+        <p className="muted small" style={{ marginTop: 16 }}>Tiedot julkisista lähteistä, päivitetty {d}.{mo}.{y}. Lähde näkyy jokaisen hankkeen sivulla.{muut ? ` Lisäksi ${muut} toiminnassa olevaa tai perutuksi merkittyä kohdetta, jotka saa näkyviin hankelistan valinnalla.` : ""}</p>
       </div></section>
 
       <section className="alt" id="maakunnat"><div className="wrap">

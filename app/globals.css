@@ -269,3 +269,6 @@ section[id]{scroll-margin-top:72px}
 .vj-nuoli{margin-left:auto;width:10px;height:10px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);transition:transform .15s}
 .vaihejana > li > details[open] > summary .vj-nuoli{transform:rotate(-135deg)}
 .vaihejana > li > details > summary:hover h3{color:var(--korostus-linkki)}
+
+/* Ei-aktiiviset hankkeet (Hannu 25.11.2026) */
+.v-peruttu{opacity:.75}

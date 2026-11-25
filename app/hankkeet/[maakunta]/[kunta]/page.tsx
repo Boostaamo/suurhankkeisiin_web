@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { hankePolku, kunnat, kunta, lahdeNimi, pvm } from "@/lib/alueet";
-import { vaiheSlug } from "@/lib/vaihe";
+import { aktiivinen, vaiheSlug } from "@/lib/vaihe";
 import Seuranta from "@/components/Seuranta";
 import Form from "@/components/Form";
 import { uutisetHtml } from "@/lib/uutiset";
@@ -39,7 +39,7 @@ export default async function KuntaSivu({ params }: Props) {
       <section className="alt"><div className="wrap">
         <h2>Hankkeet</h2>
         <div className="cards">
-          {k.hankkeet.map((h) => (
+          {k.hankkeet.filter((h) => aktiivinen(h.vaihe_luokka)).map((h) => (
             <Link key={h.tunniste} href={hankePolku(k, h)} className="card link">
               {h.vaihe_luokka ? <span className={`vaihe v-${vaiheSlug(h.vaihe_luokka)}`}>{h.vaihe_luokka}</span> : null}
               {h.tyyppi ? <span className="vaihe">{h.tyyppi}</span> : null}
@@ -49,6 +49,17 @@ export default async function KuntaSivu({ params }: Props) {
             </Link>
           ))}
         </div>
+        {k.hankkeet.some((h) => !aktiivinen(h.vaihe_luokka)) ? (
+          <>
+            <h3 style={{ marginTop: 40 }}>Toiminnassa olevat ja perutut hankkeet</h3>
+            <p className="muted">Nämä eivät ole aktiivisia hankkeita, mutta ne ovat kohteita elinkaari- ja huoltopalveluille.</p>
+            <ul className="list">
+              {k.hankkeet.filter((h) => !aktiivinen(h.vaihe_luokka)).map((h) => (
+                <li key={h.tunniste}><Link href={hankePolku(k, h)}>{h.nimi}</Link> <span className={`vaihe v-${vaiheSlug(h.vaihe_luokka ?? "")}`}>{h.vaihe_luokka}</span></li>
+              ))}
+            </ul>
+          </>
+        ) : null}
       </div></section>
 
       {yh.length ? <section><div className="wrap">
@@ -71,17 +82,15 @@ export default async function KuntaSivu({ params }: Props) {
         <div dangerouslySetInnerHTML={{ __html: uutisetHtml(k.kunta) }} />
       </div></section>
 
-      <section className="alt"><div className="wrap grid2">
-        <div>
+      <section className="alt"><div className={`wrap${k.tapahtumat.length ? " grid2" : ""}`}>
+        {k.tapahtumat.length ? <div>
           <h2>Tapahtumat</h2>
-          {k.tapahtumat.length ? (
-            <ul className="list">
-              {k.tapahtumat.map((t) => (
-                <li key={t.nimi}><strong>{pvm(t.pvm)}</strong> {t.nimi}<span className="muted">, {t.paikka}{t.jarjestaja ? `, ${t.jarjestaja}` : ""}</span></li>
-              ))}
-            </ul>
-          ) : <p className="muted">Tulevista tapahtumista ilmoitetaan täällä.</p>}
-        </div>
+          <ul className="list">
+            {k.tapahtumat.map((t) => (
+              <li key={t.nimi}><strong>{pvm(t.pvm)}</strong> {t.nimi}<span className="muted">, {t.paikka}{t.jarjestaja ? `, ${t.jarjestaja}` : ""}</span></li>
+            ))}
+          </ul>
+        </div> : null}
         {k.naapurikunnat.length ? <div>
           <h2>Lähialueen hankkeet</h2>
           <ul className="list">
