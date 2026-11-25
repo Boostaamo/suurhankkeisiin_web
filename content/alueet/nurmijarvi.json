@@ -1,0 +1,68 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "nurmijarvi",
+  "kunta": "Nurmijärvi",
+  "kunta_genetiivi": "Nurmijärven",
+  "maakunta": "Uusimaa",
+  "maakunta_tunniste": "uusimaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Nurmijärven alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "sudentullin-datakeskus-klaukkala",
+      "nimi": "Sudentullin datakeskus, Klaukkala",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "Noin 560 megawatin datakeskuskampus Klaukkalan Sudentulliin noin 96 hehtaarin alueelle. Ympäristövaikutusten arviointi on käynnissä.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "DayOne (YVA:ssa hankkeesta vastaava DigitalLand Services Kinetic DC Oy)",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/klaukkalan-sudentullin-datakeskus-nurmijarvi",
+          "pvm": "2026-09-16"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Noin 560 MW sähköteho (VE1), viisi datakeskusrakennusta",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/klaukkalan-sudentullin-datakeskus-nurmijarvi",
+          "pvm": "2026-09-16"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 96 ha, rakennusoikeus 372 000 k-m²; työpaikka-alueen kauppahinta 24 milj. euroa",
+          "tila": "todennettu",
+          "lahde": "https://www.nurmijarvi.fi/teemasivut/datakeskus/",
+          "pvm": "2026-03-12"
+        },
+        {
+          "otsikko": "YVA",
+          "arvo": "YVA-ohjelma nähtävillä 16.9.–15.10.2026",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/klaukkalan-sudentullin-datakeskus-nurmijarvi",
+          "pvm": "2026-09-16"
+        },
+        {
+          "otsikko": "Sähköliittymä",
+          "arvo": "400 kV ilmajohto noin 7,7 km ja kaapeli noin 9,2 km Passanmäen sähköasemalle",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/klaukkalan-sudentullin-datakeskus-nurmijarvi",
+          "pvm": "2026-09-16"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Jopa 700 työntekijää, rakentamisen huipussa 1 000 rakentajaa",
+          "tila": "arvio",
+          "lahde": "https://www.nurmijarvi.fi/teemasivut/datakeskus/",
+          "pvm": "2026-03-12"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "raisio",
+  "kunta": "Raisio",
+  "kunta_genetiivi": "Raision",
+  "maakunta": "Varsinais-Suomi",
+  "maakunta_tunniste": "varsinais-suomi",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Raision alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "raisio-data-energy-campus",
+      "nimi": "Raisio Data & Energy Campus",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "CompassForge Ventures Oy:n datakeskus- ja energiakampus Raisioon. Kaupunki hyväksyi suunnitteluvaraussopimuksen joulukuussa 2025.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "CompassForge Ventures Oy (hankeyhtiö)",
+          "tila": "todennettu",
+          "lahde": "https://julkaisut.raisio.fi/dynasty10/kokous/2025642-14.PDF",
+          "pvm": "2025-12-15"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Arvioitu 500–600 MW",
+          "tila": "arvio",
+          "lahde": "https://julkaisut.raisio.fi/dynasty10/kokous/2025642-14.PDF",
+          "pvm": "2025-12-15"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Miljardiluokan investointi",
+          "tila": "arvio",
+          "lahde": "https://julkaisut.raisio.fi/dynasty10/kokous/2025642-14.PDF",
+          "pvm": "2025-12-15"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "40 ha ja 25 ha optioalue; edellyttää Fingridin 400 kV:n johtoinvestointia",
+          "tila": "todennettu",
+          "lahde": "https://julkaisut.raisio.fi/dynasty10/kokous/2025642-14.PDF",
+          "pvm": "2025-12-15"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Kaupunginhallitus hyväksyi suunnitteluvaraussopimuksen 15.12.2025",
+          "tila": "todennettu",
+          "lahde": "https://julkaisut.raisio.fi/dynasty10/kokous/2025642-14.PDF",
+          "pvm": "2025-12-15"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

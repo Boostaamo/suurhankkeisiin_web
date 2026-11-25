@@ -1,0 +1,75 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "jarvenpaa",
+  "kunta": "Järvenpää",
+  "kunta_genetiivi": "Järvenpään",
+  "maakunta": "Uusimaa",
+  "maakunta_tunniste": "uusimaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Järvenpään alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "prime-data-centers-palvelinkeskus",
+      "nimi": "Prime Data Centersin palvelinkeskus, Wärtsilän teollisuusalue",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": 1200,
+      "tiivistelma": "Prime Data Centersin palvelinkeskus Järvenpään Wärtsilän teollisuusalueelle. Ympäristövaikutusten arviointi on valmis, ja rakentaminen voisi alkaa vuonna 2027.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Prime Data Centers (YVA:ssa hankkeesta vastaava Data Prop Link Oy)",
+          "tila": "todennettu",
+          "lahde": "https://www.jarvenpaa.fi/a/prime-data-centers-suunnittelee-mittavaa-datakeskusinvestointia-jarvenpaahan",
+          "pvm": "2026-01-14"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Alkuvaiheen investointi 1,2 mrd. euroa",
+          "tila": "todennettu",
+          "lahde": "https://www.jarvenpaa.fi/a/prime-data-centers-suunnittelee-mittavaa-datakeskusinvestointia-jarvenpaahan",
+          "pvm": "2026-01-14"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Enintään 100 MW (VE1) tai 130 MW (VE2) IT-tehoa",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/jarvenpaan-palvelinkeskus",
+          "pvm": "2026-11-12"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "8,8 ha (YVA), Emalikatu 13",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/jarvenpaan-palvelinkeskus",
+          "pvm": "2026-11-12"
+        },
+        {
+          "otsikko": "YVA",
+          "arvo": "Perusteltu päätelmä annettu 8.9.2026 (korjattu 16.9.2026)",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/jarvenpaan-palvelinkeskus",
+          "pvm": "2026-11-12"
+        },
+        {
+          "otsikko": "Aikataulu",
+          "arvo": "Rakentaminen alkaisi 2027, jos luvat saadaan",
+          "tila": "arvio",
+          "lahde": "https://www.jarvenpaa.fi/a/prime-data-centers-suunnittelee-mittavaa-datakeskusinvestointia-jarvenpaahan",
+          "pvm": "2026-01-14"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Noin 40 suoraa ja yhteensä noin 200 pysyvää työpaikkaa; rakentamisessa noin 200 henkeä",
+          "tila": "arvio",
+          "lahde": "https://www.jarvenpaa.fi/a/prime-data-centers-suunnittelee-mittavaa-datakeskusinvestointia-jarvenpaahan",
+          "pvm": "2026-01-14"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "lohja",
+  "kunta": "Lohja",
+  "kunta_genetiivi": "Lohjan",
+  "maakunta": "Uusimaa",
+  "maakunta_tunniste": "uusimaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Lohjan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "hyperco-palvelinkeskus-virkkala",
+      "nimi": "Hypercon palvelinkeskus, Virkkala",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "Hyperco Oy:n palvelinkeskusalue Lohjan Virkkalan Kittfallissa noin 9 km keskustasta lounaaseen. Ympäristövaikutusten arviointi valmistui elokuussa 2025.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Hyperco Oy",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/lohjan-palvelinkeskus",
+          "pvm": "2025-09-15"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "IT-teho noin 100 MW (VE1) tai noin 300 MW (VE2)",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/lohjan-palvelinkeskus",
+          "pvm": "2025-09-15"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "22,3 ha",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/lohjan-palvelinkeskus",
+          "pvm": "2025-09-15"
+        },
+        {
+          "otsikko": "YVA",
+          "arvo": "Perusteltu päätelmä annettu 14.8.2025",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/lohjan-palvelinkeskus",
+          "pvm": "2025-09-15"
+        },
+        {
+          "otsikko": "Vaihe nyt",
+          "arvo": "Tarkistettava, onko rakentaminen alkanut",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

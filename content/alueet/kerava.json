@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "kerava",
+  "kunta": "Kerava",
+  "kunta_genetiivi": "Keravan",
+  "maakunta": "Uusimaa",
+  "maakunta_tunniste": "uusimaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Keravan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "fcdc-datakeskus",
+      "nimi": "FCDC:n datakeskus, Lahden moottoritien itäpuoli",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "FCDC Corp Oy:n 250 megawatin datakeskushanke noin kahden kilometrin päässä Keravan keskustasta. Viisi datakeskusrakennusta rakennetaan vaiheittain.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "FCDC Corp Oy",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/sites/default/files/documents/YVA-p%C3%A4%C3%A4t%C3%B6s%20LVV%20Kerava%20Datakeskus.pdf",
+          "pvm": "2026-06-12"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "250 MW (sähköteho), viisi datakeskusrakennusta; rakennusoikeus 142 100 k-m²",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/sites/default/files/documents/YVA-p%C3%A4%C3%A4t%C3%B6s%20LVV%20Kerava%20Datakeskus.pdf",
+          "pvm": "2026-06-12"
+        },
+        {
+          "otsikko": "YVA",
+          "arvo": "Lupa- ja valvontavirasto päätti 12.6.2026, ettei hankkeeseen sovelleta YVA-menettelyä",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/sites/default/files/documents/YVA-p%C3%A4%C3%A4t%C3%B6s%20LVV%20Kerava%20Datakeskus.pdf",
+          "pvm": "2026-06-12"
+        },
+        {
+          "otsikko": "Aikataulu",
+          "arvo": "Rakennustyöt 2027–2028, toiminta alkaisi 2028–2029; lisärakentaminen 2030-luvulla",
+          "tila": "arvio",
+          "lahde": "https://www.ymparisto.fi/sites/default/files/documents/YVA-p%C3%A4%C3%A4t%C3%B6s%20LVV%20Kerava%20Datakeskus.pdf",
+          "pvm": "2026-06-12"
+        },
+        {
+          "otsikko": "Kaava",
+          "arvo": "Lähteessä ristiriitaista tietoa asemakaavan tilasta",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

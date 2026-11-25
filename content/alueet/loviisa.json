@@ -54,6 +54,38 @@
         }
       ],
       "kilpailutukset": []
+    },
+    {
+      "tunniste": "hyperco-datakeskus-itainen-liittyma",
+      "nimi": "Hypercon datakeskus, itäinen liittymä",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Hyperco Oy:n datakeskushanke Loviisan itäisen liittymän alueelle valtatie 7:n tuntumaan.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Hyperco Oy",
+          "tila": "todennettu",
+          "lahde": "https://www.metsa.fi/tiedotteet/metsahallitus-vuokraa-tontin-loviisasta-hypercon-datakeskushankkeelle/",
+          "pvm": "2026-06-04"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Metsähallitus vuokraa 6,6 ha tontin; kaupungin varaus noin 25 ha",
+          "tila": "todennettu",
+          "lahde": "https://www.metsa.fi/tiedotteet/metsahallitus-vuokraa-tontin-loviisasta-hypercon-datakeskushankkeelle/",
+          "pvm": "2026-06-04"
+        },
+        {
+          "otsikko": "Tonttivaraus",
+          "arvo": "Kaupunki varasi noin 25 ha tontin Hypercolle tammikuussa 2025",
+          "tila": "todennettu",
+          "lahde": "https://www.loviisa.fi/ajankohtaista/hyperco-oy-varaamassa-tontin-loviisan-itaisesta-liittymasta-datakeskusta-varten/",
+          "pvm": "2025-01-27"
+        }
+      ],
+      "kilpailutukset": []
     }
   ],
   "tapahtumat": [],

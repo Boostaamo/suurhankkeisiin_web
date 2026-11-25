@@ -1,0 +1,54 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "mikkeli",
+  "kunta": "Mikkeli",
+  "kunta_genetiivi": "Mikkelin",
+  "maakunta": "Etelä-Savo",
+  "maakunta_tunniste": "etela-savo",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Mikkelin alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "compute-nordic-datakeskus-visulahti",
+      "nimi": "Compute Nordicin datakeskus, Visulahti",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Compute Nordic Finland Oy:n datakeskus Visulahden teollisuusalueelle valtateiden 5 ja 72 risteykseen Fingridin sähköaseman lähelle.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Compute Nordic Finland Oy",
+          "tila": "todennettu",
+          "lahde": "https://mikseimikkeli.fi/27588/",
+          "pvm": "2024-05-24"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 10 ha vuokratontti, valmis kaava",
+          "tila": "todennettu",
+          "lahde": "https://mikseimikkeli.fi/27588/",
+          "pvm": "2024-05-24"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Suunnitteluvaiheessa (toukokuu 2024)",
+          "tila": "todennettu",
+          "lahde": "https://mikseimikkeli.fi/27588/",
+          "pvm": "2024-05-24"
+        },
+        {
+          "otsikko": "Vaihe nyt",
+          "arvo": "Tarkistettava, onko rakentaminen alkanut",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
