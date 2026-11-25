@@ -11,7 +11,8 @@ export type Hanke = {
   tyyppi?: string; vaihe_luokka?: string; investointi_meur?: number | null;
 };
 // Hankkeiden luokat suodattimiin. Järjestys = näyttöjärjestys.
-export const VAIHEET = ["Rakenteilla", "Investointipäätös", "Luvitus", "Suunnittelu", "Keskeytetty", "Ei tietoa"];
+export const VAIHEET = ["Rakenteilla", "Investointipäätös", "Luvitus", "Suunnittelu", "Keskeytetty", "Ei tietoa", "Toiminnassa", "Peruttu"];
+export { EI_AKTIIVISET, aktiivinen } from "./vaihe";
 export const TYYPIT = ["Datakeskus", "Energia", "Vety ja e-polttoaineet", "Teollisuus", "Kaivos", "Biojalostus ja metsä", "Infra"];
 export type Tapahtuma = { nimi: string; pvm: string; paikka: string; jarjestaja?: string };
 export type Naapuri = { kunta: string; maakunta: string; nimi: string; arvo: string; tila: Tila; lahde?: string; pvm?: string };

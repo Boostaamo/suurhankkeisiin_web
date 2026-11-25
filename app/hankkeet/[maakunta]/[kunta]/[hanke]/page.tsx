@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { hanke, kunnat, kuntaPolku, pvm } from "@/lib/alueet";
-import { vaiheSlug } from "@/lib/vaihe";
+import { aktiivinen, vaiheSlug } from "@/lib/vaihe";
 import Seuranta from "@/components/Seuranta";
 import Tiedot from "@/components/Tiedot";
 import Form from "@/components/Form";
@@ -42,6 +42,7 @@ export default async function HankeSivu({ params }: Props) {
         {h.tyyppi ? <span className="vaihe" style={{ marginBottom: 12 }}>{h.tyyppi}</span> : null}
         <h1>{h.nimi}</h1>
         <p className="lead">{h.tiivistelma}</p>
+        {aktiivinen(h.vaihe_luokka) ? null : <p className="muted">{h.vaihe_luokka === "Peruttu" ? "Hanke on peruttu." : "Hanke on toiminnassa."} Se on rekisterissä elinkaari- ja huoltopalveluja tarjoaville yrityksille, mutta sitä ei näytetä aktiivisena hankkeena.</p>}
         <div className="cta"><a className="btn" href="#ilmoittaudu">Ilmoita yrityksesi hankkeeseen</a></div>
       </div></section>
       <section><div className="wrap">

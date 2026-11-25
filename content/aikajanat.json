@@ -36,7 +36,8 @@
     "Suunnittelu": "suunnittelu",
     "Luvitus": "luvitus",
     "Investointipäätös": "investointipaatos",
-    "Rakenteilla": "rakentaminen"
+    "Rakenteilla": "rakentaminen",
+    "Toiminnassa": "kaytto"
   },
   "hankkeittain": {
     "muhos/datakeskus": {

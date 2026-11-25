@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { vaiheSlug, type HankeRivi } from "@/lib/vaihe";
+import { aktiivinen, vaiheSlug, type HankeRivi } from "@/lib/vaihe";
 
 // Kaikkien hankkeiden haku ja suodatus selaimessa. Data tulee staattisesti datakerroksesta (content/alueet).
 type Props = { rivit: HankeRivi[]; maakunnat: { tunniste: string; nimi: string }[]; tyypit: string[]; vaiheet: string[]; alkuMaakunta?: string };
@@ -11,7 +11,10 @@ const euroa = (m: number | null) =>
   m == null ? "" : m >= 1000 ? `noin ${(m / 1000).toLocaleString("fi-FI", { maximumFractionDigits: 1 })} mrd €` : `noin ${m.toLocaleString("fi-FI")} M€`;
 const vaiheLuokka = (v: string) => `vaihe v-${vaiheSlug(v)}`;
 
-export default function HankeHaku({ rivit, maakunnat, tyypit, vaiheet, alkuMaakunta = "" }: Props) {
+export default function HankeHaku({ rivit: kaikki, maakunnat, tyypit, vaiheet, alkuMaakunta = "" }: Props) {
+  const [myosMuut, setMyosMuut] = useState(false);
+  const rivit = useMemo(() => (myosMuut ? kaikki : kaikki.filter((x) => aktiivinen(x.vaihe))), [kaikki, myosMuut]);
+  const muita = kaikki.filter((x) => !aktiivinen(x.vaihe) && (!alkuMaakunta || x.maakunta_tunniste === alkuMaakunta)).length;
   const [maakunta, setMaakunta] = useState(alkuMaakunta);
   const [tyyppi, setTyyppi] = useState("");
   const [vaihe, setVaihe] = useState("");
@@ -33,7 +36,7 @@ export default function HankeHaku({ rivit, maakunnat, tyypit, vaiheet, alkuMaaku
   }, [rivit, maakunta, tyyppi, vaihe, haku, jarjestys]);
 
   const laske = (f: (x: HankeRivi) => boolean) => rivit.filter((x) => (!maakunta || x.maakunta_tunniste === maakunta) && f(x)).length;
-  const tyhjenna = () => { setMaakunta(alkuMaakunta); setTyyppi(""); setVaihe(""); setHaku(""); };
+  const tyhjenna = () => { setMaakunta(alkuMaakunta); setTyyppi(""); setVaihe(""); setHaku(""); setMyosMuut(false); };
 
   return (
     <div className="haku">
@@ -57,6 +60,12 @@ export default function HankeHaku({ rivit, maakunnat, tyypit, vaiheet, alkuMaaku
         </label>
       </div>
 
+      {muita ? (
+        <label className="chk" style={{ marginBottom: 12 }}>
+          <input type="checkbox" checked={myosMuut} onChange={(e) => { setMyosMuut(e.target.checked); if (!e.target.checked && !aktiivinen(vaihe)) setVaihe(""); }} />
+          <span>Näytä myös toiminnassa olevat ja perutut hankkeet ({muita}). Ne ovat kohteita elinkaari- ja huoltopalveluille.</span>
+        </label>
+      ) : null}
       <div className="chips" aria-label="Hanketyyppi">
         <button type="button" className={`chip${tyyppi === "" ? " on" : ""}`} aria-pressed={tyyppi === ""} onClick={() => setTyyppi("")}>Kaikki tyypit</button>
         {tyypit.map((t) => {
@@ -73,8 +82,8 @@ export default function HankeHaku({ rivit, maakunnat, tyypit, vaiheet, alkuMaaku
       </div>
 
       <p className="muted small" aria-live="polite">
-        {tulos.length} / {rivit.length} hanketta
-        {maakunta !== alkuMaakunta || tyyppi || vaihe || haku ? <> · <button type="button" className="tyhjenna" onClick={tyhjenna}>Tyhjennä valinnat</button></> : null}
+        {tulos.length} / {rivit.length} {myosMuut ? "hanketta" : "aktiivista hanketta"}
+        {maakunta !== alkuMaakunta || tyyppi || vaihe || haku || myosMuut ? <> · <button type="button" className="tyhjenna" onClick={tyhjenna}>Tyhjennä valinnat</button></> : null}
       </p>
 
       <ul className="hlista">

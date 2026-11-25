@@ -88,3 +88,9 @@ Hankesivun osio "Hankkeen eteneminen ja tarpeet" näyttää vakiovaiheet (Suunni
 - Tarpeet kytketään vaiheeseen `content/tarpeet.json`-kentällä `vaihe` (sekä hankekohtaiset että hanketyypin yleiset).
 - Uutisseuranta lisää tapahtuman, kun uutinen muuttaa vaihetta (YVA, lupa, kaava, keskeytys, investointipäätös, rakentamisen alku). Viikkopäivitys täydentää aikajanoja hanke kerrallaan.
 - Vaiheet ovat avattavia (käynnissä ja keskeytetty auki oletuksena), ja niillä on Avaa kaikki / Sulje kaikki -painikkeet. "Tarjoa osaamistasi tähän vaiheeseen" vie ilmoittautumiseen, ja vaihe tallentuu liidin vastauksiin (`vastaukset.vaihe`). Lomakkeella kysytään yrityksen verkkosivua (`vastaukset.verkkosivu`), josta palvelut kootaan profiiliin; automaattinen sivuanalyysi palvelimella kuuluu vaiheeseen 2 (Bistek).
+
+## Toiminnassa olevat ja perutut hankkeet (Hannu 25.11.2026)
+
+Valmistuneita, käyttöön otettuja ja peruttuja hankkeita ei poisteta datakerroksesta. Ne merkitään `vaihe_luokka`-kenttään arvolla `Toiminnassa` tai `Peruttu`, ja niille kirjataan lähde ja päiväys kuten muillekin tiedoille. Sivusto ei näytä niitä aktiivisina: ne puuttuvat tunnusluvuista, vaihepalkeista ja oletuslistauksesta, mutta ne saa näkyviin hakusivun valinnalla, ja kuntasivulla ne ovat omana listanaan. Ne ovat kohteita elinkaari- ja huoltopalveluja tarjoaville yrityksille.
+
+Tarkemmat tiedot (esim. urakoitsijat) näytetään myöhemmin vain kirjautuneille PRO-jäsenille. Kirjautuminen ja jäsenyys ovat Bistekin vaihetta 2.
