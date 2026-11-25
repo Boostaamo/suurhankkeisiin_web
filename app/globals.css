@@ -103,6 +103,8 @@ section.alt{background:var(--tausta-2)}
 .newsitem h3 a:hover{color:var(--korostus-linkki)}
 .newsitem p{margin-bottom:8px}
 .newsmeta{font-size:13px;font-weight:600;color:var(--muted)}
+.lisalahteet{margin-top:6px;font-size:14px;color:var(--muted)}
+.lisalahteet a{color:var(--korostus-linkki)}
 
 /* Hinnat */
 .prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px;align-items:stretch}

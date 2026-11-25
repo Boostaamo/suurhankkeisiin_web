@@ -1,5 +1,5 @@
 {
-  "_ohje": "Uutisfeedi etusivulle, kuntasivuille ja hankesivujen aikajanalle. Tekoälykerros kokoaa: oma lyhyt ingressi (1–2 virkettä, ei lainauksia), otsikko, julkaisija, päiväys, linkki alkuperäiseen ja hankkeet, joita uutinen koskee (muoto <kunnan tunniste>/<hankkeen tunniste>). Uusin ensin. Enintään 40 kytkemätöntä uutista; hankkeisiin kytkettyjä ei poisteta. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
+  "_ohje": "Uutisfeedi etusivulle, kuntasivuille ja hankesivujen aikajanalle. Tekoälykerros kokoaa: oma lyhyt ingressi (1–2 virkettä, ei lainauksia), otsikko, julkaisija, päiväys, linkki alkuperäiseen ja hankkeet, joita uutinen koskee (muoto <kunnan tunniste>/<hankkeen tunniste>). Samasta asiasta tehdyt uutiset niputetaan yhdeksi: ensisijainen (luotettavin tai ensimmäinen) lähde kenttiin julkaisija, url ja pvm, muut lähteet kenttään lisalahteet [{julkaisija, url, pvm}]. Uusin ensin. Enintään 40 kytkemätöntä uutista; hankkeisiin kytkettyjä ei poisteta. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
   "uutiset": [
     {
       "otsikko": "XTX Marketsin ensimmäinen oma datakeskus valmistui Kajaaniin",
@@ -24,6 +24,13 @@
       "hankkeet": [
         "muhos/datakeskus",
         "kajaani/google-datakeskus-otanmaki"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Yle",
+          "url": "https://yle.fi/a/74-20258724",
+          "pvm": "2026-11-24"
+        }
       ]
     },
     {

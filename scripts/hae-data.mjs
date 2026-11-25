@@ -68,7 +68,12 @@ export function koosta(r) {
 
   const uutiset = [...r.julkiset_uutiset]
     .sort((a, b) => String(b.pvm).localeCompare(String(a.pvm)))
-    .map((u) => ilmanTyhjia({ otsikko: u.otsikko, ingressi: u.ingressi, julkaisija: u.julkaisija, url: u.url, pvm: u.pvm, kunta: u.kunta, maakunta: u.maakunta }));
+    .map((u) =>
+      ilmanTyhjia({
+        otsikko: u.otsikko, ingressi: u.ingressi, julkaisija: u.julkaisija, url: u.url, pvm: u.pvm, kunta: u.kunta, maakunta: u.maakunta,
+        hankkeet: u.hankkeet ?? undefined, lisalahteet: u.lisalahteet ?? undefined,
+      }),
+    );
 
   return { kunnat, uutiset };
 }
@@ -112,6 +117,20 @@ function lueContent() {
   return { kunnat, uutiset };
 }
 
+// Siirtymäkausi: jos tietokannan uutisnäkymässä ei ole kenttiä hankkeet tai lisalahteet, ne täydennetään
+// content/uutiset.json-tiedostosta saman url:n perusteella, jotta hankeaikajanat ja niputetut lähteet näkyvät.
+function taydennaUutiset(uutiset) {
+  const tiedosto = path.join(process.cwd(), "content", "uutiset.json");
+  if (!fs.existsSync(tiedosto)) return;
+  const json = new Map(JSON.parse(fs.readFileSync(tiedosto, "utf8")).uutiset.map((u) => [u.url, u]));
+  for (const u of uutiset) {
+    const j = json.get(u.url);
+    if (!j) continue;
+    if (!u.hankkeet && j.hankkeet) u.hankkeet = j.hankkeet;
+    if (!u.lisalahteet && j.lisalahteet) u.lisalahteet = j.lisalahteet;
+  }
+}
+
 async function tuoJsonista(url) {
   const avain = process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (!avain) throw new Error("TUONTI_JSONISTA=kylla tarvitsee muuttujan SUPABASE_SERVICE_ROLE_KEY.");
@@ -149,6 +168,7 @@ async function main() {
   if (!data.kunnat.length || !data.kunnat.some((k) => k.hankkeet.length)) {
     throw new Error("Tietokannasta ei tullut yhtään kuntaa tai hanketta. Build pysäytetään.");
   }
+  taydennaUutiset(data.uutiset);
   kirjoita(path.join(process.cwd(), ".data"), data);
   const hankkeita = data.kunnat.reduce((n, k) => n + k.hankkeet.length, 0);
   console.log(`Datalähde: tietokanta. ${data.kunnat.length} kuntaa, ${hankkeita} hanketta, ${data.uutiset.length} uutista.`);

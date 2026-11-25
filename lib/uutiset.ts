@@ -3,12 +3,21 @@ import fs from "node:fs";
 import path from "node:path";
 import { DATAKANSIO, pvm } from "@/lib/alueet";
 
-export type Uutinen = { otsikko: string; ingressi: string; julkaisija: string; url: string; pvm: string; kunta?: string; maakunta?: string; hankkeet?: string[] };
+// Samasta asiasta tehdyt uutiset niputetaan yhdeksi: ensisijainen lähde kentissä julkaisija/url/pvm, muut kentässä lisalahteet (Hannu 25.11.2026).
+export type Lahde = { julkaisija: string; url: string; pvm: string };
+export type Uutinen = { otsikko: string; ingressi: string; julkaisija: string; url: string; pvm: string; kunta?: string; maakunta?: string; hankkeet?: string[]; lisalahteet?: Lahde[] };
 
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 const kaikki = (): Uutinen[] =>
   (JSON.parse(fs.readFileSync(path.join(DATAKANSIO, "uutiset.json"), "utf8")) as { uutiset: Uutinen[] }).uutiset;
+
+export const lisalahteetHtml = (u: Uutinen) =>
+  u.lisalahteet?.length
+    ? `<div class="lisalahteet">Myös: ${u.lisalahteet
+        .map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener nofollow" data-track="click_uutinen">${esc(l.julkaisija)} ${esc(pvm(l.pvm))}</a>`)
+        .join(", ")}</div>`
+    : "";
 
 export function uutiset(kunta?: string, max = 5): Uutinen[] {
   return kaikki()
@@ -25,7 +34,7 @@ export function uutisetHtml(kunta?: string, max = 5): string {
       (u) => `<article class="newsitem"><div class="newsmeta">${esc(pvm(u.pvm))} · ${esc(u.julkaisija)}${u.kunta ? ` · ${esc(u.kunta)}` : ""}</div>
 <h3><a href="${esc(u.url)}" target="_blank" rel="noopener nofollow" data-track="click_uutinen">${esc(u.otsikko)}</a></h3>
 <p>${esc(u.ingressi)}</p>
-<a class="more" href="${esc(u.url)}" target="_blank" rel="noopener nofollow" data-track="click_uutinen">Lue uutinen (${esc(u.julkaisija)}) →</a></article>`,
+<a class="more" href="${esc(u.url)}" target="_blank" rel="noopener nofollow" data-track="click_uutinen">Lue uutinen (${esc(u.julkaisija)}) →</a>${lisalahteetHtml(u)}</article>`,
     )
     .join("")}</div>`;
 }
