@@ -118,6 +118,30 @@
       ]
     },
     {
+      "otsikko": "Downing Renewable Developments sai rakennusluvat Siikajoen Relletinsuon aurinkovoimalalle",
+      "ingressi": "Downing Renewable Developments on saanut lainvoimaiset rakennusluvat noin 120 MWp:n Relletinsuon aurinkovoimalalle ja 40 MW:n akkuvarastolle Siikajoella. Rakentamisen on tarkoitus alkaa kesällä 2027 ja kaupallisen käytön loppuvuodesta 2028.",
+      "julkaisija": "GreenTechLead",
+      "url": "https://greentechlead.com/?p=56250",
+      "pvm": "2026-10-30",
+      "kunta": "Siikajoki",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "siikajoki/siikajoen-aurinkovoimahanke-126-mw"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Energy Global",
+          "url": "https://www.energyglobal.com/electric-hybrid/29102026/downing-renewable-developments-secures-building-permits-for-finnish-solar-project/",
+          "pvm": "2026-10-29"
+        },
+        {
+          "julkaisija": "Blackridge Research",
+          "url": "https://www.blackridgeresearch.com/news-releases/downing-renewable-developments-secures-building-permits-for-120mwp-relletinsuo-solar-project-in-finland",
+          "pvm": "2026-10-30"
+        }
+      ]
+    },
+    {
       "otsikko": "Vihreät vaatii Helsingin datakeskusperiaatteisiin tiukkoja linjoja ja luonnon suojaamista",
       "ingressi": "Helsingin Vihreät vastustaa tiedotteessaan datakeskuksen sijoittamista Heikinlaakson metsään, jolle on haettu kehittämisvarausta tulevan luonnonsuojelualueen viereen. Tiedote julkaistiin ennen kaupunginhallituksen linjausta datakeskusten sijoitusperiaatteista.",
       "julkaisija": "Helsingin Vihreät (STT Info)",
@@ -127,6 +151,18 @@
       "maakunta": "Uusimaa",
       "hankkeet": [
         "helsinki/datakeskus-heikinlaakso"
+      ]
+    },
+    {
+      "otsikko": "Jokelan datakeskushankkeen YVA-selostuksesta perusteltu päätelmä",
+      "ingressi": "Lupa- ja valvontavirasto antoi perustellun päätelmän Jokelan Vihreä Maa Oy:n datakeskushankkeesta, jossa 16,8 hehtaarin alueelle suunnitellaan kahta datakeskusrakennusta. Viraston mukaan vaikutukset kohdistuvat erityisesti ilmastoon sekä asukkaiden elinoloihin ja viihtyvyyteen, eikä hankkeella ole paikallista hyväksyttävyyttä.",
+      "julkaisija": "Lupa- ja valvontavirasto (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/72444463/jokelan-datakeskushankkeen-yva-selostuksesta-perusteltu-paatelma?lang=fi",
+      "pvm": "2026-10-26",
+      "kunta": "Tuusula",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "tuusula/jokelan-datakeskus"
       ]
     },
     {
@@ -231,6 +267,18 @@
       "maakunta": "Päijät-Häme",
       "hankkeet": [
         "lahti/dayone-datakeskus-kiverio"
+      ]
+    },
+    {
+      "otsikko": "Simoon suunnitteilla uusi datakeskus – kunnanhallitus käynnisti kaavoituksen",
+      "ingressi": "Helios Nordic Energy Finland suunnittelee datakeskusta noin 170 hehtaarin alueelle Malininperän pohjoispuolelle Simoon, ja kunnanhallitus käynnisti alueen kaavoituksen. Datakeskus liitettäisiin läheiseen Fingridin Simojoen sähköasemaan.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/simoon-suunnitteilla-uusi-datakeskus-kunnanhallitu/13688357",
+      "pvm": "2026-09-29",
+      "kunta": "Simo",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "simo/malininperan-datakeskus"
       ]
     },
     {
@@ -378,6 +426,18 @@
       "maakunta": "Päijät-Häme",
       "hankkeet": [
         "lahti/ecogrid-datakeskus-kujala"
+      ]
+    },
+    {
+      "otsikko": "Hitachi Energy toimittaa ekotehokkaan sähköistysratkaisun Nordic Ren-Gasin e-metaanilaitokseen Tampereelle",
+      "ingressi": "Hitachi Energy toimittaa Nordic Ren-Gasin Tampereen e-metaanilaitokseen sähköistysratkaisun, johon kuuluvat SF6-vapaa kytkinlaitos ja muuntajat. Laitoksen rakentaminen on alkanut, ja kaupallinen toiminta on suunniteltu alkavaksi vuonna 2029.",
+      "julkaisija": "Hitachi Energy (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/72302115/hitachi-energy-toimittaa-ekotehokkaan-sahkoistysratkaisun-nordic-ren-gasin-e-metaanilaitokseen-tampereelle?lang=fi",
+      "pvm": "2026-09-10",
+      "kunta": "Tampere",
+      "maakunta": "Pirkanmaa",
+      "hankkeet": [
+        "tampere/nordic-ren-gasin-e-metaanilaitos"
       ]
     },
     {
@@ -765,6 +825,30 @@
       ]
     },
     {
+      "otsikko": "Tämä tiedetään Microsoftin suunnittelemasta jättimäisestä datakeskuksesta Vaasassa",
+      "ingressi": "Lupa- ja valvontavirasto päätti, ettei Microsoftin Vaasan ja Mustasaaren rajalle suunnittelema datakeskus tarvitse ympäristövaikutusten arviointia. Noin 180 hehtaarin alueelle tulisi kuusi datakeskusrakennusta, ja keskeisiä ympäristöriskejä ovat happamat sulfaattimaat ja hulevedet.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20232883",
+      "pvm": "2026-06-23",
+      "kunta": "Vaasa",
+      "maakunta": "Pohjanmaa",
+      "hankkeet": [
+        "vaasa/microsoft-datakeskus-gigavaasa"
+      ]
+    },
+    {
+      "otsikko": "Pyhäjoen datakeskuksen valmistelevat rakennustyöt käynnistyvät",
+      "ingressi": "Hyperco Intelligence Oy:n Pyhäjoen Keskikylän datakeskuksen valmistelevat maatyöt alkavat kesäkuussa. Rakennuslupaa haettiin toukokuussa ja sen odotetaan valmistuvan kesällä; keskus on tarkoitus liittää Valkeuden sähköasemaan.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/pyhajoen-datakeskuksen-valmistelevat-rakennustyot/13547643",
+      "pvm": "2026-06-18",
+      "kunta": "Pyhäjoki",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "pyhajoki/hypercon-datakeskus"
+      ]
+    },
+    {
       "otsikko": "Iihin suunnitellaan taas uutta miljardiluokan datakeskusta",
       "ingressi": "Iin kunnanhallitus on hyväksynyt kaavoitusaloitteen datakeskuksen sijoittamiseksi Isokankaan sähköaseman lähelle Jakkukylän eteläpuolelle, noin 15 kilometrin päähän Iin keskustasta.",
       "julkaisija": "Kaleva",
@@ -786,6 +870,18 @@
       "maakunta": "Kainuu",
       "hankkeet": [
         "kajaani/xtx-marketsin-datakeskus-250-mw"
+      ]
+    },
+    {
+      "otsikko": "Vetyalfa's refinery project and Gasgrid's network planning are building a hydrogen economy in Finland",
+      "ingressi": "Gasgrid ja Vetyalfa selvittävät yhdessä alueellista vetyputkea Utajärven jalostamolle. Suunnitellun Oulu–Utajärvi–Vaala-reitin ympäristöselvitykset ovat käynnissä, ja tekniset ja kaupalliset ratkaisut ovat vielä kehitteillä.",
+      "julkaisija": "Gasgrid Finland",
+      "url": "https://gasgrid.fi/en/bulletins/vetyalfas-refinery-project-and-gasgrids-network-planning-are-building-a-hydrogen-economy-in-finland/",
+      "pvm": "2026-06-16",
+      "kunta": "Utajärvi",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "utajarvi/vetyalfan-vihrean-vedyn-jalostamo"
       ]
     },
     {
@@ -908,6 +1004,18 @@
           "url": "https://www.prnewswire.com/fi/lehdistotiedotteet/amptank-announces-200-mw-ai-data-center-project-in-utajarvi-finland-302797942.html",
           "pvm": "2026-06-11"
         }
+      ]
+    },
+    {
+      "otsikko": "Vetyalfa's Utajärvi hydrogen refinery to receive EUR 224 million from the EU Innovation Fund",
+      "ingressi": "Euroopan komissio valitsi Vetyalfan Utajärven jalostamokokonaisuuteen kuuluvan Cloudberry-hankkeen saamaan noin 224 miljoonaa euroa EU:n innovaatiorahastosta. Lopullinen tuki vahvistuu avustussopimuksessa.",
+      "julkaisija": "CleantechOulu (BusinessOulu)",
+      "url": "https://oulu.com/cleantech/news/vetyalfas-utajarvi-hydrogen-refinery-to-receive-eur-224-million-from-the-eu-innovation-fund/",
+      "pvm": "2026-05-15",
+      "kunta": "Utajärvi",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "utajarvi/vetyalfan-vihrean-vedyn-jalostamo"
       ]
     },
     {
@@ -1109,6 +1217,18 @@
       "maakunta": "Keski-Pohjanmaa",
       "hankkeet": [
         "halsua/ox2-n-kanniston-tuulipuisto"
+      ]
+    },
+    {
+      "otsikko": "Asukaskysely Jokelaan suunnitellun datakeskuksen vaikutuksista",
+      "ingressi": "Jokelan Vihreä Maa Oy:n Jokelan läntiselle työpaikka-alueelle suunnitteleman datakeskuksen ympäristövaikutusten arviointiin liittyvä asukaskysely oli avoinna 16.4.–3.5.2026. Hankkeeseen kuuluu uusi 110 kilovoltin voimajohto Nurmijärven sähköasemalle, ja YVA vertailee kahta reittivaihtoehtoa.",
+      "julkaisija": "Tuusulan kunta",
+      "url": "https://tuusula.fi/en/2026/04/16/resident-survey-on-the-impact-of-the-planned-data-centre-in-jokela/",
+      "pvm": "2026-04-16",
+      "kunta": "Tuusula",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "tuusula/jokelan-datakeskus"
       ]
     },
     {
@@ -1429,6 +1549,44 @@
       ]
     },
     {
+      "otsikko": "Vihreäsaaren sataman vetylaitos etenee – Norjalaisyhtiö teki sopimuksen Oulun kanssa",
+      "ingressi": "Oulun kaupunki ja Hy2gen Nordic allekirjoittivat aiesopimuksen Vihreäsaaren alueen kehittämisestä 200 megawatin e-metanolilaitokselle. Seuraavaksi tarvitaan yhteistoimintasopimus, jonka jälkeen kaavamuutos voidaan käynnistää; aikataulu ja kustannusjako ovat vielä auki.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/vihreasaaren-sataman-vetylaitos-etenee-norjalaisyh/12537354",
+      "pvm": "2026-02-12",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/hy2gen-200-mw-e-metanolilaitos-vihreasaari"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Oulun kaupunki",
+          "url": "https://www.ouka.fi/en/news/city-oulu-and-hy2gen-nordic-sign-letter-intent-regarding-development-green-transition-industry",
+          "pvm": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "otsikko": "Soklin kaivoshanke Savukoskella etenee seuraavaan vaiheeseen",
+      "ingressi": "Sokli Oy siirtää hankkeen esiteknistaloudelliseen selvitykseen vuosiksi 2026–2028, ja valtio pääomittaa Finnish Minerals Groupia noin 65 miljoonalla eurolla. Selvitysvaiheessa rakennetaan koekaivos ja koerikastamo, ja ympäristövaikutusten arviointi alkaa keväällä 2026.",
+      "julkaisija": "Finnish Minerals Group",
+      "url": "https://www.mineralsgroup.fi/fi/ajankohtaista/uutiset/soklin-kaivoshanke-savukoskella-etenee-seuraavaan-vaiheeseen.html",
+      "pvm": "2026-02-12",
+      "kunta": "Savukoski",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "savukoski/soklin-lannoite-ja-maamineraalihanke"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Valtioneuvosto",
+          "url": "https://valtioneuvosto.fi/en/-/state-to-capitalise-finnish-minerals-group-with-eur-65-million-to-advance-sokli-mining-project",
+          "pvm": "2026-02-12"
+        }
+      ]
+    },
+    {
       "otsikko": "Muhoksen kaavaillun datakeskuksen hukkalämpö halutaan hyötykäyttöön – tapoja selvitetään oppilaitosyhteistyöllä",
       "ingressi": "Muhoksen kunta ja kolme Oulun seudun oppilaitosta selvittävät, miten suunnitellun datakeskuksen hukkalämpöä voitaisiin hyödyntää Leppiniemen Biopark-alueella. Kunta on kaavoittanut datakeskuksen viereen tontteja lämpöä hyödyntävälle teollisuudelle.",
       "julkaisija": "Yle",
@@ -1439,6 +1597,18 @@
       "hankkeet": [
         "muhos/biopark",
         "muhos/datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Orlen and ABO Energy sign MoU on hydrogen supply",
+      "ingressi": "ABO Energy ja puolalainen Orlen solmivat aiesopimuksen vihreän vedyn tuotannosta ja toimituksesta Puolaan 2030-luvulta alkaen. ABO Energyn mukaan Nivalan Kurunpuhdon vetyhankkeen kannattavuusselvitys on valmis ja hanke etenee ympäristövaikutusten arviointiin.",
+      "julkaisija": "ABO Energy",
+      "url": "https://www.aboenergy.com/en/media-center/press/2026/2026-01-28_mou_h2_orlen_en.html",
+      "pvm": "2026-01-29",
+      "kunta": "Nivala",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "nivala/kurunpuhdon-vetylaitos"
       ]
     },
     {
@@ -1492,6 +1662,18 @@
       ]
     },
     {
+      "otsikko": "Soklin kaivoshanke hakee kriittisten raaka-aineiden asetuksen mukaista strategista asemaa",
+      "ingressi": "Finnish Minerals Groupin tytäryhtiö Sokli Oy hakee Euroopan komissiolta Savukosken kaivoshankkeelle strategisen hankkeen asemaa EU:n kriittisten raaka-aineiden asetuksen nojalla. Yhtiön mukaan asema tekisi hankkeen aikatauluista ennustettavampia.",
+      "julkaisija": "Finnish Minerals Group",
+      "url": "https://www.mineralsgroup.fi/fi/ajankohtaista/uutiset/soklin-kaivoshanke-hakee-kriittisten-raaka-aineiden-asetuksen-mukaista-strategista-asemaa.html",
+      "pvm": "2026-01-16",
+      "kunta": "Savukoski",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "savukoski/soklin-lannoite-ja-maamineraalihanke"
+      ]
+    },
+    {
       "otsikko": "Tax credits for large clean transition investments awarded to 40 companies",
       "ingressi": "Business Finland myönsi puhtaan siirtymän investointien verohyvityksiä 40 yritykselle. Northern Green Fuels Oy:n uusiutuvan energian tuotantohankkeelle myönnettiin noin 109,9 miljoonan euron verohyvitys.",
       "julkaisija": "Business Finland",
@@ -1520,6 +1702,18 @@
           "url": "https://bebeez.eu/2026/01/15/prime-targets-data-center-development-in-jarvenpaa-finland/",
           "pvm": "2026-01-15"
         }
+      ]
+    },
+    {
+      "otsikko": "Vetyalfan vetyjalostamolle 150 milj. euron investointituki",
+      "ingressi": "Business Finland on myöntänyt Vetyalfan Utajärven vihreän vedyn jalostamolle 150 miljoonan euron investointituen. Jalostamo voisi tuottaa jopa 180 000 tonnia vetyä vuodessa, elektrolyysikapasiteetti olisi täydessä laajuudessa 1 000 MW, ja investointipäätös tavoitellaan vuonna 2027.",
+      "julkaisija": "Vetyalfa Oy (Utajärven kunta)",
+      "url": "https://www.utajarvi.fi/tiedostot/Ilmoitusasiat/VetyalfaUtajrvitiedote12012026.pdf",
+      "pvm": "2026-01-12",
+      "kunta": "Utajärvi",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "utajarvi/vetyalfan-vihrean-vedyn-jalostamo"
       ]
     },
     {
@@ -1554,6 +1748,30 @@
       ]
     },
     {
+      "otsikko": "Outokumpu aloittaa yhteistyön Norsk e-Fuelin kanssa hiilisivuvirtojen jalostamiseksi lentopolttoaineeksi",
+      "ingressi": "Outokumpu ja Norsk e-Fuel allekirjoittivat aiesopimuksen synteettisen lentopolttoaineen tuotantolaitoksesta Tornion Koivuluotoon terästehtaan viereen. Laitos käyttäisi ferrokromituotannon hiilimonoksidia raaka-aineena, tuottaisi 80 000–100 000 tonnia vuodessa ja maksaisi arviolta 1,2–1,5 miljardia euroa; investointipäätös arvioidaan vuodelle 2028.",
+      "julkaisija": "Outokumpu (Cision)",
+      "url": "https://news.cision.com/outokumpu-oyj/r/outokumpu-initiates-a-collaboration-with-norsk-e-fuel-to-convert-carbon-side-streams-into-esaf---ena,c4288776",
+      "pvm": "2026-01-08",
+      "kunta": "Tornio",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "tornio/outokummun-ja-norsk-e-fuelsin-e-polttoainelaitos"
+      ]
+    },
+    {
+      "otsikko": "Norjalaisyhtiö suunnittelee yli miljardin maksavaa lentopolttoainetehdasta Tornioon",
+      "ingressi": "Norsk e-Fuel suunnittelee Outokummun Tornion terästehtaan kupeeseen synteettisen lentopolttoaineen tehdasta, joka maksaisi reilusti yli miljardi euroa ja toisi noin 250 työpaikkaa.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/norjalaisyhtio-suunnittelee-yli-miljardin-maksavaa/12481872",
+      "pvm": "2026-01-08",
+      "kunta": "Tornio",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "tornio/outokummun-ja-norsk-e-fuelsin-e-polttoainelaitos"
+      ]
+    },
+    {
       "otsikko": "Raksilan vesiliikuntakeskuksesta ei valitettu",
       "ingressi": "Raksilan vesiliikuntakeskuksesta ei tehty valitusta hallinto-oikeuteen, joten rakentaminen voi suunnitelmien mukaan alkaa vuonna 2026.",
       "julkaisija": "Kaleva",
@@ -1575,6 +1793,19 @@
       "maakunta": "Etelä-Pohjanmaa",
       "hankkeet": [
         "halsua/ox2-n-kanniston-tuulipuisto",
+        "kauhava/ox2-n-salo-ylikosken-tuulipuisto",
+        "soini/ox2-n-korkeamaan-tuulipuisto"
+      ]
+    },
+    {
+      "otsikko": "Lisää tuulivoimaa pohjalaiskuntiin: Halsualle, Kauhavalle ja Soiniin alkaa rakentua 44 tuulivoimalaa",
+      "ingressi": "OX2 investoi noin 400 miljoonaa euroa kolmeen tuulipuistoon, joista yksi on Soinin Korkeamaa. Korkeamaahan tulee 17 voimalaa, ja puiston on määrä valmistua vuonna 2027.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20200086",
+      "pvm": "2025-12-16",
+      "kunta": "Soini",
+      "maakunta": "Etelä-Pohjanmaa",
+      "hankkeet": [
         "kauhava/ox2-n-salo-ylikosken-tuulipuisto",
         "soini/ox2-n-korkeamaan-tuulipuisto"
       ]
@@ -1671,6 +1902,18 @@
       ]
     },
     {
+      "otsikko": "Hy2gen suunnittelee e-polttoainelaitosta Ouluun",
+      "ingressi": "Oulun kaupunki on tehnyt Hy2genille suunnitteluvarauksen Vihreäsaaresta, jonne yhtiö kaavailee 200 megawatin vedyn ja synteettisten polttoaineiden laitosta meri- ja lentoliikenteen tarpeisiin. Investointipäätöstä ei ole vielä tehty.",
+      "julkaisija": "Oulun kaupunki",
+      "url": "https://www.ouka.fi/en/news/hy2gen-plans-e-fuel-plant-finland-oulu-becomes-largest-e-fuel-hub-baltic-sea-region",
+      "pvm": "2025-11-26",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/hy2gen-200-mw-e-metanolilaitos-vihreasaari"
+      ]
+    },
+    {
       "otsikko": "Oulun ja Limingan välinen kaksoisraide sai liki 200 miljoonan euron rahoituksen",
       "ingressi": "Valtioneuvosto hyväksyi Oulu–Liminka-kaksoisraiteen suunnitelman ja noin 199 miljoonan euron investointivaltuuden täydentävässä talousarviossa. Kaksoisraiteen odotetaan lisäävän junavuoroja, vähentävän häiriöitä ja sujuvoittavan tavaraliikennettä.",
       "julkaisija": "Yle",
@@ -1680,6 +1923,18 @@
       "maakunta": "Pohjois-Pohjanmaa",
       "hankkeet": [
         "oulu/oulu-liminka-kaksoisraide"
+      ]
+    },
+    {
+      "otsikko": "Oulun satamaan suunnitellaan uutta vetylaitosta",
+      "ingressi": "Saksalainen Hy2Gen suunnittelee Oulun sataman Vihreäsaareen 200 megawatin e-metanolilaitosta, jonka tuotanto suuntautuisi pääosin meriliikenteeseen. Kaupungin lautakunta käsittelee aluevarausta 25.11.2025, eikä investointipäätöstä ole vielä tehty.",
+      "julkaisija": "Oulu.com",
+      "url": "https://oulu.com/cleantech/news/new-hydrogen-plant-planned-for-oulu-port/",
+      "pvm": "2025-11-20",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/hy2gen-200-mw-e-metanolilaitos-vihreasaari"
       ]
     },
     {
@@ -1719,6 +1974,18 @@
       ]
     },
     {
+      "otsikko": "Miljardiluokan vetyhanke etenee Vaalassa",
+      "ingressi": "Vetyalfan vihreän vedyn jalostamo Vaalassa voisi valmistua vuonna 2030 ja työllistää yli sata ihmistä; hankkeen arvoksi arvioidaan 1–3 miljardia euroa. YVA-menettely ja kaavoitus on tarkoitus saada valmiiksi vuoden 2026 aikana.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/miljardiluokan-vetyhanke-etenee-vaalassa-markkina/12368638",
+      "pvm": "2025-10-29",
+      "kunta": "Vaala",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "vaala/vetyalfan-vihrean-vedyn-jalostamo"
+      ]
+    },
+    {
       "otsikko": "Forssan datakeskushankkeen YVA-menettely on alkanut",
       "ingressi": "Hämeen ELY-keskus tiedotti datakeskushankkeen ympäristövaikutusten arviointiohjelmasta. Noin 150 hehtaarin alueelle Forssan keskustan eteläpuolelle suunnitellaan enintään 11 datakeskusrakennusta, ja arvioinnissa verrataan kahta toteutusvaihtoehtoa.",
       "julkaisija": "Hämeen ELY-keskus (STT Info)",
@@ -1728,6 +1995,18 @@
       "maakunta": "Kanta-Häme",
       "hankkeet": [
         "forssa/qts-datakeskus-ratasmaki"
+      ]
+    },
+    {
+      "otsikko": "Ranualle suunnitellaan kaivosta, jossa malmi kulkisi sähköllä",
+      "ingressi": "Suhanko Arctic Platinum harkitsee Suhangon monimetallikaivokselle dieselkiviautojen sijaan sähköisiä kuljettimia, mikä vähentäisi yhtiön arvion mukaan hiilipäästöjä merkittävästi. Investointipäätös on tarkoitus tehdä vuoteen 2027 mennessä, ja ympäristö- ja vesitalousluvasta on valitettu hallinto-oikeuteen.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20188596",
+      "pvm": "2025-10-16",
+      "kunta": "Rovaniemi",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "rovaniemi/suhangon-monimetallikaivos"
       ]
     },
     {
@@ -1786,6 +2065,18 @@
       ]
     },
     {
+      "otsikko": "Laanilan vetyhankkeen ympäristövaikutusten arviointiselostus julkaistu",
+      "ingressi": "Oulun Energian ja P2X Solutionsin vihreän vedyn ja e-polttoaineiden tuotantolaitoshankkeen YVA eteni selostusvaiheeseen. Selostus oli nähtävillä syys–lokakuussa 2025, ja hankkeesta järjestettiin yleisötilaisuus Oulussa.",
+      "julkaisija": "Oulun Energia",
+      "url": "https://www.oulunenergia.fi/en/news/09--25/environmental-impact-assessment-report-for-the-laanila-hydrogen-project-published/",
+      "pvm": "2025-09-26",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulun-energian-vetylaitos"
+      ]
+    },
+    {
       "otsikko": "Raksilan uuden uimahallin kaavan hyväksyminen lykkääntyy parkkipaikkojen takia – Uusi yritys lokakuussa",
       "ingressi": "Oulun yhdyskuntalautakunnan piti päättää Raksilan vesiliikuntakeskuksen asemakaavasta ja tonttijaosta, mutta asia vedettiin pois esityslistalta. Asia on tarkoitus käsitellä uudelleen lokakuussa.",
       "julkaisija": "Kaleva",
@@ -1795,6 +2086,18 @@
       "maakunta": "Pohjois-Pohjanmaa",
       "hankkeet": [
         "oulu/oulun-vesiliikuntakeskus-raksila"
+      ]
+    },
+    {
+      "otsikko": "Laanilan vetylaitokselle ei haettu tukea, vaikka kaikki näytti natsaavan isolle verohyvitykselle",
+      "ingressi": "Oulun Energia ja P2X Solutions eivät hakeneet Laanilan vetylaitokselle puhtaan siirtymän suurinvestointien verohyvitystä, joten hanke ei ole tuen piirissä. Yhtiöt odottavat teollisuusinvestointien verohyvitykselle uutta hakukierrosta.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/laanilan-vetylaitokselle-ei-haettu-tukea-vaikka-ka/11779409",
+      "pvm": "2025-09-19",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulun-energian-vetylaitos"
       ]
     },
     {
@@ -1831,6 +2134,30 @@
       "maakunta": "Pohjois-Pohjanmaa",
       "hankkeet": [
         "utajarvi/data-tank-nordic-datakeskus-200-mw"
+      ]
+    },
+    {
+      "otsikko": "Junnikkalan saha Oulussa rakentaa meluesteen",
+      "ingressi": "Stora Enson omistama Junnikkalan Oulun saha rakentaa meluaidan, koska melu on häirinnyt lähiasukkaita. Ympäristöviranomainen sai yli 50 valitusta, mutta sahan teettämän mittauksen mukaan melu pysyi lupaehtojen rajoissa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20179822",
+      "pvm": "2025-08-28",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/junnikkalan-sahainvestointi"
+      ]
+    },
+    {
+      "otsikko": "Liminkaan rakennetaan kaksi aurinkopuistoa ja datakeskus",
+      "ingressi": "Limingan Kivimäen tilalle on tulossa kaksi aurinkovoimapuistoa ja datakeskus. Ensimmäiseen, 87 hehtaarin puistoon tulee yli 100 000 aurinkopaneelia, ja puistot tuottaisivat yhteensä yli 70 000 megawattituntia sähköä vuodessa; rakentamisen on määrä kestää noin kaksi vuotta.",
+      "julkaisija": "BeBeez International (DCD)",
+      "url": "https://bebeez.eu/en/news/two-solar-parks-and-data-center-to-be-built-near-oulu-finland/",
+      "pvm": "2025-08-27",
+      "kunta": "Liminka",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "liminka/limingan-aurinkovoimapuisto"
       ]
     },
     {
@@ -1879,6 +2206,37 @@
       "maakunta": "Pohjois-Pohjanmaa",
       "hankkeet": [
         "muhos/datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Norjalainen Arcem suunnittelee datakeskusta Pyhäjärvelle",
+      "ingressi": "Norjalainen datakeskuskiinteistöjen kehittäjä Arcem selvittää datakeskuksen rakentamista Pyhäjärven Olkkosen teollisuusalueelle, jossa on noin 32 hehtaaria valmiiksi kaavoitettua maata ja tulevat sähköyhteydet. Hankkeen koko ja aikataulu ovat vielä auki.",
+      "julkaisija": "Datacenter Forum",
+      "url": "https://www.datacenter-forum.com/datacenter-forum/norwegian-arcem-plans-data-center-in-pyhajarvi-finland",
+      "pvm": "2025-06-11",
+      "kunta": "Pyhäjärvi",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "pyhajarvi/arcemin-datakeskus-olkkosen-teollisuusalue"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "BeBeez International",
+          "url": "https://bebeez.eu/2025/06/11/new-data-center-firm-arcem-targets-projects-across-finland/",
+          "pvm": "2025-06-11"
+        }
+      ]
+    },
+    {
+      "otsikko": "Outokumpu announces its new strategy, Evolve, to drive growth and shareholder value",
+      "ingressi": "Outokumpu kertoi uuden strategiansa yhteydessä suunnittelevansa noin 200 miljoonan euron investointia uuteen hehkutus- ja peittauslinjaan Torniossa. Yhtiön mukaan linja parantaisi käyttökatetta noin 70 miljoonaa euroa vuodessa suhdannekierron yli.",
+      "julkaisija": "Outokumpu",
+      "url": "https://news.cision.com/outokumpu-oyj/r/outokumpu-announces-its-new-strategy--evolve--to-drive-growth-and-shareholder-value--with-updated-fi,c4161489",
+      "pvm": "2025-06-10",
+      "kunta": "Tornio",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "tornio/outokummun-kylmavalssaamon-uudistus"
       ]
     },
     {
@@ -1955,6 +2313,18 @@
       ]
     },
     {
+      "otsikko": "FCDC markkinoi suurhanketta Rovaniemelle – yrityksellä keskeneräisiä hankkeita ympäri Suomea",
+      "ingressi": "Rovaniemen kaupunki on ostanut Hietavaarasta tontin FCDC:n suunnittelemaa suurta datakeskusta varten ja aikoo laatia alueelle asemakaavan. Hanke on alkuvaiheessa, eikä yhtiö ole vielä rakentanut yhtään suunnittelemistaan datakeskuksista.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20162293",
+      "pvm": "2025-05-16",
+      "kunta": "Rovaniemi",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "rovaniemi/hietavaaran-datakeskus"
+      ]
+    },
+    {
       "otsikko": "Forssan kaupunginjohtaja ei usko, että Forssan datakeskuksen pääkäyttäjä voisi olla Tiktokin kaltainen toimija",
       "ingressi": "Ratasmäen datakeskushanke etenee aikataulussa, ja seuraava vaihe on kaavamuutoksen luonnos. Hankkeen rahoittaa Blackstone ja datakeskusta operoisi QTS, mutta keskuksen pääkäyttäjä ei ole tiedossa.",
       "julkaisija": "Yle",
@@ -2007,6 +2377,18 @@
       "maakunta": "Uusimaa",
       "hankkeet": [
         "lohja/hyperco-palvelinkeskus-virkkala"
+      ]
+    },
+    {
+      "otsikko": "Laanilan 100 megawatin vetylaitos ei kolise eikä haise, sanoo toimitusjohtaja",
+      "ingressi": "P2X Solutionsin mukaan Laanilan vetylaitoksen hankesuunnittelu etenee yhdessä Oulun Energian kanssa suunnitellusti, eikä esiin ole tullut mitään investointia estävää. Oulun laitos suunnitellaan yhtiön Harjavallan laitoksen mallin pohjalta.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/laanilan-100-megawatin-vetylaitos-ei-kolise-eika-h/11615248",
+      "pvm": "2025-05-06",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulun-energian-vetylaitos"
       ]
     },
     {
@@ -2213,6 +2595,18 @@
       ]
     },
     {
+      "otsikko": "Tampereen Energia and Ren-Gas agree on utilizing CO2 emissions and waste heat",
+      "ingressi": "Tampereen Energia ja Nordic Ren-Gas sopivat, että Tammervoiman jätevoimalan hiilidioksidi ohjataan Tarastenjärvelle suunniteltuun e-metaanilaitokseen ja tuotannon hukkalämpö Tampereen kaukolämpöverkkoon. Hanke on saanut 46 miljoonan euron investointituen.",
+      "julkaisija": "Business Tampere",
+      "url": "https://businesstampere.com/en/blog/2025/01/23/tampereen-energia-ja-ren-gas-sopivat-hiilidioksidipaastojen-ja-hukkalammon-hyodyntamisesta/",
+      "pvm": "2025-01-23",
+      "kunta": "Tampere",
+      "maakunta": "Pirkanmaa",
+      "hankkeet": [
+        "tampere/nordic-ren-gasin-e-metaanilaitos"
+      ]
+    },
+    {
       "otsikko": "XTX Markets plans to invest over €1bn in large-scale data centre project in Finland",
       "ingressi": "XTX Markets kertoi investoivansa yli miljardi euroa Kajaanin datakeskuskompleksiin, jonne on tarkoitus rakentaa viisi datakeskusta. Ensimmäinen, 22,5 megawatin IT-tehon keskus oli rakenteilla ja valmistumassa 2026, ja hukkalämpö on tarkoitus tarjota paikkakunnan käyttöön.",
       "julkaisija": "XTX Markets",
@@ -2301,6 +2695,18 @@
       "maakunta": "Keski-Pohjanmaa",
       "hankkeet": [
         "kokkola/kokkolan-kruunupyyn-alumiinitehdas"
+      ]
+    },
+    {
+      "otsikko": "Pyhäjoelle suunnitellaan datakeskusta – Yhtiö ostamassa lähes 130 hehtaarin alueen tulevan tuulipuiston tuntumasta",
+      "ingressi": "Kiinteistökehitysyhtiö Hyperco suunnittelee datakeskusta Pyhäjoen Keskikylään. Kunnanhallitukselle esitettiin kaavoitusaloitetta ja yhteistyösopimusta, ja esisopimuksen mukaan yhtiö ostaisi 128,5 hehtaarin alueen noin 2,4 miljoonalla eurolla.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/pyhajoelle-suunnitellaan-datakeskusta-yhtio-ostama/11428614",
+      "pvm": "2024-12-02",
+      "kunta": "Pyhäjoki",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "pyhajoki/hypercon-datakeskus"
       ]
     },
     {
@@ -2395,6 +2801,18 @@
       ]
     },
     {
+      "otsikko": "Vaalaan suunnitellaan valtavaa vetyjalostamoa – Kunta toivoo hankkeesta satoja työpaikkoja",
+      "ingressi": "Vetyalfa Oy on tehnyt Vaalan kunnalle aloitteen kaavoituksen käynnistämisestä vihreän vedyn jalostamolle, jonka kapasiteetti voisi olla enintään 1 000 megawattia. Viereen suunnitellaan 200 megawatin aurinkovoimalaa, ja alue voisi kasvaa satojen hehtaarien laajuiseksi.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/vaalaan-suunnitellaan-valtavaa-vetyjalostamoa-kunt/11319723",
+      "pvm": "2024-09-05",
+      "kunta": "Vaala",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "vaala/vetyalfan-vihrean-vedyn-jalostamo"
+      ]
+    },
+    {
       "otsikko": "Poikkimaantien uudet väylät käyttöön syys-lokakuussa – Projektin toinen vaihe aloitetaan kesän lopulla",
       "ingressi": "Poikkimaantien parannustyön ensimmäinen vaihe eteni aikataulussa, ja uudet väylät oli määrä ottaa käyttöön syys-lokakuussa 2024. Hankkeessa uusitaan yhteensä 15 siltaa.",
       "julkaisija": "Kaleva",
@@ -2404,6 +2822,18 @@
       "maakunta": "Pohjois-Pohjanmaa",
       "hankkeet": [
         "oulu/mt-8155-poikkimaantie"
+      ]
+    },
+    {
+      "otsikko": "Utajärven sahan vaikeudet iskivät puukauppaan Lähi-idässä",
+      "ingressi": "Orasko Oy osti Utajärven Mustikkakankaan sahan pakkoraossa, ja sahaa on sen jälkeen kasvatettu noin 30 miljoonan euron investoinneilla.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/utajarven-sahan-vaikeudet-iskivat-hany-yacoubin-pu/11152383",
+      "pvm": "2024-06-29",
+      "kunta": "Utajärvi",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "utajarvi/oraskon-haadex-sahainvestointi"
       ]
     },
     {
@@ -2479,6 +2909,18 @@
       ]
     },
     {
+      "otsikko": "Junnikkalan Oulun saha valmistui taloudellisesti haastavana aikana",
+      "ingressi": "Junnikkalan uusi saha Oulun Laanilan teollisuusalueella on vihitty käyttöön. Ensimmäinen tukki kulki linjalla koeajoissa joulukuussa ja käynnistysvaihe alkoi tammikuussa; tuotannon vauhdin odotetaan kasvavan kesää kohti.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/junnikkalan-oulun-saha-valmistui-taloudellisesti-h/6304667",
+      "pvm": "2024-04-19",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/junnikkalan-sahainvestointi"
+      ]
+    },
+    {
       "otsikko": "Tekstiilikuitua, vetyä, ammoniakkia – Meri-Lapin hankkeet toisivat teollisuuteen vihreyttä",
       "ingressi": "Meri-Lappiin suunnitellaan useita vihreän siirtymän hankkeita, muun muassa Green North Energyn noin 600 miljoonan euron vety- ja ammoniakkilaitos Kemiin. Energia tulisi pääosin merituulivoimasta, mutta kyse on vielä suunnitelmasta eikä päätetystä investoinnista.",
       "julkaisija": "Yle",
@@ -2488,6 +2930,18 @@
       "maakunta": "Lappi",
       "hankkeet": [
         "kemi/green-north-energyn-vety-ja-ammoniakkihanke"
+      ]
+    },
+    {
+      "otsikko": "Paltamon uuden sellutehtaan ympäristöluvat ovat nyt voimassa – KHO päätti, että se ei käsittele valituksia",
+      "ingressi": "Korkein hallinto-oikeus ei ottanut käsiteltäväksi valituksia, joten Kaicell Fibersin lupa 600 000 tonnin sellutehtaalle Paltamoon tuli lainvoimaiseksi. Noin 1,3 miljardin euron hankkeelle haetaan nyt investointikumppania.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20081174",
+      "pvm": "2024-03-27",
+      "kunta": "Paltamo",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "paltamo/kaicell-fibersin-biotuotetehdas"
       ]
     },
     {
@@ -2510,6 +2964,37 @@
       ]
     },
     {
+      "otsikko": "Rakennetaanko kaivosten jätealtaat Suomessa väärin? Riippumaton taho kyseenalaistaa Ranuan suurkaivoksen suunnitelmat",
+      "ingressi": "Suhangon suurkaivoksen ympäristö- ja vesitalouslupakäsittelyssä viranomaiset vaativat ensimmäistä kertaa pato- ja allassuunnitelmille riippumattoman tarkastuksen jo lupavaiheessa. Kaivokselle rakennetaan jo tietä.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/rakennetaanko-kaivosten-jatealtaat-suomessa-vaarin/6231061",
+      "pvm": "2024-02-23",
+      "kunta": "Rovaniemi",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "rovaniemi/suhangon-monimetallikaivos"
+      ]
+    },
+    {
+      "otsikko": "Ouluun suunnitellaan isoa vetylaitosta, jonka sivutuotteena syntyvä lämpö käytettäisiin kaukolämmön tuotantoon",
+      "ingressi": "Oulun Energia ja P2X Solutions selvittävät Laanilan teollisuusalueelle enintään 100 megawatin elektrolyysilaitosta, jonka yhteyteen tulisi hiilidioksidin talteenotto ja metaanin tai metanolin jalostus. Laitoksen hukkalämpö kattaisi arviolta 10–30 prosenttia kaupungin kaukolämmön tarpeesta, ja tuotanto voisi alkaa aikaisintaan 2028.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20074391",
+      "pvm": "2024-02-14",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulun-energian-vetylaitos"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Kaleva",
+          "url": "https://www.kaleva.fi/oulun-energian-vetylaitoshanke-vastaa-puhtaan-ener/6225923",
+          "pvm": "2024-02-15"
+        }
+      ]
+    },
+    {
       "otsikko": "Fortum kertoo jo toisesta suuresta datakeskusinvestoinnista – tällä kertaa vuorossa Rauma",
       "ingressi": "Fortum suunnitteli datakeskusaluetta Rauman Lakarin teollisuusalueelle ja oli tekemässä kaupungin kanssa suunnitteluvarausta aluksi 78 hehtaarin alueeseen. Yhtiön mukaan alue sopii hyvin kaavoituksen, sähköverkon ja työvoiman saatavuuden vuoksi.",
       "julkaisija": "Yle",
@@ -2519,6 +3004,18 @@
       "maakunta": "Satakunta",
       "hankkeet": [
         "rauma/datakeskus-lakari"
+      ]
+    },
+    {
+      "otsikko": "Orimattilaan suunnitellaan jättimäistä datakeskusta – toteutuessaan toisi kaupunkiin satoja työpaikkoja",
+      "ingressi": "Fortum suunnittelee noin sadan hehtaarin datakeskusaluetta Orimattilan Länsi-Pennalan teollisuusalueelle, ja kaupunki valmistelee yhtiön kanssa suunnitteluvaraussopimusta. Kaupungin arvion mukaan hanke on 8–10 vuoden kokonaisuus.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20068485",
+      "pvm": "2024-01-11",
+      "kunta": "Orimattila",
+      "maakunta": "Päijät-Häme",
+      "hankkeet": [
+        "orimattila/pennalan-datakeskus"
       ]
     },
     {
@@ -2546,6 +3043,18 @@
       ]
     },
     {
+      "otsikko": "Microsoft ja Vihdin kunta allekirjoittivat tonttikaupat tulevan datakeskuksen maa-alueesta",
+      "ingressi": "Microsoft osti Vihdin kunnalta Etelä-Nummelan Rostin yritysalueelta kaksi tonttia, yhteensä noin 46 hehtaaria, noin 12,3 miljoonalla eurolla. Kunta kuvaa hanketta historiansa suurimmaksi investoinniksi.",
+      "julkaisija": "Vihdin kunta (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/69995697/microsoft-ja-vihdin-kunta-allekirjoittivat-tonttikaupat-tulevan-datakeskuksen-maa-alueesta?publisherId=69817428",
+      "pvm": "2023-06-27",
+      "kunta": "Vihti",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "vihti/microsoft-datakeskuskampus"
+      ]
+    },
+    {
       "otsikko": "Hannukaisen kaivoksen ympäristölupa vaatii täydennyksiä – lisäselvitykset ovat kestäneet jo useita kuukausia",
       "ingressi": "Hannukainen Miningin Kolarin kaivoshankkeen ympäristölupahakemukseen vaaditaan aiempaa yksityiskohtaisempia rakennesuunnitelmia ja selvityksiä. Yhtiö sai täydennyksille lisäaikaa marraskuun 2023 loppuun.",
       "julkaisija": "Yle",
@@ -2570,6 +3079,66 @@
       ]
     },
     {
+      "otsikko": "Ranuan kunta pyrkii vauhdittamaan biometanolitehdasta tukemalla hanketta",
+      "ingressi": "ETFuels ja Neova pyysivät Ranuan kunnalta julkista tukea Näätäaavalle suunnitellulle metanolitehtaalle. Kunnan tukikirje sitoisi sen muun muassa nopeuttamaan kaavoitusta ja tukemaan keskusteluja poronhoitajien kanssa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20021516",
+      "pvm": "2023-03-08",
+      "kunta": "Ranua",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "ranua/et-fuelsin-biometanolitehdas"
+      ]
+    },
+    {
+      "otsikko": "Soklin esiintymästä löydettiin nyt harvinaisia maametalleja – asialla valtionyhtiö, jonka ideana on maanalainen putki malmin kuljetukseen",
+      "ingressi": "Valtion omistaman Suomen Malmijalostuksen esiselvityksen mukaan Savukosken Soklin kaivos voisi olla kannattava, ja esiintymästä löytyi merkittävästi harvinaisia maametalleja raudan ja fosfaatin lisäksi. Malmi pumpattaisiin maanalaisessa putkessa jalostuspaikalle, ja investointi olisi noin 1–1,5 miljardia euroa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20018265",
+      "pvm": "2023-02-16",
+      "kunta": "Savukoski",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "savukoski/soklin-lannoite-ja-maamineraalihanke"
+      ]
+    },
+    {
+      "otsikko": "Agnico Eagle tuotti kultaa ennätysmäärän, mutta Kittilän kaivoksen laajennus odottaa yhä lupaa oikeudesta",
+      "ingressi": "Kittilän kultakaivoksen omistava Agnico Eagle rajoittaa kaivoksen tuotantoa, koska laajennuksen luvat ovat oikeudessa. Kiista koskee etenkin kaivoksen kuivatusvesiä ja niiden purkua.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/boliden-ja-lkab-louhivat-kovat-tulokset-kevitsan-l/5328257",
+      "pvm": "2023-02-14",
+      "kunta": "Kittilä",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kittila/kittilan-kaivoksen-laajennus-ja-purkuputki"
+      ]
+    },
+    {
+      "otsikko": "Ranualle kaavaillaan 800 miljoonan euron vihreän metanolin tehdasta",
+      "ingressi": "Irlantilainen ET Fuels suunnittelee Ranuan Näätäaavalle noin 800 miljoonan euron tehdasta, joka tuottaisi vihreää metanolia etenkin laivapolttoaineeksi. Tehdas saisi sähkönsä 35–50 omasta tuulivoimalasta, ja suoria työpaikkoja arvioidaan syntyvän noin 60.",
+      "julkaisija": "Kaleva (STT)",
+      "url": "https://www.kaleva.fi/ranualle-kaavaillaan-800-miljoonan-euron-vihrean-m/5274352",
+      "pvm": "2023-01-26",
+      "kunta": "Ranua",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "ranua/et-fuelsin-biometanolitehdas"
+      ]
+    },
+    {
+      "otsikko": "Junnikkalan iso sahahanke Oulussa odottaa rakennuslupaa ja perustusurakan alkua",
+      "ingressi": "Kalajokinen Junnikkala rakentaa Oulun Laanilaan uutta sahaa, jonka kustannusarvio oli 75 miljoonaa euroa ja voi nousta. Maatyöt alkoivat keväällä 2022, ja perustustyöt odottavat rakennuslupaa. Saha työllistäisi noin 70 henkeä, ja tavoitteena on avata se vuoden 2023 lopussa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/3-12573599",
+      "pvm": "2022-08-12",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/junnikkalan-sahainvestointi"
+      ]
+    },
+    {
       "otsikko": "Kemin Veitsiluodon tekstiilikuitutehdas tarvitsee uusia osaajia – työntekijöille on luvassa räätälöityä koulutusta",
       "ingressi": "Infinited Fiberin suunnittelema Veitsiluodon tekstiilikuitutehdas työllistäisi suoraan noin 220 henkeä ja lisäksi noin 50 henkeä tukipalveluissa. Uudenlaisen tuotteen vuoksi lähes kaikki työntekijät tarvitsisivat räätälöidyn koulutuksen.",
       "julkaisija": "Yle",
@@ -2579,6 +3148,18 @@
       "maakunta": "Lappi",
       "hankkeet": [
         "kemi/infinited-fiberin-tehdas-veitsiluoto"
+      ]
+    },
+    {
+      "otsikko": "Microsoftin datakeskusalueen kolmas sijaintipaikkakunta on Vihti",
+      "ingressi": "Microsoft kertoi, että Vihti on sen Etelä-Suomen datakeskusalueen kolmas sijainti Espoon ja Kirkkonummen rinnalla. Rakentaminen alkaa, kun kaikkien kolmen alueen kaavat on hyväksytty ja tarvittavat luvat myönnetty.",
+      "julkaisija": "Microsoft",
+      "url": "https://news.microsoft.com/fi-fi/2022/06/06/microsoftin-datakeskusalueen-kolmas-sijaintipaikkakunta-on-vihti/",
+      "pvm": "2022-06-06",
+      "kunta": "Vihti",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "vihti/microsoft-datakeskuskampus"
       ]
     },
     {
@@ -2615,6 +3196,49 @@
       "maakunta": "Kainuu",
       "hankkeet": [
         "kuhmo/kuhmo-oy-n-sahainvestointi"
+      ]
+    },
+    {
+      "otsikko": "Otanmäki Mine Oy – Vanhan kaivoksen uusi elämä",
+      "ingressi": "Otanmäki Mine Oy aikoo käynnistää kaivostoiminnan uudelleen vuonna 1985 suljetulla Otanmäen kaivosalueella, päätuotteinaan vanadiinipentoksidi, ilmeniitti ja rautapelletti. Aluksi yhtiö ottaa rikastushiekasta talteen ilmeniittiä GTK:n testaaman painovoimaerotuksen avulla ja rahoittaa sillä varsinaisen kaivoshankkeen käynnistämistä.",
+      "julkaisija": "Geologian tutkimuskeskus GTK",
+      "url": "https://gtk.fi/ajankohtaista/otanmaki-mine-oy-vanhan-kaivoksen-uusi-elama",
+      "pvm": "2021-03-25",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/otanmaki-miningin-rauta-ja-vanadiinihanke"
+      ]
+    },
+    {
+      "otsikko": "Paltamoon nousemassa sellutehdas, joka sai nyt ympäristöluvan",
+      "ingressi": "Pohjois-Suomen aluehallintovirasto myönsi Kaicell Fibersille ympäristöluvan 600 000 tonnin sellutehtaalle Paltamoon sekä luvat vedenottoon ja jätevesien johtamiseen Oulujärveen. Hanke vaatisi noin 900 miljoonan euron rahoituksen ja työllistäisi suoraan noin 250 henkeä.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/3-11446664",
+      "pvm": "2020-07-15",
+      "kunta": "Paltamo",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "paltamo/kaicell-fibersin-biotuotetehdas"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Kaleva",
+          "url": "https://www.kaleva.fi/paltamon-sellu-ja-biotuotetehdas-sai-ymparistoluva/2699266",
+          "pvm": "2020-07-15"
+        }
+      ]
+    },
+    {
+      "otsikko": "Kiinalaiset sijoittajat iskivät silmänsä nyt Paltamon biotehdashankkeeseen",
+      "ingressi": "KaiCell Fibersin Paltamoon suunnittelemasta biotuotetehtaasta ovat kiinnostuneet myös ulkomaiset sijoittajat, muun muassa Kiinasta. Hanke oli siirtymässä YVA-vaiheeseen, ja investointipäätöstä tavoiteltiin vuoden 2018 loppuun mennessä.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/kiinalaiset-sijoittajat-iskivat-silmansa-nyt-palta/1637981",
+      "pvm": "2017-04-18",
+      "kunta": "Paltamo",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "paltamo/kaicell-fibersin-biotuotetehdas"
       ]
     },
     {
