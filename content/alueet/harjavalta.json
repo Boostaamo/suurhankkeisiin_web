@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "harjavalta",
+  "kunta": "Harjavalta",
+  "kunta_genetiivi": "Harjavallan",
+  "maakunta": "Satakunta",
+  "maakunta_tunniste": "satakunta",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Harjavallan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "nscale-datakeskus-sievari",
+      "nimi": "Nscalen datakeskus, Sievarin teollisuusalue",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Brittiläisen Nscalen 100 megawatin datakeskus Sievarin teollisuusalueelle valtatie 2:n eteläpuolelle. Kaupunki myi yli 70 hehtaarin tontin.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Nscale",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20228283",
+          "pvm": "2026-05-28"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "100 MW; rakennus noin 50 000 kerrosneliömetriä",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20228283",
+          "pvm": "2026-05-28"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Yli 70 ha, kauppahinta 3,6 milj. euroa",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20228283",
+          "pvm": "2026-05-28"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Tontti myyty. Rakennuslupahakemus mahdollisesti kesällä 2026 ja maanrakennustyöt vuoden 2026 aikana.",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20228283",
+          "pvm": "2026-05-28"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Rakentamisaikana jopa 2 000 henkeä, käytössä noin 150",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20228283",
+          "pvm": "2026-05-28"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
