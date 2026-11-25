@@ -34,6 +34,18 @@
       ]
     },
     {
+      "otsikko": "Nordic Ren-Gas on tehnyt lopullisen investointipäätöksen Tampereen e-metaanilaitoksesta",
+      "ingressi": "Nordic Ren-Gas on tehnyt yli 300 miljoonan euron lopullisen investointipäätöksen Tampereen e-metaanilaitoksesta, joka on määrä valmistua vuonna 2029. Laitos käyttää jätteenpolton biogeenistä hiilidioksidia, tuottaa noin 190 GWh e-metaania vuodessa ja syöttää prosessilämpöä Tampereen kaukolämpöverkkoon.",
+      "julkaisija": "Taaleri (STT Info)",
+      "url": "https://sttinfo.fi/tiedote/72521283/nordic-ren-gas-on-tehnyt-lopullisen-investointipaatoksen-tampereen-e-metaanilaitoksesta?lang=fi&publisherId=54994630",
+      "pvm": "2026-11-20",
+      "kunta": "Tampere",
+      "maakunta": "Pirkanmaa",
+      "hankkeet": [
+        "tampere/nordic-ren-gasin-e-metaanilaitos"
+      ]
+    },
+    {
       "otsikko": "Halsuan Honkakankaan tuulipuisto otettiin kaupalliseen käyttöön",
       "ingressi": "OX2:n 16 voimalan ja noin 105 megawatin tuulipuisto siirtyi kaupalliseen käyttöön marraskuun alussa, selvästi alkuperäistä aikataulua aiemmin. Samaan aikaan OX2 rakentaa Halsualle Kanniston tuuli- ja energiavarastohanketta.",
       "julkaisija": "OX2 (STT Info)",
@@ -56,6 +68,18 @@
       ]
     },
     {
+      "otsikko": "Helioksen datakeskushankkeesta Lapinlahden Alapitkällä tullut jo viisi valitusta Itä-Suomen hallinto-oikeuteen",
+      "ingressi": "Heliosin Alapitkän datakeskushankkeesta on tehty viisi valitusta hallinto-oikeuteen. Ne koskevat kunnan päätöstä jättää tutkimatta poikkeamislupaa koskevat oikaisuvaatimukset. Kunta myönsi datakeskukselle rakentamisluvan syyskuun alussa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20256036",
+      "pvm": "2026-11-11",
+      "kunta": "Lapinlahti",
+      "maakunta": "Pohjois-Savo",
+      "hankkeet": [
+        "lapinlahti/helios-datakeskus-alapitka"
+      ]
+    },
+    {
       "otsikko": "Google lahjoittaa miljoonia Muhoksen ja Vaalan datakeskuskunnilleen",
       "ingressi": "Muhos saa Googlelta 1,1 miljoonaa euroa energiahankkeisiin, kuten aurinkopaneeleihin ja lämpöpumppuihin kouluissa ja jäähallilla. Lahjoituksia saavat myös Vaala ja Kajaani.",
       "julkaisija": "Yle",
@@ -70,6 +94,66 @@
       ]
     },
     {
+      "otsikko": "Kuhmo Oy:n myynti Binder Beteiligungsille sai kilpailuviraston hyväksynnän",
+      "ingressi": "Kilpailu- ja kuluttajavirasto hyväksyi Kuhmo Oy:n ja sen kiinteistöyhtiön myynnin itävaltalaiselle Binder Beteiligungsille. Kaupan myötä Binderholz Nordicin tukkipuun käyttö kaksinkertaistuu noin kahteen miljoonaan kuutiometriin vuodessa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20254568",
+      "pvm": "2026-11-02",
+      "kunta": "Kuhmo",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kuhmo/kuhmo-oy-n-sahainvestointi"
+      ]
+    },
+    {
+      "otsikko": "Kukaan ei valittanut Lahden Kujalan datakeskuksen rakentamisluvasta",
+      "ingressi": "Kujalan datakeskuksen rakentamislupa sai lainvoiman lokakuun 2026 lopussa, koska päätöksestä ei valitettu. Seuraavaksi hankkeelle haetaan sähköliittymää, ja rakentaminen on tarkoitus aloittaa alkuvuonna 2027.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20254288",
+      "pvm": "2026-11-02",
+      "kunta": "Lahti",
+      "maakunta": "Päijät-Häme",
+      "hankkeet": [
+        "lahti/ecogrid-datakeskus-kujala"
+      ]
+    },
+    {
+      "otsikko": "Vihreät vaatii Helsingin datakeskusperiaatteisiin tiukkoja linjoja ja luonnon suojaamista",
+      "ingressi": "Helsingin Vihreät vastustaa tiedotteessaan datakeskuksen sijoittamista Heikinlaakson metsään, jolle on haettu kehittämisvarausta tulevan luonnonsuojelualueen viereen. Tiedote julkaistiin ennen kaupunginhallituksen linjausta datakeskusten sijoitusperiaatteista.",
+      "julkaisija": "Helsingin Vihreät (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/72457140/vihreat-vaatii-helsingin-datakeskusperiaatteisiin-tiukkoja-linjoja-ja-luonnon-suojaamista?lang=fi",
+      "pvm": "2026-10-29",
+      "kunta": "Helsinki",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "helsinki/datakeskus-heikinlaakso"
+      ]
+    },
+    {
+      "otsikko": "Poikkimaantien liikenne pannaan kolmeksi viikoksi kiertoreitille Terminaalitien liittymässä",
+      "ingressi": "Poikkimaantien Terminaalitien liittymää siirretään noin 200 metriä länteen, ja liikenne ohjataan kolmeksi viikoksi kiertotielle. Hanke on toisessa rakennusvaiheessa, johon kuuluu uusi tieosuus Terminaalitieltä Oulun satamaan, ja sen on määrä valmistua vuoden 2027 lopussa.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/poikkimaantien-liikenne-pannaan-kolmeksi-viikoksi/13705344",
+      "pvm": "2026-10-12",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/mt-8155-poikkimaantie"
+      ]
+    },
+    {
+      "otsikko": "Nyab valittiin Utajärven datakeskuksen pääurakoitsijaksi – \"Kasvamme Suomessa tosi kovaa nyt\"",
+      "ingressi": "Nyab Finland on valittu Utajärven datakeskuksen ensimmäisen vaiheen pääurakoitsijaksi, ja se aloittaa valmistelutyöt Mustikkakankaalla heti. Laitokseen suunnitellaan neljä palvelinsalia ja sähkövarasto.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/nyab-valittiin-utajarven-datakeskuksen-paaurakoits/13702725",
+      "pvm": "2026-10-09",
+      "kunta": "Utajärvi",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "utajarvi/data-tank-nordic-datakeskus-200-mw"
+      ]
+    },
+    {
       "otsikko": "Poliisi tutkii Muhoksen datakeskustyömaan valmistelutöitä",
       "ingressi": "Poliisi aloitti esitutkinnan Muhoksen työmaan toimista yksityishenkilön tutkintapyynnön perusteella. Valmistelutyöt on keskeytetty viranomaisen kehotuksesta.",
       "julkaisija": "Yle News",
@@ -79,6 +163,30 @@
       "maakunta": "Pohjois-Pohjanmaa",
       "hankkeet": [
         "muhos/datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Alumiinitehdashankkeen YVA-selostuksesta on annettu perusteltu päätelmä",
+      "ingressi": "Yhteysviranomainen on antanut perustellun päätelmänsä Arctialin alumiinitehtaan ympäristövaikutusten arvioinnista Kruunuportin teollisuusalueelle. Merkittävimmät vaikutukset kohdistuvat ilmanlaatuun, luontoon, asukkaiden elinoloihin ja ilmastoon, ja jatkosuunnittelussa on tarkennettava erityisesti fluoridi- ja rikkidioksidipäästöjä.",
+      "julkaisija": "Lupa- ja valvontavirasto (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/72396361/alumiinitehdashankkeen-yva-selostuksesta-on-annettu-perusteltu-paatelma?lang=fi",
+      "pvm": "2026-10-08",
+      "kunta": "Kokkola",
+      "maakunta": "Keski-Pohjanmaa",
+      "hankkeet": [
+        "kokkola/kokkolan-kruunupyyn-alumiinitehdas"
+      ]
+    },
+    {
+      "otsikko": "Datakeskuksen rakentaminen alkoi Utajärvellä, mutta operaattorin nimeä pitää vielä odottaa",
+      "ingressi": "Amp Tankin datakeskuksen rakentaminen on käynnistynyt Utajärven Mustikkakankaan teollisuusalueella. Yhtiö kerää rahoitusta datakeskukselle ja suurelle akkuvarastolle useista lähteistä, eikä operaattoria ole vielä nimetty.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/utajarven-datakeskuksen-rakentaminen-alkoi-kysyimm/13700960",
+      "pvm": "2026-10-08",
+      "kunta": "Utajärvi",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "utajarvi/data-tank-nordic-datakeskus-200-mw"
       ]
     },
     {
@@ -95,6 +203,121 @@
       ]
     },
     {
+      "otsikko": "Googlea kehotetaan keskeyttämään datakeskusten valmistelutyöt Muhoksella ja Kajaanissa",
+      "ingressi": "Lupa- ja valvontavirasto kehotti Tuike Finlandia keskeyttämään ympäristöä merkittävästi muuttavat valmistelutyöt Muhoksen datakeskusalueella viimeistään 23. lokakuuta, kunnes YVA-menettely on valmis. Suunnittelu, mittaukset ja maaperätutkimukset saavat jatkua.",
+      "julkaisija": "Talotekniikka-lehti",
+      "url": "https://talotekniikka-lehti.fi/googlea-kehotetaan-keskeyttamaan-datakeskusten-valmistelutyot-muhoksella-ja-kajaanissa/",
+      "pvm": "2026-10-06",
+      "kunta": "Muhos",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "muhos/datakeskus"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Helsinki Times",
+          "url": "https://www.helsinkitimes.com/business/29355-google-ordered-to-halt-data-centre-works-in-finland-over-environmental-concerns.html",
+          "pvm": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "otsikko": "Lahden Kiveriön datakeskukselle myönnettiin ympäristölupa",
+      "ingressi": "Lupa- ja valvontavirasto on myöntänyt Kiveriön datakeskukselle ympäristöluvan, joka koskee varavoimageneraattoreita ja polttoaineen varastointia. Hakemus käsiteltiin etusijamenettelyssä, koska hukkalämpö on tarkoitus hyödyntää kaukolämmössä.",
+      "julkaisija": "Lupa- ja valvontavirasto (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/72369251/lahden-kiverion-datakeskukselle-myonnettiin-ymparistolupa?lang=fi",
+      "pvm": "2026-10-05",
+      "kunta": "Lahti",
+      "maakunta": "Päijät-Häme",
+      "hankkeet": [
+        "lahti/dayone-datakeskus-kiverio"
+      ]
+    },
+    {
+      "otsikko": "YIT jatkaa XTX Marketsin datakeskuskampuksen rakentamista Kajaanissa – toteuttaa kolmannen datakeskuksen sisävalmistus- ja talotekniikkatyöt",
+      "ingressi": "YIT ja XTX Markets allekirjoittivat sopimuksen Kajaanin kolmannen datakeskuksen sisävalmistuksesta, talotekniikasta ja käyttöönotosta. Viimeisin vaihe alkaa loppuvuonna 2026, eikä sopimuksen arvoa julkisteta.",
+      "julkaisija": "YIT Oyj (Inderes)",
+      "url": "https://www.inderes.fi/releases/yit-jatkaa-xtx-marketsin-datakeskuskampuksen-rakentamista-kajaanissa-toteuttaa-kolmannen-datakeskuksen-sisavalmistus-ja-talotekniikkatyot",
+      "pvm": "2026-09-25",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/xtx-marketsin-datakeskus-250-mw"
+      ]
+    },
+    {
+      "otsikko": "Kirkkonummi, Finland – Project Updates",
+      "ingressi": "Pääurakoitsijan syyskuun tilannekatsauksen mukaan Kirkkonummen kampuksen kummankin datakeskusrakennuksen työt etenevät suunnitellusti. Ensimmäisessä tehdään laiteasennuksia ja sisätöitä, toisessa runko-, julkisivu- ja kattotöitä.",
+      "julkaisija": "Winthrop",
+      "url": "https://winthrop.ie/kirkkonummi-finland-project-updates/",
+      "pvm": "2026-09-24",
+      "kunta": "Kirkkonummi",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "kirkkonummi/microsoft-datakeskuskampus"
+      ]
+    },
+    {
+      "otsikko": "Väylävirasto: Oulun lähijunaliikenteen viivästyminen ei johdu kaksoisraidehankkeen venymisestä",
+      "ingressi": "Oulu, Kempele ja Liminka kertoivat lähijunaliikenteen alun siirtyvän kaksoisraiteen viivästymisen vuoksi, mutta Väylävirasto kiistää viivästyksen. Viraston mukaan ratatyöt kestävät vuoteen 2031 ja kaksoisraide otetaan käyttöön arviolta joulukuussa 2032.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/vaylavirasto-oulun-lahijunaliikenteen-viivastymine/13671774",
+      "pvm": "2026-09-17",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulu-liminka-kaksoisraide"
+      ]
+    },
+    {
+      "otsikko": "Klaukkalan Sudentullin datakeskuksen YVA-menettely käynnistyy",
+      "ingressi": "DayOnen omistama hankeyhtiö on jättänyt ympäristövaikutusten arviointiohjelman Sudentullin datakeskuksesta. Noin 96 hehtaarin alueelle suunnitellaan viittä datakeskusrakennusta, joiden sähköteho on noin 560 MW, ja sähköyhteys rakennettaisiin Fingridin Passanmäen sähköasemalle.",
+      "julkaisija": "Lupa- ja valvontavirasto (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/72306550/klaukkalan-sudentullin-datakeskuksen-yva-menettely-kaynnistyy?lang=fi",
+      "pvm": "2026-09-16",
+      "kunta": "Nurmijärvi",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "nurmijarvi/sudentullin-datakeskus-klaukkala"
+      ]
+    },
+    {
+      "otsikko": "Lahden Kujalaan tuleva uusi datakeskus sai rakentamisluvan",
+      "ingressi": "Lahden rakennus- ja ympäristölupalautakunta myönsi yksimielisesti poikkeamis- ja rakentamisluvan Kujalan datakeskukselle. Rakentaminen voi alkaa, kun molemmat luvat ovat lainvoimaisia.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20246617",
+      "pvm": "2026-09-16",
+      "kunta": "Lahti",
+      "maakunta": "Päijät-Häme",
+      "hankkeet": [
+        "lahti/ecogrid-datakeskus-kujala"
+      ]
+    },
+    {
+      "otsikko": "Fortum kehittää datakeskusaluetta Valkeakosken Pispantallissa",
+      "ingressi": "Fortum ja Valkeakosken kaupunki kehittävät noin 60 hehtaarin datakeskusaluetta Pispantalliin. Kaupunki valmistelee asemakaavaa ja Fortum käynnistää ympäristövaikutusten arvioinnin, ja varsinaisen investoinnin tekee myöhemmin valittava toteuttaja.",
+      "julkaisija": "Fortum",
+      "url": "https://www.fortum.com/fi/media/2026/09/fortum-kehittaa-datakeskusaluetta-valkeakosken-pispantallissa",
+      "pvm": "2026-09-15",
+      "kunta": "Valkeakoski",
+      "maakunta": "Pirkanmaa",
+      "hankkeet": [
+        "valkeakoski/pispantallin-datakeskusalue"
+      ]
+    },
+    {
+      "otsikko": "Nokia on vaitonainen, mutta gigatehdas voi nousta Ouluun rivakasti",
+      "ingressi": "Kalevan analyysin mukaan Nokian Toppilaan kaavailema AI Gigafactory ei todennäköisesti ole pitkään venyvä hanke, vaikka yhtiö tiedottaa siitä niukasti.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/nokia-on-vaitonainen-mutta-gigatehdas-voi-nousta-o/13661368",
+      "pvm": "2026-09-13",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/nokia-ai-gigafactory-toppila"
+      ]
+    },
+    {
       "otsikko": "Muhokselta on varattu jo useita tontteja",
       "ingressi": "Googlen Muhoksen alueesta noin 600 hehtaaria on kaavoitettu datakeskukselle ja muulle teollisuudelle. Kunnan mukaan tontteja ovat varanneet lähinnä rakennusalan ja kaupan yritykset.",
       "julkaisija": "Maaseudun Tulevaisuus / STT",
@@ -104,6 +327,19 @@
       "maakunta": "Pohjois-Pohjanmaa",
       "hankkeet": [
         "muhos/datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Rakennusteollisuuden yritykset varaavat jo tontteja Muhokselta – Datakeskuskuntien odotukset ovat kovia, mutta suunnitelmista ollaan hiljaisia",
+      "ingressi": "Googlen datakeskuspaikkakunnat odottavat suuria työllisyysvaikutuksia, mutta investoinnin jakautumisesta Kajaanin, Vaalan ja muiden kohteiden kesken ei ole kerrottu. Kajaanin Otanmäkeen suunnitellaan noin 400 hehtaarin kokonaisuutta, jossa olisi kahdeksan rakennusta.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/rakennusteollisuuden-yritykset-varaavat-jo-tonttej/13664459",
+      "pvm": "2026-09-12",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/google-datakeskus-otanmaki",
+        "vaala/google-datakeskus"
       ]
     },
     {
@@ -118,6 +354,2291 @@
         "muhos/datakeskus",
         "vaala/google-datakeskus",
         "kajaani/google-datakeskus-otanmaki"
+      ]
+    },
+    {
+      "otsikko": "Oulun vesiliikuntakeskuksen rakentaminen alkaa – urakoitsijat valittu",
+      "ingressi": "Raksilan vesiliikuntakeskuksen rakentaminen alkaa syyskuussa 2026 purettavan uimahallin paikalla, ja pääurakoitsijana toimii Sakela Rakennus. Noin 80 miljoonan euron tavoitekustannuksen keskus on määrä valmistua vuoden 2029 puolivälissä.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/oulun-vesiliikuntakeskuksen-rakentaminen-alkaa-ura/13661266",
+      "pvm": "2026-09-10",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulun-vesiliikuntakeskus-raksila"
+      ]
+    },
+    {
+      "otsikko": "Datakeskushankkeen luvat rakennus- ja ympäristölupalautakunnan käsittelyyn",
+      "ingressi": "Lahden rakennus- ja ympäristölupalautakunta käsittelee Peab Oy:n hakemat poikkeamis- ja rakentamisluvat Kujalan noin 37 400 kerrosneliömetrin datakeskukselle. Hanke ei vaadi asemakaavan muutosta.",
+      "julkaisija": "Lahden kaupunki",
+      "url": "https://www.lahti.fi/uutiset/datakeskushankkeen-luvat-rakennus-ja-ymparistolupalautakunnan-kasittelyyn/",
+      "pvm": "2026-09-10",
+      "kunta": "Lahti",
+      "maakunta": "Päijät-Häme",
+      "hankkeet": [
+        "lahti/ecogrid-datakeskus-kujala"
+      ]
+    },
+    {
+      "otsikko": "Google deepens its commitment to Finland with a €13 billion investment in AI infrastructure",
+      "ingressi": "Google kertoi investoivansa Suomeen kahden seuraavan vuoden aikana 13 miljardia euroa datakeskuksiin, puhtaaseen energiaan ja paikallisiin kumppanuuksiin. Kajaani, Muhos ja Vaala mainitaan Haminan ohella paikkakuntina, joihin kohdistuu myös paikallisia panostuksia.",
+      "julkaisija": "Google",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-deepens-its-commitment-to-finland-with-a-13-billion-investment-in-ai-infrastructure/",
+      "pvm": "2026-09-09",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/google-datakeskus-otanmaki",
+        "vaala/google-datakeskus"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Yle",
+          "url": "https://yle.fi/a/74-20245301",
+          "pvm": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "otsikko": "Oulu on valmis myymään tontin Nokian tekoälytehtaalle",
+      "ingressi": "Nokia ja Oulun kaupunki ovat allekirjoittaneet esisopimuksen Toppilan lämpövoimala-alueen tontin myynnistä tekoälytehtaalle. Lopullinen kauppa tehdään, kun rakennuslupa ja muut edellytykset ovat kunnossa.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/oulu-myy-tontin-nokian-tekoalytehtaalle/13658614",
+      "pvm": "2026-09-08",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/nokia-ai-gigafactory-toppila"
+      ]
+    },
+    {
+      "otsikko": "Nokia vahvistaa tähtäävänsä Toppilaan – EU:n miljardilaitosten tarjouskilpailu on jo auki",
+      "ingressi": "Nokia on ensimmäistä kertaa vahvistanut, että sen tekoälytehdassuunnitelmat kohdistuvat Ouluun. Toppilan voimalaitoksen ympärille suunnitellaan datakeskuskampusta, ja EU:n tekoälygigatehtaiden tarjouskilpailu on jo käynnissä.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/nokia-vahvistaa-tahtaavansa-toppilaan-eun-miljardi/13656740",
+      "pvm": "2026-09-07",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/nokia-ai-gigafactory-toppila"
+      ]
+    },
+    {
+      "otsikko": "Nokian tavoittelemalle tekoälytehtaalle ollaan varaamassa tonttia Toppilasta – asia yhdyskuntalautakunnan listalla",
+      "ingressi": "Oulun yhdyskuntalautakunta käsittelee Toppilan Tervahovintien kiinteistön esisopimusta ja kauppaehtoja tekoälymallien kehittämiseen tarkoitettua gigatehdasta varten. Laitos sijoittuisi Oulun Energian voimalaitoksen viereen.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/nokian-tavoittelemalle-tekoalytehtaalle-ollaan-var/13654624",
+      "pvm": "2026-09-05",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/nokia-ai-gigafactory-toppila"
+      ]
+    },
+    {
+      "otsikko": "LUMI AI Factory data center construction progresses in Kajaani",
+      "ingressi": "Kajaanin Renforsin Rannan LUMI AI Factory -datakeskuksen harjannostajaisia vietettiin syyskuussa. Entiseen paperikonehalliin rakennettava keskus työllistää noin 115 henkeä, ja käyttöönottovaihe alkaa alkuvuodesta 2027.",
+      "julkaisija": "CSC",
+      "url": "https://csc.fi/en/news/lumi-ai-factory-data-center-construction-progresses-in-kajaani/",
+      "pvm": "2026-09-03",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/lumi-ai-factory"
+      ]
+    },
+    {
+      "otsikko": "EuroHPC JU Signs Contract to Deploy the LUMI-AI Supercomputer",
+      "ingressi": "EuroHPC-yhteisyritys teki sopimuksen LUMI-AI-supertietokoneen toimittamisesta CSC:n Kajaanin datakeskukseen. Hankkeen kokonaisbudjetti on noin 388 miljoonaa euroa, ja koneen on määrä olla käytössä vuonna 2027.",
+      "julkaisija": "EuroHPC JU",
+      "url": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en",
+      "pvm": "2026-08-31",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/lumi-ai-factory"
+      ]
+    },
+    {
+      "otsikko": "YIT and atNorth expand collaboration with new data center at FIN04 campus in Kouvola",
+      "ingressi": "YIT ja atNorth sopivat toisesta datakeskusrakennuksesta FIN04-kampukselle Myllykoskelle. YIT toimii pääurakoitsijana ja vastaa talotekniikasta, eikä sopimuksen arvoa kerrottu.",
+      "julkaisija": "YIT (Inderes)",
+      "url": "https://www.inderes.fi/en/releases/yit-oyj-yit-and-atnorth-expand-collaboration-with-new-data-center-at-fin04-campus-in-kouvola",
+      "pvm": "2026-08-28",
+      "kunta": "Kouvola",
+      "maakunta": "Kymenlaakso",
+      "hankkeet": [
+        "kouvola/atnorth-fin04-myllykoski"
+      ]
+    },
+    {
+      "otsikko": "Lahteen korkean lisäarvon datakeskus",
+      "ingressi": "ecogrid.energy ja Peab suunnittelevat datakeskusta Lahden Kujalan teollisuusalueelle entiselle asfalttiasemalle, ja kaupunki on saanut rakentamis- ja poikkeamislupahakemuksen. Rakentaminen alkaisi vuoden 2027 alkupuoliskolla ja valmistuisi 2028.",
+      "julkaisija": "Lahden kaupunki",
+      "url": "https://www.lahti.fi/uutiset/lahteen-korkean-lisaarvon-datakeskus/",
+      "pvm": "2026-08-25",
+      "kunta": "Lahti",
+      "maakunta": "Päijät-Häme",
+      "hankkeet": [
+        "lahti/ecogrid-datakeskus-kujala"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Yle",
+          "url": "https://yle.fi/a/74-20242833",
+          "pvm": "2026-08-25"
+        }
+      ]
+    },
+    {
+      "otsikko": "Magnora Data Center ASA: Grid connection agreed for the Hämeenlinna data center project near Helsinki",
+      "ingressi": "Magnora Data Center on solminut verkkoliittymäsopimuksen Hämeenlinnan datakeskushankkeelle, ja liittymä on määrä kytkeä vuoden 2029 alussa, nopeimmillaan jo 2028. Yhtiö suunnittelee nyt alkuperäistä 120 megawattia selvästi suurempaa usean tontin kampusta ja on sopinut paikallisen energiayhtiön kanssa kaukolämmöstä ja varavoimasta.",
+      "julkaisija": "Magnora Data Center ASA (NTB Kommunikasjon)",
+      "url": "https://kommunikasjon.ntb.no/announcement/19034841?lang=en&publisherId=17850865",
+      "pvm": "2026-08-24",
+      "kunta": "Hämeenlinna",
+      "maakunta": "Kanta-Häme",
+      "hankkeet": [
+        "hameenlinna/magnora-datakeskus"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "MFN",
+          "url": "https://mfn.se/all/a/magnora-data-center/magnora-data-center-asa-grid-connection-agreed-for-the-hameenlinna-data-center-project-near-helsinki-f923ab18",
+          "pvm": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "otsikko": "Vaasa datacenter project updates",
+      "ingressi": "Microsoftin mukaan rakentamista edeltävät työt, kuten raivaus, tieyhteydet ja maaperän vahvistus, alkoivat GigaVaasan alueella heinäkuussa 2026. Rakennuslupia haetaan Vaasan kaupungilta ja Mustasaaren kunnalta.",
+      "julkaisija": "Microsoft",
+      "url": "https://local.microsoft.com/?p=9991",
+      "pvm": "2026-08-20",
+      "kunta": "Vaasa",
+      "maakunta": "Pohjanmaa",
+      "hankkeet": [
+        "vaasa/microsoft-datakeskus-gigavaasa"
+      ]
+    },
+    {
+      "otsikko": "CSC strengthens Kainuu's future through investments, jobs and skills development",
+      "ingressi": "CSC kertoo Kajaanin datakeskuksensa laajennuksesta, johon sijoitetaan LUMI AI Factoryn uudet laitteistot ja joka valmistuu kesällä 2027. Jutussa käsitellään myös rakentamisen työllisyysvaikutuksia ja hukkalämmön hyödyntämistä kaukolämmössä.",
+      "julkaisija": "CSC",
+      "url": "https://csc.fi/en/news/csc-strengthens-the-future-of-kainuu/",
+      "pvm": "2026-08-20",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/lumi-ai-factory"
+      ]
+    },
+    {
+      "otsikko": "Sarvenmaan datakeskuksen (Keminmaa, Tornio) YVA-menettely käynnistyy",
+      "ingressi": "Polarnode Keminmaa Oy on jättänyt ympäristövaikutusten arviointiohjelman Sarvenmaan datakeskuksesta Keminmaan länsiosaan. Noin 110 hehtaarin alueelle suunnitellaan enintään 11 rakennusta, joiden huipputehon tarve on noin 1000 MW, ja alue liitettäisiin kantaverkkoon Tornion Viitajärven sähköasemalle.",
+      "julkaisija": "Lupa- ja valvontavirasto (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/72224242/sarvenmaan-datakeskuksen-keminmaa-tornio-yva-menettely-kaynnistyy?lang=fi",
+      "pvm": "2026-08-12",
+      "kunta": "Keminmaa",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "keminmaa/polarnoden-datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Helios kehittää datakeskushanketta Lapinlahdelle",
+      "ingressi": "Helios Nordic Energy Finland teki Lapinlahden kunnalle kaavoitusaloitteen yli 80 hehtaarin datakeskusalueesta Alapitkälle Fingridin sähköaseman lähelle. Tavoitteena on noin 500 megawatin teho, ja kunta arvioi hankkeen tuovan rakennusaikana satoja työpaikkoja.",
+      "julkaisija": "Lapinlahden kunta",
+      "url": "https://lapinlahti.fi/fi/ajankohtaista/helios-kehittaa-datakeskushanketta-lapinlahdelle",
+      "pvm": "2026-08-12",
+      "kunta": "Lapinlahti",
+      "maakunta": "Pohjois-Savo",
+      "hankkeet": [
+        "lapinlahti/helios-datakeskus-alapitka"
+      ]
+    },
+    {
+      "otsikko": "Fira valittu pääurakoitsijaksi Lappeenrannan tekoälydatakeskukseen",
+      "ingressi": "Fira on aloittanut pääurakoitsijana Lappeenrannan Pajarilan datakeskuskampuksen rakentamisen, ja rakennuttajana toimii Nebius. Kampuksen kokonaisteho on valmiina noin 310 megawattia, ja ensimmäisen vaiheen arvioidaan valmistuvan vuonna 2027.",
+      "julkaisija": "Fira (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/72222527/rakentamisen-palveluyhtio-fira-valittu-paaurakoitsijaksi-yhteen-euroopan-suurimmista-tekoalydatakeskushankkeista?lang=fi",
+      "pvm": "2026-08-11",
+      "kunta": "Lappeenranta",
+      "maakunta": "Etelä-Karjala",
+      "hankkeet": [
+        "lappeenranta/nebius-ai-factory"
+      ]
+    },
+    {
+      "otsikko": "Viitostien varteen suunnitellaan aurinkovoimalan lisäksi datakeskusta Lapinlahdella",
+      "ingressi": "Helios Nordic Energy Finland sai poikkeamisluvan datakeskukselle, joka sijoittuisi Alapitkälle suunnitellun aurinkovoimala-alueen keskelle. Yhtiön on vielä haettava rakennuslupa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20240272",
+      "pvm": "2026-08-10",
+      "kunta": "Lapinlahti",
+      "maakunta": "Pohjois-Savo",
+      "hankkeet": [
+        "lapinlahti/helios-datakeskus-alapitka"
+      ]
+    },
+    {
+      "otsikko": "Improvement Works on Oulu's Poikkimaantie Continue Between the Port and Terminaalitie",
+      "ingressi": "Väyläviraston Poikkimaantien (mt 8155) parannushanke siirtyi toiseen rakennusvaiheeseen, jossa rakennetaan uusi tieosuus Terminaalitien ja Oulun sataman välille. Työt alkoivat elokuussa sataman päästä.",
+      "julkaisija": "Oulun Satama",
+      "url": "https://ouluport.com/en/improvement-works-on-oulu-s-poikkimaantie-continue-between-the-port-and-terminaalitie/",
+      "pvm": "2026-08-10",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/mt-8155-poikkimaantie"
+      ]
+    },
+    {
+      "otsikko": "Sakatin kupari- ja monimetallihanke: tilannekatsaus",
+      "ingressi": "Anglo Americanin Sakatin hanke Sodankylässä tavoittelee 60 000–80 000 tonnin vuotuista kuparivastaavaa tuotantoa. YVA on hyväksytty, esiselvityksen B-vaihe on määrä valmistua joulukuussa 2026, ja tuotannon arvioidaan alkavan 2030-luvun alussa.",
+      "julkaisija": "Mining Weekly",
+      "url": "https://www.miningweekly.com/article/sakatti-copper-and-polymetallic-project-finland-update-2026-08-07",
+      "pvm": "2026-08-07",
+      "kunta": "Sodankylä",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "sodankyla/sakatin-kaivoshanke"
+      ]
+    },
+    {
+      "otsikko": "Binderholz ostaa Kuhmo Oy:n sahan",
+      "ingressi": "Itävaltalainen sahakonserni Binderholz on sopinut ostavansa Kuhmo Oy:n, joka sahaa noin 500 000 kuutiometriä sahatavaraa vuodessa. Kuhmo Oy uudisti sahansa uudella pääsahalinjalla, jonka tavoitteena oli nostaa kapasiteetti 400 000:sta 600 000 kuutiometriin.",
+      "julkaisija": "Wood Central",
+      "url": "https://woodcentral.com.au/binderholz-kuhmo-finland-acquisition/",
+      "pvm": "2026-08-06",
+      "kunta": "Kuhmo",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kuhmo/kuhmo-oy-n-sahainvestointi"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Holzkurier / Timber-Online",
+          "url": "https://www.timber-online.net/sawn_timber/2026/08/why-binderholz-acquired-kuhmo.html",
+          "pvm": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "otsikko": "Oulun kaksoisraidehanke käynnistyy loppuvuodesta – Lentokentäntie ensimmäisenä työn alla",
+      "ingressi": "Liminka–Oulu-kaksoisraiteen rakentaminen alkaa Lentokentäntien uusimisella, ja syksyllä tehdään maaperätutkimuksia. Yli 200 miljoonan euron hankkeen arvioidaan valmistuvan vuonna 2031.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/oulun-kaksoisraidehanke-lahtee-rakentumaan-loppuvu/13609679",
+      "pvm": "2026-08-05",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulu-liminka-kaksoisraide"
+      ]
+    },
+    {
+      "otsikko": "Forssan mittava datakeskushanke sai rakentamisluvan – 60 000 neliömetrin tilojen tekeminen alkaa pian",
+      "ingressi": "Forssan kaupunki myönsi rakentamisluvan datakeskuksen ensimmäiselle vaiheelle, lähes 60 000 neliömetrin rakennukselle, jossa on yhdeksän datahallia ja tehotavoite 81 megawattia. Hankkeen toteuttaa QTS, ja alueen suojeltujen lajien elinympäristöä suojataan rakentamisen aikana.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20237951",
+      "pvm": "2026-07-27",
+      "kunta": "Forssa",
+      "maakunta": "Kanta-Häme",
+      "hankkeet": [
+        "forssa/qts-datakeskus-ratasmaki"
+      ]
+    },
+    {
+      "otsikko": "YIT ja atNorth sopimukseen datakeskuksen rakentamisesta Kouvolaan – arvo YIT:lle noin 300 miljoonaa euroa",
+      "ingressi": "YIT suunnittelee ja rakentaa kokonaisurakkana atNorthin FIN04-kampukselle Myllykoskelle datakeskuksen, jonka arvo YIT:lle on noin 300 miljoonaa euroa. Rakentaminen alkaa heti ja valmistuu arviolta vuoden 2027 lopussa, ja koko kampuksen suunniteltu kapasiteetti on 430 megawattia.",
+      "julkaisija": "YIT",
+      "url": "https://www.yitgroup.com/fi/news-repository/sijoittajauutiset/yit-ja-atnorth-sopimukseen-datakeskuksen-rakentamisesta-kouvolaan--arvo-yitlle-noin-300-miljoonaa-euroa",
+      "pvm": "2026-07-21",
+      "kunta": "Kouvola",
+      "maakunta": "Kymenlaakso",
+      "hankkeet": [
+        "kouvola/atnorth-fin04-myllykoski"
+      ]
+    },
+    {
+      "otsikko": "Kaivosyhtiö rajasi satoja mökkiläisiä kuulemisen ulkopuolelle – yhdistyksen mielestä se vääristää kyselyn tuloksia",
+      "ingressi": "Hannukainen Mining tekee syksyllä 2026 kolmannen sidosryhmäkyselyn Kolarin kaivoshankkeesta, ja vastata voivat vain yli kahdeksan kuukautta vuodessa Kolarissa asuvat. Paikallinen yhdistys pitää rajausta ongelmallisena, koska se sulkee pois suuren osan mökkiläisistä.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20236340",
+      "pvm": "2026-07-14",
+      "kunta": "Kolari",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kolari/hannukaisen-ja-rautuvaaran-kaivos"
+      ]
+    },
+    {
+      "otsikko": "Pure DC launches one of Europe's largest ever AI infrastructure projects",
+      "ingressi": "Pure DC kertoi yli 1,5 miljardin euron ensimmäisestä vaiheesta Seinäjoen 110 megawatin tekoälykampukselle, ja vaihe on jo kokonaan vuokrattu. Kampusta voidaan lupien ja sopimusten mukaan laajentaa yli 550 megawattiin.",
+      "julkaisija": "Pure DC",
+      "url": "https://www.puredc.com/2026/07/14/",
+      "pvm": "2026-07-14",
+      "kunta": "Seinäjoki",
+      "maakunta": "Etelä-Pohjanmaa",
+      "hankkeet": [
+        "seinajoki/pure-dc-datakeskus-kivenneva"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Kaleva",
+          "url": "https://www.kaleva.fi/seinajoelle-suunnitteilla-75-miljardin-datakeskusk/13582482",
+          "pvm": "2026-07-14"
+        }
+      ]
+    },
+    {
+      "otsikko": "Ympäristöministeri ei ennakoi Sakatin Natura-poikkeuspäätöstä",
+      "ingressi": "Ympäristöministeriö arvioi yhä, täyttyvätkö edellytykset Natura-poikkeukselle Sakatin kaivokselle, joka sijoittuisi osin Viiankiaavan suojelusuolle. Lausuntoja odotetaan Metsähallitukselta ja lupaviranomaiselta sekä Euroopan komissiolta.",
+      "julkaisija": "Kaleva (STT)",
+      "url": "https://www.kaleva.fi/multala-pidattaytyy-ennakoimasta-sakatin-natura-po/13570781",
+      "pvm": "2026-07-05",
+      "kunta": "Sodankylä",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "sodankyla/sakatin-kaivoshanke"
+      ]
+    },
+    {
+      "otsikko": "Datakeskuksen ansiosta Iin liian kapeille kinttupoluille suunnitellaan parannuksia",
+      "ingressi": "Valoa Networksin Hervan datakeskushankkeen vuoksi Iissä suunnitellaan Olhanvantien leventämistä ja Kärppäsuontien parantamista. Tieparannukset hyödyttäisivät myös alueen asukkaita.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/datakeskuksen-ansiosta-iin-liian-kapeille-kinttupo/13564741",
+      "pvm": "2026-07-01",
+      "kunta": "Ii",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "ii/metan-valoa-networks-datakeskusalue-475-ha"
+      ]
+    },
+    {
+      "otsikko": "Kuusamon kulta- ja kobolttikaivoshankkeen YVA-ohjelmasta on annettu lausunto",
+      "ingressi": "Lupa- ja valvontavirasto arvioi hankkeen vaikuttavan todennäköisesti merkittävästi vesistöihin, pohjaveteen, luontoon ja ihmisten elinoloihin. Arviointiohjelmasta jätettiin 13 lausuntoa ja 386 mielipidettä, ja selostuksessa on selvitettävä tarkemmin muun muassa kaivannaisjätteet ja uraani.",
+      "julkaisija": "Lupa- ja valvontavirasto (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/72161193/kuusamon-kulta-ja-kobolttikaivoshankkeen-yva-ohjelmasta-on-annettu-lausunto?lang=fi",
+      "pvm": "2026-06-25",
+      "kunta": "Kuusamo",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "kuusamo/latitude-66-n-kaivoshanke"
+      ]
+    },
+    {
+      "otsikko": "Datacentret i Bäljars i Karis ska börja byggas i höst",
+      "ingressi": "FCDC aikoo aloittaa Bäljarsin datakeskuksen rakentamisen syksyllä 2026, ja alueen raivaus alkaa muutaman viikon kuluttua. Rakennusvaihe kestää useita vuosia, ja valmis kokonaisuus voisi työllistää 400–600 henkeä.",
+      "julkaisija": "Svenska Yle",
+      "url": "https://yle.fi/a/7-10101130",
+      "pvm": "2026-06-25",
+      "kunta": "Raasepori",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "raasepori/fcdc-datakeskus-baljars"
+      ]
+    },
+    {
+      "otsikko": "Bravida Finlandille lisäurakka XTX Marketsin datakeskuskokonaisuuteen Kajaanissa",
+      "ingressi": "Bravida Finland toteuttaa sähköurakan XTX Marketsin Kajaanin kampuksen toiseen datakeskukseen pääurakoitsija YIT:n aliurakoitsijana. Toisen datakeskuksen työt ovat käynnissä, ja sen on määrä valmistua vuonna 2027.",
+      "julkaisija": "Bravida Finland (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/72162744/bravida-finlandille-lisaurakka-xtx-marketsin-datakeskuskokonaisuuteen-kajaanissa?publisherId=68994337",
+      "pvm": "2026-06-25",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/xtx-marketsin-datakeskus-250-mw"
+      ]
+    },
+    {
+      "otsikko": "Otanmäki Mine valitti osayleiskaavasta hallinto-oikeuteen",
+      "ingressi": "Otanmäki Mine Oy on valittanut Pohjois-Suomen hallinto-oikeuteen Kajaanin Otanmäki–Humpinsuo-osayleiskaavasta, joka mahdollistaa datakeskuksen vanhalle kaivosalueelle. Yhtiö haluaa avata vuonna 1985 suljetut Otanmäen ja Vuorokkaan kaivokset uudelleen, ja kaupunki vaatii valituksen hylkäämistä.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20232726",
+      "pvm": "2026-06-23",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/otanmaki-miningin-rauta-ja-vanadiinihanke"
+      ]
+    },
+    {
+      "otsikko": "Iihin suunnitellaan taas uutta miljardiluokan datakeskusta",
+      "ingressi": "Iin kunnanhallitus on hyväksynyt kaavoitusaloitteen datakeskuksen sijoittamiseksi Isokankaan sähköaseman lähelle Jakkukylän eteläpuolelle, noin 15 kilometrin päähän Iin keskustasta.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/iihin-suunnitellaan-taas-uutta-miljardiluokan-data/13543839",
+      "pvm": "2026-06-17",
+      "kunta": "Ii",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "ii/isokankaan-kaavoituskokonaisuus-noin-500-ha"
+      ]
+    },
+    {
+      "otsikko": "YIT toteuttaa XTX Marketsin kolmannen datakeskuksen runko- ja kuorivaiheen Kajaaniin",
+      "ingressi": "YIT toimii pääurakoitsijana XTX Marketsin kolmannen Kajaanin datakeskuksen runko- ja kuorivaiheessa, jonka rakentaminen alkaa kesällä 2026. Hanke on osa XTX Marketsin yli miljardin euron investointiohjelmaa Kajaanissa.",
+      "julkaisija": "YIT Oyj",
+      "url": "https://www.yitgroup.com/fi/news-repository/sijoittajauutiset/yit-toteuttaa-xtx-marketsin-kolmannen-datakeskuksen-runko--ja-kuorivaiheen-kajaaniin",
+      "pvm": "2026-06-17",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/xtx-marketsin-datakeskus-250-mw"
+      ]
+    },
+    {
+      "otsikko": "Hepokorven datakeskuksen kolmannelle vaiheelle rakennuslupa",
+      "ingressi": "Espoon ympäristö- ja rakennuslautakunta myönsi 11.6.2026 Microsoftin suomalaiselle tytäryhtiölle rakennusluvan Hepokorven datakeskuksen kolmannelle vaiheelle ja salli töiden aloittamisen ennen luvan lainvoimaisuutta. Kaksi ensimmäistä vaihetta pohjoisemmalla tontilla on jo rakenteilla.",
+      "julkaisija": "Espoon kaupunki (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/72129950/ymparisto-ja-rakennuslautakunta-hepokorven-datakeskuksen-kolmannelle-vaiheelle-rakennuslupa?lang=fi",
+      "pvm": "2026-06-12",
+      "kunta": "Espoo",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "espoo/microsoft-datakeskus-hepokorpi"
+      ]
+    },
+    {
+      "otsikko": "Microsoft solmi esisopimuksen noin 190 hehtaarin maakaupoista Vaasassa ja Mustasaaressa",
+      "ingressi": "Microsoft on tehnyt esisopimuksen noin 190 hehtaarin maa-alueen ostamisesta GigaVaasan teollisuusalueelta datakeskushanketta varten. Alueesta noin kaksi kolmasosaa on Vaasan ja kolmasosa Mustasaaren puolella.",
+      "julkaisija": "Microsoft",
+      "url": "https://news.microsoft.com/source/emea/2026/06/microsoft-solmi-esisopimuksen-noin-190-hehtaarin-maakaupoista-vaasassa-ja-mustasaaressa/?lang=fi",
+      "pvm": "2026-06-05",
+      "kunta": "Vaasa",
+      "maakunta": "Pohjanmaa",
+      "hankkeet": [
+        "vaasa/microsoft-datakeskus-gigavaasa"
+      ]
+    },
+    {
+      "otsikko": "Metsähallitus vuokraa tontin Loviisasta Hypercon datakeskushankkeelle",
+      "ingressi": "Metsähallitus vuokrasi Hyperco Oy:lle 6,6 hehtaarin tontin Loviisan itäisen liittymän alueelta yhtiön datakeskushankkeen vierestä. Datakeskuksen maatyöt ovat käynnissä, ja ensimmäiset vaiheet on alustavasti tarkoitus ottaa käyttöön vuoden 2027 lopussa.",
+      "julkaisija": "Metsähallitus",
+      "url": "https://www.metsa.fi/tiedotteet/metsahallitus-vuokraa-tontin-loviisasta-hypercon-datakeskushankkeelle/",
+      "pvm": "2026-06-04",
+      "kunta": "Loviisa",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "loviisa/hyperco-datakeskus-itainen-liittyma"
+      ]
+    },
+    {
+      "otsikko": "Glesys signs agreement with Trevian to establish new data center campus in Oulu, Finland",
+      "ingressi": "Glesys ja Trevian sopivat Campus Oulu -datakeskuskampuksesta, joka rakentuu moduuleittain ja voi laajentua pitkällä aikavälillä 300 megawattiin. Ensimmäinen noin 8 megawatin vaihe on tarkoitus ottaa käyttöön syksyllä 2026.",
+      "julkaisija": "Glesys",
+      "url": "https://glesys.com/blog/glesys-signs-agreement-with-trevian-to-establish-new-data-center-campus-in-oulu-finland/",
+      "pvm": "2026-06-04",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/campusoulu-datakeskus-300-mw"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Trevian (Cision)",
+          "url": "https://news.cision.com/trevian/r/glesys-signs-agreement-with-trevian-to-establish-new-data-center-campus-in-oulu--finland,c4357757",
+          "pvm": "2026-06-04"
+        }
+      ]
+    },
+    {
+      "otsikko": "Arcem Makes Major Land Acquisition in Finland",
+      "ingressi": "Arcem sopi Joroisten kunnan kanssa noin 80 hehtaarin maa-alueen ostosta datakeskuskampukselle, joka voisi kasvaa 500 megawattiin. Ensimmäinen 60 megawatin vaihe voisi olla käytössä vuonna 2027, ja kapasiteetti nousisi 100 megawattiin vuoteen 2029 mennessä.",
+      "julkaisija": "Arcem",
+      "url": "https://media.arcem.no/arcem-makes-major-land-acquisition-in-finland/",
+      "pvm": "2026-06-01",
+      "kunta": "Joroinen",
+      "maakunta": "Etelä-Savo",
+      "hankkeet": [
+        "joroinen/arcem-datakeskus-huutokoski"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Borenius",
+          "url": "https://www.borenius.com/references/borenius-advised-arcem-on-its-major-land-acquisition-in-finland/",
+          "pvm": "2026-06-02"
+        },
+        {
+          "julkaisija": "BeBeez International (DCD)",
+          "url": "https://bebeez.eu/2026/06/01/arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus/",
+          "pvm": "2026-06-01"
+        }
+      ]
+    },
+    {
+      "otsikko": "Kokkolan miljarditehdas toisi Suomeen tärkeää kriittisten materiaalien tuotantoa – päätös rakentamisesta ensi kesänä",
+      "ingressi": "Arctialin tilaaman vaikutusselvityksen mukaan Kokkolan ja Kruunupyyn rajalle suunniteltu alumiinitehdas maksaisi noin 4,7 miljardia euroa ja työllistäisi suoraan noin 1 200 ihmistä. Lopullinen investointipäätös on tarkoitus tehdä kesällä 2027, ja siihen vaikuttaa erityisesti energian hinta.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20228628",
+      "pvm": "2026-05-29",
+      "kunta": "Kokkola",
+      "maakunta": "Keski-Pohjanmaa",
+      "hankkeet": [
+        "kokkola/kokkolan-kruunupyyn-alumiinitehdas"
+      ]
+    },
+    {
+      "otsikko": "Harjavaltaan suunnitteilla datakeskus - kaupunki myi tontin 3,6 miljoonalla",
+      "ingressi": "Brittiläinen Nscale osti Harjavallan kaupungilta yli 70 hehtaarin tontin Sievarin teollisuusalueelta 100 megawatin tekoälydatakeskusta varten. Kaupungin arvion mukaan rakennuslupaa voitaisiin hakea kesällä ja maanrakennus alkaa vielä vuoden 2026 aikana.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20228283",
+      "pvm": "2026-05-28",
+      "kunta": "Harjavalta",
+      "maakunta": "Satakunta",
+      "hankkeet": [
+        "harjavalta/nscale-datakeskus-sievari"
+      ]
+    },
+    {
+      "otsikko": "Utajärven datakeskukselle rakennuslupa – pienessä kunnassa iloitaan miljardihankkeesta",
+      "ingressi": "Data Tank Nordic Oy on saanut lainvoimaisen rakennusluvan 200 MW:n datakeskukselle Utajärvelle, ja hankkeeseen kuuluu myös 200 MW:n akkuvarasto. Investoinnin arvioidaan olevan noin 2 miljardia euroa, ja rakentaminen on tarkoitus aloittaa vuoden 2026 jälkipuoliskolla.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20228048",
+      "pvm": "2026-05-26",
+      "kunta": "Utajärvi",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "utajarvi/data-tank-nordic-datakeskus-200-mw"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "AmpTank (PR Newswire)",
+          "url": "https://www.prnewswire.com/fi/lehdistotiedotteet/amptank-announces-200-mw-ai-data-center-project-in-utajarvi-finland-302797942.html",
+          "pvm": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "otsikko": "Lapin liitto hyväksyi Sakatin vaihemaakuntakaavaehdotuksen valtioneuvoston käsittelyyn",
+      "ingressi": "Lapin liiton hallitus hyväksyi Sakatin vaihemaakuntakaavaehdotuksen ja lähetti sen valtioneuvostolle, jolta pyydetään poikkeusta Natura-suojelusta. Maakuntavaltuusto hyväksyy kaavan lopullisesti, kun poikkeamismenettely on käyty läpi.",
+      "julkaisija": "Anglo American",
+      "url": "https://finland.angloamerican.com/en/media/press-releases/lapin-liitto-hyvaksynyt-sakatin-vaihemaakuntakaavaehdotuksen-lahettavaksi-valtioneuvoston-kasittelyyn",
+      "pvm": "2026-05-13",
+      "kunta": "Sodankylä",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "sodankyla/sakatin-kaivoshanke"
+      ]
+    },
+    {
+      "otsikko": "Sakatin luontohaittojen korvaussuunnitelma tähtää monimuotoisuuden kasvuun",
+      "ingressi": "Sakatin hankkeen suunnitelmassa Viiankiaavan Natura-alueen menetykset korvattaisiin lähiympäristössä ennallistamalla elinympäristöjä ja suojelemalla sammallajeja. Tavoitteena on haittojen korvaamisen lisäksi kasvattaa alueen luonnon monimuotoisuusarvoja.",
+      "julkaisija": "Anglo American",
+      "url": "https://finland.angloamerican.com/en/media/press-releases/tavoitteena-luontohaittojen-korvaaminen",
+      "pvm": "2026-05-13",
+      "kunta": "Sodankylä",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "sodankyla/sakatin-kaivoshanke"
+      ]
+    },
+    {
+      "otsikko": "Liperiin suunnitellaan suurta datakeskusta, toteuttajana sama yhtiö kuin Kiteen hankkeessa",
+      "ingressi": "Liperin kunta neuvottelee Scale42:n kanssa noin yhdeksän hehtaarin alueen vuokraamisesta ja myymisestä Välikankaan teollisuusalueelta datakeskukselle. Ensimmäinen vaihe olisi 60 megawattia, ja rakentaminen voisi alkaa aikaisintaan alkuvuonna 2027.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20225820",
+      "pvm": "2026-05-13",
+      "kunta": "Liperi",
+      "maakunta": "Pohjois-Karjala",
+      "hankkeet": [
+        "liperi/scale42-datakeskus-valikangas"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "BeBeez International (DatacenterDynamics)",
+          "url": "https://bebeez.eu/2026/05/14/scale42-eyes-60mw-data-center-in-liperi-finland/",
+          "pvm": "2026-05-14"
+        }
+      ]
+    },
+    {
+      "otsikko": "Rauma haluaa datakeskuksilta pitkäjänteistä hyötyä – painopiste vuoropuhelussa ja kokonaisvaikutuksissa",
+      "ingressi": "Rauman valtuusto hyväksyi huhtikuussa Lakarin eteläisen asemakaavan, joka mahdollistaa laajan datakeskuspuiston kaupungin omistamalle alueelle Fingridin sähköaseman lähelle. Kaupunki arvioi hankkeiden vaikutuksia laajasti, muun muassa energian, veden ja verotulojen kannalta.",
+      "julkaisija": "Rauman kaupunki",
+      "url": "https://www.rauma.fi/ajankohtaista/rauma-haluaa-datakeskuksilta-pitkajanteista-hyotya-painopiste-vuoropuhelussa-ja-kokonaisvaikutuksissa/",
+      "pvm": "2026-05-04",
+      "kunta": "Rauma",
+      "maakunta": "Satakunta",
+      "hankkeet": [
+        "rauma/datakeskus-lakari"
+      ]
+    },
+    {
+      "otsikko": "Kajaani hyväksyi osayleiskaavan alueelle, jonne Google suunnittelee datakeskusta – siellä on paikka myös hotellille",
+      "ingressi": "Kajaanin valtuusto hyväksyi Otanmäen–Humpinsuon osayleiskaavan noin 1 870 hehtaarin alueelle. Googlen tytäryhtiön suunnitelmassa Otanmäkeen tulisi kahdeksan datakeskusrakennusta ja toimistorakennuksia, ja seuraavaksi laaditaan asemakaava noin 392 hehtaarin alueelle.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20223352",
+      "pvm": "2026-04-29",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/google-datakeskus-otanmaki"
+      ]
+    },
+    {
+      "otsikko": "Kuusamon kulta- ja kobolttikaivoshankkeen YVA-menettely käynnistyi",
+      "ingressi": "Latitude 66 Cobalt Oy toimitti Lupa- ja valvontavirastolle arviointiohjelman kaivoshankkeesta, jossa malmia louhittaisiin kolmesta louhoksesta noin 40 kilometriä Kuusamon keskustasta pohjoiseen. Malmi rikastettaisiin keskustaajaman lähellä, jonne tulisi myös rikastushiekka-alue.",
+      "julkaisija": "Lupa- ja valvontavirasto (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/71990956/kuusamon-kulta-ja-kobolttikaivoshankkeen-yva-menettely-kaynnistyi",
+      "pvm": "2026-04-29",
+      "kunta": "Kuusamo",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "kuusamo/latitude-66-n-kaivoshanke"
+      ]
+    },
+    {
+      "otsikko": "Microsoft käynnistää pääkaupunkiseudun datakeskusalueen toisen vaiheen rakentamisen",
+      "ingressi": "Microsoft on tehnyt rakentamispäätöksen Espoon, Kirkkonummen ja Vihdin datakeskusalueen toisesta vaiheesta, ja työt alkavat vuoden 2026 aikana. Ensimmäisen vaiheen arvioidaan valmistuvan vuodenvaihteessa 2026–2027, ja hukkalämpö ohjataan Fortumin kaukolämpöverkkoon.",
+      "julkaisija": "Microsoft",
+      "url": "https://news.microsoft.com/source/emea/2026/04/microsoft-kaynnistaa-paakaupunkiseudun-datakeskusalueen-toisen-vaiheen-rakentamisen/?lang=fi",
+      "pvm": "2026-04-28",
+      "kunta": "Espoo",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "espoo/microsoft-datakeskus-hepokorpi",
+        "kirkkonummi/microsoft-datakeskuskampus",
+        "vihti/microsoft-datakeskuskampus"
+      ]
+    },
+    {
+      "otsikko": "Uusi laki: Keravalle voi nousta datakeskus, vaikka kaavasta valitettaisiin",
+      "ingressi": "FCDC Corp Oy:n datakeskus Keravanjoen ja Lahdenväylän välissä voisi edetä uuden puhtaan siirtymän sijoittamisluvan avulla, vaikka kaavasta valitettaisiin. Yhtiön mukaan asemakaavamuutos on hyväksytty valtuustossa, eikä lupaa ole suunniteltu haettavaksi.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20221852",
+      "pvm": "2026-04-28",
+      "kunta": "Kerava",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "kerava/fcdc-datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Lahdenväylän varteen suunnitellaan uutta datakeskusta",
+      "ingressi": "Helsingin kaupunki on saanut hakemuksen kehittämisvarauksesta datakeskukselle noin 7,3 hehtaarin alueelle Heikinlaaksoon Kääpätien ja Lahdenväylän väliin. Hanke vaatii asemakaavan muutoksen, ja suunniteltu rakennus olisi 21–30 metriä korkea.",
+      "julkaisija": "Helsingin kaupunki",
+      "url": "https://www.hel.fi/fi/uutiset/lahdenvaylan-varteen-suunnitellaan-uutta-datakeskusta",
+      "pvm": "2026-04-22",
+      "kunta": "Helsinki",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "helsinki/datakeskus-heikinlaakso"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Yle",
+          "url": "https://yle.fi/a/74-20222050",
+          "pvm": "2026-04-22"
+        },
+        {
+          "julkaisija": "BeBeez International",
+          "url": "https://bebeez.eu/2026/04/24/brunswick-real-estate-files-to-build-data-center-outside-helsinki-finland/",
+          "pvm": "2026-04-24"
+        }
+      ]
+    },
+    {
+      "otsikko": "Yle: Googlen Muhoksen datakeskusalueen asemakaavasta on tehty valitus",
+      "ingressi": "Googlen Muhoksen Leppiniemen–Pyhänsivun datakeskusalueen asemakaavasta on jätetty valitus. Yhtiö ei ole vielä tehnyt investointipäätöstä.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/yle-googlen-muhoksen-datakeskusalueen-asemakaavast/13461712",
+      "pvm": "2026-04-22",
+      "kunta": "Muhos",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "muhos/datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Agnico Eaglen kullantuotanto voi kaksinkertaistua Suomessa",
+      "ingressi": "Agnico Eagle ostaa kultaesiintymiä Keski-Lapin vihreäkivivyöhykkeeltä enintään noin 2,6 miljardilla eurolla ja tavoittelee Lapin kullantuotannon nostamista noin 15 tonniin vuodessa. Yhtiö odottaa kauppojen pidentävän Kittilän kaivoksen käyttöikää.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20221757",
+      "pvm": "2026-04-21",
+      "kunta": "Kittilä",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kittila/kittilan-kaivoksen-laajennus-ja-purkuputki"
+      ]
+    },
+    {
+      "otsikko": "Ouluun suunnitellaan kahta isoa datakeskusta – Toinen tulossa Ruskoon Nokian entisiin tiloihin",
+      "ingressi": "Trevian Asset Management suunnittelee Ouluun kahta suurta datakeskusta, joista toinen sijoittuisi Ruskoon entisiin teollisuustiloihin ja toinen Leväsuon lähelle. Yhtiön mukaan aikataulu voi olla tavallista nopeampi vahvan kysynnän vuoksi.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/ouluun-suunnitellaan-kahta-isoa-datakeskusta-toine/13460305",
+      "pvm": "2026-04-21",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/campusoulu-datakeskus-300-mw"
+      ]
+    },
+    {
+      "otsikko": "Projektiyhtiö Arctial ehdottaa lähinaapureilleen maakauppoja Kokkolassa",
+      "ingressi": "Arctial on tarjoutunut ostamaan noin 40 kiinteistöä Kruunuportin teollisuusalueen läheltä markkinahintaan ja neuvoteltavalla lisähinnalla. Lähiasukkaita huolettavat ympäri vuorokauden toimivan tehtaan melu ja liikenne.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20221192",
+      "pvm": "2026-04-17",
+      "kunta": "Kokkola",
+      "maakunta": "Keski-Pohjanmaa",
+      "hankkeet": [
+        "kokkola/kokkolan-kruunupyyn-alumiinitehdas"
+      ]
+    },
+    {
+      "otsikko": "Sakatin kaivoksen suunnittelu etenee vaiheittain",
+      "ingressi": "Sakatin kaivoshanke on esiselvityksen B-vaiheessa, jossa varmistetaan muun muassa esiintymän turvallinen ja tehokas louhinta. Samalla vaihemaakuntakaava on lähes valmis, ja Viiankiaavan Natura-alueelle suunnitellaan luontohaittoja korvaavia toimia.",
+      "julkaisija": "Anglo American",
+      "url": "https://finland.angloamerican.com/en/media/press-releases/kaivoksen-suunnittelu-etenee-vaiheittain",
+      "pvm": "2026-04-16",
+      "kunta": "Sodankylä",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "sodankyla/sakatin-kaivoshanke"
+      ]
+    },
+    {
+      "otsikko": "OX2 rakennuttanut maakotkille tekopesiä Halsuan Honkakankaan ja Kanniston tuulivoimahankkeissa",
+      "ingressi": "Halsuan Kanniston ja Honkakankaan tuulivoimahankkeiden lieventämistoimena on rakennettu kaksi maakotkan tekopesää, jotta reviirit sijoittuisivat riittävän kauas tuulipuistoista. Pesien kuntoa ja käyttöä seurataan jatkossa säännöllisesti.",
+      "julkaisija": "OX2 Finland (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/71959286/ox2-rakennuttanut-maakotkille-tekopesia-halsuan-honkakankaan-ja-kanniston-tuulivoimahankkeissa?lang=fi",
+      "pvm": "2026-04-16",
+      "kunta": "Halsua",
+      "maakunta": "Keski-Pohjanmaa",
+      "hankkeet": [
+        "halsua/ox2-n-kanniston-tuulipuisto"
+      ]
+    },
+    {
+      "otsikko": "Metan datakeskuksen kaavoitus etenee Iissä – Maalaisteille odotetaan tuhansia autoja vuorokaudessa",
+      "ingressi": "Iin kunnanhallitus asetti Hervan asemakaavan ja osayleiskaavan luonnosaineistot nähtäville ja pyysi viranomaisilta lausunnot. Alueelta on tehty poikkeuksellisen kattavat selvitykset jo ennen kaavoituksen alkua.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/metan-datakeskuksen-kaavoitus-etenee-iissa-maalais/13448713",
+      "pvm": "2026-04-14",
+      "kunta": "Ii",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "ii/metan-valoa-networks-datakeskusalue-475-ha"
+      ]
+    },
+    {
+      "otsikko": "Ranskalaisyhtiö haluaa rakentaa datakeskuksen Lappeenrannan Yllikkälään",
+      "ingressi": "Neoen suunnittelee noin 80 megawatin datakeskusta Yllikkälään yhtiön akkuvarastojen ja sähköaseman lähelle. Kaupunki aloitti yhtiön pyynnöstä noin 106 hehtaarin alueen osayleiskaavan, jonka toivotaan valmistuvan vuoden lopulla.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20220286",
+      "pvm": "2026-04-13",
+      "kunta": "Lappeenranta",
+      "maakunta": "Etelä-Karjala",
+      "hankkeet": [
+        "lappeenranta/neoen-datakeskus-yllikkala"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "BeBeez International",
+          "url": "https://bebeez.eu/?p=71793",
+          "pvm": "2026-04-24"
+        }
+      ]
+    },
+    {
+      "otsikko": "Swedish solar developer targets data center project in Finland",
+      "ingressi": "Ruotsalainen Helios Nordic Energy suunnittelee datakeskuskampusta Iisalmen Tervamäkeen, ja alue voi olla yli 100 hehtaarin kokoinen. Hanke on lupavaiheessa kaupungin kanssa, eikä sen tarkkoja tietoja ole vielä julkistettu.",
+      "julkaisija": "BeBeez International (DatacenterDynamics)",
+      "url": "https://bebeez.eu/?p=71348",
+      "pvm": "2026-04-10",
+      "kunta": "Iisalmi",
+      "maakunta": "Pohjois-Savo",
+      "hankkeet": [
+        "iisalmi/tervamaen-datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Nyt se on varmaa: Seinäjoelle miljardi-investointi ja odotettu datakeskus",
+      "ingressi": "Seinäjoen kaupunki myi Kivennevan 22,3 hehtaarin datakeskustontin Pure DC Projects Oy:lle, ja maanrakennustyöt ovat alkaneet. Noin 110 megawatin datakeskuksen rakennusinvestointi on noin 1,2 miljardia euroa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20219877",
+      "pvm": "2026-04-10",
+      "kunta": "Seinäjoki",
+      "maakunta": "Etelä-Pohjanmaa",
+      "hankkeet": [
+        "seinajoki/pure-dc-datakeskus-kivenneva"
+      ]
+    },
+    {
+      "otsikko": "Helios on käynnistänyt datakeskushankkeen suunnittelun Iisalmeen",
+      "ingressi": "Helios Nordic Energy Finland suunnittelee datakeskusta Iisalmen Tervamäkeen noin yhdeksän kilometrin päähän keskustasta ja on jättänyt kaupungille kaavoitusaloitteen. Hankkeelle on varattu yli 100 hehtaaria maata, ja datakeskus liitettäisiin Fingridin suunnittelemaan Tervamäen sähköasemaan.",
+      "julkaisija": "Iisalmen kaupunki",
+      "url": "https://iisalmi.fi/helios-on-kaynnistanyt-datakeskushankkeen-suunnittelun-iisalmeen/",
+      "pvm": "2026-04-09",
+      "kunta": "Iisalmi",
+      "maakunta": "Pohjois-Savo",
+      "hankkeet": [
+        "iisalmi/tervamaen-datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Sakatin kaivoshankkeen vaihemaakuntakaavaehdotus asetettu nähtäville",
+      "ingressi": "Lapin liiton valmistelema Sakatin kaivoshankkeen vaihemaakuntakaavaehdotus asetettiin julkisesti nähtäville 24.4.2026 asti. Ennen kaavan hyväksymistä liitto hakee valtioneuvostolta poikkeusta Natura-suojeluun.",
+      "julkaisija": "Anglo American",
+      "url": "https://finland.angloamerican.com/en/media/press-releases/sakatin-kaivoshankkeen-vaihemaakuntakaavaehdotus-on-valmistunut-ja-asetettu-julkisesti-nahtaville",
+      "pvm": "2026-04-07",
+      "kunta": "Sodankylä",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "sodankyla/sakatin-kaivoshanke"
+      ]
+    },
+    {
+      "otsikko": "DayOne data center construction to start in Lahti – SRV strengthens its position in the growing market for data center construction",
+      "ingressi": "SRV aloittaa DayOnen datakeskuksen rakentamisen Lahden Kiveriössä entisellä teollisuustontilla. Datakeskuksen on määrä aloittaa toimintansa vuonna 2027, ja sen hukkalämmön hyödyntämistä paikallisesti selvitetään.",
+      "julkaisija": "SRV",
+      "url": "https://www.srv.fi/en/srv-as-a-company/newsroom/press-release/dayone-data-center-construction-to-start-in-lahti-srv-strengthens-its-position-in-the-growing-market-for-data-center-construction/",
+      "pvm": "2026-04-07",
+      "kunta": "Lahti",
+      "maakunta": "Päijät-Häme",
+      "hankkeet": [
+        "lahti/dayone-datakeskus-kiverio"
+      ]
+    },
+    {
+      "otsikko": "Fortum to support a global AI infrastructure company Nscale's plans to establish a data centre in Harjavalta, Finland",
+      "ingressi": "Fortum solmi Nscalen kanssa sopimuksen Sievarin teollisuusalueen datakeskustontin kehittämisestä, ja Fortum vastaa muun muassa sähköliittymän suunnittelusta ja luvituksesta. Nscale ja Harjavallan kaupunki aloittivat samalla tontin esikauppaan tähtäävän valmistelun.",
+      "julkaisija": "Fortum",
+      "url": "https://www.fortum.com/media/2026/04/fortum-support-global-ai-infrastructure-company-nscales-plans-establish-data-centre-harjavalta-finland",
+      "pvm": "2026-04-02",
+      "kunta": "Harjavalta",
+      "maakunta": "Satakunta",
+      "hankkeet": [
+        "harjavalta/nscale-datakeskus-sievari"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Nscale",
+          "url": "https://www.nscale.com/press-releases/nscale-data-center-finland",
+          "pvm": "2026-04-02"
+        }
+      ]
+    },
+    {
+      "otsikko": "Nebius rakentaa 310 megawatin tekoälytehtaan Suomeen",
+      "ingressi": "Nebius kertoi rakentavansa Lappeenrantaan enintään 310 megawatin tekoälydatakeskuskampuksen, jonka ensimmäinen kapasiteetti on tarkoitus ottaa asiakkaiden käyttöön vuonna 2027. Kampuksella käytetään suljetun kierron nestejäähdytystä, ja hukkalämpö ohjataan paikalliseen kaukolämpöverkkoon.",
+      "julkaisija": "Nebius",
+      "url": "https://nebius.com/newsroom/nebius-to-construct-310-mw-ai-factory-in-finland",
+      "pvm": "2026-03-31",
+      "kunta": "Lappeenranta",
+      "maakunta": "Etelä-Karjala",
+      "hankkeet": [
+        "lappeenranta/nebius-ai-factory"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Yle",
+          "url": "https://yle.fi/a/74-20218223",
+          "pvm": "2026-03-31"
+        }
+      ]
+    },
+    {
+      "otsikko": "Datakeskuksen rakentaminen työllistää jopa 700 ihmistä Lappeenrannassa",
+      "ingressi": "Pajarilaan rakennettavan Nebiuksen ja Polarnoden datakeskuksen rakennusvaihe työllistää jopa 700 ihmistä, ja valmis keskus noin sata vakituista työntekijää. Kaupunki näkee hankkeen merkittävänä koko Itä-Suomelle.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20218105",
+      "pvm": "2026-03-31",
+      "kunta": "Lappeenranta",
+      "maakunta": "Etelä-Karjala",
+      "hankkeet": [
+        "lappeenranta/nebius-ai-factory"
+      ]
+    },
+    {
+      "otsikko": "Muhoksella on kiire keksiä käyttöä datakeskuksen hukkalämmölle, jolla lämpenisi iso osa Oulua",
+      "ingressi": "Muhoksen datakeskuksen viereen voisi sijoittua esimerkiksi kalankasvattamo, teollisuushalliin rakennettu kasvihuone tai ilmastolaboratorio. Oulun yliopiston koordinoima Muhos Biopark -hanke kehittää alueelle kiertotalouden ekosysteemiä.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/muhoksella-on-kiire-keksia-kayttoa-datakeskuksen-h/13426244",
+      "pvm": "2026-03-31",
+      "kunta": "Muhos",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "muhos/biopark"
+      ]
+    },
+    {
+      "otsikko": "Asukaskysely Järvenpään suunnitellun datakeskuksen vaikutuksista",
+      "ingressi": "Järvenpään ja Tuusulan asukkailta kerättiin keväällä 2026 näkemyksiä Wärtsilän teollisuusalueelle suunnitellun datakeskuksen vaikutuksista. Hankkeeseen kuuluvat myös sähköasema ja noin 1,8 kilometrin maakaapeli Fingridin Vähänummen sähköasemalle.",
+      "julkaisija": "Tuusulan kunta",
+      "url": "https://tuusula.fi/en/2026/03/26/resident-survey-on-the-impact-of-the-planned-data-centre-in-jarvenpaa/",
+      "pvm": "2026-03-26",
+      "kunta": "Järvenpää",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "jarvenpaa/prime-data-centers-palvelinkeskus"
+      ]
+    },
+    {
+      "otsikko": "Vaasan datakeskushankkeen rakennustyöt ovat alkaneet Giga-Vaasa-alueella",
+      "ingressi": "FCDC Corp Oy:n datakeskushankkeen maanrakennustyöt ovat alkaneet Vaasan Laajametsässä. Rakentamisen arvioidaan jatkuvan vuoteen 2028, ja suunnittelu ja rakentaminen työllistävät arviolta yli tuhat henkilötyövuotta.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20217568",
+      "pvm": "2026-03-26",
+      "kunta": "Vaasa",
+      "maakunta": "Pohjanmaa",
+      "hankkeet": [
+        "vaasa/fcdc-datakeskus-kuriiritie"
+      ]
+    },
+    {
+      "otsikko": "KSBR on Rajamäenkylän tuulipuiston uusi pääurakoitsija",
+      "ingressi": "Rajamäenkylän tuulipuiston uudeksi pääurakoitsijaksi on valittu KSBR, koska aiempi pääurakoitsija ajautui konkurssiin alkuvuodesta. Uusi urakoitsija jatkaa maanrakennus-, perustus- ja kaapelointitöitä keväällä 2026.",
+      "julkaisija": "KSBR (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/71904806/ksbr-on-rajamaenkylan-tuulipuiston-uusi-paaurakoitsija?publisherId=11580673",
+      "pvm": "2026-03-24",
+      "kunta": "Karijoki",
+      "maakunta": "Etelä-Pohjanmaa",
+      "hankkeet": [
+        "isojoki/ox2-n-rajamaenkylan-tuulipuisto",
+        "karijoki/ox2-n-rajamaenkylan-tuulipuisto"
+      ]
+    },
+    {
+      "otsikko": "Ympäristölupa ei vielä takaa jättitehdasta Kemiin – Infinited Fiber etenee suunnitelmissaan pienin askelin",
+      "ingressi": "Infinited Fiber Kemi sai ympäristöluvan Veitsiluodon tekstiilikuitutehtaalle, mutta investointipäätöstä tai varmaa rahoitusta ei ole. Yhtiö suunnittelee seuraavaksi selvästi pienempää laitosta, jolla koko tuotantomenetelmä todennetaan.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20217055",
+      "pvm": "2026-03-24",
+      "kunta": "Kemi",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kemi/infinited-fiberin-tehdas-veitsiluoto"
+      ]
+    },
+    {
+      "otsikko": "YIT and XTX Markets agree on interior finishing and building services contract for the second data center building in Kajaani",
+      "ingressi": "YIT ja XTX Markets sopivat Kajaanin toisen datakeskusrakennuksen sisävalmistuksesta, talotekniikasta ja käyttöönotosta runko- ja kuorivaiheen valmistuttua. Työt ovat käynnissä ja valmistuvat arviolta 2027; sopimuksen arvoa ei julkistettu.",
+      "julkaisija": "YIT Oyj",
+      "url": "https://www.yitgroup.com/en/news-repository/investor-news/yit-and-xtx-markets-agree-on-interior-finishing-and-building-services-contract-for-the-second-data-center-building-in-kajaani",
+      "pvm": "2026-03-18",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/xtx-marketsin-datakeskus-250-mw"
+      ]
+    },
+    {
+      "otsikko": "Construction of the LUMI-AI data center in full swing",
+      "ingressi": "CSC:n blogin mukaan LUMI-AI-datakeskuksen rakentaminen alkoi Kajaanissa tammikuussa 2026, ja tavoitteena on käyttövalmius keväällä 2027. Betonityöt ja rakenteet on tehty, ja seuraavaksi asennetaan talotekniikka.",
+      "julkaisija": "CSC",
+      "url": "https://csc.fi/en/blog/construction-of-the-lumi-ai-data-center-in-full-swing/",
+      "pvm": "2026-03-17",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/lumi-ai-factory"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "LUMI",
+          "url": "https://lumi-supercomputer.eu/lumi-ai-dc-construction-blog/",
+          "pvm": "2026-03-12"
+        }
+      ]
+    },
+    {
+      "otsikko": "Varkauden datakeskus voi saada rakentamisluvan maaliskuun aikana",
+      "ingressi": "Ranta-Luttilaan suunnitellun datakeskuksen rakentamislupapäätöstä odotetaan maaliskuussa 2026. Pelastuslaitos esitti lausunnossaan yli 20 huomiota, joiden vuoksi lupahakemusta on täydennettävä muun muassa savunpoiston ja poistumisreittien osalta.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20213714",
+      "pvm": "2026-03-05",
+      "kunta": "Varkaus",
+      "maakunta": "Pohjois-Savo",
+      "hankkeet": [
+        "varkaus/apl-datakeskus-ranta-luttila"
+      ]
+    },
+    {
+      "otsikko": "Tanskalainen sijoittaja kertoo, miksi valitsi Nivalan biokaasulaitoksen paikaksi",
+      "ingressi": "Nivalaan rakennetaan noin sadan miljoonan euron investoinnilla Suomen suurin biokaasulaitos, jonka takana on Copenhagen Infrastructure Partners. Laitos jalostaa biokaasua alueen maatilojen lannasta ja kasvijätteestä, ja sijainnin ratkaisi sujuva yhteistyö kaupungin ja seudun kehitysyhtiön kanssa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20211789",
+      "pvm": "2026-03-02",
+      "kunta": "Nivala",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "nivala/nihakin-biokaasulaitos"
+      ]
+    },
+    {
+      "otsikko": "Suomen vetyhankkeilla on kaksi kesää armonaikaa, varoittaa Ouluun tähtäävä ranskalaisyhtiö",
+      "ingressi": "Oulun Oritkariin vetylaitosta suunnitteleva Verso Energy varoittaa, että Suomen vetyhankkeiden on edettävä nopeasti ja että hiilidioksidin talteenoton ratkaisut ovat hankkeille ratkaisevia.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/suomen-vetyhankkeilla-on-kaksi-kesaa-armonaikaa-va/12643937",
+      "pvm": "2026-02-25",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/verso-energyn-vetytehdas-oulun-satama"
+      ]
+    },
+    {
+      "otsikko": "OX2:n ensimmäiset energiavarastoinvestoinnit Suomessa Kanniston ja Korkeamaan tuulipuistojen yhteyteen",
+      "ingressi": "OX2 rakentaa Halsuan Kanniston tuulipuiston yhteyteen 125 MW:n ja 250 MWh:n akkuvaraston. Varaston rakentaminen alkaa heti, ja kaupallinen käyttö on suunniteltu vuodelle 2028.",
+      "julkaisija": "OX2 Finland (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/71830541/ox2n-ensimmaiset-energiavarastoinvestoinnit-suomessa-kanniston-ja-korkeamaan-tuulipuistojen-yhteyteen?lang=fi",
+      "pvm": "2026-02-25",
+      "kunta": "Halsua",
+      "maakunta": "Keski-Pohjanmaa",
+      "hankkeet": [
+        "halsua/ox2-n-kanniston-tuulipuisto"
+      ]
+    },
+    {
+      "otsikko": "ETFuels secures €118.6-MM Finnish Clean Transition Tax Credit for Ranua e-methanol project",
+      "ingressi": "Business Finland myönsi ETFuels Finland Oy:lle enintään 118,6 miljoonan euron investointiverohyvityksen Ranuan Näätäaavan e-metanolihankkeelle. Laitos tuottaisi vuodessa 110 000 tonnia uusiutuvaan vetyyn perustuvaa e-metanolia.",
+      "julkaisija": "Hydrocarbon Processing",
+      "url": "https://hydrocarbonprocessing.com/news/2026/02/etfuels-secures-1186-mm-finnish-clean-transition-tax-credit-for-ranua-e-methanol-project/",
+      "pvm": "2026-02-25",
+      "kunta": "Ranua",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "ranua/et-fuelsin-biometanolitehdas"
+      ]
+    },
+    {
+      "otsikko": "KfW IPEX-Bank finances innovative Wind-BESS portfolio by OX2 in Finland",
+      "ingressi": "KfW IPEX-Bank johtaa pankkiryhmää, joka rahoittaa OX2:n noin 500 miljoonan euron kokonaisuutta Länsi-Suomessa. Siihen kuuluvat Salo-Ylikosken, Kanniston ja Korkeamaan tuulipuistot sekä kaksi akkuvarastoa.",
+      "julkaisija": "KfW IPEX-Bank",
+      "url": "https://www.kfw-ipex-bank.de/Presse/News/Pressemitteilungsdetails_882496-2.html",
+      "pvm": "2026-02-24",
+      "kunta": "Kauhava",
+      "maakunta": "Etelä-Pohjanmaa",
+      "hankkeet": [
+        "kauhava/ox2-n-salo-ylikosken-tuulipuisto"
+      ]
+    },
+    {
+      "otsikko": "Mikkeli Attracts Multiple Large-Scale Data Center Projects in Finland",
+      "ingressi": "Mikkelin datakeskusseminaarissa esiteltiin alueen useita datakeskus- ja energiavarastohankkeita. Compute Nordic valmistelee Visulahteen 200 MW:n datakeskuskampusta, jota on tarkoitus rakentaa vaiheittain vuoteen 2028 mennessä.",
+      "julkaisija": "Miksei Mikkeli",
+      "url": "https://mikseimikkeli.fi/?p=32526",
+      "pvm": "2026-02-23",
+      "kunta": "Mikkeli",
+      "maakunta": "Etelä-Savo",
+      "hankkeet": [
+        "mikkeli/compute-nordic-datakeskus-visulahti"
+      ]
+    },
+    {
+      "otsikko": "Muhoksen kaavaillun datakeskuksen hukkalämpö halutaan hyötykäyttöön – tapoja selvitetään oppilaitosyhteistyöllä",
+      "ingressi": "Muhoksen kunta ja kolme Oulun seudun oppilaitosta selvittävät, miten suunnitellun datakeskuksen hukkalämpöä voitaisiin hyödyntää Leppiniemen Biopark-alueella. Kunta on kaavoittanut datakeskuksen viereen tontteja lämpöä hyödyntävälle teollisuudelle.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20209561",
+      "pvm": "2026-02-11",
+      "kunta": "Muhos",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "muhos/biopark",
+        "muhos/datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Valtuuston päätökset 28.1.2026 – Valtuusto hyväksyi Sudentullin tonttikaupan",
+      "ingressi": "Nurmijärven valtuusto hyväksyi kunnan historian suurimman kiinteistökaupan, jossa 61 hehtaarin tontti Sudentullista myydään DayOnelle noin 24 miljoonalla eurolla. Datakeskuksen arvioidaan työllistävän rakennusvaiheen huipussa noin 1 000 ja valmiina jopa 700 henkeä.",
+      "julkaisija": "Nurmijärven kunta",
+      "url": "https://nurmijarvi.fi/valtuuston-paatokset-28-1-2026-valtuusto-hyvaksyi-sudentullin-tonttikaupan/",
+      "pvm": "2026-01-28",
+      "kunta": "Nurmijärvi",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "nurmijarvi/sudentullin-datakeskus-klaukkala"
+      ]
+    },
+    {
+      "otsikko": "Nova Complex allekirjoitti maasopimuksen Loviisan datakeskuksen ensimmäisestä vaiheesta",
+      "ingressi": "Nova Complex on solminut Loviisan kaupungin kanssa maanvuokra- ja kauppasopimuksen datakeskushankkeensa ensimmäiselle vaiheelle ja saanut suunnitteluvarauksen viereiselle alueelle mahdollista laajennusta varten. Yhtiö arvioi kolmen vaiheen tuovan 600–800 suoraa ja välillistä työpaikkaa.",
+      "julkaisija": "Nova Complex (Cision)",
+      "url": "https://news.cision.com/nova-complex/r/nova-complex-signs-land-agreement-for-phase-i-of-loviisa-data-center-project--commits-to-green-devel,c4295223",
+      "pvm": "2026-01-22",
+      "kunta": "Loviisa",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "loviisa/nova-complex-datakeskus"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Business Kotka-Hamina (Power Coast)",
+          "url": "https://www.powercoast.fi/en/news-2/nova-complex-data-centre-project-progresses-in-loviisa/",
+          "pvm": "2026-03-02"
+        }
+      ]
+    },
+    {
+      "otsikko": "DayOne Advances Finland Platform with Early-Stage Data Center Plans in Nurmijärvi",
+      "ingressi": "DayOne kertoo varhaisen vaiheen suunnitelmistaan datakeskukseen Klaukkalan Sudentulliin, jonka sähköteho voisi vaiheittain nousta 560 MW:iin. Fortum avustaa kaavoituksessa ja verkkoliitynnän suunnittelussa, ja hanke tarvitsee vielä useita lupia.",
+      "julkaisija": "DayOne (GlobeNewswire)",
+      "url": "https://www.aap.com.au/aapreleases/globenewswire9630339",
+      "pvm": "2026-01-22",
+      "kunta": "Nurmijärvi",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "nurmijarvi/sudentullin-datakeskus-klaukkala"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Bernama",
+          "url": "https://www.bernama.com/tv/news.php?id=2515601",
+          "pvm": "2026-01-22"
+        }
+      ]
+    },
+    {
+      "otsikko": "Tax credits for large clean transition investments awarded to 40 companies",
+      "ingressi": "Business Finland myönsi puhtaan siirtymän investointien verohyvityksiä 40 yritykselle. Northern Green Fuels Oy:n uusiutuvan energian tuotantohankkeelle myönnettiin noin 109,9 miljoonan euron verohyvitys.",
+      "julkaisija": "Business Finland",
+      "url": "https://www.businessfinland.fi/en/whats-new/news/2025/tax-credits-for-large-clean-transition-investments-awarded-to-40-companies/",
+      "pvm": "2026-01-15",
+      "kunta": "Paltamo",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "paltamo/northern-green-fuels-project-hybrid"
+      ]
+    },
+    {
+      "otsikko": "Prime Data Centers suunnittelee mittavaa datakeskusinvestointia Järvenpäähän",
+      "ingressi": "Prime Data Centers suunnittelee yhdessä Brunswick Real Estaten kanssa tekoälyvalmista datakeskusta Järvenpään Wärtsilän teollisuusalueelle noin 1,2 miljardin euron alkuinvestoinnilla. Hanke siirtyy ympäristövaikutusten arviointiin, ja rakentaminen voisi alkaa vuonna 2027.",
+      "julkaisija": "Järvenpään kaupunki",
+      "url": "https://www.jarvenpaa.fi/a/prime-data-centers-suunnittelee-mittavaa-datakeskusinvestointia-jarvenpaahan",
+      "pvm": "2026-01-14",
+      "kunta": "Järvenpää",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "jarvenpaa/prime-data-centers-palvelinkeskus"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "BeBeez International",
+          "url": "https://bebeez.eu/2026/01/15/prime-targets-data-center-development-in-jarvenpaa-finland/",
+          "pvm": "2026-01-15"
+        }
+      ]
+    },
+    {
+      "otsikko": "Mikkeliin on tulossa datakeskus, joka hyväksyy asiakkaita vain Nato-maista: ”Yrityksille tärkeää”, sanoo toimitusjohtaja",
+      "ingressi": "Compute Nordic rakentaa Visulahteen kaksi tekoälydatakeskusta, joiden yhteiskapasiteetti on yli 200 MW, ja kaupunki myönsi rakennusluvan joulukuussa 2025. Ensimmäisen hallin rakentaminen voi alkaa alkuvuodesta 2026, ja asiakkaiksi hyväksytään vain Nato- ja kumppanimaissa toimivia yrityksiä.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20203129",
+      "pvm": "2026-01-08",
+      "kunta": "Mikkeli",
+      "maakunta": "Etelä-Savo",
+      "hankkeet": [
+        "mikkeli/compute-nordic-datakeskus-visulahti"
+      ]
+    },
+    {
+      "otsikko": "Magnora secures a third data center project, adding 120 MW, in the Helsinki - Tampere area",
+      "ingressi": "Magnora tuli 70 prosentin enemmistöomistajaksi Hämeenlinnaan suunnitellussa 120 megawatin datakeskushankkeessa, jota kehitetään yhdessä Northern Europe Energy Groupin kanssa. Hankkeen tavoitteena on olla rakentamisvalmis vuoden 2026 loppuun mennessä, ja tontilla on mahdollisuus hukkalämmön hyödyntämiseen kaukolämpöverkossa.",
+      "julkaisija": "Magnora ASA (Inderes)",
+      "url": "https://www.inderes.fi/en/releases/magnora-secures-a-third-data-center-project-adding-120-mw-in-the-helsinki-tampere-area",
+      "pvm": "2026-01-08",
+      "kunta": "Hämeenlinna",
+      "maakunta": "Kanta-Häme",
+      "hankkeet": [
+        "hameenlinna/magnora-datakeskus"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Energy-pedia",
+          "url": "https://www.energy-pedia.com/news/general/magnora-secures-a-third-data-center-project--adding-120-mw--in-the-helsinki---tampere-area-202455",
+          "pvm": "2026-01-08"
+        }
+      ]
+    },
+    {
+      "otsikko": "Raksilan vesiliikuntakeskuksesta ei valitettu",
+      "ingressi": "Raksilan vesiliikuntakeskuksesta ei tehty valitusta hallinto-oikeuteen, joten rakentaminen voi suunnitelmien mukaan alkaa vuonna 2026.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/raksilan-vesiliikuntakeskuksesta-ei-valitettu/12466492",
+      "pvm": "2025-12-23",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulun-vesiliikuntakeskus-raksila"
+      ]
+    },
+    {
+      "otsikko": "OX2 on tehnyt toisen merkittävän uusiutuvan energian investointipäätöksensä Suomessa tänä vuonna – tuulipuistojen rakentaminen alkaa heti",
+      "ingressi": "OX2 teki investointipäätöksen Soinin Korkeamaan tuulipuistosta, johon tulee 17 voimalaa ja 108 megawatin kokonaisteho. Arvioitu vuosituotanto on 326 gigawattituntia, ja puisto otetaan käyttöön arviolta vuonna 2027.",
+      "julkaisija": "OX2 Finland (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/71685908/ox2-on-tehnyt-toisen-merkittavan-uusiutuvan-energian-investointipaatoksensa-suomessa-tana-vuonna-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+      "pvm": "2025-12-16",
+      "kunta": "Soini",
+      "maakunta": "Etelä-Pohjanmaa",
+      "hankkeet": [
+        "halsua/ox2-n-kanniston-tuulipuisto",
+        "kauhava/ox2-n-salo-ylikosken-tuulipuisto",
+        "soini/ox2-n-korkeamaan-tuulipuisto"
+      ]
+    },
+    {
+      "otsikko": "Building permit granted for Vaasa data centre project",
+      "ingressi": "Vaasan rakennus- ja ympäristölautakunta myönsi rakennusluvan FCDC Corp Oy:n noin 66 000 kerrosneliömetrin datakeskukselle Kuriiritielle. Rakentamisen arvioitiin alkavan 2026 ja toiminnan käynnistyvän vuosina 2028–2029.",
+      "julkaisija": "Vaasan kaupunki",
+      "url": "https://www.vaasa.fi/en/news/building-permit-granted-for-vaasa-data-centre-project/",
+      "pvm": "2025-12-11",
+      "kunta": "Vaasa",
+      "maakunta": "Pohjanmaa",
+      "hankkeet": [
+        "vaasa/fcdc-datakeskus-kuriiritie"
+      ]
+    },
+    {
+      "otsikko": "Building permit application submitted for Vaasa data centre project",
+      "ingressi": "FCDC Corp Oy:n omistama kiinteistöyhtiö jätti rakennuslupahakemuksen datakeskuksesta Vaasan Laajametsän Kuriiritielle GigaVaasa-alueelle. Noin 66 000 kerrosneliömetrin kokonaisuuteen kuuluu kaksi päärakennusta ja pienempiä aputiloja.",
+      "julkaisija": "Vaasan kaupunki",
+      "url": "https://www.vaasa.fi/en/news/building-permit-application-submitted-for-vaasa-data-centre-project/",
+      "pvm": "2025-12-05",
+      "kunta": "Vaasa",
+      "maakunta": "Pohjanmaa",
+      "hankkeet": [
+        "vaasa/fcdc-datakeskus-kuriiritie"
+      ]
+    },
+    {
+      "otsikko": "Amerikkalaisyhtiö toisi Iihin satoja pysyviä työpaikkoja – \"Meta ei varmasti tee pieniä datakeskuksia mihinkään\"",
+      "ingressi": "Iin kunta ja Metan tytäryhtiö Valoa Networks ovat käynnistäneet kehityshankkeen suuresta datakeskusalueesta Hervan sähköaseman lähelle. Hanke voisi tuoda satoja pysyviä työpaikkoja ja vielä enemmän rakentamisen aikana.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/amerikkalaisyhtio-toisi-iihin-satoja-pysyvia-tyopa/12432627",
+      "pvm": "2025-12-04",
+      "kunta": "Ii",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "ii/metan-valoa-networks-datakeskusalue-475-ha"
+      ]
+    },
+    {
+      "otsikko": "Iihin tulossa Metan jättimäinen datakeskus – Asukas yllättyi siitä, kuinka paljon metsää laitos lohkaisee",
+      "ingressi": "Iin kunta aloittaa Hervan alueen kaavoituksen Metan datakeskusta varten. Yli tuhannen hehtaarin osayleiskaava-alueesta lähes 500 hehtaaria on varattu yhtiölle, ja maa on pääosin metsätalousmaata.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/iihin-tulossa-metan-jattimainen-datakeskus-asukas/12430105",
+      "pvm": "2025-12-03",
+      "kunta": "Ii",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "ii/metan-valoa-networks-datakeskusalue-475-ha"
+      ]
+    },
+    {
+      "otsikko": "Datakeskus suunnitteilla Jokelaan",
+      "ingressi": "Tuusulan kunta on tehnyt esisopimuksen noin 16,7 hehtaarin maa-alueen myynnistä Jokelasta Blackstonen hallinnoimille rahastoille datakeskusta varten. Kaavamuutokset hyväksyttiin lokakuussa 2025, ja ympäristövaikutusten arviointi oli määrä aloittaa alkuvuodesta 2026.",
+      "julkaisija": "Tuusulan kunta",
+      "url": "https://tuusula.fi/2025/12/03/datakeskus-suunnitteilla-jokelaan/",
+      "pvm": "2025-12-03",
+      "kunta": "Tuusula",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "tuusula/jokelan-datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Asp DC to invest 1,65 billion Euro in Finland",
+      "ingressi": "Norjalainen Asp DC on ostanut CompassForge Venturesilta datakeskustontin Porista ja aikoo investoida hankkeeseen noin 1,65 miljardia euroa. Ensimmäinen vaihe on 150 MW, myöhemmin yli 400 MW, ja ylijäämälämpö on tarkoitus hyödyntää Porin kaukolämpöverkossa.",
+      "julkaisija": "Asp Data Center",
+      "url": "https://www.aspdatacenter.no/news/asp-dc-invests-in-finland",
+      "pvm": "2025-12-03",
+      "kunta": "Pori",
+      "maakunta": "Satakunta",
+      "hankkeet": [
+        "pori/asp-datakeskus-kupariteollisuuspuisto"
+      ]
+    },
+    {
+      "otsikko": "Bitzero Holdings Inc. Breaks Ground on Phase I Development at Giga-scale Finland Site",
+      "ingressi": "Bitzero aloitti Kokemäen datakeskuskampuksen ensimmäisen vaiheen rakentamisen. Lähes 100 hehtaarin alueesta yhtiö omistaa 15 hehtaaria, ja koko kampus on suunniteltu yhden gigawatin kapasiteetille.",
+      "julkaisija": "Bitzero",
+      "url": "https://bitzero.com/bitzero-holdings-inc-breaks-ground-on-phase-i-development-at-giga-scale-finland-site/",
+      "pvm": "2025-12-02",
+      "kunta": "Kokemäki",
+      "maakunta": "Satakunta",
+      "hankkeet": [
+        "kokemaki/bitzero-datakeskus-kirkkokallio"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "W.Media",
+          "url": "https://w.media/?p=19197",
+          "pvm": "2025-12-03"
+        }
+      ]
+    },
+    {
+      "otsikko": "Oulun ja Limingan välinen kaksoisraide sai liki 200 miljoonan euron rahoituksen",
+      "ingressi": "Valtioneuvosto hyväksyi Oulu–Liminka-kaksoisraiteen suunnitelman ja noin 199 miljoonan euron investointivaltuuden täydentävässä talousarviossa. Kaksoisraiteen odotetaan lisäävän junavuoroja, vähentävän häiriöitä ja sujuvoittavan tavaraliikennettä.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20195153",
+      "pvm": "2025-11-20",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulu-liminka-kaksoisraide"
+      ]
+    },
+    {
+      "otsikko": "120MW data center campus proposed in Hämeenlinna, Finland",
+      "ingressi": "Hämeenlinnan kaupunki teki varaussopimuksen kolmesta MORE-teollisuuspuiston tontista pohjoismaisen omistajaryhmän kanssa. Noin 15 hehtaarin alueelle voisi rakentaa enintään 120 megawatin datakeskuksen, ja hankkeelle haetaan kansainvälistä operaattoria.",
+      "julkaisija": "BeBeez International (DatacenterDynamics)",
+      "url": "https://bebeez.eu/2025/11/07/120mw-data-center-campus-proposed-in-hameenlinna-finland/",
+      "pvm": "2025-11-07",
+      "kunta": "Hämeenlinna",
+      "maakunta": "Kanta-Häme",
+      "hankkeet": [
+        "hameenlinna/magnora-datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Raahen jätti-investointi ei toteudu: miljardien terästehdasta ei tule",
+      "ingressi": "SSAB ei rakenna Raaheen uutta terästehdasta, vaan uudistaa nykyisen tehtaan korvaamalla masuunit ja koksaamon valokaariuuneilla. Investointipäätöstä ei ole tehty, ja uudistus alkaa vasta Luulajan uuden tuotantolaitoksen valmistuttua, arviolta vuonna 2029.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20192066",
+      "pvm": "2025-11-04",
+      "kunta": "Raahe",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "raahe/ssab-n-raahen-tehtaan-uudistus-valokaariuunit"
+      ]
+    },
+    {
+      "otsikko": "SSAB kertoo ensi viikolla suunnitelmistaan Raahen terästehtaalle",
+      "ingressi": "SSAB:n johto vieraili Raahen terästehtaalla mutta ei kertonut uuden fossiilittoman tehtaan tilanteesta. Yhtiö ilmoitti avaavansa Raahen suunnitelmiaan seuraavan viikon pääomamarkkinapäivässä.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20191550",
+      "pvm": "2025-10-31",
+      "kunta": "Raahe",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "raahe/ssab-n-raahen-tehtaan-uudistus-valokaariuunit"
+      ]
+    },
+    {
+      "otsikko": "Forssan datakeskushankkeen YVA-menettely on alkanut",
+      "ingressi": "Hämeen ELY-keskus tiedotti datakeskushankkeen ympäristövaikutusten arviointiohjelmasta. Noin 150 hehtaarin alueelle Forssan keskustan eteläpuolelle suunnitellaan enintään 11 datakeskusrakennusta, ja arvioinnissa verrataan kahta toteutusvaihtoehtoa.",
+      "julkaisija": "Hämeen ELY-keskus (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/71543521/forssan-datakeskushankkeen-yva-menettely-on-alkanut?lang=fi",
+      "pvm": "2025-10-22",
+      "kunta": "Forssa",
+      "maakunta": "Kanta-Häme",
+      "hankkeet": [
+        "forssa/qts-datakeskus-ratasmaki"
+      ]
+    },
+    {
+      "otsikko": "Sweco supporting land use planning in Liminka's solar power projects",
+      "ingressi": "Sweco vastaa Limingan kahden aurinkovoimahankkeen maankäytön suunnittelusta, luontoselvityksistä ja lupatehtävistä. Suurempi, noin 90 hehtaarin ja yli 100 000 paneelin puisto on Endran rakentama, ja lähelle suunnitellaan toista, 72 hehtaarin puistoa.",
+      "julkaisija": "Sweco Finland",
+      "url": "https://www.sweco.fi/en/insight/news/sweco-supporting-land-use-planning-in-liminkas-solar-power-projects/",
+      "pvm": "2025-10-09",
+      "kunta": "Liminka",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "liminka/limingan-aurinkovoimapuisto"
+      ]
+    },
+    {
+      "otsikko": "NCC to construct new hospital building in Oulu, Finland",
+      "ingressi": "NCC rakentaa Oulun yliopistollisen sairaalan C-rakennuksen allianssimallilla ja vastaa suunnittelusta, rakentamisesta ja talotekniikasta. Rakennukseen tulevat erikoissairaanhoidon poliklinikat, patologian laboratoriot, opetustilat sekä sosiaali- ja terveyskeskus, ja työt valmistuvat vuonna 2029.",
+      "julkaisija": "NCC (Inderes)",
+      "url": "https://www.inderes.fi/releases/ncc-to-construct-new-hospital-building-in-oulu-finland",
+      "pvm": "2025-10-08",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulun-tulevaisuuden-sairaala-c-rakennus"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Kaleva",
+          "url": "https://www.kaleva.fi/ncc-rakentaa-oysin-uuden-c-rakennuksen-158-miljoon/11803522",
+          "pvm": "2025-10-08"
+        }
+      ]
+    },
+    {
+      "otsikko": "Lahdelle ropsahtaa neljännesmiljoona datakeskuksen rakentamisluvasta, jos lautakunta hyväksyy sen – Fazerilta toinen mokoma",
+      "ingressi": "Lahden lupalautakunta käsittelee DayOnen rakennuslupahakemusta Kiveriön datakeskukselle, jonka kokonaisala on noin 42 000 neliömetriä. Hyväksytyn luvan maksu olisi lähes 236 000 euroa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20186808",
+      "pvm": "2025-10-07",
+      "kunta": "Lahti",
+      "maakunta": "Päijät-Häme",
+      "hankkeet": [
+        "lahti/dayone-datakeskus-kiverio"
+      ]
+    },
+    {
+      "otsikko": "Jättelikt datacenter får grönt ljus i Karis",
+      "ingressi": "Raaseporin ympäristö- ja rakennuslautakunta myönsi rakennusluvan FCDC Corp Oy:n datakeskukselle Karjaan Bäljarsiin. Kolmen noin 16 500 neliömetrin hallin hankkeelle asetettiin tiukat ehdot, koska alue rajautuu pohjavesialueeseen.",
+      "julkaisija": "Svenska Yle",
+      "url": "https://yle.fi/a/7-10085393",
+      "pvm": "2025-10-02",
+      "kunta": "Raasepori",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "raasepori/fcdc-datakeskus-baljars"
+      ]
+    },
+    {
+      "otsikko": "Raksilan uuden uimahallin kaavan hyväksyminen lykkääntyy parkkipaikkojen takia – Uusi yritys lokakuussa",
+      "ingressi": "Oulun yhdyskuntalautakunnan piti päättää Raksilan vesiliikuntakeskuksen asemakaavasta ja tonttijaosta, mutta asia vedettiin pois esityslistalta. Asia on tarkoitus käsitellä uudelleen lokakuussa.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/raksilan-uuden-uimahallin-kaavan-hyvaksyminen-lykk/11783966",
+      "pvm": "2025-09-23",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulun-vesiliikuntakeskus-raksila"
+      ]
+    },
+    {
+      "otsikko": "Seuraavaksi uuteen sairaalaan rakennetaan C-talo ja maanalainen pysäköinti – Kokonaiskustannukset 227 miljoonaa euroa",
+      "ingressi": "Aluehallitus hyväksyi OYSin C-rakennuksen ja maanalaisen pysäköinnin siirtymisen toteutusvaiheeseen sekä niiden tavoiteaikataulun ja tavoitekustannuksen. Kokonaiskustannukset ovat otsikon mukaan 227 miljoonaa euroa.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/seuraavaksi-uuteen-sairaalaan-rakennetaan-c-talo-j/11767702",
+      "pvm": "2025-09-10",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulun-tulevaisuuden-sairaala-c-rakennus"
+      ]
+    },
+    {
+      "otsikko": "Copenhagen Infrastructure Partners investoi Suomen suurimpaan biokaasulaitokseen",
+      "ingressi": "Copenhagen Infrastructure Partnersin bioenergiarahasto teki investointipäätöksen Nivalan biokaasulaitoksesta, josta tulee Suomen suurin teollinen biokaasulaitos. Laitoksen on määrä tuottaa yli 200 GWh biometaania vuodessa, ja toiminta alkaisi vuoden 2027 jälkipuoliskolla.",
+      "julkaisija": "Renewable Energy Magazine",
+      "url": "https://www.renewableenergymagazine.com/biogas/copenhagen-infrastructure-partners-invests-in-finlanda-s-20250903",
+      "pvm": "2025-09-03",
+      "kunta": "Nivala",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "nivala/nihakin-biokaasulaitos"
+      ]
+    },
+    {
+      "otsikko": "Yhtiö suunnittelee Utajärvelle satojen miljoonien eurojen datakeskusta – kaksi dataoperaattoria mukana neuvotteluissa",
+      "ingressi": "Amp Tank suunnittelee datakeskusta Utajärven Mustikkakankaan teollisuusalueelle, ja investoinnin arvioitiin 700–900 miljoonaksi euroksi. Alueen kaava ja vuokrasopimukset ovat valmiina, ja hanke odottaa rakennuslupia.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20180051",
+      "pvm": "2025-08-29",
+      "kunta": "Utajärvi",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "utajarvi/data-tank-nordic-datakeskus-200-mw"
+      ]
+    },
+    {
+      "otsikko": "Veli-Matti Välikankaan maille Liminkaan on vireillä kaksi isoa aurinkopuistoa ja datakeskus",
+      "ingressi": "Norjalainen Endra AS on vuokrannut pitkäaikaisesti 87 hehtaaria maata Limingan Ruutikankaan itäpuolelta, ja alueen kehittämisestä vastaa Limingan Energiapuisto Oy. Endra suunnittelee alueelle yli 100 000 paneelin aurinkovoimalaa.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/veli-matti-valikankaan-maille-liminkaan-on-vireill/11748757",
+      "pvm": "2025-08-25",
+      "kunta": "Liminka",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "liminka/limingan-aurinkovoimapuisto"
+      ]
+    },
+    {
+      "otsikko": "Lahden Kiveriöön rakennetaan 1,2 miljardin euron datakeskus",
+      "ingressi": "Singaporelainen DayOne rakentaa noin 1,2 miljardin euron datakeskuksen kymmenen hehtaarin teollisuustontille Lahden Kiveriöön. Toiminta on tarkoitus aloittaa vuonna 2027, ja kaupunki valmistelee yhtiön kanssa kasvusopimusta muun muassa hukkalämmön hyödyntämisestä.",
+      "julkaisija": "Lahden kaupunki",
+      "url": "https://www.lahti.fi/uutiset/lahden-kiverioon-rakennetaan-12-miljardin-euron-datakeskus/",
+      "pvm": "2025-08-14",
+      "kunta": "Lahti",
+      "maakunta": "Päijät-Häme",
+      "hankkeet": [
+        "lahti/dayone-datakeskus-kiverio"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "DayOne (GlobeNewswire/Nasdaq)",
+          "url": "https://www.nasdaq.com/press-release/dayone-announces-flagship-hyperscale-data-center-project-lahti-finland-2025-08-14",
+          "pvm": "2025-08-14"
+        },
+        {
+          "julkaisija": "Kaleva",
+          "url": "https://www.kaleva.fi/lahteen-aiotaan-rakentaa-12-miljardin-euron-datake/11735519",
+          "pvm": "2025-08-14"
+        }
+      ]
+    },
+    {
+      "otsikko": "Googlen datakeskushanke etenee – Muhoksen kunta ja Tuike Finland Oy allekirjoittivat 26 miljoonan maankäyttösopimuksen",
+      "ingressi": "Muhoksen kunta ja Googlen tytäryhtiö Tuike Finland solmivat 26 miljoonan euron maankäyttösopimuksen Leppiniemen ja Pyhänselän asemakaavoista. Kunta rakentaa alueelle muun muassa noin kahdeksan kilometriä teitä ja vesihuollon.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20175928",
+      "pvm": "2025-08-05",
+      "kunta": "Muhos",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "muhos/datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Bitzero ilmoittaa globaalin datakeskusverkoston laajentamisesta",
+      "ingressi": "Bitzeron tiedotteen mukaan Kokemäen kohde on yhtiön suurin, ja sen nykyinen 10 megawatin kapasiteetti on tarkoitus laajentaa 800 megawattiin. Sähkö tulisi pääosin vesi- ja ydinvoimasta.",
+      "julkaisija": "Bitzero (PR Newswire)",
+      "url": "https://www.prnewswire.com/fi/lehdistotiedotteet/bitzero-ilmoittaa-globaalin-datakeskusverkoston-laajentamisesta-toimittaen-puhdasta-energiaa-korkean-suorituskyvyn-laskennan-seuraavaa-aikakautta-varten-302470084.html",
+      "pvm": "2025-06-03",
+      "kunta": "Kokemäki",
+      "maakunta": "Satakunta",
+      "hankkeet": [
+        "kokemaki/bitzero-datakeskus-kirkkokallio"
+      ]
+    },
+    {
+      "otsikko": "Kansainvälinen yhtiö rakentaa ison datakeskuksen Varkauteen",
+      "ingressi": "APL Group rakentaa Varkauden Ranta-Luttilaan 100 megawatin datakeskuksen kahdessa vaiheessa, ja se työllistäisi 50–200 ihmistä. Yhtiö ei ole vielä kertonut tarkemmin, millaista dataa keskus käsittelee.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20164429",
+      "pvm": "2025-05-28",
+      "kunta": "Varkaus",
+      "maakunta": "Pohjois-Savo",
+      "hankkeet": [
+        "varkaus/apl-datakeskus-ranta-luttila"
+      ]
+    },
+    {
+      "otsikko": "400 miljoonan tehdasinvestointi Kemiin on jäissä: vuokrasopimukset raukesivat, työntekijöitä nolla",
+      "ingressi": "Infinited Fiberin noin 400 miljoonan euron kierrätystekstiilitehdas Veitsiluotoon on yhtiön tilinpäätöksen mukaan uudelleentarkastelussa. Tehdastilojen vuokrasopimukset raukesivat vuonna 2024, mutta ympäristölupahakemus oli yhä käsittelyssä.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20164396",
+      "pvm": "2025-05-28",
+      "kunta": "Kemi",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kemi/infinited-fiberin-tehdas-veitsiluoto"
+      ]
+    },
+    {
+      "otsikko": "atNorthin datakeskus rakentamislupakäsittelyyn",
+      "ingressi": "Kouvolan lupajaosto käsitteli atNorthin rakennuslupahakemuksen noin 40 000 neliön datakeskuksesta Myllykoskella entisen paperitehtaan pohjoispuolella. Hakemukseen sisältyi myös lupa aloittaa työt ennen luvan lainvoimaisuutta.",
+      "julkaisija": "Kouvolan kaupunki",
+      "url": "https://www.kouvola.fi/ajankohtaiset/atnorthin-datakeskus-rakentamislupakasittelyyn/",
+      "pvm": "2025-05-28",
+      "kunta": "Kouvola",
+      "maakunta": "Kymenlaakso",
+      "hankkeet": [
+        "kouvola/atnorth-fin04-myllykoski"
+      ]
+    },
+    {
+      "otsikko": "Microsoftin datakeskusten peruskivet muurattiin Hepokorvessa",
+      "ingressi": "Hepokorven työmaalla Espoossa muurattiin toukokuussa 2025 peruskivet Microsoftin Espooseen, Kirkkonummelle ja Vihtiin rakentamille datakeskuksille. Fortum aikoo hyödyntää datakeskusten hukkalämpöä kaukolämpönä vuodesta 2027 alkaen.",
+      "julkaisija": "Kirkkonummen Sanomat",
+      "url": "https://www.kirkkonummensanomat.fi/microsoftin-datakeskusten-peruskivet-muurattiin-hepokorvessa-6.175.79835.8a97987ca3",
+      "pvm": "2025-05-27",
+      "kunta": "Espoo",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "espoo/microsoft-datakeskus-hepokorpi",
+        "kirkkonummi/microsoft-datakeskuskampus"
+      ]
+    },
+    {
+      "otsikko": "Jättikokoisen datakeskuksen tulo Rovaniemelle voi tyssätä pohjavesialueen vuoksi",
+      "ingressi": "Hietavaaraan kaavailtu datakeskus sijoittuisi pohjavesialueelle juomavettä tuottavan vedenottamon viereen, mikä voi estää hankkeen. Vaikutukset pohjaveteen on selvitettävä kaavoituksen yhteydessä, mikä vie yleensä ainakin vuoden.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20163451",
+      "pvm": "2025-05-27",
+      "kunta": "Rovaniemi",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "rovaniemi/hietavaaran-datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Forssan kaupunginjohtaja ei usko, että Forssan datakeskuksen pääkäyttäjä voisi olla Tiktokin kaltainen toimija",
+      "ingressi": "Ratasmäen datakeskushanke etenee aikataulussa, ja seuraava vaihe on kaavamuutoksen luonnos. Hankkeen rahoittaa Blackstone ja datakeskusta operoisi QTS, mutta keskuksen pääkäyttäjä ei ole tiedossa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20161469",
+      "pvm": "2025-05-13",
+      "kunta": "Forssa",
+      "maakunta": "Kanta-Häme",
+      "hankkeet": [
+        "forssa/qts-datakeskus-ratasmaki"
+      ]
+    },
+    {
+      "otsikko": "Orimattilan datakeskushanke etenee ripeästi, vaikka kaupunki ei tarkkaan tiedä toimijaa",
+      "ingressi": "Fortumin kehittämälle datakeskukselle laaditaan Pennalaan yli 100 hehtaarin alueelle asemakaavaa ja osayleiskaavaa aiempaa nopeammalla aikataululla. Datakeskuksen lopullista toimijaa ei ole kerrottu kaupungille.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20161309",
+      "pvm": "2025-05-12",
+      "kunta": "Orimattila",
+      "maakunta": "Päijät-Häme",
+      "hankkeet": [
+        "orimattila/pennalan-datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Rovaniemelle suunnitteilla jättimäinen datakeskus",
+      "ingressi": "FCDC Corp suunnittelee noin miljardin euron ja 500 megawatin datakeskusta Hietavaaraan noin 10 kilometriä Rovaniemen keskustasta etelään. Hanke on alkuvaiheessa, rakennusoikeutta haetaan noin 180 000 neliömetrille, ja valmistumistavoite on vuonna 2029.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20160881",
+      "pvm": "2025-05-11",
+      "kunta": "Rovaniemi",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "rovaniemi/hietavaaran-datakeskus"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "BeBeez International",
+          "url": "https://bebeez.eu/2025/05/19/500mw-data-center-proposed-in-lapland-finland/",
+          "pvm": "2025-05-19"
+        }
+      ]
+    },
+    {
+      "otsikko": "Hyperco accuses Rydman of stalling TikTok data centre project in Kouvola",
+      "ingressi": "Kouvolan hanketta käsittelevässä jutussa Hyperco vahvistaa suunnittelevansa toista datakeskusta Lohjalle ja kertoo saaneensa kiinteistön ostoon puolustusministeriön luvan. Ministeri oli pyytänyt Lohjaa lykkäämään tontin myyntiä lisäselvityksiin asti.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20161080",
+      "pvm": "2025-05-11",
+      "kunta": "Lohja",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "lohja/hyperco-palvelinkeskus-virkkala"
+      ]
+    },
+    {
+      "otsikko": "Datakeskushankkeen kaavaluonnokset nähtäville 24.4. – asukastilaisuus 6.5.",
+      "ingressi": "Keravan eteläosaan Lahden moottoritien ja Keravanjoen väliin suunnitellun datakeskuksen kaavaluonnokset tulivat nähtäville. Noin 25 hehtaarin tontille on osoitettu 145 000 kerrosneliömetriä rakennusoikeutta.",
+      "julkaisija": "Keravan kaupunki",
+      "url": "https://www.kerava.fi/kaavoitus/datakeskushankkeen-kaavaluonnokset-nahtaville-asukastilaisuus-6-5/",
+      "pvm": "2025-04-29",
+      "kunta": "Kerava",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "kerava/fcdc-datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Verkkojätti Amazon ostaa kaiken sähkön pohjalaiskuntiin nousevista 700 miljoonan euron tuulipuistoista",
+      "ingressi": "Amazon on sopinut pitkäaikaisesta sähkönostosta OX2:n Rajamäenkylän ja Halsuan tuulipuistoista. Isojoen ja Karijoen alueella maansiirtotyöt ovat käynnissä, ja puisto tuottaa ensimmäiset megawattinsa vuonna 2028.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20154940",
+      "pvm": "2025-04-09",
+      "kunta": "Karijoki",
+      "maakunta": "Etelä-Pohjanmaa",
+      "hankkeet": [
+        "isojoki/ox2-n-rajamaenkylan-tuulipuisto",
+        "karijoki/ox2-n-rajamaenkylan-tuulipuisto"
+      ]
+    },
+    {
+      "otsikko": "Kaivoshanke Kolarissa koki jälleen takaiskun: Korkein hallinto-oikeuskin torppasi Hannukaisen kaavan",
+      "ingressi": "Korkein hallinto-oikeus hylkäsi Kolarin kunnan valituksen, joten Hannukaisen kaivosalueen osayleiskaava jäi lainvastaiseksi. Oikeuden mukaan ei ollut osoitettu, että kaava suojaisi lähiasukkaita riittävästi kaivoksen haitoilta.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20154870",
+      "pvm": "2025-04-09",
+      "kunta": "Kolari",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kolari/hannukaisen-ja-rautuvaaran-kaivos"
+      ]
+    },
+    {
+      "otsikko": "Lakarin asemakaavaluonnos on valmistunut – Fortumin suunnitteluvarauksen laajuus on noin 330 hehtaaria",
+      "ingressi": "Rauma valmisteli Lakarin teollisuusalueen koillisosaan asemakaavaluonnoksen, johon sisältyy Fortumin noin 330 hehtaarin suunnitteluvaraus datakeskustoimintaa varten. Varsinaiset investoinnit tekisi myöhemmin datakeskushankkeen toteuttaja.",
+      "julkaisija": "Rauman kaupunki",
+      "url": "https://www.rauma.fi/ajankohtaista/lakarin-asemakaavaluonnos-on-valmistunut-fortumin-suunnitteluvarauksen-laajuus-on-noin-330-hehtaaria/",
+      "pvm": "2025-04-04",
+      "kunta": "Rauma",
+      "maakunta": "Satakunta",
+      "hankkeet": [
+        "rauma/datakeskus-lakari"
+      ]
+    },
+    {
+      "otsikko": "OX2 on tehnyt Suomen kaikkien aikojen suurimman uusiutuvan energian investointipäätöksen – tuulipuistojen rakentaminen alkaa heti",
+      "ingressi": "OX2 investoi noin 700 miljoonaa euroa kahteen tuulipuistoon, joista Rajamäenkylän puistoon tulee 54 voimalaa ja noin 367 MW. Voimaloista 42 sijoittuu Isojoelle ja 12 Karijoelle, ja käyttöönotto on arvioitu vuodelle 2028.",
+      "julkaisija": "OX2 Finland (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/71004655/ox2-on-tehnyt-suomen-kaikkien-aikojen-suurimman-uusiutuvan-energian-investointipaatoksen-tuulipuistojen-rakentaminen-alkaa-heti?lang=fi",
+      "pvm": "2025-04-01",
+      "kunta": "Karijoki",
+      "maakunta": "Etelä-Pohjanmaa",
+      "hankkeet": [
+        "isojoki/ox2-n-rajamaenkylan-tuulipuisto",
+        "karijoki/ox2-n-rajamaenkylan-tuulipuisto"
+      ]
+    },
+    {
+      "otsikko": "Valtava datakeskus suunnitteilla Forssaan",
+      "ingressi": "Forssan kaupunki on tehnyt esisopimuksen yli 100 hehtaarin maa-alueen myynnistä Blackstonen rahastoille Ratasmäen teollisuusalueelta. Miljardiluokan datakeskuksen sähköteho voisi nousta 450 megawattiin, ja kaavamuutosten valmistelu alkaa ympäristövaikutusten arvioinnilla.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20152309",
+      "pvm": "2025-03-27",
+      "kunta": "Forssa",
+      "maakunta": "Kanta-Häme",
+      "hankkeet": [
+        "forssa/qts-datakeskus-ratasmaki"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Roschier",
+          "url": "https://www.roschier.com/newsroom/blackstones-major-data-center-project-in-finland",
+          "pvm": "2025-03-31"
+        }
+      ]
+    },
+    {
+      "otsikko": "Saksalaisyhtiö suunnittelee Nivalaan 450 miljoonan euron investointia – Tontista on jo tehty varaussopimus",
+      "ingressi": "ABO Energy suunnittelee vihreän vedyn tuotantolaitosta Nivalan Kurunpuhdon teollisuusalueelle, ja yhtiö on tehnyt kaupungin kanssa varaussopimuksen noin 20 hehtaarin alueesta. Elektrolyysiteho olisi alustavasti 200 megawattia, ja tuotanto voisi alkaa aikaisintaan vuonna 2030.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/saksalaisyhtio-suunnittelee-nivalaan-450-miljoonan/11547248",
+      "pvm": "2025-03-11",
+      "kunta": "Nivala",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "nivala/kurunpuhdon-vetylaitos"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "BotH2nia",
+          "url": "https://www.both2nia.com/en/news/abo-energy-suunnittelee-nivalaan-vetylaitosta",
+          "pvm": "2025-03-11"
+        },
+        {
+          "julkaisija": "ArcticToday",
+          "url": "https://www.arctictoday.com/🇫🇮-abo-energy-plans-hydrogen-plant-in-nivala",
+          "pvm": "2025-03-17"
+        }
+      ]
+    },
+    {
+      "otsikko": "Australialainen yhtiö ajaa Rukan lähelle kaivosta, jota Kuusamon kaupunki vastustaa",
+      "ingressi": "Latitude 66 Cobalt valmistelee kulta- ja kobolttikaivosta Juomasuolle noin kymmenen kilometrin päähän Rukasta. Yhtiö tavoittelee tuotannon aloittamista vuonna 2030, vaikka Kuusamon kaupunki vastustaa hanketta.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/australialainen-yhtio-ajaa-rukan-lahelle-kaivosta/11522164",
+      "pvm": "2025-02-19",
+      "kunta": "Kuusamo",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "kuusamo/latitude-66-n-kaivoshanke"
+      ]
+    },
+    {
+      "otsikko": "Suomen suurin vetyjalostamo askeleen lähempänä lentopolttoaineen tuotantoa",
+      "ingressi": "Oulun kaupunki ja Verso Energy sopivat yhteistyöstä Oulun satamaan suunnitellun vetyjalostamon edistämiseksi. Noin 1,4 miljardin euron laitoksen on määrä tuottaa 80 000 tonnia synteettistä lentopolttoainetta vuodessa, ja sopimus mahdollistaa tontin suunnittelun ja luvituksen aloittamisen.",
+      "julkaisija": "Oulun kaupunki",
+      "url": "https://www.ouka.fi/en/news/finlands-largest-hydrogen-refining-plant-one-step-closer-starting-sustainable-aviation-fuel",
+      "pvm": "2025-02-13",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/verso-energyn-vetytehdas-oulun-satama"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Oulun Satama",
+          "url": "https://ouluport.com/en/port-of-oulu-and-verso-energy-signed-a-cooperation-agreement/",
+          "pvm": "2025-02-14"
+        }
+      ]
+    },
+    {
+      "otsikko": "Kanadalainen Bitzero aikoo rakentaa valtavan datakeskuksen Kokemäelle – yhtiö on uusi toimija Suomen markkinoilla",
+      "ingressi": "Bitzero suunnittelee Kokemäen Kirkkokallioon vaiheittain rakentuvaa datakeskusta, jonka kokonaisteho olisi noin 500 megawattia. Ensimmäinen vaihe olisi noin 10 megawattia, ja kaupunki on myynyt yhtiölle maata sekä tehnyt esisopimuksen ja varauksen lisäalueista.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20142716",
+      "pvm": "2025-02-10",
+      "kunta": "Kokemäki",
+      "maakunta": "Satakunta",
+      "hankkeet": [
+        "kokemaki/bitzero-datakeskus-kirkkokallio"
+      ]
+    },
+    {
+      "otsikko": "Tällaista Raksilan uudesta uimahallista suunnitellaan – Uusi halli olisi yksi Suomen suurimmista",
+      "ingressi": "Oulun kaupunki suunnittelee uutta vesiliikuntakeskusta nykyisen Raksilan uimahallin paikalle vuosille 2026–2029. Kaavaluonnos sallii kolmeen kerrokseen 20 000 kerrosneliömetriä, ja suunnittelukilpailun voitti ehdotus Laituri.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/tallaista-raksilan-uudesta-uimahallista-suunnitell/11506866",
+      "pvm": "2025-02-07",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulun-vesiliikuntakeskus-raksila"
+      ]
+    },
+    {
+      "otsikko": "Norjalaisyhtiö haluaa varata Joroisista tontin datakeskukselle – kunta toivottaa sähkönkäyttäjät tervetulleiksi",
+      "ingressi": "Norjalainen kiinteistökehittäjä Arcem haluaa varata teollisuustontin Huutokosken teollisuusalueelta ja etsiä sinne suuren datakeskusoperaattorin. Alueen sähköasema on kantaverkon tärkeä solmukohta, ja kunta haluaa varmistaa toimijan taustat ennen kauppaa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20140478",
+      "pvm": "2025-01-30",
+      "kunta": "Joroinen",
+      "maakunta": "Etelä-Savo",
+      "hankkeet": [
+        "joroinen/arcem-datakeskus-huutokoski"
+      ]
+    },
+    {
+      "otsikko": "Hyperco Oy varaamassa tontin Loviisan itäisestä liittymästä datakeskusta varten",
+      "ingressi": "Loviisan kaupunki valmisteli noin 25 hehtaarin tontin varaamista Hyperco Oy:n datakeskushankkeelle valtatie 7:n itäisen liittymän läheltä. Yhtiö voitti kaupungin tarjouskilpailun, ja datakeskuksen alustava käyttöönotto on suunniteltu vuosille 2027–2028.",
+      "julkaisija": "Loviisan kaupunki",
+      "url": "https://www.loviisa.fi/ajankohtaista/hyperco-oy-varaamassa-tontin-loviisan-itaisesta-liittymasta-datakeskusta-varten/",
+      "pvm": "2025-01-27",
+      "kunta": "Loviisa",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "loviisa/hyperco-datakeskus-itainen-liittyma"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "BeBeez International",
+          "url": "https://bebeez.eu/?p=64757",
+          "pvm": "2025-10-07"
+        }
+      ]
+    },
+    {
+      "otsikko": "Muhoksen kunta etsii ratkaisuja datakeskuksen hukkalämmön hyödyntämiseen",
+      "ingressi": "Muhos Biopark -hanke tähtää energiakeskittymään, joka hyödyntäisi suunnitellun datakeskuksen hukkalämpöä. Työpajoissa mahdollisiksi käyttökohteiksi nousivat matkailu, ruoantuotanto ja kiertotalous.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/muhoksen-kunta-etsii-ratkaisuja-datakeskuksen-hukk/11486137",
+      "pvm": "2025-01-25",
+      "kunta": "Muhos",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "muhos/biopark"
+      ]
+    },
+    {
+      "otsikko": "XTX Markets plans to invest over €1bn in large-scale data centre project in Finland",
+      "ingressi": "XTX Markets kertoi investoivansa yli miljardi euroa Kajaanin datakeskuskompleksiin, jonne on tarkoitus rakentaa viisi datakeskusta. Ensimmäinen, 22,5 megawatin IT-tehon keskus oli rakenteilla ja valmistumassa 2026, ja hukkalämpö on tarkoitus tarjota paikkakunnan käyttöön.",
+      "julkaisija": "XTX Markets",
+      "url": "https://files.xtxmarkets.com/publications/kajaani/index.html",
+      "pvm": "2025-01-22",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/xtx-marketsin-datakeskus-250-mw"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Yle",
+          "url": "https://yle.fi/a/74-20138244",
+          "pvm": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "otsikko": "Poriin suunnitellaan yli miljardin euron datakeskusta ja voimalaitosta",
+      "ingressi": "Porin Kupariteollisuuspuistoon Outokummun entiselle teollisuusalueelle suunnitellaan energiapuistoa, jossa olisi 150 MW:n datakeskus ja vetyä tai biokaasua käyttävä varavoimalaitos. Hanketta valmistelevat CompassForge, ecogrid.energy ja NCC, ja prosessilämpö johdettaisiin kaukolämpöverkkoon.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20138189",
+      "pvm": "2025-01-21",
+      "kunta": "Pori",
+      "maakunta": "Satakunta",
+      "hankkeet": [
+        "pori/asp-datakeskus-kupariteollisuuspuisto"
+      ]
+    },
+    {
+      "otsikko": "Hannukainen Mining maksoi yli 140 000 euroa malminetsintäkorvauksia maanomistajille",
+      "ingressi": "Hannukainen Mining maksoi maanomistajille yli 140 000 euroa malminetsintäkorvauksia vuodelta 2024. Yhtiö etsii Kolarissa pääasiassa rautaa, kuparia ja kultaa ja selvittää myös kobolttiesiintymiä.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20137732",
+      "pvm": "2025-01-17",
+      "kunta": "Kolari",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kolari/hannukaisen-ja-rautuvaaran-kaivos"
+      ]
+    },
+    {
+      "otsikko": "Orimattila haluaa Pennalaan Fortumin datakeskuksen",
+      "ingressi": "Orimattila aikoo asettaa Fortumin datakeskushankkeen etusijalle Pennalan maa-alueiden vuokrauksessa ja vuokrata yhtiölle yli 17 hehtaaria. Fortumin suunnitelmat kattavat Pennalassa jopa 150 hehtaaria.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20137135",
+      "pvm": "2025-01-15",
+      "kunta": "Orimattila",
+      "maakunta": "Päijät-Häme",
+      "hankkeet": [
+        "orimattila/pennalan-datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Nivalassa syntyy niin paljon lantaa, että sinne tehdään Suomen suurin biokaasulaitos",
+      "ingressi": "Nivalaan suunnitellaan biokaasulaitosta, josta tulisi valmistuessaan Suomen suurin. Työ- ja elinkeinoministeriö on myöntänyt hankkeelle 26 miljoonan euron investointituen, ja laitokselle on varattu 20 hehtaarin tontti.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/nivalassa-syntyy-niin-paljon-lantaa-etta-sinne-teh/11451194",
+      "pvm": "2024-12-19",
+      "kunta": "Nivala",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "nivala/nihakin-biokaasulaitos"
+      ]
+    },
+    {
+      "otsikko": "Aluehallitus hyväksyi OYSin seuraavan rakennusvaiheen kustannukset",
+      "ingressi": "Pohjois-Pohjanmaan aluehallitus esitti OYSin toisen vaiheen F- ja C-rakennusten kokonaiskustannuksiksi enintään 427,4 miljoonaa euroa ja päätti aloittaa C-rakennuksen allianssiurakan valmistelevat työt. C-rakennukseen tulevat poliklinikat sekä opetus- ja koulutustilat.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/aluehallitus-hyvaksyi-oysin-seuraavan-rakennusvaih/11431954",
+      "pvm": "2024-12-04",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/oulun-tulevaisuuden-sairaala-c-rakennus"
+      ]
+    },
+    {
+      "otsikko": "Projektiyhtiö Arctial käynnistää esiselvityksen – tavoitteena tuottaa alumiinia vähähiilisesti Kruunuportin alueella",
+      "ingressi": "Rio Tinto, Mitsubishi Corporation, Vargas ja Suomen Teollisuussijoitus ovat perustaneet Arctialin selvittämään vähähiilisen alumiinitehtaan rakentamista Kokkolan Kruunuporttiin. Lopullinen investointipäätös on tavoitteena tehdä esiselvityksen jälkeen vuosina 2026–2027.",
+      "julkaisija": "Kokkolan kaupunki (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/70732320/projektiyhtio-arctial-kaynnistaa-esiselvityksen-tavoitteena-tuottaa-alumiinia-vahahiilisesti-kruunuportin-alueella?lang=fi",
+      "pvm": "2024-12-04",
+      "kunta": "Kokkola",
+      "maakunta": "Keski-Pohjanmaa",
+      "hankkeet": [
+        "kokkola/kokkolan-kruunupyyn-alumiinitehdas"
+      ]
+    },
+    {
+      "otsikko": "Googlen ilmoitusta pidetään jättipottina Pohjois-Suomelle – tältä suunnitelluilla alueilla näyttää nyt",
+      "ingressi": "Google on ostanut maata Kajaanin Otanmäestä ja Muhokselta yhteensä 14 neliökilometriä pilvi- ja datakeskusten laajentamista varten. Otanmäen tontti on moninkertainen alueen muihin datakeskustontteihin verrattuna, eikä rakennuslupaa ole vielä haettu.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20128236",
+      "pvm": "2024-11-29",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/google-datakeskus-otanmaki"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Yle News",
+          "url": "https://yle.fi/a/74-20128014?origin=rss",
+          "pvm": "2024-11-28"
+        }
+      ]
+    },
+    {
+      "otsikko": "Google plans \"historic\" data centre expansion in Finland",
+      "ingressi": "Googlen emoyhtiö Alphabet aikoo ostaa Metsähallitukselta noin 1 400 hehtaaria maata Muhokselta ja Kajaanista datakeskusinfrastruktuurin laajentamiseen, ja valtioneuvosto hyväksyi kaupan. Hankkeen arvioidaan voivan tuoda alueelle satoja työpaikkoja.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20128014",
+      "pvm": "2024-11-28",
+      "kunta": "Muhos",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "muhos/datakeskus"
+      ]
+    },
+    {
+      "otsikko": "Kemijärvelle suunnitellaan miljardin euron vetyjalostamoa – yhtiöllä Vaalassa vastaava hanke",
+      "ingressi": "Vetyalfa Oy suunnittelee Kemijärvelle vihreän vedyn jalostamoa, jonka tuotanto vastaisi suunnilleen Suomen nykyistä vedyntuotantoa. Hanke tarvitsee vielä rakennus-, ympäristö- ja vesiluvat, ja yhtiön arvion mukaan tuotanto voisi alkaa vuonna 2030.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20127469",
+      "pvm": "2024-11-27",
+      "kunta": "Kemijärvi",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kemijarvi/vetyalfan-vihrean-vedyn-jalostamo"
+      ]
+    },
+    {
+      "otsikko": "Verso Energy suunnittelee vetytehdasta Ouluun",
+      "ingressi": "Ranskalainen Verso Energy on tehnyt alustavan tonttivarauksen Oulun satamasta Oritkarista tehtaalle, joka tuottaisi vetyä ja synteettisiä polttoaineita lento- ja meriliikenteeseen. Lopullista investointipäätöstä ei ole vielä tehty.",
+      "julkaisija": "Oulun kaupunki",
+      "url": "https://ouka.fi/en/news/verso-energy-plans-hydrogen-plant-oulu",
+      "pvm": "2024-11-26",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/verso-energyn-vetytehdas-oulun-satama"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Yle",
+          "url": "https://yle.fi/a/74-20127206",
+          "pvm": "2024-11-26"
+        },
+        {
+          "julkaisija": "Kaleva",
+          "url": "https://www.kaleva.fi/ranskalaisyhtio-kaavailee-polttoainetehdasta-oulun/11420562",
+          "pvm": "2024-11-26"
+        }
+      ]
+    },
+    {
+      "otsikko": "Kajaani päihitti Norjan satojen miljoonien eurojen datakeskuksen sijoituspaikkana",
+      "ingressi": "XTX Marketsin ensimmäisen Kajaanin datakeskuksen peruskivi muurattiin, ja yksityisen investoinnin arvo on useita satoja miljoonia euroja. Kajaani valittiin sijaintipaikaksi Norjan sijaan muun muassa alan osaamisen, vakaan maaperän ja kylmän ilmaston vuoksi.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20118337",
+      "pvm": "2024-10-16",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/xtx-marketsin-datakeskus-250-mw"
+      ]
+    },
+    {
+      "otsikko": "FCG laatii Raahen terästehtaan alueen kaavamuutoksia",
+      "ingressi": "FCG laatii Raahen kaupungin ohjauksessa yleis- ja asemakaavan muutokset SSAB:n terästehtaan ympäristöön, jotta tehtaalle varmistetaan riittävästi teollisuusaluetta tuleviin tarpeisiin. Taustalla on SSAB:n tavoite muuttaa pohjoismainen ohutlevytuotanto fossiilivapaaksi.",
+      "julkaisija": "FCG (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/70547745/fcg-laatii-raahen-terastehtaan-alueen-kaavamuutoksia-tavoitteena-turvata-tulevaisuuden-teollisuusalueet-ja-mahdollinen-vedyn-tuotanto?lang=fi",
+      "pvm": "2024-09-30",
+      "kunta": "Raahe",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "raahe/ssab-n-raahen-tehtaan-uudistus-valokaariuunit"
+      ]
+    },
+    {
+      "otsikko": "Poikkimaantien uudet väylät käyttöön syys-lokakuussa – Projektin toinen vaihe aloitetaan kesän lopulla",
+      "ingressi": "Poikkimaantien parannustyön ensimmäinen vaihe eteni aikataulussa, ja uudet väylät oli määrä ottaa käyttöön syys-lokakuussa 2024. Hankkeessa uusitaan yhteensä 15 siltaa.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/poikkimaantien-uudet-vaylat-kayttoon-syys-lokakuus/11244799",
+      "pvm": "2024-07-07",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/mt-8155-poikkimaantie"
+      ]
+    },
+    {
+      "otsikko": "Fortum and City of Jyväskylä partner to bring data centre to Jyväskylä",
+      "ingressi": "Fortum ja Jyväskylän kaupunki ovat sopineet aiesopimuksella vähintään 20 hehtaarin datakeskusalueen kehittämisestä kaupungin maalle Seppälänkankaalle. Fortum valmistelee alueen ja markkinoi sitä datakeskusoperaattoreille, jotka tekisivät varsinaiset investoinnit.",
+      "julkaisija": "Fortum",
+      "url": "https://fortum.com/media/2024/06/fortum-and-city-jyvaskyla-partner-bring-data-centre-jyvaskyla",
+      "pvm": "2024-06-19",
+      "kunta": "Jyväskylä",
+      "maakunta": "Keski-Suomi",
+      "hankkeet": [
+        "jyvaskyla/datakeskus-itainen-seppalankangas"
+      ]
+    },
+    {
+      "otsikko": "Fortum and town of Harjavalta to develop site for data centre project for Sievari industrial area",
+      "ingressi": "Fortum ja Harjavallan kaupunki sopivat suunnitteluvarauksesta Sievarin datakeskusalueelle, jota Fortum markkinoi datakeskusinvestoijille. Alkuperäinen 48 hehtaarin varaus laajeni joulukuussa 2024 noin 80 hehtaariin, ja varsinaisen investoinnin tekee myöhemmin datakeskuksen toteuttaja.",
+      "julkaisija": "Fortum",
+      "url": "https://www.fortum.com/media/2024/06/fortum-and-town-harjavalta-develop-site-data-centre-project-sievari-industrial-area",
+      "pvm": "2024-06-14",
+      "kunta": "Harjavalta",
+      "maakunta": "Satakunta",
+      "hankkeet": [
+        "harjavalta/nscale-datakeskus-sievari"
+      ]
+    },
+    {
+      "otsikko": "Compute Nordic Finland Oy and the City of Mikkeli signed the lease agreement of a 10-hectare plot for a data center",
+      "ingressi": "Compute Nordic Finland Oy ja Mikkelin kaupunki ovat allekirjoittaneet vuokrasopimuksen 10 hehtaarin datakeskustontista. Yhtiö aloittaa hankkeen avainhenkilöiden rekrytoinnin.",
+      "julkaisija": "Miksei Mikkeli",
+      "url": "https://mikseimikkeli.fi/?p=27660",
+      "pvm": "2024-06-06",
+      "kunta": "Mikkeli",
+      "maakunta": "Etelä-Savo",
+      "hankkeet": [
+        "mikkeli/compute-nordic-datakeskus-visulahti"
+      ]
+    },
+    {
+      "otsikko": "Sipoon kunta ja Fortum valmistelevat kaavoituksen aloittamista datakeskushankkeelle Stormosskärretin alueelle",
+      "ingressi": "Fortum ja Sipoon kunta valmistelivat kaavoituksen aloittamista noin 88 hehtaarin työpaikka-alueelle Öljytien varteen datakeskushanketta varten. Kaavan valmistuttua sovittaisiin tontin omistuksesta, ja investoinnin tekisi myöhemmin datakeskuksen toteuttaja.",
+      "julkaisija": "Fortum",
+      "url": "https://www.fortum.com/fi/media/2024/05/sipoon-kunta-ja-fortum-valmistelevat-kaavoituksen-aloittamista-datakeskushankkeelle-stormosskarretin-alueelle",
+      "pvm": "2024-05-31",
+      "kunta": "Sipoo",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "sipoo/datakeskus-stormosskarret"
+      ]
+    },
+    {
+      "otsikko": "Suomalaisyhtiö suunnittelee Paltamoon puolen miljardin biometanolitehdasta",
+      "ingressi": "SSE Suomen Säätöenergia suunnittelee Paltamoon noin 500 miljoonan euron uusiutuvan metanolin tehdasta, jonka tuotanto alkaisi tavoitteen mukaan vuonna 2028. Biometanolia käytettäisiin muun muassa laivapolttoaineena ja muovin valmistuksessa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20090794",
+      "pvm": "2024-05-28",
+      "kunta": "Paltamo",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "paltamo/sse-n-biometanolilaitos"
+      ]
+    },
+    {
+      "otsikko": "Compute Nordic Finland Oy perustaa datakeskuksen Visulahteen – vuokraa Mikkelin kaupungilta 10 hehtaarin tontin",
+      "ingressi": "Compute Nordic Finland Oy aikoo vuokrata Mikkelin kaupungilta noin 10 hehtaarin tontin Visulahden teollisuusalueelta suurta datakeskusta varten. Asemakaavoitettu tontti sijaitsee Fingridin sähköaseman lähellä, ja hukkalämpöä voitaisiin hyödyntää kaukolämmössä.",
+      "julkaisija": "Miksei Mikkeli",
+      "url": "https://mikseimikkeli.fi/27588/",
+      "pvm": "2024-05-24",
+      "kunta": "Mikkeli",
+      "maakunta": "Etelä-Savo",
+      "hankkeet": [
+        "mikkeli/compute-nordic-datakeskus-visulahti"
+      ]
+    },
+    {
+      "otsikko": "Tekstiilikuitua, vetyä, ammoniakkia – Meri-Lapin hankkeet toisivat teollisuuteen vihreyttä",
+      "ingressi": "Meri-Lappiin suunnitellaan useita vihreän siirtymän hankkeita, muun muassa Green North Energyn noin 600 miljoonan euron vety- ja ammoniakkilaitos Kemiin. Energia tulisi pääosin merituulivoimasta, mutta kyse on vielä suunnitelmasta eikä päätetystä investoinnista.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20082831",
+      "pvm": "2024-04-15",
+      "kunta": "Kemi",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kemi/green-north-energyn-vety-ja-ammoniakkihanke"
+      ]
+    },
+    {
+      "otsikko": "Green North Energy monistaa vetylaitoskonseptinsa Poriin ja Kemiin",
+      "ingressi": "Green North Energy allekirjoitti Kemin kaupungin kanssa aiesopimuksen vihreän vedyn ja ammoniakin tuotantolaitoksen toteutettavuuden selvittämisestä. Laitos olisi Naantalin hankkeen kokoinen, arvoltaan yli 600 miljoonaa euroa, ja Kemiä puoltavat suunnitellut merituulivoimahankkeet ja satama.",
+      "julkaisija": "Business Finland",
+      "url": "https://www.businessfinland.fi/en/whats-new/press-releases/2024/Green-North-Energy-to-replicate-its-Business-Finland-funded-hydrogen-plant-concept-in-Pori-and-Kemi/",
+      "pvm": "2024-03-26",
+      "kunta": "Kemi",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kemi/green-north-energyn-vety-ja-ammoniakkihanke"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Offshore Energy",
+          "url": "https://www.offshore-energy.biz/green-north-energys-new-plants-target-finlands-self-sufficiency-in-ammonia-production",
+          "pvm": "2024-03-27"
+        }
+      ]
+    },
+    {
+      "otsikko": "Fortum kertoo jo toisesta suuresta datakeskusinvestoinnista – tällä kertaa vuorossa Rauma",
+      "ingressi": "Fortum suunnitteli datakeskusaluetta Rauman Lakarin teollisuusalueelle ja oli tekemässä kaupungin kanssa suunnitteluvarausta aluksi 78 hehtaarin alueeseen. Yhtiön mukaan alue sopii hyvin kaavoituksen, sähköverkon ja työvoiman saatavuuden vuoksi.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20068932",
+      "pvm": "2024-01-11",
+      "kunta": "Rauma",
+      "maakunta": "Satakunta",
+      "hankkeet": [
+        "rauma/datakeskus-lakari"
+      ]
+    },
+    {
+      "otsikko": "Espoo myi Hepokorvesta maata Microsoftin datakeskushankkeelle",
+      "ingressi": "Espoon kaupunki myi Microsoftin suomalaiselle tytäryhtiölle noin 21,6 hehtaarin alueen Hepokorvenkalliolta datakeskusta varten noin 30,9 miljoonalla eurolla. Kun Espoon ja Kirkkonummen datakeskukset ovat täydessä käytössä, niiden hukkalämpö voisi kattaa noin 40 prosenttia Fortumin kaukolämpöasiakkaiden lämmöntarpeesta.",
+      "julkaisija": "Espoon kaupunki",
+      "url": "https://www.espoo.fi/en/news/2023/12/espoo-sold-land-hepokorpi-microsoft-data-centre-project",
+      "pvm": "2023-12-13",
+      "kunta": "Espoo",
+      "maakunta": "Uusimaa",
+      "hankkeet": [
+        "espoo/microsoft-datakeskus-hepokorpi"
+      ]
+    },
+    {
+      "otsikko": "Kemin uusiokuitutehtaan ympäristölupahakemusta viimeistellään yhä",
+      "ingressi": "Infinited Fiberin Veitsiluodon uusiokuitutehdas eteni alkuperäistä aikataulua hitaammin, ja yhtiö aikoi jättää ympäristölupahakemuksen vuoden 2023 loppuun mennessä. Rakentaminen alkaisi vasta lainvoimaisen luvan jälkeen.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20061422",
+      "pvm": "2023-11-22",
+      "kunta": "Kemi",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kemi/infinited-fiberin-tehdas-veitsiluoto"
+      ]
+    },
+    {
+      "otsikko": "Hannukaisen kaivoksen ympäristölupa vaatii täydennyksiä – lisäselvitykset ovat kestäneet jo useita kuukausia",
+      "ingressi": "Hannukainen Miningin Kolarin kaivoshankkeen ympäristölupahakemukseen vaaditaan aiempaa yksityiskohtaisempia rakennesuunnitelmia ja selvityksiä. Yhtiö sai täydennyksille lisäaikaa marraskuun 2023 loppuun.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20029529",
+      "pvm": "2023-05-02",
+      "kunta": "Kolari",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kolari/hannukaisen-ja-rautuvaaran-kaivos"
+      ]
+    },
+    {
+      "otsikko": "Kreatelle merkittävä väyläurakka Oulusta – rakentaminen vaatii monipuolista osaamista",
+      "ingressi": "Kreate ja Väylävirasto sopivat noin 30 miljoonan euron Poikkimaantien parannusurakasta Oulun sataman pääreitillä. Urakkaan kuuluu noin 4,5 kilometriä tietä, kymmenen uutta siltaa ja 2,4 kilometrin osuuden leventäminen nelikaistaiseksi.",
+      "julkaisija": "Kreate (STT Info)",
+      "url": "https://www.sttinfo.fi/tiedote/69975871/kreatelle-merkittava-vaylaurakka-oulusta-rakentaminen-vaatii-monipuolista-osaamista?publisherId=69818424",
+      "pvm": "2023-04-27",
+      "kunta": "Oulu",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "oulu/mt-8155-poikkimaantie"
+      ]
+    },
+    {
+      "otsikko": "Kemin Veitsiluodon tekstiilikuitutehdas tarvitsee uusia osaajia – työntekijöille on luvassa räätälöityä koulutusta",
+      "ingressi": "Infinited Fiberin suunnittelema Veitsiluodon tekstiilikuitutehdas työllistäisi suoraan noin 220 henkeä ja lisäksi noin 50 henkeä tukipalveluissa. Uudenlaisen tuotteen vuoksi lähes kaikki työntekijät tarvitsisivat räätälöidyn koulutuksen.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/3-12505142",
+      "pvm": "2022-06-22",
+      "kunta": "Kemi",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kemi/infinited-fiberin-tehdas-veitsiluoto"
+      ]
+    },
+    {
+      "otsikko": "Ely-keskus: SSAB:n Raahen tehtaan molemmat voimajohtoreitit on syytä arvioida",
+      "ingressi": "Pohjois-Pohjanmaan ELY-keskus antoi lausuntonsa SSAB:n Raahen terästehtaan 400 kV voimajohdon arviointiohjelmasta. Yhtiö on esittänyt kaksi reittiä, Siikajoen ja Pyhäjoen sähköasemille, ja johdon tarve liittyy fossiilittoman teräksen tuotantoon.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/ely-keskus-ssabn-raahen-tehtaan-molemmat-voimajoht/4502171",
+      "pvm": "2022-04-07",
+      "kunta": "Raahe",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [
+        "raahe/ssab-n-raahen-tehtaan-uudistus-valokaariuunit"
+      ]
+    },
+    {
+      "otsikko": "HewSaw toimittaa Kuhmo Oy:lle uuden sahalinjan",
+      "ingressi": "HewSaw toimittaa Kuhmo Oy:n sahalle uuden pääsahalinjan, jonka tuotannon on määrä käynnistyä kesällä 2023. Uudistuksen jälkeen sahan vuosituotanto olisi noin 600 000 kuutiometriä sahatavaraa.",
+      "julkaisija": "HewSaw",
+      "url": "https://hewsaw.com/hewsaw-delivers-a-new-sawline-to-kuhmo",
+      "pvm": "2021-06-29",
+      "kunta": "Kuhmo",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kuhmo/kuhmo-oy-n-sahainvestointi"
+      ]
+    },
+    {
+      "otsikko": "Jartek Invest toimittaa pakkauslaitoksen Kuhmo Oy:lle",
+      "ingressi": "Kuhmo Oy:n sahalle toimitetaan modernisoitu ja suurempikapasiteettinen sahatavaran pakkauslaitos. Noin 5 miljoonan euron investoinnin rakentaminen alkaa heinäkuussa, ja käyttöönotto on suunniteltu helmikuulle 2022.",
+      "julkaisija": "Pulpaper News",
+      "url": "https://www.pulpapernews.com/20210421/12457/jartek-invest-oy-deliver-packagint-plant-kuhmo-oy",
+      "pvm": "2021-04-21",
+      "kunta": "Kuhmo",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kuhmo/kuhmo-oy-n-sahainvestointi"
+      ]
+    },
+    {
+      "otsikko": "Agnico Eagle väläyttää purkuputken rakentamista Kittilässä",
+      "ingressi": "Agnico Eagle selvittää Kittilän Suurikuusikon kultakaivokselle purkuputkea, jolla jätevedet johdettaisiin nykyistä purkupaikkaa kauemmas. Taustalla ovat kaivoksen ylijäämävedet ja uuden ympäristöluvan tiukentuvat purkurajat.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/20-170293",
+      "pvm": "2016-05-16",
+      "kunta": "Kittilä",
+      "maakunta": "Lappi",
+      "hankkeet": [
+        "kittila/kittilan-kaivoksen-laajennus-ja-purkuputki"
+      ]
+    },
+    {
+      "otsikko": "KS: Otanmäen kaivos halutaan avata uudelleen",
+      "ingressi": "Vuonna 1985 suljettu Otanmäen kaivos suunnitellaan avattavaksi uudelleen vanadiinin, raudan ja ilmeniitin louhintaan. Alueella arvioidaan olevan noin 40 miljoonaa tonnia mineraalivarantoja, ja valmis rautatie ja sähkölinjat nähdään hankkeen etuna.",
+      "julkaisija": "Kaleva",
+      "url": "https://www.kaleva.fi/ks-otanmaen-kaivos-halutaan-avata-uudelleen/1781899",
+      "pvm": "2013-06-16",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/otanmaki-miningin-rauta-ja-vanadiinihanke"
       ]
     }
   ]
