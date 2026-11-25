@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { vaiheSlug, type HankeRivi } from "@/lib/vaihe";
+import { vaiheSlug, type HankeRivi, aktiivinen } from "@/lib/vaihe";
 
 // Kaikkien hankkeiden haku ja suodatus selaimessa. Data tulee staattisesti datakerroksesta (content/alueet).
 type Props = { rivit: HankeRivi[]; maakunnat: { tunniste: string; nimi: string }[]; tyypit: string[]; vaiheet: string[]; alkuMaakunta?: string };
@@ -24,7 +24,7 @@ export default function HankeHaku({ rivit, maakunnat, tyypit, vaiheet, alkuMaaku
       (x) =>
         (!maakunta || x.maakunta_tunniste === maakunta) &&
         (!tyyppi || x.tyyppi === tyyppi) &&
-        (!vaihe || x.vaihe === vaihe) &&
+        (vaihe ? x.vaihe === vaihe : aktiivinen(x.vaihe)) &&
         (!q || `${x.nimi} ${x.kunta} ${x.tiivistelma}`.toLowerCase().includes(q)),
     );
     return jarjestys === "investointi"
@@ -73,7 +73,7 @@ export default function HankeHaku({ rivit, maakunnat, tyypit, vaiheet, alkuMaaku
       </div>
 
       <p className="muted small" aria-live="polite">
-        {tulos.length} / {rivit.length} hanketta
+        {tulos.length} / {rivit.filter((x) => aktiivinen(x.vaihe)).length} aktiivista hanketta
         {maakunta !== alkuMaakunta || tyyppi || vaihe || haku ? <> · <button type="button" className="tyhjenna" onClick={tyhjenna}>Tyhjennä valinnat</button></> : null}
       </p>
 

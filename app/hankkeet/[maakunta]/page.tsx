@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { TYYPIT, VAIHEET, hankeRivit, hankkeita, kuntaPolku, maakunnat, maakunta } from "@/lib/alueet";
+import { TYYPIT, VAIHEET, hankeRivit, aktiivisia, hankkeita, kuntaPolku, maakunnat, maakunta } from "@/lib/alueet";
 import { Palkki, Selite } from "@/components/AlueNakyma";
 import HankeHaku from "@/components/HankeHaku";
 import Seuranta from "@/components/Seuranta";
@@ -36,7 +36,7 @@ export default async function MaakuntaSivu({ params }: Props) {
             <Link key={k.tunniste} href={kuntaPolku(k)} className="mkruutu">
               {k.pilotti ? <span className="pill">Pilottialue</span> : null}
               <h3>{k.kunta}</h3>
-              <div className="n">{hankkeita(k.hankkeet.length)}</div>
+              <div className="n">{hankkeita(aktiivisia(k))}</div>
               <Palkki vaiheet={k.hankkeet.map((h) => h.vaihe_luokka ?? "Ei tietoa")} />
               <div className="n">{[...new Set(k.hankkeet.map((h) => h.tyyppi).filter(Boolean))].join(", ")}</div>
             </Link>
