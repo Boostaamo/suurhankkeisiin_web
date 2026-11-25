@@ -11,7 +11,7 @@ export type Hanke = {
   tyyppi?: string; vaihe_luokka?: string; investointi_meur?: number | null;
 };
 // Hankkeiden luokat suodattimiin. Järjestys = näyttöjärjestys.
-export const VAIHEET = ["Rakenteilla", "Investointipäätös", "Luvitus", "Suunnittelu", "Keskeytetty", "Ei tietoa"];
+export const VAIHEET = ["Rakenteilla", "Investointipäätös", "Luvitus", "Suunnittelu", "Keskeytetty", "Ei tietoa", "Toiminnassa", "Peruttu"];
 export const TYYPIT = ["Datakeskus", "Energia", "Vety ja e-polttoaineet", "Teollisuus", "Kaivos", "Biojalostus ja metsä", "Infra"];
 export type Tapahtuma = { nimi: string; pvm: string; paikka: string; jarjestaja?: string };
 export type Naapuri = { kunta: string; maakunta: string; nimi: string; arvo: string; tila: Tila; lahde?: string; pvm?: string };
@@ -85,4 +85,5 @@ export function hankeRivit(): HankeRivi[] {
     })),
   );
 }
+export const aktiivisia = (k: Kunta) => k.hankkeet.filter((h) => !["Toiminnassa", "Peruttu"].includes(h.vaihe_luokka ?? "")).length;
 export const hankkeita = (n: number) => `${n} ${n === 1 ? "hanke" : "hanketta"}`;
