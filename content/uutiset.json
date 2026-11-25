@@ -2,6 +2,18 @@
   "_ohje": "Uutisfeedi etusivulle, kuntasivuille ja hankesivujen aikajanalle. Tekoälykerros kokoaa: oma lyhyt ingressi (1–2 virkettä, ei lainauksia), otsikko, julkaisija, päiväys, linkki alkuperäiseen ja hankkeet, joita uutinen koskee (muoto <kunnan tunniste>/<hankkeen tunniste>). Uusin ensin. Enintään 40 kytkemätöntä uutista; hankkeisiin kytkettyjä ei poisteta. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
   "uutiset": [
     {
+      "otsikko": "XTX Marketsin ensimmäinen oma datakeskus valmistui Kajaaniin",
+      "ingressi": "Brittiläinen XTX Markets on saanut Kajaaniin valmiiksi ensimmäisen datakeskuksensa, ja toisen on määrä valmistua vuonna 2027. Yhtiön mukaan sähkönsaanti on varmistettu kahdelle ensimmäiselle keskukselle, mutta seuraavien osalta voimajohtojen lupien hidas käsittely tekee siitä epävarmaa.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20258620",
+      "pvm": "2026-11-24",
+      "kunta": "Kajaani",
+      "maakunta": "Kainuu",
+      "hankkeet": [
+        "kajaani/xtx-marketsin-datakeskus-250-mw"
+      ]
+    },
+    {
       "otsikko": "Lupa- ja valvontavirasto linjasi, mitä Googlen datakeskustyömailla saa tehdä keskeytyksen aikana",
       "ingressi": "Muhoksen työmaalla sallitaan keskeytyksen aikana vain vesistöhaittojen estämiseksi välttämättömät vesienhallintatoimet sekä ylläpito, kuten tiealueiden talvikunnossapito ja turvallisuus. Ympäristövaikutusten arvioinnit ovat yhä kesken Muhoksella ja Kajaanissa.",
       "julkaisija": "Lupa- ja valvontavirasto (STT Info)",

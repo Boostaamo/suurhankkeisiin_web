@@ -241,6 +241,52 @@
           "tapahtumat": []
         }
       }
+    },
+    "kajaani/xtx-marketsin-datakeskus-250-mw": {
+      "vaiheet": {
+        "suunnittelu": {
+          "tila": "tehty",
+          "tapahtumat": []
+        },
+        "luvitus": {
+          "tila": "tehty",
+          "tapahtumat": []
+        },
+        "valmistelu": {
+          "tila": "tehty",
+          "tapahtumat": []
+        },
+        "investointipaatos": {
+          "tila": "tehty",
+          "tapahtumat": []
+        },
+        "rakentaminen": {
+          "tila": "kaynnissa",
+          "tapahtumat": [
+            {
+              "pvm": "2026-06-17",
+              "teksti": "YIT pääurakoitsijaksi kolmannen datakeskuksen runko- ja kuorivaiheeseen; rakentaminen alkaa kesällä 2026.",
+              "lahde": "https://www.yitgroup.com/fi/news-repository/sijoittajauutiset/yit-toteuttaa-xtx-marketsin-kolmannen-datakeskuksen-runko--ja-kuorivaiheen-kajaaniin"
+            },
+            {
+              "pvm": "2026-11-24",
+              "teksti": "Toisen datakeskuksen on määrä valmistua vuonna 2027.",
+              "lahde": "https://yle.fi/a/74-20258620",
+              "arvio": true
+            }
+          ]
+        },
+        "kaytto": {
+          "tila": "kaynnissa",
+          "tapahtumat": [
+            {
+              "pvm": "2026-11-24",
+              "teksti": "Ensimmäinen datakeskus valmistui ja on käytössä.",
+              "lahde": "https://yle.fi/a/74-20258620"
+            }
+          ]
+        }
+      }
     }
   }
 }
