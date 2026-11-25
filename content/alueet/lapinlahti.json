@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "lapinlahti",
+  "kunta": "Lapinlahti",
+  "kunta_genetiivi": "Lapinlahden",
+  "maakunta": "Pohjois-Savo",
+  "maakunta_tunniste": "pohjois-savo",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Lapinlahden alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "helios-datakeskus-alapitka",
+      "nimi": "Heliosin datakeskus, Alapitkä",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "Heliosin datakeskushanke Lapinlahden Alapitkälle Fingridin sähköaseman lähelle. Tavoitteena noin 500 megawattia, ja ensimmäiselle 80–100 megawatin osalle on myönnetty poikkeamislupa.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Helios Nordic Energy Finland Oy",
+          "tila": "todennettu",
+          "lahde": "https://lapinlahti.fi/fi/ajankohtaista/helios-kehittaa-datakeskushanketta-lapinlahdelle",
+          "pvm": "2026-08-12"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Tavoite noin 500 MW; poikkeamislupa noin 80–100 MW:lle",
+          "tila": "todennettu",
+          "lahde": "https://lapinlahti.fi/fi/ajankohtaista/helios-kehittaa-datakeskushanketta-lapinlahdelle",
+          "pvm": "2026-08-12"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Yli 80 ha",
+          "tila": "todennettu",
+          "lahde": "https://lapinlahti.fi/fi/ajankohtaista/helios-kehittaa-datakeskushanketta-lapinlahdelle",
+          "pvm": "2026-08-12"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Poikkeamislupa myönnetty, seuraavaksi rakennuslupahakemus; kaavoitusaloite kunnanhallitukselle 17.8.2026",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20240272",
+          "pvm": "2026-08-10"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Rakentamisessa satoja, pysyvästi jopa yli sata",
+          "tila": "arvio",
+          "lahde": "https://lapinlahti.fi/fi/ajankohtaista/helios-kehittaa-datakeskushanketta-lapinlahdelle",
+          "pvm": "2026-08-12"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

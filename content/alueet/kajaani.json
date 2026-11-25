@@ -6,7 +6,7 @@
   "maakunta": "Kainuu",
   "maakunta_tunniste": "kainuu",
   "pilotti": false,
-  "paivitetty": "2026-11-24",
+  "paivitetty": "2026-11-25",
   "esittely": "Kajaanin alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
   "hankkeet": [
     {
@@ -15,7 +15,7 @@
       "tyyppi": "Datakeskus",
       "vaihe_luokka": "Rakenteilla",
       "investointi_meur": 1000,
-      "tiivistelma": "Datakeskushanke. Toinen yksikkö 8/2025, kolmas 6/2026 (YIT).",
+      "tiivistelma": "Datakeskuskompleksi. Ensimmäinen datakeskus valmistui 11/2026, toinen valmistuu 2027, kolmannen runko- ja kuorivaihe alkoi kesällä 2026 (YIT).",
       "tiedot": [
         {
           "otsikko": "Toteuttaja",
@@ -33,10 +33,45 @@
         },
         {
           "otsikko": "Vaihe",
-          "arvo": "Toinen yksikkö 8/2025, kolmas 6/2026 (YIT)",
+          "arvo": "Ensimmäinen datakeskus valmis (11/2026), toinen valmistuu 2027",
           "tila": "todennettu",
-          "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
-          "pvm": "2026-09"
+          "lahde": "https://yle.fi/a/74-20258620",
+          "pvm": "2026-11-24"
+        },
+        {
+          "otsikko": "Kolmas datakeskus",
+          "arvo": "Runko- ja kuorivaihe alkaa kesällä 2026, pääurakoitsija YIT",
+          "tila": "todennettu",
+          "lahde": "https://www.yitgroup.com/fi/news-repository/sijoittajauutiset/yit-toteuttaa-xtx-marketsin-kolmannen-datakeskuksen-runko--ja-kuorivaiheen-kajaaniin",
+          "pvm": "2026-06-17"
+        },
+        {
+          "otsikko": "Toteutunut investointi",
+          "arvo": "Yli 400 M€ Kajaaniin",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20258620",
+          "pvm": "2026-11-24"
+        },
+        {
+          "otsikko": "Ensimmäinen datakeskus",
+          "arvo": "15 000 m², laitteiden sähköteho 22,5 MW",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20258620",
+          "pvm": "2026-11-24"
+        },
+        {
+          "otsikko": "Työpaikat",
+          "arvo": "Yli 30 kokoaikaista Kajaanissa, lisää palkataan",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20258620",
+          "pvm": "2026-11-24"
+        },
+        {
+          "otsikko": "Sähkönsaanti",
+          "arvo": "Varmistettu kahdelle ensimmäiselle datakeskukselle, seuraaville epävarma",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20258620",
+          "pvm": "2026-11-24"
         }
       ],
       "kilpailutukset": []

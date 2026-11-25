@@ -65,6 +65,17 @@ export default async function HankeSivu({ params }: Props) {
                   <div className="newsmeta">{pvm(u.pvm)} · {u.julkaisija}</div>
                   <a href={u.url} target="_blank" rel="noopener nofollow" data-track="click_uutinen">{u.otsikko}</a>
                   <p>{u.ingressi}</p>
+                  {u.lisalahteet?.length ? (
+                    <div className="lisalahteet">
+                      Myös:{" "}
+                      {u.lisalahteet.map((l, i) => (
+                        <span key={l.url}>
+                          {i ? ", " : ""}
+                          <a href={l.url} target="_blank" rel="noopener nofollow" data-track="click_uutinen">{l.julkaisija} {pvm(l.pvm)}</a>
+                        </span>
+                      ))}
+                    </div>
+                  ) : null}
                 </li>
               ))}
             </ol>

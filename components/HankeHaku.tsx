@@ -27,7 +27,7 @@ export default function HankeHaku({ rivit: kaikki, maakunnat, tyypit, vaiheet, a
       (x) =>
         (!maakunta || x.maakunta_tunniste === maakunta) &&
         (!tyyppi || x.tyyppi === tyyppi) &&
-        (!vaihe || x.vaihe === vaihe) &&
+        (vaihe ? x.vaihe === vaihe : aktiivinen(x.vaihe)) &&
         (!q || `${x.nimi} ${x.kunta} ${x.tiivistelma}`.toLowerCase().includes(q)),
     );
     return jarjestys === "investointi"

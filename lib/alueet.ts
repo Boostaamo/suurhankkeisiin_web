@@ -86,4 +86,5 @@ export function hankeRivit(): HankeRivi[] {
     })),
   );
 }
+export const aktiivisia = (k: Kunta) => k.hankkeet.filter((h) => !["Toiminnassa", "Peruttu"].includes(h.vaihe_luokka ?? "")).length;
 export const hankkeita = (n: number) => `${n} ${n === 1 ? "hanke" : "hanketta"}`;

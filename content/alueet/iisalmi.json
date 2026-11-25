@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "iisalmi",
+  "kunta": "Iisalmi",
+  "kunta_genetiivi": "Iisalmen",
+  "maakunta": "Pohjois-Savo",
+  "maakunta_tunniste": "pohjois-savo",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Iisalmen alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "tervamaen-datakeskus",
+      "nimi": "Tervamäen datakeskus",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "Heliosin noin gigawatin datakeskushanke Iisalmen Tervamäkeen noin 9 km keskustasta itään. Fingridin suunniteltu Tervamäen sähköasema liittäisi datakeskuksen verkkoon.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Helios Nordic Energy (hankeyhtiö Helios 6 Blackcurrant Oy)",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/tervamaen-datakeskus-iisalmi",
+          "pvm": "2026-11-03"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "IT-teho noin 1 GW, sähköteho noin 1,2 GW (VE1)",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/tervamaen-datakeskus-iisalmi",
+          "pvm": "2026-11-03"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 112 ha",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/tervamaen-datakeskus-iisalmi",
+          "pvm": "2026-11-03"
+        },
+        {
+          "otsikko": "YVA",
+          "arvo": "Vireillä; YVA-ohjelma nähtävillä 1.10.–9.11.2026",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/tervamaen-datakeskus-iisalmi",
+          "pvm": "2026-11-03"
+        },
+        {
+          "otsikko": "Kaava",
+          "arvo": "Kaavoitusaloite jätetty kaupungille huhtikuussa 2026",
+          "tila": "todennettu",
+          "lahde": "https://iisalmi.fi/helios-on-kaynnistanyt-datakeskushankkeen-suunnittelun-iisalmeen/",
+          "pvm": "2026-04-09"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

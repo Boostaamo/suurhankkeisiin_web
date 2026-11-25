@@ -1,0 +1,68 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "seinajoki",
+  "kunta": "Seinäjoki",
+  "kunta_genetiivi": "Seinäjoen",
+  "maakunta": "Etelä-Pohjanmaa",
+  "maakunta_tunniste": "etela-pohjanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Seinäjoen alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "pure-dc-datakeskus-kivenneva",
+      "nimi": "Pure DC:n tekoälydatakeskus, Kivenneva",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": 1500,
+      "tiivistelma": "Pure DC:n 110 megawatin tekoälydatakeskuskampus Seinäjoen Kivennevalle Eskoon liittymän itäpuolelle. Kampusta voidaan laajentaa yli 550 megawattiin.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Pure DC (Pure Data Centres Group)",
+          "tila": "todennettu",
+          "lahde": "https://www.puredc.com/2026/07/14/",
+          "pvm": "2026-07-14"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Ensimmäinen vaihe yli 1,5 mrd. euroa; laajennettavissa yli 7,5 mrd. euroon ja 550 MW:iin",
+          "tila": "todennettu",
+          "lahde": "https://www.puredc.com/2026/07/14/",
+          "pvm": "2026-07-14"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Ensimmäinen vaihe 110 MW; vaihe vuokrattu kokonaan, ensimmäisen datasalin sähköasema käytössä",
+          "tila": "todennettu",
+          "lahde": "https://www.puredc.com/2026/07/14/",
+          "pvm": "2026-07-14"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "22,3 ha ostettu, esisopimukset jopa 155 ha:sta; kolme 15 000 m²:n datakeskusrakennusta",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20219877",
+          "pvm": "2026-04-10"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Rakennuslupa käsitelty helmikuussa 2026, maanrakennustyöt alkaneet",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20219877",
+          "pvm": "2026-04-10"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Rakentamisessa 2 000, pysyvästi 150",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20219877",
+          "pvm": "2026-04-10"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

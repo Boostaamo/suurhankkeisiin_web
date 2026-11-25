@@ -33,7 +33,7 @@ export function hakuindeksi(): HakuKohde[] {
     if (h) out.push({ laji: "Osaamistarve", otsikko: tarve.tarve, kuvaus: h.nimi, url: h.url, sanat: tarve.toimiala ?? "" });
   }
   for (const u of uutiset(undefined, 1000)) {
-    out.push({ laji: "Uutinen", otsikko: u.otsikko, kuvaus: `${pvm(u.pvm)} · ${u.julkaisija}`, url: u.url, sanat: `${u.ingressi} ${u.kunta ?? ""} ${u.maakunta ?? ""}`, ulkoinen: true });
+    out.push({ laji: "Uutinen", otsikko: u.otsikko, kuvaus: `${pvm(u.pvm)} · ${u.julkaisija}`, url: u.url, sanat: `${u.ingressi} ${u.kunta ?? ""} ${u.maakunta ?? ""} ${(u.lisalahteet ?? []).map((l) => l.julkaisija).join(" ")}`, ulkoinen: true });
   }
   for (const slug of listSlugs()) {
     const p = getPage(slug);

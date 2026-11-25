@@ -70,6 +70,7 @@ Hankesivun tilannekuvassa on tekoälyn koostama yhteenveto ja hankkeeseen kytket
 - Yhteenveto on tiedostossa `content/yhteenvedot.json` samalla avaimella: `pvm` ja `teksti` (1–3 kappaletta). Kirjoita se vain hankkeen datakerroksen tiedoista ja kytketyistä uutisista. Ei uusia väitteitä, ei lainauksia; arviot sanotaan arvioina.
 - Päivitä yhteenveto aina, kun hankkeeseen kytketään uusi uutinen tai sen tiedot muuttuvat. Muutos kuuluu samaan pull requestiin.
 - Hanke ilman yhteenvetoa näyttää vain tiedot. Jos hankkeen tunniste muuttuu, päivitä avaimet molempiin tiedostoihin.
+- Samasta asiasta tehdyt uutiset niputetaan yhdeksi uutiseksi (Hannu 25.11.2026). Ensisijainen lähde (luotettavin, viranomainen tai toteuttaja ennen mediaa, muuten ensimmäinen) on kentissä `julkaisija`, `url` ja `pvm`, ja muut lähteet lisätään kenttään `lisalahteet`: lista `{ "julkaisija", "url", "pvm" }`. Sivulla ne näkyvät rivillä "Myös: …". Jos uusi juttu tuo olennaista uutta tietoa, ingressiä voi täydentää, mutta uutta uutista ei tehdä. Tietokantatilassa kentät `hankkeet` ja `lisalahteet` täydennetään `content/uutiset.json`-tiedostosta url:n perusteella, kunnes tietokannan uutisnäkymässä on ne (Bistek).
 - Uutisten määrä: `content/uutiset.json`-tiedostossa pidetään enintään 40 uusinta hankkeisiin kytkemätöntä uutista. Hankkeeseen kytkettyjä uutisia (`hankkeet` ei tyhjä) ei poisteta, jotta hankkeiden aikajanat säilyvät kokonaisina (Hannu 24.11.2026).
 
 ## Tarvittava osaaminen ja palvelut
@@ -94,3 +95,10 @@ Hankesivun osio "Hankkeen eteneminen ja tarpeet" näyttää vakiovaiheet (Suunni
 Valmistuneita, käyttöön otettuja ja peruttuja hankkeita ei poisteta datakerroksesta. Ne merkitään `vaihe_luokka`-kenttään arvolla `Toiminnassa` tai `Peruttu`, ja niille kirjataan lähde ja päiväys kuten muillekin tiedoille. Sivusto ei näytä niitä aktiivisina: ne puuttuvat tunnusluvuista, vaihepalkeista ja oletuslistauksesta, mutta ne saa näkyviin hakusivun valinnalla, ja kuntasivulla ne ovat omana listanaan. Ne ovat kohteita elinkaari- ja huoltopalveluja tarjoaville yrityksille.
 
 Tarkemmat tiedot (esim. urakoitsijat) näytetään myöhemmin vain kirjautuneille PRO-jäsenille. Kirjautuminen ja jäsenyys ovat Bistekin vaihetta 2.
+## Kuntien yhteyshenkilöt
+
+Kuntasivulla näytetään kunnan suurhankeyhteyshenkilöt tiedostosta `content/yhteyshenkilot.json` (avain = kunnan tunniste). Säännöt (Hannu 25.11.2026):
+- Henkilö lisätään vain luvalla. Kenttään `lupa` kirjataan, kuka luvan antoi ja milloin.
+- Vain työroolin tiedot: nimi, tehtävä, työsähköposti, työpuhelin.
+- Tiedostoa ei viedä datakerroksen tietokantaan, eikä ajastettu uutisseuranta tai viikkopäivitys muokkaa sitä.
+- Kun lupa perutaan, henkilö poistetaan tiedostosta saman päivän aikana.

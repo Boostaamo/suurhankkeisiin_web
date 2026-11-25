@@ -1,0 +1,128 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "vaasa",
+  "kunta": "Vaasa",
+  "kunta_genetiivi": "Vaasan",
+  "maakunta": "Pohjanmaa",
+  "maakunta_tunniste": "pohjanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Vaasan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "microsoft-datakeskus-gigavaasa",
+      "nimi": "Microsoftin datakeskus, GigaVaasa (Vaasa–Mustasaari)",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": null,
+      "tiivistelma": "Microsoftin datakeskushanke GigaVaasa-teollisuusalueelle Vaasan ja Mustasaaren rajalle. Suunnitelmassa on kuusi datakeskusrakennusta noin 180 hehtaarin alueelle, ja hanke työllistäisi noin 900 henkeä.",
+      "tiedot": [
+        {
+          "otsikko": "Hankkeesta vastaava",
+          "arvo": "Microsoft 3465 Finland Oy",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/sites/default/files/documents/Vaasa%20mustasaari%20datakeskuksen%20yvan%20soveltamisp%C3%A4%C3%A4t%C3%B6s.pdf",
+          "pvm": "2026-06-18"
+        },
+        {
+          "otsikko": "Maakauppa",
+          "arvo": "Esisopimus noin 190 hehtaarin maakaupoista, noin 2/3 Vaasassa ja 1/3 Mustasaaressa",
+          "tila": "todennettu",
+          "lahde": "https://news.microsoft.com/source/emea/2026/06/microsoft-solmi-esisopimuksen-noin-190-hehtaarin-maakaupoista-vaasassa-ja-mustasaaressa/?lang=fi",
+          "pvm": "2026-06-05"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Hankealue noin 180 ha (Vaasa noin 130 ha, Mustasaari noin 50 ha); kuusi datakeskusrakennusta",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/sites/default/files/documents/Vaasa%20mustasaari%20datakeskuksen%20yvan%20soveltamisp%C3%A4%C3%A4t%C3%B6s.pdf",
+          "pvm": "2026-06-18"
+        },
+        {
+          "otsikko": "YVA",
+          "arvo": "Lupa- ja valvontavirasto päätti 18.6.2026, ettei YVA-menettelyä sovelleta",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/sites/default/files/documents/Vaasa%20mustasaari%20datakeskuksen%20yvan%20soveltamisp%C3%A4%C3%A4t%C3%B6s.pdf",
+          "pvm": "2026-06-18"
+        },
+        {
+          "otsikko": "Sähkö",
+          "arvo": "3 x 400 kV maakaapeliyhteys Tuovilan sähköasemalta; noin 39 varavoimageneraattoria",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/sites/default/files/documents/Vaasa%20mustasaari%20datakeskuksen%20yvan%20soveltamisp%C3%A4%C3%A4t%C3%B6s.pdf",
+          "pvm": "2026-06-18"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Noin 900 henkeä",
+          "tila": "arvio",
+          "lahde": "https://www.ymparisto.fi/sites/default/files/documents/Vaasa%20mustasaari%20datakeskuksen%20yvan%20soveltamisp%C3%A4%C3%A4t%C3%B6s.pdf",
+          "pvm": "2026-06-18"
+        },
+        {
+          "otsikko": "Investointi ja aikataulu",
+          "arvo": "Ei julkaistu ensisijaisissa lähteissä",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        }
+      ],
+      "kilpailutukset": []
+    },
+    {
+      "tunniste": "fcdc-datakeskus-kuriiritie",
+      "nimi": "FCDC:n datakeskus, Kuriiritie",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": null,
+      "tiivistelma": "FCDC:n 66 000 kerrosneliömetrin datakeskus GigaVaasa-alueelle Kuriiritielle. Maanrakennustyöt alkoivat maaliskuussa 2026, ja käyttöönotto ajoittuisi vuosille 2028–2029.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "FCDC Corp Oy",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20217568",
+          "pvm": "2026-03-26"
+        },
+        {
+          "otsikko": "Rakentamislupa",
+          "arvo": "Myönnetty 10.12.2025",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/sites/default/files/documents/Vaasa%20mustasaari%20datakeskuksen%20yvan%20soveltamisp%C3%A4%C3%A4t%C3%B6s.pdf",
+          "pvm": "2026-06-18"
+        },
+        {
+          "otsikko": "Laajuus",
+          "arvo": "66 000 kerrosneliömetriä",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20217568",
+          "pvm": "2026-03-26"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Maanrakennustyöt käynnistyivät; rakentaminen jatkuu vuoteen 2028",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20217568",
+          "pvm": "2026-03-26"
+        },
+        {
+          "otsikko": "Käyttöönotto",
+          "arvo": "2028–2029",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20217568",
+          "pvm": "2026-03-26"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Rakentamisessa ja suunnittelussa yli tuhat henkilötyövuotta, käytössä satoja työpaikkoja",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20217568",
+          "pvm": "2026-03-26"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
