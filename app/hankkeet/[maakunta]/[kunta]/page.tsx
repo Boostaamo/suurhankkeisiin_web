@@ -65,17 +65,15 @@ export default async function KuntaSivu({ params }: Props) {
         <div dangerouslySetInnerHTML={{ __html: uutisetHtml(k.kunta) }} />
       </div></section>
 
-      <section className="alt"><div className="wrap grid2">
-        <div>
+      <section className="alt"><div className={`wrap${k.tapahtumat.length ? " grid2" : ""}`}>
+        {k.tapahtumat.length ? <div>
           <h2>Tapahtumat</h2>
-          {k.tapahtumat.length ? (
-            <ul className="list">
-              {k.tapahtumat.map((t) => (
-                <li key={t.nimi}><strong>{pvm(t.pvm)}</strong> {t.nimi}<span className="muted">, {t.paikka}{t.jarjestaja ? `, ${t.jarjestaja}` : ""}</span></li>
-              ))}
-            </ul>
-          ) : <p className="muted">Tulevista tapahtumista ilmoitetaan täällä.</p>}
-        </div>
+          <ul className="list">
+            {k.tapahtumat.map((t) => (
+              <li key={t.nimi}><strong>{pvm(t.pvm)}</strong> {t.nimi}<span className="muted">, {t.paikka}{t.jarjestaja ? `, ${t.jarjestaja}` : ""}</span></li>
+            ))}
+          </ul>
+        </div> : null}
         {k.naapurikunnat.length ? <div>
           <h2>Lähialueen hankkeet</h2>
           <ul className="list">
