@@ -1,0 +1,75 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "varkaus",
+  "kunta": "Varkaus",
+  "kunta_genetiivi": "Varkauden",
+  "maakunta": "Pohjois-Savo",
+  "maakunta_tunniste": "pohjois-savo",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Varkauden alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "apl-datakeskus-ranta-luttila",
+      "nimi": "APL Groupin datakeskus, Ranta-Luttila",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "APL Groupin 100 megawatin datakeskus Varkauden Ranta-Luttilaan 28 hehtaarin tontille. Rakennetaan kahdessa vaiheessa, ja ensimmäinen halli valmistuisi vuonna 2027.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "APL Group; luvanhakija kiinteistöyhtiö Best Valo DC",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20213714",
+          "pvm": "2026-03-05"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "100 MW kahdessa vaiheessa (60 MW + 40 MW)",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20213714",
+          "pvm": "2026-03-05"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "28 ha, rakennusala noin 75 000 m²; tontin kauppahinta 1,4 milj. euroa",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20164429",
+          "pvm": "2025-05-28"
+        },
+        {
+          "otsikko": "Rakennuslupa",
+          "arvo": "Käsittelyssä maaliskuussa 2026; pelastusviranomainen vaati tarkennuksia",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20213714",
+          "pvm": "2026-03-05"
+        },
+        {
+          "otsikko": "Rakennuslupapäätös",
+          "arvo": "Tarkistettava, onko lupa myönnetty",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        },
+        {
+          "otsikko": "Aikataulu",
+          "arvo": "Ensimmäinen halli valmistuisi 2027",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20213714",
+          "pvm": "2026-03-05"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "50–200 työpaikkaa",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20164429",
+          "pvm": "2025-05-28"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

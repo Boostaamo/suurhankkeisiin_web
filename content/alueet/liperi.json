@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "liperi",
+  "kunta": "Liperi",
+  "kunta_genetiivi": "Liperin",
+  "maakunta": "Pohjois-Karjala",
+  "maakunta_tunniste": "pohjois-karjala",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Liperin alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "scale42-datakeskus-valikangas",
+      "nimi": "Scale42:n datakeskus, Välikangas",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": 800,
+      "tiivistelma": "Scale42:n datakeskus Liperin Välikankaan teollisuusalueelle Polvijärventien varteen. Ensimmäinen vaihe on 60 megawattia.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Scale42",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20225820",
+          "pvm": "2026-05-13"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Noin 800 milj. euroa",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20225820",
+          "pvm": "2026-05-13"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Ensimmäinen vaihe 60 MW",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20225820",
+          "pvm": "2026-05-13"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 9 ha rakennusmaata",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20225820",
+          "pvm": "2026-05-13"
+        },
+        {
+          "otsikko": "Aikataulu",
+          "arvo": "Rakentaminen aikaisintaan alkuvuonna 2027",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20225820",
+          "pvm": "2026-05-13"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

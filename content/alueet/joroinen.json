@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "joroinen",
+  "kunta": "Joroinen",
+  "kunta_genetiivi": "Joroisten",
+  "maakunta": "Etelä-Savo",
+  "maakunta_tunniste": "etela-savo",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Joroisten alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "arcem-datakeskus-huutokoski",
+      "nimi": "Arcemin datakeskus, Huutokoski",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "Arcemin datakeskus Joroisten Huutokoskelle Fingridin sähköaseman viereen. Ensimmäinen 60 megawatin vaihe voisi valmistua jo 2027.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Arcem",
+          "tila": "todennettu",
+          "lahde": "https://media.arcem.no/arcem-makes-major-land-acquisition-in-finland/",
+          "pvm": "2026-06-01"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Ensimmäinen vaihe 60 MW (2027), 100 MW vuoteen 2029 mennessä, potentiaali 500 MW",
+          "tila": "arvio",
+          "lahde": "https://media.arcem.no/arcem-makes-major-land-acquisition-in-finland/",
+          "pvm": "2026-06-01"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 80 ha naapuritontteineen, asemakaavoitettu datakeskuskäyttöön",
+          "tila": "todennettu",
+          "lahde": "https://media.arcem.no/arcem-makes-major-land-acquisition-in-finland/",
+          "pvm": "2026-06-01"
+        },
+        {
+          "otsikko": "Maakauppa",
+          "arvo": "Valtuusto päätti 28.5.2026 myydä noin 18,5 ha 600 000 eurolla",
+          "tila": "todennettu",
+          "lahde": "https://joroinen.oncloudos.com/cgi/DREQUEST.PHP?page=meetingitem&id=2026432-3",
+          "pvm": "2026-05-28"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Ensimmäisen vaiheen rakennuslupaa odotettiin kesällä 2026",
+          "tila": "arvio",
+          "lahde": "https://media.arcem.no/arcem-makes-major-land-acquisition-in-finland/",
+          "pvm": "2026-06-01"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
