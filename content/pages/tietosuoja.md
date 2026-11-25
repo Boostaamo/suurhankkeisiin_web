@@ -9,16 +9,20 @@ updated: 2026-11-24
 <h1>Tietosuojaseloste</h1>
 </div></section>
 <section><div class="wrap"><div class="legalp">
-<p>Päivitetty: 24.11.2026</p>
+<p>Päivitetty: 25.11.2026</p>
 <h2>Rekisterinpitäjä</h2><p>Kriha Invest Oy (Dimma), Y-tunnus 2644804-9. Kotipaikka Kempele. Postiosoite: Kaaritie 12 a 4, 42220 Kaipola.</p>
 <p>Yhteyshenkilö tietosuoja-asioissa: Hannu Savela, <a href="mailto:hannu@boostaamo.fi">hannu@boostaamo.fi</a>.</p>
 <h2>Mitä tietoja keräämme ja miksi</h2><ul>
 <li><b>Yrityksen ilmoittautuminen:</b> yrityksen nimi, Y-tunnus, kotipaikka, toimiala, kalusto, työntekijäkapasiteetti, kuvaus osaamisesta, yhteyshenkilön nimi, sähköposti ja puhelinnumero, tieto PRO-näkyvyyden toiveesta sekä se, mihin hankkeeseen, kuntaan tai maakuntaan ilmoittautuminen kohdistuu. Käytämme tietoja yrityksen liittämiseen hankkeiden resurssilistalle, tietojen esittämiseen hankkeiden tilaajille ja pääurakoitsijoille sekä yhteydenpitoon hankkeisiin liittyvissä asioissa.</li>
 <li><b>Kuntien ja tilaajien yhteydenotto:</b> organisaatio, nimi, tehtävä, sähköposti, puhelinnumero ja viesti. Käytämme tietoja yhteydenottoon vastaamiseen.</li>
+<li><b>Yritysten kutsuminen palveluun:</b> yrityksen nimi sekä yrityksen tai sen yhteyshenkilön nimi ja työsähköposti. Tiedot saadaan kunnan elinkeinotoimen yrityslistalta tai yrityksen omilta verkkosivuilta ja Patentti- ja rekisterihallituksen avoimesta datasta. Käytämme niitä vain kutsuaksemme yrityksen ilmoittautumaan hankkeiden alueelle. Kerromme jokaisessa viestissä, mistä tieto on saatu, ja poistamme tiedot, jos yritys ei halua viestejä.</li>
+<li><b>Kuntien yhteyshenkilöt:</b> kunnan suurhankkeista vastaavan henkilön nimi, tehtävä ja työyhteystiedot näytetään kuntasivulla vain kunnan tai henkilön luvalla.</li>
 <li>Molemmista lomakkeista tallennetaan myös sivu, jolta lomake lähetettiin, ja markkinointikanava (UTM-tunnisteet).</li>
 <li><b>Analytiikka:</b> kävijämäärät ja sivujen käyttö Google Analyticsilla, vain jos hyväksyt analytiikkaevästeet. Emme yhdistä analytiikkatietoja lomakkeen tietoihin.</li>
 </ul>
 <h2>Käsittelyn oikeusperuste</h2><ul>
+<li>Yritysten kutsuminen: oikeutettu etu (yritysten välinen yhteydenpito palvelusta, joka liittyy yrityksen toimialaan ja alueen hankkeisiin).</li>
+<li>Kuntien yhteyshenkilöt: suostumus.</li>
 <li>Lomakkeet: oikeutettu etu. Kun ilmoitat yrityksesi tai otat yhteyttä, voimme perustellusti käsitellä tietoja asian hoitamiseksi.</li>
 <li>Analytiikka: suostumuksesi. Voit peruuttaa sen milloin tahansa.</li>
 </ul>
