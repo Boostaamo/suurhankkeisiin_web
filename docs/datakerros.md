@@ -35,6 +35,32 @@ Tarvittavat muuttujat (Vercel): `DATALAHDE=tietokanta`, `SUPABASE_URL` (on jo) j
 
 Siirtymän aikana JSON-tiedostot ja vaiheen 1 PR-hyväksyntä jatkuvat. Tuotanto lukee tietokantaa (Hannu 24.11.2026), joten `TUONTI_JSONISTA=kylla` (vain Production) vie jokaisessa buildissa `content/`-kansion tietokantaan ennen hakua palvelinavaimella. JSON-tiedostot ovat siis edelleen päälähde, kunnes automaattinen nouto korvaa ajastetut tehtävät; silloin muuttuja poistetaan.
 
+## Seurattavat lähteet
+Ajastetut tehtävät (uutisseuranta ja viikkopäivitys) käyvät nämä läpi jokaisessa ajossa. Lista täydennetään tähän, jolloin tehtävien ohjeita ei tarvitse muuttaa. Maksumuurin takaisesta jutusta käytetään vain otsikkoa ja vapaasti luettavaa osaa; ingressi kirjoitetaan omin sanoin.
+
+Viranomaiset ja julkiset toimijat (ensisijaiset):
+- Lupa- ja valvontavirasto, ymparisto.fi (YVA), Hilma, kuntien pöytäkirjat ja tiedotteet, maakuntaliitot
+- Tilastokeskus (stat.fi)
+- Business Finland (businessfinland.fi)
+- Tesi, Suomen Teollisuussijoitus (tesi.fi)
+
+Järjestöt:
+- Elinkeinoelämän keskusliitto EK (ek.fi), mm. investointikatsaukset
+- Teknologiateollisuus ry (teknologiateollisuus.fi)
+- Suomen Uusiutuvat ry (suomenuusiutuvat.fi), mm. tuuli- ja aurinkohankkeet
+- Kauppakamarit (suurhankelistat; korvataan ensisijaisilla lähteillä)
+
+Media:
+- Yle, Kaleva, paikallislehdet, STT Info
+- Tekniikka ja Talous (tekniikkatalous.fi)
+- Kauppalehti (kauppalehti.fi)
+- Aamulehti (aamulehti.fi)
+- Verkkouutiset (verkkouutiset.fi)
+
+Hankelistaukset (vihjeitä; jokainen hanke tarkistetaan ensisijaisesta lähteestä ennen lisäystä):
+- datakeskusrekisteri.fi, catalogue.fdca.fi, Invest in Finland: Data center opportunities map, tietolahde.fi/datakeskukset/kartta
+- Tekoälyn kirjoittamat sivustot (esim. aisuomi.fi) ja Wikipedia eivät kelpaa lähteeksi, mutta niistä voi poimia vihjeitä.
+
 ## Vaihe 2 (Bistek)
 Automaattinen RSS-nouto ja tekoälypisteytys palvelimella, kilpailutusten hallinta tilaajille, yritysprofiilit ja PRO-maksut.
 
