@@ -1,0 +1,54 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien, viranomaisten ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "orimattila",
+  "kunta": "Orimattila",
+  "kunta_genetiivi": "Orimattilan",
+  "maakunta": "Päijät-Häme",
+  "maakunta_tunniste": "paijat-hame",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Orimattilan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "pennalan-datakeskus",
+      "nimi": "Pennalan datakeskus",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "Datakeskushanke Orimattilan Pennalan teollisuusalueelle. Valtuusto hyväksyi alueen osayleiskaavan ja asemakaavan keväällä 2026, ja hankkeen ympäristövaikutusten arviointi on vireillä.",
+      "tiedot": [
+        {
+          "otsikko": "Kaava",
+          "arvo": "Pennalan teollisuusalueen osayleiskaava ja Rautamäentien asemakaava hyväksytty; kaavat mahdollistavat datakeskushankkeen",
+          "tila": "todennettu",
+          "lahde": "https://orimattila.fi/pennalan-teollisuusalueen-osayleiskaava-seka-a217-rautamaentien-asemakaava-ja-asemakaavamuutos-hyvaksytty/",
+          "pvm": "2026-05-04"
+        },
+        {
+          "otsikko": "YVA",
+          "arvo": "Vireillä Lupa- ja valvontavirastossa (LVV-U/104548/2026), alue Orimattila ja Hollola",
+          "tila": "todennettu",
+          "lahde": "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/pennalan-datakeskus-orimattila",
+          "pvm": "2026-10-09"
+        },
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Ensisijaiset lähteet eivät nimeä toteuttajaa",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        },
+        {
+          "otsikko": "Kapasiteetti ja investointi",
+          "arvo": "Ei julkaistu ensisijaisissa lähteissä",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
