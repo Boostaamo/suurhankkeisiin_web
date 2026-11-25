@@ -88,3 +88,11 @@ Hankesivun osio "Hankkeen eteneminen ja tarpeet" näyttää vakiovaiheet (Suunni
 - Tarpeet kytketään vaiheeseen `content/tarpeet.json`-kentällä `vaihe` (sekä hankekohtaiset että hanketyypin yleiset).
 - Uutisseuranta lisää tapahtuman, kun uutinen muuttaa vaihetta (YVA, lupa, kaava, keskeytys, investointipäätös, rakentamisen alku). Viikkopäivitys täydentää aikajanoja hanke kerrallaan.
 - Vaiheet ovat avattavia (käynnissä ja keskeytetty auki oletuksena), ja niillä on Avaa kaikki / Sulje kaikki -painikkeet. "Tarjoa osaamistasi tähän vaiheeseen" vie ilmoittautumiseen, ja vaihe tallentuu liidin vastauksiin (`vastaukset.vaihe`). Lomakkeella kysytään yrityksen verkkosivua (`vastaukset.verkkosivu`), josta palvelut kootaan profiiliin; automaattinen sivuanalyysi palvelimella kuuluu vaiheeseen 2 (Bistek).
+
+## Kuntien yhteyshenkilöt
+
+Kuntasivulla näytetään kunnan suurhankeyhteyshenkilöt tiedostosta `content/yhteyshenkilot.json` (avain = kunnan tunniste). Säännöt (Hannu 25.11.2026):
+- Henkilö lisätään vain luvalla. Kenttään `lupa` kirjataan, kuka luvan antoi ja milloin.
+- Vain työroolin tiedot: nimi, tehtävä, työsähköposti, työpuhelin.
+- Tiedostoa ei viedä datakerroksen tietokantaan, eikä ajastettu uutisseuranta tai viikkopäivitys muokkaa sitä.
+- Kun lupa perutaan, henkilö poistetaan tiedostosta saman päivän aikana.

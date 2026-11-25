@@ -6,6 +6,7 @@ import { vaiheSlug } from "@/lib/vaihe";
 import Seuranta from "@/components/Seuranta";
 import Form from "@/components/Form";
 import { uutisetHtml } from "@/lib/uutiset";
+import { yhteyshenkilot } from "@/lib/yhteyshenkilot";
 
 export const dynamicParams = false;
 export const generateStaticParams = () => kunnat().map((k) => ({ maakunta: k.maakunta_tunniste, kunta: k.tunniste }));
@@ -22,6 +23,7 @@ export default async function KuntaSivu({ params }: Props) {
   const p = await params;
   const k = kunta(p.maakunta, p.kunta);
   if (!k) notFound();
+  const yh = yhteyshenkilot(k.tunniste);
   return (
     <>
       <Seuranta taso="kunta" maakunta={k.maakunta} kunta={k.kunta} />
@@ -48,6 +50,21 @@ export default async function KuntaSivu({ params }: Props) {
           ))}
         </div>
       </div></section>
+
+      {yh.length ? <section><div className="wrap">
+        <h2>{k.kunta_genetiivi} yhteyshenkilöt suurhankkeissa</h2>
+        <p className="muted">Kunnan edustajat, jotka hoitavat suurhankkeisiin liittyviä asioita.</p>
+        <div className="cards">
+          {yh.map((h) => (
+            <div key={h.nimi} className="card">
+              <h3>{h.nimi}</h3>
+              {h.tehtava ? <p>{h.tehtava}</p> : null}
+              {h.sahkoposti ? <p><a href={`mailto:${h.sahkoposti}`}>{h.sahkoposti}</a></p> : null}
+              {h.puhelin ? <p><a href={`tel:${h.puhelin.replace(/\s/g, "")}`}>{h.puhelin}</a></p> : null}
+            </div>
+          ))}
+        </div>
+      </div></section> : null}
 
       <section><div className="wrap">
         <h2>Uusimmat uutiset</h2>

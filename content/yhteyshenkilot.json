@@ -1,0 +1,7 @@
+{
+  "_ohje": "Kuntien suurhankeyhteyshenkilöt kuntasivuille. Julkaistaan vain kunnan tai henkilön luvalla: kirjaa lupa-kenttään kuka antoi luvan ja milloin. Vain työroolin tiedot (nimi, tehtävä, työsähköposti). Tiedosto luetaan suoraan repon content-kansiosta eikä sitä viedä datakerroksen tietokantaan. Ajastetut tehtävät eivät muokkaa tätä tiedostoa.",
+  "muhos": [
+    { "nimi": "Asseri Pitkälä", "lupa": "Hannu 25.11.2026" },
+    { "nimi": "Juuso Kivijakola", "sahkoposti": "juuso.kivijakola@muhos.fi", "lupa": "Hannu 25.11.2026" }
+  ]
+}
