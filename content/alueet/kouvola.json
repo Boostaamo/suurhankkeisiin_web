@@ -1,0 +1,68 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "kouvola",
+  "kunta": "Kouvola",
+  "kunta_genetiivi": "Kouvolan",
+  "maakunta": "Kymenlaakso",
+  "maakunta_tunniste": "kymenlaakso",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Kouvolan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "atnorth-fin04-myllykoski",
+      "nimi": "atNorthin FIN04-datakeskuskampus, Myllykoski",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": null,
+      "tiivistelma": "atNorthin datakeskuskampus Myllykoskella Kymijoen varrella, entisen paperitehtaan pohjoispuolella. Rakentaminen alkoi heinäkuussa 2026, ja valmistuminen on tavoitteena vuoden 2027 loppuun mennessä.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "atNorth",
+          "tila": "todennettu",
+          "lahde": "https://www.yitgroup.com/fi/news-repository/sijoittajauutiset/yit-ja-atnorth-sopimukseen-datakeskuksen-rakentamisesta-kouvolaan--arvo-yitlle-noin-300-miljoonaa-euroa",
+          "pvm": "2026-07-21"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Koko kampuksen suunniteltu kokonaiskapasiteetti 430 MW",
+          "tila": "todennettu",
+          "lahde": "https://www.yitgroup.com/fi/news-repository/sijoittajauutiset/yit-ja-atnorth-sopimukseen-datakeskuksen-rakentamisesta-kouvolaan--arvo-yitlle-noin-300-miljoonaa-euroa",
+          "pvm": "2026-07-21"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Rakennussopimus allekirjoitettu heinäkuussa 2026, rakennustyöt käynnistyvät välittömästi",
+          "tila": "todennettu",
+          "lahde": "https://www.yitgroup.com/fi/news-repository/sijoittajauutiset/yit-ja-atnorth-sopimukseen-datakeskuksen-rakentamisesta-kouvolaan--arvo-yitlle-noin-300-miljoonaa-euroa",
+          "pvm": "2026-07-21"
+        },
+        {
+          "otsikko": "Aikataulu",
+          "arvo": "Valmistuminen vuoden 2027 loppuun mennessä",
+          "tila": "arvio",
+          "lahde": "https://www.yitgroup.com/fi/news-repository/sijoittajauutiset/yit-ja-atnorth-sopimukseen-datakeskuksen-rakentamisesta-kouvolaan--arvo-yitlle-noin-300-miljoonaa-euroa",
+          "pvm": "2026-07-21"
+        },
+        {
+          "otsikko": "Rakennusurakka",
+          "arvo": "Urakan arvo noin 300 milj. euroa",
+          "tila": "todennettu",
+          "lahde": "https://www.yitgroup.com/fi/news-repository/sijoittajauutiset/yit-ja-atnorth-sopimukseen-datakeskuksen-rakentamisesta-kouvolaan--arvo-yitlle-noin-300-miljoonaa-euroa",
+          "pvm": "2026-07-21"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "23 ha; datakeskusrakennus 40 285 m² sekä sähköasemat ja tukirakennukset (rakennuslupahakemus 2025)",
+          "tila": "todennettu",
+          "lahde": "https://www.kouvola.fi/ajankohtaiset/atnorthin-datakeskus-rakentamislupakasittelyyn/",
+          "pvm": "2025-05-28"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

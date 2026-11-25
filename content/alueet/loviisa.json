@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "loviisa",
+  "kunta": "Loviisa",
+  "kunta_genetiivi": "Loviisan",
+  "maakunta": "Uusimaa",
+  "maakunta_tunniste": "uusimaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Loviisan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "nova-complex-datakeskus",
+      "nimi": "Nova Complexin datakeskus",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": 400,
+      "tiivistelma": "Nova Complex Oy:n kolmivaiheinen datakeskushanke E18-moottoritien itäisen liittymän lähellä. Kaupunki vuokraa ensimmäiseen vaiheeseen noin 6 hehtaarin alueen.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Nova Complex Oy",
+          "tila": "todennettu",
+          "lahde": "https://www.powercoast.fi/en/news-2/nova-complex-data-centre-project-progresses-in-loviisa/",
+          "pvm": "2026-03-02"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Yli 400 milj. euroa",
+          "tila": "todennettu",
+          "lahde": "https://www.powercoast.fi/en/news-2/nova-complex-data-centre-project-progresses-in-loviisa/",
+          "pvm": "2026-03-02"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 6 ha ensimmäiseen vaiheeseen, E18:n itäisen liittymän lähellä; hanke kolmessa vaiheessa",
+          "tila": "todennettu",
+          "lahde": "https://www.powercoast.fi/en/news-2/nova-complex-data-centre-project-progresses-in-loviisa/",
+          "pvm": "2026-03-02"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Kaupunginvaltuusto hyväksyi maanvuokra- ja esisopimuksen 21.1.2026. Seuraava kaavoitusvaihe päätöksentekoon talvella 2026.",
+          "tila": "todennettu",
+          "lahde": "https://www.powercoast.fi/en/news-2/nova-complex-data-centre-project-progresses-in-loviisa/",
+          "pvm": "2026-03-02"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Ensimmäinen vaihe 50–80 paikallista työpaikkaa; kaikki vaiheet yhteensä noin 600–800 suoraa ja epäsuoraa työpaikkaa",
+          "tila": "arvio",
+          "lahde": "https://www.powercoast.fi/en/news-2/nova-complex-data-centre-project-progresses-in-loviisa/",
+          "pvm": "2026-03-02"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

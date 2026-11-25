@@ -1,0 +1,68 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "lahti",
+  "kunta": "Lahti",
+  "kunta_genetiivi": "Lahden",
+  "maakunta": "Päijät-Häme",
+  "maakunta_tunniste": "paijat-hame",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Lahden alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "dayone-datakeskus-kiverio",
+      "nimi": "DayOnen datakeskus, Kiveriö",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": 1200,
+      "tiivistelma": "DayOnen datakeskus Lahden Kiveriöön entiselle teollisuusalueelle Ilmarisentien ja Väinämöisentien varteen. Rakentaminen alkoi huhtikuussa 2026, ja käyttöönotto on tavoitteena vuonna 2027.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "DayOne",
+          "tila": "todennettu",
+          "lahde": "https://www.lahti.fi/uutiset/lahden-kiverioon-rakennetaan-12-miljardin-euron-datakeskus/",
+          "pvm": "2025-08-14"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "1,2 mrd. euroa",
+          "tila": "todennettu",
+          "lahde": "https://www.lahti.fi/uutiset/lahden-kiverioon-rakennetaan-12-miljardin-euron-datakeskus/",
+          "pvm": "2025-08-14"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Noin 10 ha tontti teollisuusalueella",
+          "tila": "todennettu",
+          "lahde": "https://www.lahti.fi/uutiset/lahden-kiverioon-rakennetaan-12-miljardin-euron-datakeskus/",
+          "pvm": "2025-08-14"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Rakennustyöt alkoivat huhtikuussa 2026",
+          "tila": "todennettu",
+          "lahde": "https://www.srv.fi/en/srv-as-a-company/newsroom/press-release/dayone-data-center-construction-to-start-in-lahti-srv-strengthens-its-position-in-the-growing-market-for-data-center-construction/",
+          "pvm": "2026-04-07"
+        },
+        {
+          "otsikko": "Aikataulu",
+          "arvo": "Käyttöönotto vuonna 2027",
+          "tila": "arvio",
+          "lahde": "https://www.srv.fi/en/srv-as-a-company/newsroom/press-release/dayone-data-center-construction-to-start-in-lahti-srv-strengthens-its-position-in-the-growing-market-for-data-center-construction/",
+          "pvm": "2026-04-07"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Noin 100 vakituista työpaikkaa",
+          "tila": "arvio",
+          "lahde": "https://www.lahti.fi/uutiset/lahden-kiverioon-rakennetaan-12-miljardin-euron-datakeskus/",
+          "pvm": "2025-08-14"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

@@ -1,0 +1,75 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "pori",
+  "kunta": "Pori",
+  "kunta_genetiivi": "Porin",
+  "maakunta": "Satakunta",
+  "maakunta_tunniste": "satakunta",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Porin alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "asp-datakeskus-kupariteollisuuspuisto",
+      "nimi": "Asp DC:n datakeskus, Kupariteollisuuspuisto",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": 1650,
+      "tiivistelma": "Datakeskus Porin Kupariteollisuuspuistoon entiselle Outokummun teollisuusalueelle. Ylijäämälämpö on tarkoitus hyödyntää Porin kaukolämpöverkossa.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Asp DC (ASP Data Center)",
+          "tila": "todennettu",
+          "lahde": "https://www.aspdatacenter.no/news/asp-dc-invests-in-finland",
+          "pvm": "2025-12-03"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "1,65 mrd. euroa",
+          "tila": "todennettu",
+          "lahde": "https://www.aspdatacenter.no/news/asp-dc-invests-in-finland",
+          "pvm": "2025-12-03"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Ensimmäinen vaihe 150 MW, toisessa vaiheessa yli 400 MW",
+          "tila": "todennettu",
+          "lahde": "https://www.aspdatacenter.no/news/asp-dc-invests-in-finland",
+          "pvm": "2025-12-03"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "37 ha Kupariteollisuuspuistossa; alueella voimassa teollisuuden asemakaava",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20138189",
+          "pvm": "2025-01-21"
+        },
+        {
+          "otsikko": "Aikataulu",
+          "arvo": "Rakentamisen suunniteltiin alkavan alkuvuonna 2026",
+          "tila": "arvio",
+          "lahde": "https://www.aspdatacenter.no/news/asp-dc-invests-in-finland",
+          "pvm": "2025-12-03"
+        },
+        {
+          "otsikko": "Vaihe nyt",
+          "arvo": "Tarkistettava, onko rakentaminen alkanut",
+          "tila": "avoin",
+          "lahde": null,
+          "pvm": null
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Rakentamisaikana satoja henkiä, valmistumisen jälkeen 50–100",
+          "tila": "arvio",
+          "lahde": "https://yle.fi/a/74-20138189",
+          "pvm": "2025-01-21"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

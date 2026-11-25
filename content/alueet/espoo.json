@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "espoo",
+  "kunta": "Espoo",
+  "kunta_genetiivi": "Espoon",
+  "maakunta": "Uusimaa",
+  "maakunta_tunniste": "uusimaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Espoon alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "microsoft-datakeskus-hepokorpi",
+      "nimi": "Microsoftin datakeskuskampus, Hepokorpi",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": null,
+      "tiivistelma": "Microsoftin pääkaupunkiseudun datakeskusalueen Espoon kampus. Ensimmäinen vaihe on rakenteilla ja seuraavat vaiheet ovat saaneet rakennusluvat.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Microsoft",
+          "tila": "todennettu",
+          "lahde": "https://news.microsoft.com/source/emea/2026/04/microsoft-kaynnistaa-paakaupunkiseudun-datakeskusalueen-toisen-vaiheen-rakentamisen/?lang=fi",
+          "pvm": "2026-04-28"
+        },
+        {
+          "otsikko": "Kokonaisuus",
+          "arvo": "Pääkaupunkiseudun datakeskusalue: kampukset Espoossa, Kirkkonummella ja Vihdissä",
+          "tila": "todennettu",
+          "lahde": "https://news.microsoft.com/source/emea/2026/04/microsoft-kaynnistaa-paakaupunkiseudun-datakeskusalueen-toisen-vaiheen-rakentamisen/?lang=fi",
+          "pvm": "2026-04-28"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Ensimmäisen vaiheen rakentaminen alkoi loppuvuonna 2024, valmistuminen arviolta vuodenvaihteessa 2026–2027. Toisen vaiheen rakennusluvat saatu kaikille kolmelle kampukselle, rakentaminen alkaa vuoden 2026 aikana.",
+          "tila": "todennettu",
+          "lahde": "https://news.microsoft.com/source/emea/2026/04/microsoft-kaynnistaa-paakaupunkiseudun-datakeskusalueen-toisen-vaiheen-rakentamisen/?lang=fi",
+          "pvm": "2026-04-28"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Rakentaminen työllistää yli 3 500 henkeä, huipussaan arviolta 7 500. Käytössä noin 50 henkeä rakennusta kohden.",
+          "tila": "todennettu",
+          "lahde": "https://news.microsoft.com/source/emea/2026/04/microsoft-kaynnistaa-paakaupunkiseudun-datakeskusalueen-toisen-vaiheen-rakentamisen/?lang=fi",
+          "pvm": "2026-04-28"
+        },
+        {
+          "otsikko": "Rakennuslupa",
+          "arvo": "Ympäristö- ja rakennuslautakunta myönsi 11.6.2026 rakennusluvan Hepokorven datakeskuksen seuraavalle vaiheelle ja luvan aloittaa työt ennen luvan lainvoimaisuutta. Pohjoisen tontin aiempien vaiheiden työt käynnissä.",
+          "tila": "todennettu",
+          "lahde": "https://www.sttinfo.fi/tiedote/72129950/ymparisto-ja-rakennuslautakunta-hepokorven-datakeskuksen-kolmannelle-vaiheelle-rakennuslupa?lang=fi&publisherId=3385",
+          "pvm": "2026-06-12"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

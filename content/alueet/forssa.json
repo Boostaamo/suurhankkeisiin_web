@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "forssa",
+  "kunta": "Forssa",
+  "kunta_genetiivi": "Forssan",
+  "maakunta": "Kanta-Häme",
+  "maakunta_tunniste": "kanta-hame",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Forssan alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "qts-datakeskus-ratasmaki",
+      "nimi": "QTS:n datakeskus, Ratasmäki",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Luvitus",
+      "investointi_meur": null,
+      "tiivistelma": "QTS Data Centersin datakeskushanke Forssan Ratasmäessä. Ensimmäinen noin 60 000 neliömetrin rakennus sai rakennusluvan heinäkuussa 2026, ja seuraavien rakennusten luvat ovat käsittelyssä.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "QTS Data Centers (luvanhakija Green 3 Finland Oy)",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20237951",
+          "pvm": "2026-07-27"
+        },
+        {
+          "otsikko": "Kapasiteetti",
+          "arvo": "Tehotavoite 81 MW, yhdeksän 9 MW:n datasalia",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20237951",
+          "pvm": "2026-07-27"
+        },
+        {
+          "otsikko": "Alue",
+          "arvo": "Ensimmäinen rakennus lähes 44 hehtaarin tontilla, kolmikerroksinen ja lähes 60 000 m²",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20237951",
+          "pvm": "2026-07-27"
+        },
+        {
+          "otsikko": "Rakennuslupa",
+          "arvo": "Ensimmäisen rakennuksen rakennuslupa myönnetty heinäkuussa 2026; kaksi myöhempää rakennusta hakevat lupaa erikseen",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20237951",
+          "pvm": "2026-07-27"
+        },
+        {
+          "otsikko": "Ajankohtaista",
+          "arvo": "Toisen rakennuksen (DC 02) rakennuslupapäätös 23.11.2026; kolmannen (DC 03) hakemus nähtävillä marraskuussa 2026",
+          "tila": "todennettu",
+          "lahde": "https://www.forssa.fi/kaupunki-ja-hallinto/hankkeet/datakeskushanke/",
+          "pvm": "2026-11-25"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

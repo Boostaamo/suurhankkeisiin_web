@@ -1,0 +1,54 @@
+{
+  "_ohje": "Datakerros. Lähteet: hankkeiden toteuttajien, kuntien ja median julkaisut (lisätty 25.11.2026 datakeskuslistausten pohjalta). Ks. docs/datakerros.md.",
+  "tunniste": "vihti",
+  "kunta": "Vihti",
+  "kunta_genetiivi": "Vihdin",
+  "maakunta": "Uusimaa",
+  "maakunta_tunniste": "uusimaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-25",
+  "esittely": "Vihdin alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "microsoft-datakeskuskampus",
+      "nimi": "Microsoftin datakeskuskampus",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": null,
+      "tiivistelma": "Microsoftin pääkaupunkiseudun datakeskusalueen Vihdin kampus. Toisen vaiheen rakennuslupa on saatu.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Microsoft",
+          "tila": "todennettu",
+          "lahde": "https://news.microsoft.com/source/emea/2026/04/microsoft-kaynnistaa-paakaupunkiseudun-datakeskusalueen-toisen-vaiheen-rakentamisen/?lang=fi",
+          "pvm": "2026-04-28"
+        },
+        {
+          "otsikko": "Kokonaisuus",
+          "arvo": "Pääkaupunkiseudun datakeskusalue: kampukset Espoossa, Kirkkonummella ja Vihdissä",
+          "tila": "todennettu",
+          "lahde": "https://news.microsoft.com/source/emea/2026/04/microsoft-kaynnistaa-paakaupunkiseudun-datakeskusalueen-toisen-vaiheen-rakentamisen/?lang=fi",
+          "pvm": "2026-04-28"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Ensimmäisen vaiheen rakentaminen alkoi loppuvuonna 2024, valmistuminen arviolta vuodenvaihteessa 2026–2027. Toisen vaiheen rakennusluvat saatu kaikille kolmelle kampukselle, rakentaminen alkaa vuoden 2026 aikana.",
+          "tila": "todennettu",
+          "lahde": "https://news.microsoft.com/source/emea/2026/04/microsoft-kaynnistaa-paakaupunkiseudun-datakeskusalueen-toisen-vaiheen-rakentamisen/?lang=fi",
+          "pvm": "2026-04-28"
+        },
+        {
+          "otsikko": "Työllisyys",
+          "arvo": "Rakentaminen työllistää yli 3 500 henkeä, huipussaan arviolta 7 500. Käytössä noin 50 henkeä rakennusta kohden.",
+          "tila": "todennettu",
+          "lahde": "https://news.microsoft.com/source/emea/2026/04/microsoft-kaynnistaa-paakaupunkiseudun-datakeskusalueen-toisen-vaiheen-rakentamisen/?lang=fi",
+          "pvm": "2026-04-28"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
