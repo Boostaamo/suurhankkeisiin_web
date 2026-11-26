@@ -6,7 +6,7 @@
   "maakunta": "Lappi",
   "maakunta_tunniste": "lappi",
   "pilotti": false,
-  "paivitetty": "2026-11-24",
+  "paivitetty": "2026-11-26",
   "esittely": "Savukosken alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
   "hankkeet": [
     {
@@ -37,6 +37,13 @@
           "tila": "todennettu",
           "lahde": "https://oulunkauppakamari.fi/wp-content/uploads/2026/09/Suurhankeviestit-syyskuu-2026.pdf",
           "pvm": "2026-09"
+        },
+        {
+          "otsikko": "EU:n strateginen hanke",
+          "arvo": "Euroopan komissio nimesi hankkeen kriittisten raaka-aineiden strategiseksi hankkeeksi 9.10.2026",
+          "tila": "todennettu",
+          "lahde": "https://www.sttinfo.fi/tiedote/72400899/viisi-suomalaishanketta-nimettiin-raaka-aineiden-tarjonnan-kannalta-strategisesti-tarkeiksi-eu-hankkeiksi?lang=fi",
+          "pvm": "2026-10-09"
         }
       ],
       "kilpailutukset": []
