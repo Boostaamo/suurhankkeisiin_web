@@ -9,7 +9,9 @@
       "pvm": "2026-11-25",
       "kunta": "Huittinen",
       "maakunta": "Satakunta",
-      "hankkeet": []
+      "hankkeet": [
+        "huittinen/datakeskus-korvenkyla"
+      ]
     },
     {
       "otsikko": "Mäntsälään rakennetaan Nebiuksen toinen datakeskus",
@@ -19,7 +21,9 @@
       "pvm": "2026-11-25",
       "kunta": "Mäntsälä",
       "maakunta": "Uusimaa",
-      "hankkeet": []
+      "hankkeet": [
+        "mantsala/nebius-datakeskus-kapuli"
+      ]
     },
     {
       "otsikko": "XTX Marketsin ensimmäinen oma datakeskus valmistui Kajaaniin",

@@ -1,0 +1,47 @@
+{
+  "_ohje": "Datakerros. Lähde: Alueviesti 25.11.2026. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "huittinen",
+  "kunta": "Huittinen",
+  "kunta_genetiivi": "Huittisten",
+  "maakunta": "Satakunta",
+  "maakunta_tunniste": "satakunta",
+  "pilotti": false,
+  "paivitetty": "2026-11-26",
+  "esittely": "Huittisten alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "datakeskus-korvenkyla",
+      "nimi": "Datakeskus, Korvenkylä",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Suunnittelu",
+      "investointi_meur": 2500,
+      "tiivistelma": "Korvenkylään suunniteltu datakeskus. Asemakaava ehdotusvaiheessa, arvioitu investointi 2,5–3 mrd €.",
+      "tiedot": [
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Asemakaavaehdotus nähtävillä joulukuun 2026 alkuun",
+          "tila": "todennettu",
+          "lahde": "https://alueviesti.fi/2026/11/25/huittisten-datakeskus-jakaa-mielipiteita-datakeskussuunnitelma-heratti-kaupungintalolla-aiempaa-kiivaampaa-keskustelua/",
+          "pvm": "2026-11-25"
+        },
+        {
+          "otsikko": "Investointi",
+          "arvo": "Arviolta 2,5–3 mrd €",
+          "tila": "todennettu",
+          "lahde": "https://alueviesti.fi/2026/11/25/huittisten-datakeskus-jakaa-mielipiteita-datakeskussuunnitelma-heratti-kaupungintalolla-aiempaa-kiivaampaa-keskustelua/",
+          "pvm": "2026-11-25"
+        },
+        {
+          "otsikko": "Rakentaminen",
+          "arvo": "2–4 vaiheessa",
+          "tila": "todennettu",
+          "lahde": "https://alueviesti.fi/2026/11/25/huittisten-datakeskus-jakaa-mielipiteita-datakeskussuunnitelma-heratti-kaupungintalolla-aiempaa-kiivaampaa-keskustelua/",
+          "pvm": "2026-11-25"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
