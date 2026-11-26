@@ -1,0 +1,14 @@
+{
+  "_ohje": "Kuntapohja (Tilastokeskus, kunta–maakunta-luokitus 1.1.2026). Kunta näkyy sivustolla vasta, kun sille lisätään hanke (ks. docs/datakerros.md).",
+  "tunniste": "kiuruvesi",
+  "kunta": "Kiuruvesi",
+  "kunta_genetiivi": "Kiuruveden",
+  "maakunta": "Pohjois-Savo",
+  "maakunta_tunniste": "pohjois-savo",
+  "pilotti": false,
+  "paivitetty": "2026-11-26",
+  "esittely": "Kiuruveden alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

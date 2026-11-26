@@ -28,13 +28,17 @@ export type Maakunta = { tunniste: string; nimi: string; kunnat: Kunta[] };
 export const DATAKANSIO = path.join(process.cwd(), process.env.DATALAHDE === "tietokanta" ? ".data" : "content");
 const DIR = path.join(DATAKANSIO, "alueet");
 
-export function kunnat(): Kunta[] {
+// Kaikki Suomen kunnat ovat datakerroksessa valmiina (myös tietokannassa), jotta uutisen kunta löytyy aina.
+// Sivustolla näkyvät vain kunnat, joilla on vähintään yksi hanke (Hannu 26.11.2026).
+export function kaikkiKunnat(): Kunta[] {
   return fs
     .readdirSync(DIR)
     .filter((f) => f.endsWith(".json"))
     .map((f) => JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8")) as Kunta)
     .sort((a, b) => a.kunta.localeCompare(b.kunta, "fi"));
 }
+
+export const kunnat = (): Kunta[] => kaikkiKunnat().filter((k) => k.hankkeet.length > 0);
 
 export function maakunnat(): Maakunta[] {
   const m = new Map<string, Maakunta>();

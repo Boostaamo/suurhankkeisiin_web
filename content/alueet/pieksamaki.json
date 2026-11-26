@@ -1,0 +1,14 @@
+{
+  "_ohje": "Kuntapohja (Tilastokeskus, kunta–maakunta-luokitus 1.1.2026). Kunta näkyy sivustolla vasta, kun sille lisätään hanke (ks. docs/datakerros.md).",
+  "tunniste": "pieksamaki",
+  "kunta": "Pieksämäki",
+  "kunta_genetiivi": "Pieksämäen",
+  "maakunta": "Etelä-Savo",
+  "maakunta_tunniste": "etela-savo",
+  "pilotti": false,
+  "paivitetty": "2026-11-26",
+  "esittely": "Pieksämäen alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
