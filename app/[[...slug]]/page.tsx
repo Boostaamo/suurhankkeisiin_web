@@ -5,6 +5,7 @@ import { site } from "@/lib/site";
 import type { FormKind } from "@/components/Form";
 import FormPortals, { type FormSlot } from "@/components/FormPortals";
 import { uutisetHtml } from "@/lib/uutiset";
+import Osa from "@/components/Osat";
 
 export const dynamicParams = false;
 
@@ -76,7 +77,9 @@ export default async function ContentPage({ params }: Props) {
 
   return (
     <>
-      <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: html }} />
+      {html.split(/<!--osa:([a-z]+)-->/).map((pala, i) =>
+        i % 2 ? <Osa key={i} nimi={pala} /> : <div key={i} style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: pala }} />,
+      )}
       <FormPortals slots={slots} source={source} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
     </>

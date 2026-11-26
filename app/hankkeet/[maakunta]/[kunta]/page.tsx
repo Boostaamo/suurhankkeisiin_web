@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { hankePolku, kunnat, kunta, lahdeNimi, pvm } from "@/lib/alueet";
+import { hankePolku, kunnat, kunta, kuntaPolku, lahdeNimi, pvm } from "@/lib/alueet";
 import { aktiivinen, vaiheSlug } from "@/lib/vaihe";
 import Seuranta from "@/components/Seuranta";
 import Form from "@/components/Form";
 import { uutisetHtml } from "@/lib/uutiset";
 import { yhteyshenkilot } from "@/lib/yhteyshenkilot";
+import Jaa from "@/components/Jaa";
+import Upotus from "@/components/Upotus";
 
 export const dynamicParams = false;
 export const generateStaticParams = () => kunnat().map((k) => ({ maakunta: k.maakunta_tunniste, kunta: k.tunniste }));
@@ -16,7 +18,7 @@ type Props = { params: Promise<{ maakunta: string; kunta: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const p = await params;
   const k = kunta(p.maakunta, p.kunta);
-  return k ? { title: `${k.kunta}: suurhankkeet ja alihankinta`, description: k.esittely } : {};
+  return k ? { title: `${k.kunta}: suurhankkeet ja alihankinta`, description: k.esittely, alternates: { types: { "application/rss+xml": `/syote/${p.maakunta}/${p.kunta}` } } } : {};
 }
 
 export default async function KuntaSivu({ params }: Props) {
@@ -34,6 +36,7 @@ export default async function KuntaSivu({ params }: Props) {
         <p className="lead">{k.esittely}</p>
         <div className="cta"><a className="btn" href="#ilmoittaudu">Ilmoita yrityksesi mukaan</a></div>
         <p className="muted small">Tiedot päivitetty {pvm(k.paivitetty)}. Lähteet näkyvät hankesivuilla.</p>
+        <Jaa polku={kuntaPolku(k)} otsikko={k.kunta} syote={`/syote/${k.maakunta_tunniste}/${k.tunniste}`} kalenteri={k.tapahtumat.length ? `/kalenteri/${k.maakunta_tunniste}/${k.tunniste}` : undefined} />
       </div></section>
 
       <section className="alt"><div className="wrap">
@@ -104,6 +107,10 @@ export default async function KuntaSivu({ params }: Props) {
           <h2>Muut hankkeet: {k.maakunta}</h2>
           <p><Link href={`/hankkeet/${k.maakunta_tunniste}`}>Katso maakunnan kaikki hankkeet →</Link></p>
         </div>}
+      </div></section>
+
+      <section className="upotus-osio"><div className="wrap">
+        <Upotus polku={`/upotus/${k.maakunta_tunniste}/${k.tunniste}`} kunta={k.kunta} genetiivi={k.kunta_genetiivi} />
       </div></section>
 
       <section id="ilmoittaudu"><div className="wrap grid2">

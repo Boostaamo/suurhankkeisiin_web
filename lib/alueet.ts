@@ -78,13 +78,40 @@ export function lahdeNimi(url?: string | null): string {
 import type { HankeRivi } from "./vaihe";
 export type { HankeRivi };
 export function hankeRivit(): HankeRivi[] {
+  const s = sykkeet();
   return kunnat().flatMap((k) =>
     k.hankkeet.map((h) => ({
       nimi: h.nimi, polku: hankePolku(k, h), kunta: k.kunta, kuntaPolku: kuntaPolku(k), maakunta: k.maakunta,
       maakunta_tunniste: k.maakunta_tunniste, tyyppi: h.tyyppi ?? "Muu", vaihe: h.vaihe_luokka ?? "Ei tietoa",
       investointi_meur: h.investointi_meur ?? null, tiivistelma: h.tiivistelma,
+      kunta_tunniste: k.tunniste, tunniste: h.tunniste,
+      syke: s.syke.get(`${k.tunniste}/${h.tunniste}`) ?? Array(12).fill(0), uusia: s.uusia.get(`${k.tunniste}/${h.tunniste}`) ?? 0,
     })),
   );
+}
+
+// Hankkeen syke: hankkeeseen kytkettyjen uutisten määrä kuukausittain 12 kuukaudelta (vanhin ensin) ja viimeisen 7 päivän uutiset.
+// Luetaan suoraan uutiset.json:sta, jotta lib/uutiset (joka tuo tämän tiedoston) ei aiheuta kehäviittausta.
+export const SYKE_KUUKAUDET = (() => {
+  const n = new Date();
+  return Array.from({ length: 12 }, (_, i) => {
+    const d = new Date(n.getFullYear(), n.getMonth() - 11 + i, 1);
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+  });
+})();
+function sykkeet() {
+  const syke = new Map<string, number[]>();
+  const uusia = new Map<string, number>();
+  const raja = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
+  const lista = (JSON.parse(fs.readFileSync(path.join(DATAKANSIO, "uutiset.json"), "utf8")) as { uutiset: { pvm: string; hankkeet?: string[] }[] }).uutiset;
+  for (const u of lista) for (const a of u.hankkeet ?? []) {
+    const i = SYKE_KUUKAUDET.indexOf(u.pvm.slice(0, 7));
+    const r = syke.get(a) ?? Array(12).fill(0);
+    if (i >= 0) r[i]++;
+    syke.set(a, r);
+    if (u.pvm >= raja) uusia.set(a, (uusia.get(a) ?? 0) + 1);
+  }
+  return { syke, uusia };
 }
 export const aktiivisia = (k: Kunta) => k.hankkeet.filter((h) => !["Toiminnassa", "Peruttu"].includes(h.vaihe_luokka ?? "")).length;
 export const hankkeita = (n: number) => `${n} ${n === 1 ? "hanke" : "hanketta"}`;

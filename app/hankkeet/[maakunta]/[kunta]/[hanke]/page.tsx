@@ -10,6 +10,9 @@ import { hankkeenUutiset } from "@/lib/uutiset";
 import { yhteenveto } from "@/lib/yhteenveto";
 import { aikajana as vaiheAikajana } from "@/lib/aikajana";
 import Aikajana from "@/components/Aikajana";
+import Jaa from "@/components/Jaa";
+import Syke from "@/components/Syke";
+import { hankeRivit } from "@/lib/alueet";
 
 export const dynamicParams = false;
 export const generateStaticParams = () =>
@@ -20,7 +23,11 @@ type Props = { params: Promise<{ maakunta: string; kunta: string; hanke: string 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const p = await params;
   const x = hanke(p.maakunta, p.kunta, p.hanke);
-  return x ? { title: `${x.hanke.nimi} (${x.kunta.kunta})`, description: x.hanke.tiivistelma } : {};
+  return x ? {
+    title: `${x.hanke.nimi} (${x.kunta.kunta})`, description: x.hanke.tiivistelma,
+    openGraph: { title: `${x.hanke.nimi} (${x.kunta.kunta})`, description: x.hanke.tiivistelma },
+    alternates: { types: { "application/rss+xml": `/syote/${p.maakunta}/${p.kunta}/${p.hanke}` } },
+  } : {};
 }
 
 export default async function HankeSivu({ params }: Props) {
@@ -31,6 +38,8 @@ export default async function HankeSivu({ params }: Props) {
   const yv = yhteenveto(k.tunniste, h.tunniste);
   const aikajana = hankkeenUutiset(k.tunniste, h.tunniste);
   const jana = vaiheAikajana(k, h);
+  const rivi = hankeRivit().find((r) => r.kunta_tunniste === k.tunniste && r.tunniste === h.tunniste);
+  const polku = `/hankkeet/${k.maakunta_tunniste}/${k.tunniste}/${h.tunniste}`;
   return (
     <>
       <Seuranta taso="hanke" maakunta={k.maakunta} kunta={k.kunta} hanke={h.nimi} />
@@ -44,6 +53,8 @@ export default async function HankeSivu({ params }: Props) {
         <p className="lead">{h.tiivistelma}</p>
         {aktiivinen(h.vaihe_luokka) ? null : <p className="muted">{h.vaihe_luokka === "Peruttu" ? "Hanke on peruttu." : "Hanke on toiminnassa."} Se on rekisterissä elinkaari- ja huoltopalveluja tarjoaville yrityksille, mutta sitä ei näytetä aktiivisena hankkeena.</p>}
         <div className="cta"><a className="btn" href="#ilmoittaudu">Ilmoita yrityksesi hankkeeseen</a></div>
+        {rivi && rivi.syke.some(Boolean) ? <p className="hanke-syke"><Syke syke={rivi.syke} leveys={120} korkeus={30} /> <span className="muted small">Hankkeen syke: {rivi.syke.reduce((a, b) => a + b, 0)} uutista 12 kuukauden aikana{rivi.uusia ? `, ${rivi.uusia} tällä viikolla` : ""}</span></p> : null}
+        <Jaa polku={polku} otsikko={h.nimi} syote={`/syote${polku.replace("/hankkeet", "")}`} />
       </div></section>
       <section><div className="wrap">
         <h2>Hankkeen tilannekuva</h2>

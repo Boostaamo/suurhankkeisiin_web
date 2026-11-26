@@ -1,7 +1,7 @@
 "use client";
 
 import { TOIMIALAT } from "@/lib/toimialat";
-import { FormEvent, useId, useState } from "react";
+import { FormEvent, useEffect, useId, useRef, useState } from "react";
 import { track } from "@/lib/analytics";
 
 // Lomakkeet: ilmoittautuminen (konversiopiste, sign_up) ja kunta (aluekumppanuus, generate_lead).
@@ -57,6 +57,16 @@ function Choice({ label, name, options, required }: { label: string; name: strin
 export default function Form({ kind, source, alue = {} }: { kind: FormKind; source: string; alue?: Alue }) {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
+  const lomake = useRef<HTMLFormElement>(null);
+  const [urlAlue, setUrlAlue] = useState("");
+  // Esitäyttö osoitteesta (Sopiiko yritykseni? -työkalu): ?toimiala=…&alue=<maakunta>
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search);
+    const t = q.get("toimiala");
+    const sel = lomake.current?.elements.namedItem("industry") as HTMLSelectElement | null;
+    if (t && sel && TOIMIALAT.includes(t)) sel.value = t;
+    if (q.get("alue")) setUrlAlue(q.get("alue")!.slice(0, 80));
+  }, []);
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -72,7 +82,7 @@ export default function Form({ kind, source, alue = {} }: { kind: FormKind; sour
       email: g("email"),
       phone: g("phone"),
       message: g("message"),
-      maakunta: alue.maakunta ?? "",
+      maakunta: alue.maakunta || urlAlue,
       kunta: alue.kunta ?? "",
       hanke: alue.hanke ?? "",
       answers: kind === "ilmoittautuminen"
@@ -113,7 +123,7 @@ export default function Form({ kind, source, alue = {} }: { kind: FormKind; sour
   if (status === "ok") return <p className="formok" role="status">Kiitos! Lähetys vastaanotettu.</p>;
 
   return (
-    <form className="rform" onSubmit={onSubmit}>
+    <form className="rform" onSubmit={onSubmit} ref={lomake}>
       {kind === "ilmoittautuminen" ? (
         <>
           <Field label="Yrityksen virallinen nimi" name="company" required autoComplete="organization" />
