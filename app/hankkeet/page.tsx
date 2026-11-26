@@ -3,6 +3,7 @@ import Link from "next/link";
 import { TYYPIT, VAIHEET, aktiivinen, hankeRivit, kunnat, maakunnat } from "@/lib/alueet";
 import { MaakuntaRuudut, Selite } from "@/components/AlueNakyma";
 import HankeHaku from "@/components/HankeHaku";
+import { KARTTA_LAHDE, kartta, kuntienMaakunnat } from "@/lib/kartta";
 
 export const metadata: Metadata = {
   title: "Suurhankkeet",
@@ -39,9 +40,9 @@ export default function Hankkeet() {
         <MaakuntaRuudut maakunnat={m} />
       </div></section>
 
-      <section><div className="wrap">
+      <section id="kaikki"><div className="wrap">
         <h2>Kaikki hankkeet</h2>
-        <HankeHaku rivit={r} maakunnat={m.map((x) => ({ tunniste: x.tunniste, nimi: x.nimi }))} tyypit={TYYPIT} vaiheet={VAIHEET} />
+        <HankeHaku rivit={r} maakunnat={m.map((x) => ({ tunniste: x.tunniste, nimi: x.nimi }))} tyypit={TYYPIT} vaiheet={VAIHEET} pohja={kartta()} kuntaMaakunnat={kuntienMaakunnat()} karttaLahde={KARTTA_LAHDE} />
         <p className="muted" style={{ marginTop: 24 }}>Uusia alueita lisätään viikoittain. Kunnat ja tilaajat: <Link href="/kunnille">aluekumppanuus</Link>.</p>
       </div></section>
     </>

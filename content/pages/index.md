@@ -11,7 +11,11 @@ updated: 2026-11-24
 <div class="cta"><a class="btn" href="/ilmoittaudu">Ilmoita yrityksesi</a><a class="btn o" href="/hankkeet">Katso hankkeet</a></div>
 </div></section>
 
-<section class="alt"><div class="wrap">
+<!--osa:tunnusluvut-->
+
+<!--osa:kartta-->
+
+<section><div class="wrap">
 <div class="feature">
 <div>
 <span class="pill">Pilottialue</span>
@@ -21,6 +25,10 @@ updated: 2026-11-24
 </div>
 </div>
 </div></section>
+
+<!--osa:osuvuus-->
+
+<!--osa:kuumat-->
 
 <section><div class="wrap">
 <h2>Uusimmat uutiset</h2>

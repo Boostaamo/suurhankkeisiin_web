@@ -18,6 +18,21 @@ export default function Haku({ iso = false, alku = "" }: { iso?: boolean; alku?:
   const juuri = useRef<HTMLFormElement>(null);
 
   useEffect(() => { if (iso || alku) lataa().then(setIndeksi); }, [iso, alku]);
+  // Pikanäppäin: Ctrl+K tai ⌘K (sekä /) vie hakukenttään.
+  const [vihje, setVihje] = useState("");
+  useEffect(() => {
+    if (iso) return;
+    setVihje(/Mac|iPhone|iPad/.test(navigator.platform) ? "⌘K" : "Ctrl K");
+    const k = (e: KeyboardEvent) => {
+      const kirjoittaa = e.target instanceof HTMLElement && /INPUT|TEXTAREA|SELECT/.test(e.target.tagName);
+      if (((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") || (e.key === "/" && !kirjoittaa)) {
+        e.preventDefault();
+        (juuri.current?.querySelector("input") as HTMLInputElement | null)?.focus();
+      }
+    };
+    window.addEventListener("keydown", k);
+    return () => window.removeEventListener("keydown", k);
+  }, [iso]);
   useEffect(() => {
     const sulje = (e: MouseEvent) => { if (!juuri.current?.contains(e.target as Node)) setAuki(false); };
     document.addEventListener("mousedown", sulje);
@@ -68,7 +83,7 @@ export default function Haku({ iso = false, alku = "" }: { iso?: boolean; alku?:
       <label className="sr" htmlFor={iso ? "haku-iso" : "haku"}>Hae sivustolta</label>
       <input
         id={iso ? "haku-iso" : "haku"} className="fld" type="search" value={q} autoComplete="off"
-        placeholder={iso ? "Hae hanketta, kuntaa, osaamista tai uutista" : "Hae…"}
+        placeholder={iso ? "Hae hanketta, kuntaa, osaamista tai uutista" : `Hae…${vihje ? `  (${vihje})` : ""}`}
         aria-controls={iso ? "hakutulokset" : "hakuehdotukset"} aria-expanded={auki}
         onFocus={() => { lataa().then(setIndeksi); setAuki(true); }}
         onChange={(e) => { setQ(e.target.value); setValittu(-1); setAuki(true); }}

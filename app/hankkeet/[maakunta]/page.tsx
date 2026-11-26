@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { TYYPIT, VAIHEET, aktiivinen, hankeRivit, hankkeita, kuntaPolku, maakunnat, maakunta } from "@/lib/alueet";
 import { Palkki, Selite } from "@/components/AlueNakyma";
 import HankeHaku from "@/components/HankeHaku";
+import { KARTTA_LAHDE, kartta, kuntienMaakunnat } from "@/lib/kartta";
 import Seuranta from "@/components/Seuranta";
 
 export const dynamicParams = false;
@@ -45,7 +46,7 @@ export default async function MaakuntaSivu({ params }: Props) {
       </div></section>
       <section><div className="wrap">
         <h2>Hankkeet: {m.nimi}</h2>
-        <HankeHaku rivit={hankeRivit().filter((x) => x.maakunta_tunniste === m.tunniste)} maakunnat={[]} tyypit={TYYPIT} vaiheet={VAIHEET} alkuMaakunta={m.tunniste} />
+        <HankeHaku rivit={hankeRivit().filter((x) => x.maakunta_tunniste === m.tunniste)} maakunnat={[]} tyypit={TYYPIT} vaiheet={VAIHEET} alkuMaakunta={m.tunniste} pohja={kartta()} kuntaMaakunnat={kuntienMaakunnat()} karttaLahde={KARTTA_LAHDE} />
       </div></section>
     </>
   );
