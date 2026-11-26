@@ -1,0 +1,14 @@
+{
+  "_ohje": "Kuntapohja (Tilastokeskus, kunta–maakunta-luokitus 1.1.2026). Kunta näkyy sivustolla vasta, kun sille lisätään hanke (ks. docs/datakerros.md).",
+  "tunniste": "kuortane",
+  "kunta": "Kuortane",
+  "kunta_genetiivi": "Kuortaneen",
+  "maakunta": "Etelä-Pohjanmaa",
+  "maakunta_tunniste": "etela-pohjanmaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-26",
+  "esittely": "Kuortaneen alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}

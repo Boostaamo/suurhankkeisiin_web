@@ -1,0 +1,14 @@
+{
+  "_ohje": "Kuntapohja (Tilastokeskus, kunta–maakunta-luokitus 1.1.2026). Kunta näkyy sivustolla vasta, kun sille lisätään hanke (ks. docs/datakerros.md).",
+  "tunniste": "virolahti",
+  "kunta": "Virolahti",
+  "kunta_genetiivi": "Virolahden",
+  "maakunta": "Kymenlaakso",
+  "maakunta_tunniste": "kymenlaakso",
+  "pilotti": false,
+  "paivitetty": "2026-11-26",
+  "esittely": "Virolahden alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
