@@ -153,7 +153,19 @@ async function tuoJsonista(url) {
   console.log(`Tuonti JSONista tietokantaan: ${JSON.stringify(tulos)}`);
 }
 
+// Tarkistus jokaisessa buildissa (myös esikatselussa): tietokannan tuonti hylkää uutisen, jonka kunnalla ei ole
+// tiedostoa content/alueet/. Näin virhe näkyy jo PR:n esikatselussa eikä vasta tuotantojulkaisussa (26.11.2026).
+function tarkistaUutistenKunnat() {
+  const { kunnat, uutiset } = lueContent();
+  const nimet = new Set(kunnat.map((k) => k.kunta));
+  const puuttuvat = [...new Set(uutiset.filter((u) => u.kunta && !nimet.has(u.kunta)).map((u) => u.kunta))];
+  if (puuttuvat.length) {
+    throw new Error(`Uutisen kunnalla ei ole tiedostoa content/alueet/: ${puuttuvat.join(", ")}. Lisää kunta (ks. docs/datakerros.md).`);
+  }
+}
+
 async function main() {
+  tarkistaUutistenKunnat();
   if (process.env.DATALAHDE !== "tietokanta") return;
   const url = (process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL || "").replace(/\/$/, "");
   const julkinenAvain =

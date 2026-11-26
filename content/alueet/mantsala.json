@@ -1,0 +1,61 @@
+{
+  "_ohje": "Datakerros. Lähde: Sähkömaailma 25.11.2026. Viikkopäivitys tarkistaa tiedot ensisijaisista lähteistä (ks. docs/datakerros.md).",
+  "tunniste": "mantsala",
+  "kunta": "Mäntsälä",
+  "kunta_genetiivi": "Mäntsälän",
+  "maakunta": "Uusimaa",
+  "maakunta_tunniste": "uusimaa",
+  "pilotti": false,
+  "paivitetty": "2026-11-26",
+  "esittely": "Mäntsälän alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
+  "hankkeet": [
+    {
+      "tunniste": "nebius-datakeskus-kapuli",
+      "nimi": "Nebiuksen datakeskus, Kapulin teollisuusalue",
+      "tyyppi": "Datakeskus",
+      "vaihe_luokka": "Rakenteilla",
+      "investointi_meur": null,
+      "tiivistelma": "Nebiuksen toinen datakeskus Mäntsälässä, 70 MW. Työt alkoivat kesällä 2026.",
+      "tiedot": [
+        {
+          "otsikko": "Toteuttaja",
+          "arvo": "Nebius",
+          "tila": "todennettu",
+          "lahde": "https://www.sahkomaailma.fi/mantsala-saa-taas-yhden-uuden-datakeskuksen/",
+          "pvm": "2026-11-25"
+        },
+        {
+          "otsikko": "Maanrakennus- ja rakennustekniset työt",
+          "arvo": "Jatke-toimitilat Oy",
+          "tila": "todennettu",
+          "lahde": "https://www.sahkomaailma.fi/mantsala-saa-taas-yhden-uuden-datakeskuksen/",
+          "pvm": "2026-11-25"
+        },
+        {
+          "otsikko": "Teho",
+          "arvo": "70 MW",
+          "tila": "todennettu",
+          "lahde": "https://www.sahkomaailma.fi/mantsala-saa-taas-yhden-uuden-datakeskuksen/",
+          "pvm": "2026-11-25"
+        },
+        {
+          "otsikko": "Vaihe",
+          "arvo": "Työt alkoivat kesällä 2026",
+          "tila": "todennettu",
+          "lahde": "https://www.sahkomaailma.fi/mantsala-saa-taas-yhden-uuden-datakeskuksen/",
+          "pvm": "2026-11-25"
+        },
+        {
+          "otsikko": "Työllistävyys",
+          "arvo": "Kiivaimmillaan jopa 400 henkeä",
+          "tila": "todennettu",
+          "lahde": "https://www.sahkomaailma.fi/mantsala-saa-taas-yhden-uuden-datakeskuksen/",
+          "pvm": "2026-11-25"
+        }
+      ],
+      "kilpailutukset": []
+    }
+  ],
+  "tapahtumat": [],
+  "naapurikunnat": []
+}
