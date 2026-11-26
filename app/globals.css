@@ -281,10 +281,11 @@ section[id]{scroll-margin-top:72px}
 .kartta svg{width:100%;height:100%;display:block;overflow:hidden}
 .karttavihje.alas{transform:translate(-50%,14px)}
 .kartta .kunta{fill:var(--tausta-2);stroke:var(--reuna);stroke-linejoin:round;transition:fill .25s}
-.kartta .kunta.mk{fill:color-mix(in srgb,var(--korostus) 10%,var(--tausta-2));cursor:pointer}
+.kartta .kunta.mk{cursor:pointer}
 .kartta .kunta.on{fill:color-mix(in srgb,var(--korostus) 26%,var(--tausta-2))}
-.kartta .kunta.valittu{fill:color-mix(in srgb,var(--korostus) 40%,var(--tausta-2))}
-.kartta .kunta.mk:hover{fill:color-mix(in srgb,var(--korostus) 55%,var(--tausta-2))}
+.kartta .kunta.valittu{fill:color-mix(in srgb,var(--korostus) 12%,var(--tausta-2))}
+.kartta .kunta.on.valittu{fill:color-mix(in srgb,var(--korostus) 42%,var(--tausta-2))}
+.kartta .kunta.mk:hover{fill:color-mix(in srgb,var(--korostus) 35%,var(--tausta-2))}
 .kartta .piste{stroke:var(--tausta);cursor:pointer;transform-box:fill-box;transform-origin:center;animation:piste-sisaan .5s cubic-bezier(.2,1.6,.4,1) both}
 .kartta a:hover .piste,.kartta a:focus .piste{filter:brightness(1.25);stroke:var(--teksti)}
 .kartta a:focus{outline:none}
