@@ -2,6 +2,38 @@
   "_ohje": "Uutisfeedi etusivulle, kuntasivuille ja hankesivujen aikajanalle. Tekoälykerros kokoaa: oma lyhyt ingressi (1–2 virkettä, ei lainauksia), otsikko, julkaisija, päiväys, linkki alkuperäiseen ja hankkeet, joita uutinen koskee (muoto <kunnan tunniste>/<hankkeen tunniste>). Samasta asiasta tehdyt uutiset niputetaan yhdeksi: ensisijainen (luotettavin tai ensimmäinen) lähde kenttiin julkaisija, url ja pvm, muut lähteet kenttään lisalahteet [{julkaisija, url, pvm}]. Uusin ensin. Enintään 40 kytkemätöntä uutista; hankkeisiin kytkettyjä ei poisteta. Ihminen hyväksyy pull requestissa. Ks. docs/datakerros.md.",
   "uutiset": [
     {
+      "otsikko": "Herttoniemeen suunniteltu 120 megawatin datakeskus yllätti asukasyhdistyksen",
+      "ingressi": "Itävaltalainen Onzero suunnittelee Helsingin Herttoniemen teollisuusalueelle noin puolen hehtaarin tontille datakeskusta, jonka sähkönkulutus olisi 120 megawattia ja josta saataisiin kaukolämpöä. Rakentamislupa on vireillä Helsingin rakennusvalvonnassa, ja asukasyhdistys kertoo kuulleensa hankkeesta vasta jälkikäteen.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20259039",
+      "pvm": "2026-11-26",
+      "kunta": "Helsinki",
+      "maakunta": "Uusimaa",
+      "hankkeet": []
+    },
+    {
+      "otsikko": "DayOne suunnittelee jopa 1 000 megawatin datakeskuskampusta Haapajärven Pysäysperään",
+      "ingressi": "Haapajärven Pysäysperän osayleiskaava ja asemakaava saivat lainvoiman 24.11.2026, ja kaupunki valmistelee kiinteistökauppaa datakeskuskehittäjä DayOnen kanssa. Kampukselle suunnitellaan vaiheittain neljä datakeskusrakennusta, ja rakentamisen arvioidaan alkavan vuoden 2027 aikana.",
+      "julkaisija": "Haapajärven kaupunki",
+      "url": "https://www.haapajarvi.fi/ajankohtaista/pysaysperan-alueen-kehittaminen-etenee-datakeskuskampus-tukee-haapajarven-elinvoimaa",
+      "pvm": "2026-11-25",
+      "kunta": "Haapajärvi",
+      "maakunta": "Pohjois-Pohjanmaa",
+      "hankkeet": [],
+      "lisalahteet": [
+        {
+          "julkaisija": "Kaleva",
+          "url": "https://www.kaleva.fi/haapajarvelle-suunnitellaan-isoa-datakeskusta-hank/13773205",
+          "pvm": "2026-11-25"
+        },
+        {
+          "julkaisija": "Yle",
+          "url": "https://yle.fi/a/74-20259002",
+          "pvm": "2026-11-25"
+        }
+      ]
+    },
+    {
       "otsikko": "Huittisten datakeskussuunnitelma herätti kiivasta keskustelua kaupungintalolla",
       "ingressi": "Huittisten Korvenkylään suunnitellun datakeskuksen asemakaava on edennyt ehdotusvaiheeseen, ja kaavaehdotus on nähtävillä joulukuun alkuun asti. Hankkeen arvioitu investointi on 2,5–3 miljardia euroa, ja rakentaminen tehtäisiin 2–4 vaiheessa.",
       "julkaisija": "Alueviesti",
@@ -23,6 +55,13 @@
       "maakunta": "Uusimaa",
       "hankkeet": [
         "mantsala/nebius-datakeskus-kapuli"
+      ],
+      "lisalahteet": [
+        {
+          "julkaisija": "Rakennuslehti",
+          "url": "https://www.rakennuslehti.fi/2026/11/jatke-aloitti-ensimmaisen-datakeskusurakkansa-mantsalassa-mielii-lisasiivua-markkinoista/",
+          "pvm": "2026-11-23"
+        }
       ]
     },
     {
