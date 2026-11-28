@@ -288,6 +288,71 @@
           ]
         }
       }
+    },
+    "lahti/dayone-datakeskus-kiverio": {
+      "vaiheet": {
+        "suunnittelu": {
+          "tila": "tehty",
+          "tapahtumat": []
+        },
+        "luvitus": {
+          "tila": "kaynnissa",
+          "tapahtumat": [
+            {
+              "pvm": "2026-10",
+              "teksti": "Lupa- ja valvontavirasto myönsi ympäristöluvan varavoimalle.",
+              "lahde": "https://yle.fi/a/74-20256640",
+              "lahde_pvm": "2026-11-12"
+            },
+            {
+              "pvm": "2026-11-11",
+              "teksti": "Viraston yleisen edun valvontayksikkö valitti luvasta Vaasan hallinto-oikeuteen.",
+              "lahde": "https://yle.fi/a/74-20256640",
+              "lahde_pvm": "2026-11-12"
+            }
+          ]
+        },
+        "valmistelu": {
+          "tila": "tehty",
+          "tapahtumat": []
+        },
+        "investointipaatos": {
+          "tila": "tehty",
+          "tapahtumat": [
+            {
+              "pvm": "2025-08-14",
+              "teksti": "Lahden kaupunki kertoi DayOnen 1,2 miljardin euron datakeskuksesta Kiveriöön.",
+              "lahde": "https://www.lahti.fi/uutiset/lahden-kiverioon-rakennetaan-12-miljardin-euron-datakeskus/"
+            }
+          ]
+        },
+        "rakentaminen": {
+          "tila": "kaynnissa",
+          "tapahtumat": [
+            {
+              "pvm": "2026-04-07",
+              "teksti": "SRV aloitti rakennustyöt.",
+              "lahde": "https://www.srv.fi/en/srv-as-a-company/newsroom/press-release/dayone-data-center-construction-to-start-in-lahti-srv-strengthens-its-position-in-the-growing-market-for-data-center-construction/"
+            },
+            {
+              "pvm": "2026-11-12",
+              "teksti": "Teräselementti toimittaa rakennuksen teräsrungon.",
+              "lahde": "https://www.sttinfo.fi/tiedote/72494846/teraselementille-60-vuotisen-historian-suurin-kauppa-mittava-terastoimitus-lahden-datakeskukseen?lang=fi"
+            }
+          ]
+        },
+        "kaytto": {
+          "tila": "tuleva",
+          "tapahtumat": [
+            {
+              "pvm": "2026-04-07",
+              "teksti": "Käyttöönotto tavoitteena vuonna 2027.",
+              "lahde": "https://www.srv.fi/en/srv-as-a-company/newsroom/press-release/dayone-data-center-construction-to-start-in-lahti-srv-strengthens-its-position-in-the-growing-market-for-data-center-construction/",
+              "arvio": true
+            }
+          ]
+        }
+      }
     }
   }
 }

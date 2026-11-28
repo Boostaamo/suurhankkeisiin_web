@@ -3,13 +3,25 @@
   "uutiset": [
     {
       "otsikko": "Herttoniemeen suunniteltu 120 megawatin datakeskus yllätti asukasyhdistyksen",
-      "ingressi": "Itävaltalainen Onzero suunnittelee Helsingin Herttoniemen teollisuusalueelle noin puolen hehtaarin tontille datakeskusta, jonka sähkönkulutus olisi 120 megawattia ja josta saataisiin kaukolämpöä. Rakentamislupa on vireillä Helsingin rakennusvalvonnassa, ja asukasyhdistys kertoo kuulleensa hankkeesta vasta jälkikäteen.",
+      "ingressi": "Itävaltalainen Onzero suunnittelee Helsingin Herttoniemen teollisuusalueelle noin puolen hehtaarin tontille 120 megawatin datakeskusta, josta saataisiin kaukolämpöä. Rakentamislupa on vireillä, ja rakentaminen voisi alkaa aikaisintaan keväällä 2027; asukasyhdistys kuuli hankkeesta vasta jälkikäteen, ja rakennusvalvonnan mukaan tontille myöhemmin ilmestynyt tiedote hankkeesta oli riittämätön.",
       "julkaisija": "Yle",
       "url": "https://yle.fi/a/74-20259039",
       "pvm": "2026-11-26",
       "kunta": "Helsinki",
       "maakunta": "Uusimaa",
-      "hankkeet": []
+      "hankkeet": [],
+      "lisalahteet": [
+        {
+          "julkaisija": "Rakennuslehti",
+          "url": "https://www.rakennuslehti.fi/2026/11/keskelle-herttoniemea-suunnitellaan-neljan-miljardin-euron-datakeskusta/",
+          "pvm": "2026-11-27"
+        },
+        {
+          "julkaisija": "Yle",
+          "url": "https://yle.fi/a/74-20259398",
+          "pvm": "2026-11-27"
+        }
+      ]
     },
     {
       "otsikko": "DayOne suunnittelee jopa 1 000 megawatin datakeskuskampusta Haapajärven Pysäysperään",
@@ -97,6 +109,16 @@
       ]
     },
     {
+      "otsikko": "Keuruun Ampialaan kaavoitetaan datakeskusta sekä tuuli- ja aurinkovoimaa",
+      "ingressi": "Keuruun kaupunginhallitus käynnisti lokakuussa Pirtti-Moskuvan osayleiskaavan, johon suunnitellaan enintään 24 tuulivoimalaa, noin 120 hehtaarin aurinkovoima-alue ja noin 250 megawatin datakeskus. Suunnitelma on herättänyt kylällä vastustusta.",
+      "julkaisija": "Maaseudun Tulevaisuus",
+      "url": "https://www.maaseuduntulevaisuus.fi/uutiset/d3e44c26-a38e-4465-86de-c2e1fa29e436",
+      "pvm": "2026-11-22",
+      "kunta": "Keuruu",
+      "maakunta": "Keski-Suomi",
+      "hankkeet": []
+    },
+    {
       "otsikko": "Nordic Ren-Gas on tehnyt lopullisen investointipäätöksen Tampereen e-metaanilaitoksesta",
       "ingressi": "Nordic Ren-Gas on tehnyt yli 300 miljoonan euron lopullisen investointipäätöksen Tampereen e-metaanilaitoksesta, joka on määrä valmistua vuonna 2029. Laitos käyttää jätteenpolton biogeenistä hiilidioksidia, tuottaa noin 190 GWh e-metaania vuodessa ja syöttää prosessilämpöä Tampereen kaukolämpöverkkoon.",
       "julkaisija": "Taaleri (STT Info)",
@@ -131,10 +153,39 @@
       ]
     },
     {
+      "otsikko": "Alajärven Möksyyn tarjotaan useita datakeskushankkeita, kaksi etenee kaavoitukseen",
+      "ingressi": "Alajärven Möksyn alueelle on jätetty viisi datakeskusten ja yksi tuulivoiman kaavoitusaloite. Tekninen lautakunta esitti asemakaavoituksen käynnistämistä atNorthin yli 700 megawatin ja Hypercon 500–800 megawatin hankkeille sekä kolmen muun datakeskusaloitteen hylkäämistä; aloitteet eivät vielä ole investointipäätöksiä.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20257213",
+      "pvm": "2026-11-17",
+      "kunta": "Alajärvi",
+      "maakunta": "Etelä-Pohjanmaa",
+      "hankkeet": [],
+      "lisalahteet": [
+        {
+          "julkaisija": "Torstai-lehti",
+          "url": "https://www.torstai-lehti.fi/2026/11/20/kaksi-datakeskushanketta-etenisi-alajarvella-kolmelle-esitetaan-pakkia",
+          "pvm": "2026-11-20"
+        }
+      ]
+    },
+    {
       "otsikko": "Teräselementti toimittaa teräsrungon Lahden Kiveriön datakeskukseen",
       "ingressi": "Teräselementti Oy toimittaa Lahden Kiveriön datakeskukseen teräsrungon ja asentaa sen betonielementit. Yhtiön mukaan kyseessä on sen 60-vuotisen historian suurin kauppa, ja datakeskuksen toiminta käynnistyy vuonna 2027.",
       "julkaisija": "Teräselementti Oy (STT Info)",
       "url": "https://www.sttinfo.fi/tiedote/72494846/teraselementille-60-vuotisen-historian-suurin-kauppa-mittava-terastoimitus-lahden-datakeskukseen?lang=fi",
+      "pvm": "2026-11-12",
+      "kunta": "Lahti",
+      "maakunta": "Päijät-Häme",
+      "hankkeet": [
+        "lahti/dayone-datakeskus-kiverio"
+      ]
+    },
+    {
+      "otsikko": "Lahden Kiveriön datakeskuksen ympäristöluvasta valitettiin hallinto-oikeuteen",
+      "ingressi": "Lupa- ja valvontaviraston yleisen edun valvontayksikkö valitti Vaasan hallinto-oikeuteen ympäristöluvasta, jonka virasto myönsi lokakuussa DayOnen datakeskuksen varavoimalle. Valituksessa vaaditaan muun muassa hukkalämmön hyödyntämistä sekä tiukempia päästö-, melu- ja hulevesiehtoja.",
+      "julkaisija": "Yle",
+      "url": "https://yle.fi/a/74-20256640",
       "pvm": "2026-11-12",
       "kunta": "Lahti",
       "maakunta": "Päijät-Häme",
