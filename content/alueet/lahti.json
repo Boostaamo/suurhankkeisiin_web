@@ -6,7 +6,7 @@
   "maakunta": "Päijät-Häme",
   "maakunta_tunniste": "paijat-hame",
   "pilotti": false,
-  "paivitetty": "2026-11-25",
+  "paivitetty": "2026-11-28",
   "esittely": "Lahden alueen suurhankkeet julkisista lähteistä koottuna. Ilmoita yrityksesi mukaan, niin hankkeiden tilaajat ja urakoitsijat löytävät paikalliset tekijät.",
   "hankkeet": [
     {
@@ -58,6 +58,13 @@
           "tila": "arvio",
           "lahde": "https://www.lahti.fi/uutiset/lahden-kiverioon-rakennetaan-12-miljardin-euron-datakeskus/",
           "pvm": "2025-08-14"
+        },
+        {
+          "otsikko": "Ympäristölupa",
+          "arvo": "Myönnetty 10/2026 (varavoima); valitus Vaasan hallinto-oikeudessa 11/2026",
+          "tila": "todennettu",
+          "lahde": "https://yle.fi/a/74-20256640",
+          "pvm": "2026-11-12"
         }
       ],
       "kilpailutukset": []
